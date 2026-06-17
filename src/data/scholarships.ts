@@ -17,7 +17,10 @@ export interface Scholarship {
 export const scholarships: Scholarship[] = [
   {
     id: "lpdp-regular",
-    studyLocation: ["domestic", "overseas"],
+    studyLocation: [
+      'domestic',
+      'overseas'
+    ],
     name: {
       id: "LPDP Beasiswa Reguler",
       en: "LPDP Regular Scholarship"
@@ -26,8 +29,11 @@ export const scholarships: Scholarship[] = [
       id: "Lembaga Pengelola Dana Pendidikan (Kemenkeu)",
       en: "Indonesia Endowment Fund for Education (Ministry of Finance)"
     },
-    degreeLevels: ["master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya Pendaftaran & Kuliah (S2/S3)",
@@ -64,7 +70,7 @@ export const scholarships: Scholarship[] = [
         "Letter of Acceptance (LoA) Unconditional (optional, but preferred)"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-07-25",
     applicationUrl: "https://beasiswalpdp.kemenkeu.go.id/",
     description: {
@@ -72,13 +78,25 @@ export const scholarships: Scholarship[] = [
       en: "The most prestigious Indonesian government scholarship funded by the Ministry of Finance. It supports Indonesian students to pursue Master and Doctoral degrees at top domestic and global universities to foster future leadership."
     },
     tags: {
-      id: ["Pemerintah", "Dalam Negeri", "Luar Negeri", "Bergengsi"],
-      en: ["Government", "Domestic", "Overseas", "Prestigious"]
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Luar Negeri",
+        "Bergengsi"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Overseas",
+        "Prestigious"
+      ]
     }
   },
   {
     id: "kip-kuliah",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "KIP Kuliah Merdeka",
       en: "KIP Kuliah Merdeka"
@@ -87,8 +105,10 @@ export const scholarships: Scholarship[] = [
       id: "Puslapdik Kemendikbudristek",
       en: "Puslapdik MoECRT"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "full",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Bantuan Biaya Kuliah 100% (dibayarkan langsung ke Perguruan Tinggi)",
@@ -115,7 +135,7 @@ export const scholarships: Scholarship[] = [
         "Demonstrates academic potential despite economic limitations"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-10-31",
     applicationUrl: "https://kip-kuliah.kemdikbud.go.id/",
     description: {
@@ -123,13 +143,23 @@ export const scholarships: Scholarship[] = [
       en: "A government program to assist high school graduates with high academic potential who face financial constraints in pursuing higher education for Bachelor (S1) or Diploma programs."
     },
     tags: {
-      id: ["Pemerintah", "Dalam Negeri", "Bantuan Sosial"],
-      en: ["Government", "Domestic", "Underprivileged"]
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Bantuan Sosial"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Underprivileged"
+      ]
     }
   },
   {
     id: "djarum-beasiswa-plus",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Djarum Beasiswa Plus",
       en: "Djarum Beasiswa Plus"
@@ -138,8 +168,10 @@ export const scholarships: Scholarship[] = [
       id: "Djarum Foundation",
       en: "Djarum Foundation"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Uang Saku Bulanan Rp 1.000.000 selama 1 tahun",
@@ -170,7 +202,7 @@ export const scholarships: Scholarship[] = [
         "Not currently receiving other scholarships"
       ]
     },
-    status: "soon",
+    status: 'closed',
     deadline: "2026-05-30",
     applicationUrl: "https://djarumbeasiswaplus.org/",
     description: {
@@ -178,13 +210,23 @@ export const scholarships: Scholarship[] = [
       en: "A highly prestigious private scholarship that focuses on soft skills training alongside financial assistance. It aims to prepare the next generation of visionary leaders for Indonesia."
     },
     tags: {
-      id: ["Yayasan Swasta", "Soft Skills", "Kepemimpinan"],
-      en: ["Private Foundation", "Soft Skills", "Leadership"]
+      id: [
+        "Yayasan Swasta",
+        "Soft Skills",
+        "Kepemimpinan"
+      ],
+      en: [
+        "Private Foundation",
+        "Soft Skills",
+        "Leadership"
+      ]
     }
   },
   {
     id: "beasiswa-unggulan",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Unggulan",
       en: "Beasiswa Unggulan"
@@ -193,8 +235,12 @@ export const scholarships: Scholarship[] = [
       id: "Kementerian Pendidikan dan Kebudayaan",
       en: "Ministry of Education and Culture"
     },
-    degreeLevels: ["bachelor", "master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya Kuliah Penuh (UKT/SPP)",
@@ -221,7 +267,7 @@ export const scholarships: Scholarship[] = [
         "Essay on 'My Contribution to Indonesia' (min 1000 words)"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-08-15",
     applicationUrl: "https://beasiswaunggulan.kemdikbud.go.id/",
     description: {
@@ -229,13 +275,23 @@ export const scholarships: Scholarship[] = [
       en: "Beasiswa Unggulan is a scholarship program awarded by the Ministry of Education and Culture to outstanding Indonesian students to pursue education in domestic public and private universities."
     },
     tags: {
-      id: ["Pemerintah", "Dalam Negeri", "Berprestasi"],
-      en: ["Government", "Domestic", "Merit-Based"]
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Berprestasi"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Merit-Based"
+      ]
     }
   },
   {
     id: "beasiswa-bakti-bca",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Bakti BCA",
       en: "Bakti BCA Scholarship"
@@ -244,8 +300,10 @@ export const scholarships: Scholarship[] = [
       id: "PT Bank Central Asia Tbk",
       en: "PT Bank Central Asia Tbk"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Bantuan UKT/SPP selama 2 semester",
@@ -274,7 +332,7 @@ export const scholarships: Scholarship[] = [
         "Pass the selection tests (academic, psychological, and interview)"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-09-12",
     applicationUrl: "https://www.bca.co.id/en/tentang-bca/Corporate-Social-Responsibility/bakti-bca/bakti-pendidikan",
     description: {
@@ -282,13 +340,24 @@ export const scholarships: Scholarship[] = [
       en: "BCA Corporate Social Responsibility program supporting talented undergraduate students with both financial assistance and professional development programs to gear them up for the future workplace."
     },
     tags: {
-      id: ["Perusahaan", "Dalam Negeri", "Karir"],
-      en: ["Corporate", "Domestic", "Career Prep"]
+      id: [
+        "Perusahaan",
+        "Dalam Negeri",
+        "Karir"
+      ],
+      en: [
+        "Corporate",
+        "Domestic",
+        "Career Prep"
+      ]
     }
   },
   {
     id: "beasiswa-indonesia-bangkit",
-    studyLocation: ["domestic", "overseas"],
+    studyLocation: [
+      'domestic',
+      'overseas'
+    ],
     name: {
       id: "Beasiswa Indonesia Bangkit (BIB)",
       en: "Beasiswa Indonesia Bangkit (BIB)"
@@ -297,8 +366,12 @@ export const scholarships: Scholarship[] = [
       id: "Kementerian Agama (Kemenag) & LPDP",
       en: "Ministry of Religious Affairs (Kemenag) & LPDP"
     },
-    degreeLevels: ["bachelor", "master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya Kuliah Penuh",
@@ -327,7 +400,7 @@ export const scholarships: Scholarship[] = [
         "Strong commitment to moderate Islamic values and contribution to nation-building"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-07-10",
     applicationUrl: "https://beasiswa.kemenag.go.id/",
     description: {
@@ -335,13 +408,26 @@ export const scholarships: Scholarship[] = [
       en: "A collaborative prestige scholarship between Ministry of Religious Affairs and LPDP targeting students, teachers, lecturers, and academic staff under Kemenag environment to pursue degrees domestic or overseas."
     },
     tags: {
-      id: ["Pemerintah", "Kemenag", "Pendidikan Agama", "Luar Negeri"],
-      en: ["Government", "Kemenag", "Religious Education", "Domestic", "Overseas"]
+      id: [
+        "Pemerintah",
+        "Kemenag",
+        "Pendidikan Agama",
+        "Luar Negeri"
+      ],
+      en: [
+        "Government",
+        "Kemenag",
+        "Religious Education",
+        "Domestic",
+        "Overseas"
+      ]
     }
   },
   {
     id: "beasiswa-kse",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Karya Salemba Empat (KSE)",
       en: "Karya Salemba Empat (KSE) Scholarship"
@@ -350,8 +436,10 @@ export const scholarships: Scholarship[] = [
       id: "Yayasan Karya Salemba Empat",
       en: "Karya Salemba Empat Foundation"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Bantuan biaya hidup bulanan Rp 750.000 selama 1 tahun",
@@ -380,7 +468,7 @@ export const scholarships: Scholarship[] = [
         "Submit a video vlog (1-2 mins) and essay about goals"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-08-30",
     applicationUrl: "https://beasiswa.or.id/",
     description: {
@@ -388,13 +476,25 @@ export const scholarships: Scholarship[] = [
       en: "Provides financial aid and leadership camps to potential undergraduate students in various state universities across Indonesia to form outstanding, patriotic future leaders."
     },
     tags: {
-      id: ["Yayasan Swasta", "Dalam Negeri", "Sosial", "Kepemimpinan"],
-      en: ["Private Foundation", "Domestic", "Social Impact", "Leadership"]
+      id: [
+        "Yayasan Swasta",
+        "Dalam Negeri",
+        "Sosial",
+        "Kepemimpinan"
+      ],
+      en: [
+        "Private Foundation",
+        "Domestic",
+        "Social Impact",
+        "Leadership"
+      ]
     }
   },
   {
     id: "tanoto-teladan",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Tanoto Foundation Program TELADAN",
       en: "Tanoto Foundation TELADAN Program"
@@ -403,8 +503,10 @@ export const scholarships: Scholarship[] = [
       id: "Tanoto Foundation",
       en: "Tanoto Foundation"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Bantuan biaya kuliah penuh (UKT) dari semester 2 hingga 8",
@@ -433,7 +535,7 @@ export const scholarships: Scholarship[] = [
         "Willing to undergo the 3.5 years of TELADAN program cycle"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-09-07",
     applicationUrl: "https://www.tanotofoundation.org/",
     description: {
@@ -441,13 +543,25 @@ export const scholarships: Scholarship[] = [
       en: "A comprehensive scholarship program that transforms talented Indonesian undergraduate students into future leaders who are academically excellent and socially responsible."
     },
     tags: {
-      id: ["Yayasan Swasta", "Dalam Negeri", "Kepemimpinan", "Bergengsi"],
-      en: ["Private Foundation", "Domestic", "Leadership", "Prestigious"]
+      id: [
+        "Yayasan Swasta",
+        "Dalam Negeri",
+        "Kepemimpinan",
+        "Bergengsi"
+      ],
+      en: [
+        "Private Foundation",
+        "Domestic",
+        "Leadership",
+        "Prestigious"
+      ]
     }
   },
   {
     id: "beasiswa-bi",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Bank Indonesia",
       en: "Bank Indonesia Scholarship"
@@ -456,8 +570,10 @@ export const scholarships: Scholarship[] = [
       id: "Bank Indonesia (Bank Sentral)",
       en: "Bank Indonesia (Central Bank)"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Bantuan finansial bulanan untuk biaya studi",
@@ -484,7 +600,7 @@ export const scholarships: Scholarship[] = [
         "Submit letter of active organization participation"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-10-15",
     applicationUrl: "https://www.bi.go.id/",
     description: {
@@ -492,13 +608,25 @@ export const scholarships: Scholarship[] = [
       en: "A prestigious scholarship from the Central Bank of Indonesia to support undergraduate students with leadership coaching and active community projects via GenBI."
     },
     tags: {
-      id: ["Pemerintah", "Dalam Negeri", "Finansial", "Kepemimpinan"],
-      en: ["Government", "Domestic", "Finance", "Leadership"]
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Finansial",
+        "Kepemimpinan"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Finance",
+        "Leadership"
+      ]
     }
   },
   {
     id: "beasiswa-jfls",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Jabar Future Leaders Scholarship (JFLS)",
       en: "Jabar Future Leaders Scholarship (JFLS)"
@@ -507,8 +635,12 @@ export const scholarships: Scholarship[] = [
       id: "Pemerintah Provinsi Jawa Barat",
       en: "West Java Provincial Government"
     },
-    degreeLevels: ["bachelor", "master", "doctoral"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Bantuan biaya kuliah (UKT) penuh/sebagian di PTN/PTS mitra",
@@ -533,7 +665,7 @@ export const scholarships: Scholarship[] = [
         "Academic or non-academic achievements at regional/national levels"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-08-20",
     applicationUrl: "https://jfls.jabarprov.go.id/",
     description: {
@@ -541,13 +673,23 @@ export const scholarships: Scholarship[] = [
       en: "A regional government scholarship by West Java Province to prepare youth leaders by easing access to higher education within Java Barat."
     },
     tags: {
-      id: ["Pemerintah", "Regional", "Dalam Negeri"],
-      en: ["Government", "Regional", "Domestic"]
+      id: [
+        "Pemerintah",
+        "Regional",
+        "Dalam Negeri"
+      ],
+      en: [
+        "Government",
+        "Regional",
+        "Domestic"
+      ]
     }
   },
   {
     id: "beasiswa-vdmi",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Van Deventer-Maas Indonesia (VDMI)",
       en: "Van Deventer-Maas Indonesia (VDMI) Scholarship"
@@ -556,8 +698,10 @@ export const scholarships: Scholarship[] = [
       id: "Van Deventer-Maas Stichting",
       en: "Van Deventer-Maas Stichting"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Bantuan uang saku Rp 750.000 per bulan",
@@ -586,7 +730,7 @@ export const scholarships: Scholarship[] = [
         "Willing to join and contribute to the VDMI alumni community"
       ]
     },
-    status: "open",
+    status: 'closed',
     deadline: "2026-03-10",
     applicationUrl: "https://vdms-scholarship.org/",
     description: {
@@ -594,13 +738,23 @@ export const scholarships: Scholarship[] = [
       en: "A Dutch foundation program providing monthly allowance and leadership growth to Indonesian students from underprivileged families in more than 30 Indonesian universities."
     },
     tags: {
-      id: ["Yayasan Internasional", "Dalam Negeri", "Bantuan Sosial"],
-      en: ["International Foundation", "Domestic", "Underprivileged"]
+      id: [
+        "Yayasan Internasional",
+        "Dalam Negeri",
+        "Bantuan Sosial"
+      ],
+      en: [
+        "International Foundation",
+        "Domestic",
+        "Underprivileged"
+      ]
     }
   },
   {
     id: "sea-scholarship",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Sea Scholarship Indonesia",
       en: "Sea Scholarship Indonesia"
@@ -609,8 +763,10 @@ export const scholarships: Scholarship[] = [
       id: "Sea Group (Shopee, Garena, SeaMoney)",
       en: "Sea Group (Shopee, Garena, SeaMoney)"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "full",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Subsidi biaya kuliah (UKT) penuh 100% selama 4 tahun",
@@ -639,7 +795,7 @@ export const scholarships: Scholarship[] = [
         "Pass the online assessment and interview tests"
       ]
     },
-    status: "soon",
+    status: 'soon',
     deadline: "2026-09-15",
     applicationUrl: "https://scholarship.seagroup.com/",
     description: {
@@ -647,13 +803,25 @@ export const scholarships: Scholarship[] = [
       en: "A full undergraduate scholarship provided by global tech firm Sea Group. Includes internship pathways to Shopee and Garena, and monthly allowance."
     },
     tags: {
-      id: ["Perusahaan", "Dalam Negeri", "Teknologi", "Karir"],
-      en: ["Corporate", "Domestic", "Tech", "Career Prep"]
+      id: [
+        "Perusahaan",
+        "Dalam Negeri",
+        "Teknologi",
+        "Karir"
+      ],
+      en: [
+        "Corporate",
+        "Domestic",
+        "Tech",
+        "Career Prep"
+      ]
     }
   },
   {
     id: "fulbright-master",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Fulbright Master's Degree Program",
       en: "Fulbright Master's Degree Program"
@@ -662,8 +830,10 @@ export const scholarships: Scholarship[] = [
       id: "AMINEF (Pemerintah AS)",
       en: "AMINEF (US Government)"
     },
-    degreeLevels: ["master"],
-    fundingType: "full",
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Pembiayaan kuliah penuh (hingga 2 tahun)",
@@ -696,7 +866,7 @@ export const scholarships: Scholarship[] = [
         "Demonstrate leadership potential and active social contribution"
       ]
     },
-    status: "open",
+    status: 'closed',
     deadline: "2026-02-15",
     applicationUrl: "https://www.aminef.or.id/",
     description: {
@@ -704,13 +874,25 @@ export const scholarships: Scholarship[] = [
       en: "A prestigious scholarship program funded by the US government for outstanding Indonesian graduates to pursue master degrees at top-tier universities in the United States."
     },
     tags: {
-      id: ["Pemerintah", "Amerika Serikat", "Luar Negeri", "Bergengsi"],
-      en: ["Government", "US", "Overseas", "Prestigious"]
+      id: [
+        "Pemerintah",
+        "Amerika Serikat",
+        "Luar Negeri",
+        "Bergengsi"
+      ],
+      en: [
+        "Government",
+        "US",
+        "Overseas",
+        "Prestigious"
+      ]
     }
   },
   {
     id: "chevening-uk",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Chevening Scholarship (Pemerintah Inggris)",
       en: "Chevening Scholarship (UK Government)"
@@ -719,8 +901,10 @@ export const scholarships: Scholarship[] = [
       id: "Pemerintah Inggris (FCDO)",
       en: "United Kingdom Government (FCDO)"
     },
-    degreeLevels: ["master"],
-    fundingType: "full",
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya kuliah universitas penuh (dengan batas standar)",
@@ -751,7 +935,7 @@ export const scholarships: Scholarship[] = [
         "Return to Indonesia for a minimum of two years after study"
       ]
     },
-    status: "soon",
+    status: 'soon',
     deadline: "2026-11-05",
     applicationUrl: "https://www.chevening.org/",
     description: {
@@ -759,13 +943,27 @@ export const scholarships: Scholarship[] = [
       en: "The UK government’s global scholarship program. Offers unique opportunities for future leaders and influencers to study a one-year Master degree in the UK."
     },
     tags: {
-      id: ["Pemerintah", "Inggris", "Luar Negeri", "Kepemimpinan", "Bergengsi"],
-      en: ["Government", "UK", "Overseas", "Leadership", "Prestigious"]
+      id: [
+        "Pemerintah",
+        "Inggris",
+        "Luar Negeri",
+        "Kepemimpinan",
+        "Bergengsi"
+      ],
+      en: [
+        "Government",
+        "UK",
+        "Overseas",
+        "Leadership",
+        "Prestigious"
+      ]
     }
   },
   {
     id: "aas-australia",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Australia Awards Scholarships (AAS)",
       en: "Australia Awards Scholarships (AAS)"
@@ -774,8 +972,11 @@ export const scholarships: Scholarship[] = [
       id: "Pemerintah Australia (DFAT)",
       en: "Australian Government (DFAT)"
     },
-    degreeLevels: ["master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Pelatihan Bahasa Inggris sebelum keberangkatan (ELT) di Indonesia",
@@ -806,7 +1007,7 @@ export const scholarships: Scholarship[] = [
         "Return to Indonesia and contribute to priority developmental sectors"
       ]
     },
-    status: "open",
+    status: 'closed',
     deadline: "2026-04-30",
     applicationUrl: "https://www.australiaawardsindonesia.org/",
     description: {
@@ -814,13 +1015,25 @@ export const scholarships: Scholarship[] = [
       en: "Long-term scholarships funded by the Australian Government for Indonesian citizens to study postgraduate programs at Australian universities."
     },
     tags: {
-      id: ["Pemerintah", "Australia", "Luar Negeri", "Pembangunan"],
-      en: ["Government", "Australia", "Overseas", "Development"]
+      id: [
+        "Pemerintah",
+        "Australia",
+        "Luar Negeri",
+        "Pembangunan"
+      ],
+      en: [
+        "Government",
+        "Australia",
+        "Overseas",
+        "Development"
+      ]
     }
   },
   {
     id: "mext-embassy",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa MEXT Jepang",
       en: "MEXT Research Students Scholarship"
@@ -829,8 +1042,11 @@ export const scholarships: Scholarship[] = [
       id: "Pemerintah Jepang (Monbukagakusho)",
       en: "Japanese Government (Monbukagakusho)"
     },
-    degreeLevels: ["master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya kuliah penuh 100% dan biaya ujian masuk",
@@ -859,7 +1075,7 @@ export const scholarships: Scholarship[] = [
         "Submit a solid research proposal related to previous studies"
       ]
     },
-    status: "open",
+    status: 'closed',
     deadline: "2026-05-15",
     applicationUrl: "https://www.id.emb-japan.go.id/",
     description: {
@@ -867,13 +1083,25 @@ export const scholarships: Scholarship[] = [
       en: "A prestigious full scholarship by the Japanese Government for postgraduates to conduct research and earn degrees at universities in Japan."
     },
     tags: {
-      id: ["Pemerintah", "Jepang", "Luar Negeri", "Penelitian"],
-      en: ["Government", "Japan", "Overseas", "Research"]
+      id: [
+        "Pemerintah",
+        "Jepang",
+        "Luar Negeri",
+        "Penelitian"
+      ],
+      en: [
+        "Government",
+        "Japan",
+        "Overseas",
+        "Research"
+      ]
     }
   },
   {
     id: "gks-graduate",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Global Korea Scholarship (GKS)",
       en: "Global Korea Scholarship (GKS)"
@@ -882,8 +1110,11 @@ export const scholarships: Scholarship[] = [
       id: "NIIED (Pemerintah Korea Selatan)",
       en: "National Institute for International Education (NIIED)"
     },
-    degreeLevels: ["master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Tiket pesawat pulang-pergi",
@@ -914,7 +1145,7 @@ export const scholarships: Scholarship[] = [
         "TOPIK level or English proficiency certificate (optional but preferred)"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-03-10",
     applicationUrl: "https://www.studyinkorea.go.kr/",
     description: {
@@ -922,13 +1153,25 @@ export const scholarships: Scholarship[] = [
       en: "South Korean Government scholarship offering international students opportunities to study postgraduate degrees at Korean higher education institutions."
     },
     tags: {
-      id: ["Pemerintah", "Korea Selatan", "Luar Negeri", "Bahasa"],
-      en: ["Government", "South Korea", "Overseas", "Language Study"]
+      id: [
+        "Pemerintah",
+        "Korea Selatan",
+        "Luar Negeri",
+        "Bahasa"
+      ],
+      en: [
+        "Government",
+        "South Korea",
+        "Overseas",
+        "Language Study"
+      ]
     }
   },
   {
     id: "daad-epos",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa DAAD EPOS Jerman",
       en: "DAAD EPOS Postgraduate Scholarship"
@@ -937,8 +1180,11 @@ export const scholarships: Scholarship[] = [
       id: "Pemerintah Jerman (DAAD)",
       en: "German Academic Exchange Service (DAAD)"
     },
-    degreeLevels: ["master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Uang saku bulanan 934€ (Master) atau 1.300€ (Doktor)",
@@ -967,7 +1213,7 @@ export const scholarships: Scholarship[] = [
         "High English (TOEFL/IELTS) or German (DSH/TestDaF) proficiency"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-08-31",
     applicationUrl: "https://www.daad.de/",
     description: {
@@ -975,13 +1221,26 @@ export const scholarships: Scholarship[] = [
       en: "German Government scholarship program for professionals from developing countries to pursue development-related postgraduate courses at German universities."
     },
     tags: {
-      id: ["Pemerintah", "Jerman", "Luar Negeri", "Profesional"],
-      en: ["Government", "Germany", "Overseas", "Development", "Professional"]
+      id: [
+        "Pemerintah",
+        "Jerman",
+        "Luar Negeri",
+        "Profesional"
+      ],
+      en: [
+        "Government",
+        "Germany",
+        "Overseas",
+        "Development",
+        "Professional"
+      ]
     }
   },
   {
     id: "erasmus-mundus",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Erasmus Mundus Joint Masters",
       en: "Erasmus Mundus Joint Masters"
@@ -990,8 +1249,10 @@ export const scholarships: Scholarship[] = [
       id: "Komisi Uni Eropa",
       en: "European Union Commission"
     },
-    degreeLevels: ["master"],
-    fundingType: "full",
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya kuliah penuh 100% ditanggung",
@@ -1020,7 +1281,7 @@ export const scholarships: Scholarship[] = [
         "Must study in at least two different European countries"
       ]
     },
-    status: "open",
+    status: 'closed',
     deadline: "2026-02-15",
     applicationUrl: "https://ec.europa.eu/programmes/erasmus-plus/",
     description: {
@@ -1028,13 +1289,25 @@ export const scholarships: Scholarship[] = [
       en: "Highly integrated study programs offered by consortia of EU universities, allowing students to earn dual or joint degrees across Europe."
     },
     tags: {
-      id: ["Pemerintah", "Eropa", "Luar Negeri", "Gelar Ganda"],
-      en: ["Government", "Europe", "Overseas", "Joint Degree"]
+      id: [
+        "Pemerintah",
+        "Eropa",
+        "Luar Negeri",
+        "Gelar Ganda"
+      ],
+      en: [
+        "Government",
+        "Europe",
+        "Overseas",
+        "Joint Degree"
+      ]
     }
   },
   {
     id: "eiffel-excellence",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Eiffel Excellence Scholarship Program",
       en: "Eiffel Excellence Scholarship Program"
@@ -1043,8 +1316,11 @@ export const scholarships: Scholarship[] = [
       id: "Kementerian Luar Negeri Prancis",
       en: "French Ministry for Europe and Foreign Affairs"
     },
-    degreeLevels: ["master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Uang saku bulanan (1.181€ untuk Master, 1.800€ untuk Doktor)",
@@ -1071,7 +1347,7 @@ export const scholarships: Scholarship[] = [
         "Enrolled in fields: Engineering, Science, Law, Economics, or Political Science"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-01-10",
     applicationUrl: "https://www.campusfrance.org/",
     description: {
@@ -1079,13 +1355,25 @@ export const scholarships: Scholarship[] = [
       en: "French government program to attract top international students to pursue Master's and PhD programs in French universities."
     },
     tags: {
-      id: ["Pemerintah", "Prancis", "Luar Negeri", "Bergengsi"],
-      en: ["Government", "France", "Overseas", "Prestigious"]
+      id: [
+        "Pemerintah",
+        "Prancis",
+        "Luar Negeri",
+        "Bergengsi"
+      ],
+      en: [
+        "Government",
+        "France",
+        "Overseas",
+        "Prestigious"
+      ]
     }
   },
   {
     id: "gates-cambridge",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa Gates Cambridge",
       en: "Gates Cambridge Scholarship"
@@ -1094,8 +1382,11 @@ export const scholarships: Scholarship[] = [
       id: "Bill & Melinda Gates Foundation",
       en: "Bill & Melinda Gates Foundation"
     },
-    degreeLevels: ["master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya Kuliah Universitas (Composition Fee) di Cambridge",
@@ -1126,7 +1417,7 @@ export const scholarships: Scholarship[] = [
         "Demonstrate leadership potential and commitment to improving lives of others"
       ]
     },
-    status: "soon",
+    status: 'soon',
     deadline: "2026-10-15",
     applicationUrl: "https://www.gatescambridge.org/",
     description: {
@@ -1134,13 +1425,25 @@ export const scholarships: Scholarship[] = [
       en: "One of the most competitive international scholarships in the world, enabling outstanding postgraduates to study at the University of Cambridge."
     },
     tags: {
-      id: ["Yayasan Swasta", "Inggris", "Luar Negeri", "Akademik"],
-      en: ["Private Foundation", "UK", "Overseas", "Academic Excellence"]
+      id: [
+        "Yayasan Swasta",
+        "Inggris",
+        "Luar Negeri",
+        "Akademik"
+      ],
+      en: [
+        "Private Foundation",
+        "UK",
+        "Overseas",
+        "Academic Excellence"
+      ]
     }
   },
   {
     id: "turkiye-burslari",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Türkiye Scholarships (Türkiye Bursları)",
       en: "Türkiye Scholarships (Türkiye Bursları)"
@@ -1149,8 +1452,12 @@ export const scholarships: Scholarship[] = [
       id: "Pemerintah Turki",
       en: "Government of Turkey"
     },
-    degreeLevels: ["bachelor", "master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya kuliah penuh dan penempatan universitas",
@@ -1181,7 +1488,7 @@ export const scholarships: Scholarship[] = [
         "Willing to learn Turkish and complete the language year"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-02-20",
     applicationUrl: "https://www.turkiyeburslari.gov.tr/",
     description: {
@@ -1189,13 +1496,25 @@ export const scholarships: Scholarship[] = [
       en: "A government-funded international scholarship program for students worldwide to earn undergraduate, master, or doctoral degrees in Turkey."
     },
     tags: {
-      id: ["Pemerintah", "Turki", "Luar Negeri", "Bahasa"],
-      en: ["Government", "Turkey", "Overseas", "Language Study"]
+      id: [
+        "Pemerintah",
+        "Turki",
+        "Luar Negeri",
+        "Bahasa"
+      ],
+      en: [
+        "Government",
+        "Turkey",
+        "Overseas",
+        "Language Study"
+      ]
     }
   },
   {
     id: "singa-singapore",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Singapore International Graduate Award (SINGA)",
       en: "Singapore International Graduate Award (SINGA)"
@@ -1204,8 +1523,10 @@ export const scholarships: Scholarship[] = [
       id: "A*STAR Singapore",
       en: "Agency for Science, Technology and Research (A*STAR)"
     },
-    degreeLevels: ["doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Pembebasan biaya kuliah penuh 100%",
@@ -1234,7 +1555,7 @@ export const scholarships: Scholarship[] = [
         "High English language proficiency"
       ]
     },
-    status: "open",
+    status: 'closed',
     deadline: "2026-06-01",
     applicationUrl: "https://www.a-star.edu.sg/",
     description: {
@@ -1242,13 +1563,26 @@ export const scholarships: Scholarship[] = [
       en: "SINGA is a partnership between A*STAR, NTU, NUS, SUTD, and SMU to support PhD studies in science and engineering in Singapore."
     },
     tags: {
-      id: ["Pemerintah", "Singapura", "Luar Negeri", "Sains"],
-      en: ["Government", "Singapore", "Overseas", "Research", "Science"]
+      id: [
+        "Pemerintah",
+        "Singapura",
+        "Luar Negeri",
+        "Sains"
+      ],
+      en: [
+        "Government",
+        "Singapore",
+        "Overseas",
+        "Research",
+        "Science"
+      ]
     }
   },
   {
     id: "taiwan-icdf",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa TaiwanICDF",
       en: "TaiwanICDF Higher Education Scholarship"
@@ -1257,8 +1591,11 @@ export const scholarships: Scholarship[] = [
       id: "Taiwan ICDF Fund",
       en: "Taiwan International Cooperation and Development Fund"
     },
-    degreeLevels: ["master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya kuliah penuh dan biaya kredit mata kuliah",
@@ -1289,7 +1626,7 @@ export const scholarships: Scholarship[] = [
         "Commit to contribute to national development after return"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-03-15",
     applicationUrl: "https://www.icdf.org.tw/",
     description: {
@@ -1297,13 +1634,23 @@ export const scholarships: Scholarship[] = [
       en: "Full scholarship program by TaiwanICDF to promote human resource development in friendly and developing nations through degrees at top Taiwan universities."
     },
     tags: {
-      id: ["Pemerintah", "Taiwan", "Luar Negeri"],
-      en: ["Government", "Taiwan", "Overseas"]
+      id: [
+        "Pemerintah",
+        "Taiwan",
+        "Luar Negeri"
+      ],
+      en: [
+        "Government",
+        "Taiwan",
+        "Overseas"
+      ]
     }
   },
   {
     id: "grab-scholar",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Grab Scholar: Program Beasiswa Grab",
       en: "Grab Scholar: Program Beasiswa Grab"
@@ -1312,8 +1659,10 @@ export const scholarships: Scholarship[] = [
       id: "Grab Indonesia & BenihBaik",
       en: "Grab Indonesia & BenihBaik"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "full",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Bantuan biaya UKT penuh hingga kelulusan",
@@ -1338,7 +1687,7 @@ export const scholarships: Scholarship[] = [
         "Active social track records or organization work"
       ]
     },
-    status: "soon",
+    status: 'soon',
     deadline: "2026-07-30",
     applicationUrl: "https://www.grab.com/id/",
     description: {
@@ -1346,13 +1695,23 @@ export const scholarships: Scholarship[] = [
       en: "Grab Indonesia's CSR initiative in partnership with BenihBaik to provide full higher education funding to talented youth and grab partner families."
     },
     tags: {
-      id: ["Perusahaan", "Dalam Negeri", "Sosial"],
-      en: ["Corporate", "Domestic", "Social Impact"]
+      id: [
+        "Perusahaan",
+        "Dalam Negeri",
+        "Sosial"
+      ],
+      en: [
+        "Corporate",
+        "Domestic",
+        "Social Impact"
+      ]
     }
   },
   {
     id: "beasiswa-cimb-niaga",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa CIMB Niaga (Kejar Mimpi)",
       en: "CIMB Niaga Scholarship (Kejar Mimpi)"
@@ -1361,8 +1720,10 @@ export const scholarships: Scholarship[] = [
       id: "PT Bank CIMB Niaga Tbk",
       en: "PT Bank CIMB Niaga Tbk"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Bantuan UKT/SPP kuliah dari semester 5 hingga 8",
@@ -1391,7 +1752,7 @@ export const scholarships: Scholarship[] = [
         "Pass the selection tests (CV screening, essay, and interview)"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-09-05",
     applicationUrl: "https://kejarmimpi.id/beasiswacimbniaga/",
     description: {
@@ -1399,13 +1760,23 @@ export const scholarships: Scholarship[] = [
       en: "A private corporate scholarship by CIMB Niaga supporting undergraduate students entering their final two years with tuition fees and tech support."
     },
     tags: {
-      id: ["Perusahaan", "Dalam Negeri", "Finansial"],
-      en: ["Corporate", "Domestic", "Finance"]
+      id: [
+        "Perusahaan",
+        "Dalam Negeri",
+        "Finansial"
+      ],
+      en: [
+        "Corporate",
+        "Domestic",
+        "Finance"
+      ]
     }
   },
   {
     id: "beasiswa-baznas",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa BAZNAS Cendekia",
       en: "BAZNAS Cendekia Scholarship"
@@ -1414,8 +1785,10 @@ export const scholarships: Scholarship[] = [
       id: "Badan Amil Zakat Nasional (BAZNAS)",
       en: "National Zakat Board (BAZNAS)"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Subsidi UKT maksimal Rp 3.000.000 per semester untuk 4 semester",
@@ -1442,7 +1815,7 @@ export const scholarships: Scholarship[] = [
         "Recommendation letter from a mosque or community leader"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-07-12",
     applicationUrl: "https://beasiswa.baznas.go.id/",
     description: {
@@ -1450,13 +1823,25 @@ export const scholarships: Scholarship[] = [
       en: "A national zakat program offering tuition subsidies and Islamic leadership mentoring to final-year undergraduate students in Indonesia."
     },
     tags: {
-      id: ["Pemerintah", "Dalam Negeri", "Keagamaan", "Mentoring"],
-      en: ["Government", "Domestic", "Islamic", "Mentoring"]
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Keagamaan",
+        "Mentoring"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Islamic",
+        "Mentoring"
+      ]
     }
   },
   {
     id: "knight-hennessy",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Knight-Hennessy Scholars Program",
       en: "Knight-Hennessy Scholars Program"
@@ -1465,8 +1850,11 @@ export const scholarships: Scholarship[] = [
       id: "Stanford University",
       en: "Stanford University"
     },
-    degreeLevels: ["master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya kuliah penuh di Stanford University",
@@ -1495,7 +1883,7 @@ export const scholarships: Scholarship[] = [
         "Submit letters of recommendation and specific essays"
       ]
     },
-    status: "soon",
+    status: 'soon',
     deadline: "2026-10-09",
     applicationUrl: "https://knight-hennessy.stanford.edu/",
     description: {
@@ -1503,13 +1891,27 @@ export const scholarships: Scholarship[] = [
       en: "Highly competitive global graduate scholar program at Stanford University, equipping leaders to address complex global challenges."
     },
     tags: {
-      id: ["Yayasan Swasta", "Amerika Serikat", "Luar Negeri", "Akademik", "Kepemimpinan"],
-      en: ["Private Foundation", "US", "Overseas", "Academic Excellence", "Leadership"]
+      id: [
+        "Yayasan Swasta",
+        "Amerika Serikat",
+        "Luar Negeri",
+        "Akademik",
+        "Kepemimpinan"
+      ],
+      en: [
+        "Private Foundation",
+        "US",
+        "Overseas",
+        "Academic Excellence",
+        "Leadership"
+      ]
     }
   },
   {
     id: "schwarzman-scholars",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Schwarzman Scholars",
       en: "Schwarzman Scholars"
@@ -1518,8 +1920,10 @@ export const scholarships: Scholarship[] = [
       id: "Schwarzman Foundation (Tsinghua University)",
       en: "Schwarzman Foundation (Tsinghua University)"
     },
-    degreeLevels: ["master"],
-    fundingType: "full",
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya kuliah penuh dan buku-buku akademik",
@@ -1548,7 +1952,7 @@ export const scholarships: Scholarship[] = [
         "Ready to complete a one-year professional master degree in Global Affairs"
       ]
     },
-    status: "soon",
+    status: 'soon',
     deadline: "2026-09-20",
     applicationUrl: "https://www.schwarzmanscholars.org/",
     description: {
@@ -1556,14 +1960,27 @@ export const scholarships: Scholarship[] = [
       en: "A fully-funded one-year Master’s degree program at Tsinghua University in Beijing designed to prepare the next generation of global leaders."
     },
     tags: {
-      id: ["Yayasan Swasta", "Cina", "Luar Negeri", "Hubungan Global", "Kepemimpinan"],
-      en: ["Private Foundation", "China", "Overseas", "Global Affairs", "Leadership"]
+      id: [
+        "Yayasan Swasta",
+        "Cina",
+        "Luar Negeri",
+        "Hubungan Global",
+        "Kepemimpinan"
+      ],
+      en: [
+        "Private Foundation",
+        "China",
+        "Overseas",
+        "Global Affairs",
+        "Leadership"
+      ]
     }
-  }
-,
+  },
   {
     id: "commonwealth-uk",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa Commonwealth (Inggris)",
       en: "Commonwealth Scholarships (UK)"
@@ -1572,8 +1989,11 @@ export const scholarships: Scholarship[] = [
       id: "Commonwealth Scholarship Commission (CSC)",
       en: "Commonwealth Scholarship Commission (CSC)"
     },
-    degreeLevels: ["master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya kuliah penuh",
@@ -1602,7 +2022,7 @@ export const scholarships: Scholarship[] = [
         "A strong research proposal (for PhD candidates)"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-10-15",
     applicationUrl: "https://cscuk.fcdo.gov.uk/scholarships/",
     description: {
@@ -1626,7 +2046,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "manaaki-new-zealand",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa Manaaki New Zealand",
       en: "Manaaki New Zealand Scholarships"
@@ -1635,8 +2057,11 @@ export const scholarships: Scholarship[] = [
       id: "Pemerintah Selandia Baru",
       en: "Government of New Zealand"
     },
-    degreeLevels: ["master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Uang kuliah penuh",
@@ -1665,7 +2090,7 @@ export const scholarships: Scholarship[] = [
         "IELTS minimum 6.5 or TOEFL iBT 90"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-02-28",
     applicationUrl: "https://www.nzscholarships.govt.nz/",
     description: {
@@ -1689,7 +2114,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "holland-scholarship",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa Holland (Belanda)",
       en: "Holland Scholarship"
@@ -1698,8 +2125,11 @@ export const scholarships: Scholarship[] = [
       id: "Kementerian Pendidikan, Kebudayaan, dan Sains Belanda",
       en: "Dutch Ministry of Education, Culture and Science"
     },
-    degreeLevels: ["bachelor", "master"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Hibah studi sekali bayar sebesar €5.000",
@@ -1724,7 +2154,7 @@ export const scholarships: Scholarship[] = [
         "Meet specific entry requirements of target university"
       ]
     },
-    status: "soon",
+    status: 'closed',
     deadline: "2026-05-01",
     applicationUrl: "https://www.studyinnl.org/finances/holland-scholarship",
     description: {
@@ -1748,7 +2178,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "swedish-institute",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa SI untuk Profesional Global (SISGP)",
       en: "SI Scholarships for Global Professionals"
@@ -1757,8 +2189,10 @@ export const scholarships: Scholarship[] = [
       id: "Institut Swedia (Pemerintah Swedia)",
       en: "Swedish Institute (Government of Sweden)"
     },
-    degreeLevels: ["master"],
-    fundingType: "full",
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya kuliah penuh yang dibayarkan langsung ke universitas Swedia",
@@ -1787,7 +2221,7 @@ export const scholarships: Scholarship[] = [
         "Applying for an eligible master program in Sweden"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-02-28",
     applicationUrl: "https://si.se/en/apply/scholarships/",
     description: {
@@ -1813,7 +2247,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "swiss-government-excellence",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa Swiss Government Excellence",
       en: "Swiss Government Excellence Scholarships"
@@ -1822,8 +2258,10 @@ export const scholarships: Scholarship[] = [
       id: "Pemerintah Konfederasi Swiss",
       en: "Government of Swiss Confederation"
     },
-    degreeLevels: ["doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Uang saku bulanan (CHF 1.920)",
@@ -1852,7 +2290,7 @@ export const scholarships: Scholarship[] = [
         "Confirmation letter from a hosting professor in Switzerland"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-11-30",
     applicationUrl: "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html",
     description: {
@@ -1878,7 +2316,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "clarendon-fund-oxford",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa Clarendon Fund (Oxford)",
       en: "Clarendon Fund Scholarships"
@@ -1887,8 +2327,11 @@ export const scholarships: Scholarship[] = [
       id: "University of Oxford",
       en: "University of Oxford"
     },
-    degreeLevels: ["master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya kuliah dan biaya kampus penuh 100%",
@@ -1911,7 +2354,7 @@ export const scholarships: Scholarship[] = [
         "Strong research proposal or academic motivation statements"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-01-25",
     applicationUrl: "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/oxford-scholarships/clarendon-fund",
     description: {
@@ -1937,7 +2380,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "jardine-scholarship",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa Jardine Foundation",
       en: "Jardine Scholarship"
@@ -1946,8 +2391,12 @@ export const scholarships: Scholarship[] = [
       id: "The Jardine Foundation",
       en: "The Jardine Foundation"
     },
-    degreeLevels: ["bachelor", "master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Uang kuliah penuh dibayarkan ke Oxford/Cambridge",
@@ -1974,7 +2423,7 @@ export const scholarships: Scholarship[] = [
         "In good health and demonstrate strong potential for social leadership"
       ]
     },
-    status: "open",
+    status: 'closed',
     deadline: "2026-10-22",
     applicationUrl: "https://www.jardines.com/en/community/foundation.html",
     description: {
@@ -2000,7 +2449,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "hkpfs-hongkong",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Hong Kong PhD Fellowship Scheme (HKPFS)",
       en: "Hong Kong PhD Fellowship Scheme (HKPFS)"
@@ -2009,8 +2460,10 @@ export const scholarships: Scholarship[] = [
       id: "Research Grants Council (RGC) Hong Kong",
       en: "Research Grants Council (RGC) of Hong Kong"
     },
-    degreeLevels: ["doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Tunjangan tahunan melimpah (HK$ 331.200 atau sekitar Rp 660 juta)",
@@ -2037,7 +2490,7 @@ export const scholarships: Scholarship[] = [
         "English proficiency: TOEFL iBT 80+ or IELTS 6.5+"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-12-01",
     applicationUrl: "https://www.rgc.edu.hk/hkphd/",
     description: {
@@ -2063,7 +2516,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "kaust-fellowship",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa KAUST Fellowship (Arab Saudi)",
       en: "KAUST Fellowship"
@@ -2072,8 +2527,11 @@ export const scholarships: Scholarship[] = [
       id: "King Abdullah University of Science and Technology (KAUST)",
       en: "King Abdullah University of Science and Technology (KAUST)"
     },
-    degreeLevels: ["master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Dukungan biaya kuliah penuh 100%",
@@ -2102,7 +2560,7 @@ export const scholarships: Scholarship[] = [
         "Excellent academic transcripts (GPA above 3.5 preferred)"
       ]
     },
-    status: "soon",
+    status: 'closed',
     deadline: "2026-01-15",
     applicationUrl: "https://www.kaust.edu.sa/en/study/fellowship",
     description: {
@@ -2128,7 +2586,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "adb-jsp-scholarship",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa ADB-JSP (Pemerintah Jepang)",
       en: "Asian Development Bank-Japan Scholarship Program"
@@ -2137,8 +2597,10 @@ export const scholarships: Scholarship[] = [
       id: "Asian Development Bank (ADB) & Pemerintah Jepang",
       en: "Asian Development Bank (ADB) & Government of Japan"
     },
-    degreeLevels: ["master"],
-    fundingType: "full",
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya kuliah penuh di universitas mitra regional",
@@ -2167,7 +2629,7 @@ export const scholarships: Scholarship[] = [
         "Excellent physical and mental health"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-08-31",
     applicationUrl: "https://www.adb.org/work-with-us/careers/japan-scholarship-program",
     description: {
@@ -2193,7 +2655,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "jj-wbgsp-worldbank",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa Kolaborasi Bank Dunia & Jepang (JJ/WBGSP)",
       en: "Joint Japan/World Bank Graduate Scholarship"
@@ -2202,8 +2666,10 @@ export const scholarships: Scholarship[] = [
       id: "World Bank & Pemerintah Jepang",
       en: "World Bank & Government of Japan"
     },
-    degreeLevels: ["master"],
-    fundingType: "full",
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya kuliah universitas penuh 100%",
@@ -2232,7 +2698,7 @@ export const scholarships: Scholarship[] = [
         "Not an active or former staff member of the World Bank Group"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-05-24",
     applicationUrl: "https://www.worldbank.org/en/programs/scholarships",
     description: {
@@ -2258,7 +2724,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "mastercard-foundation",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa Mastercard Foundation Scholars",
       en: "Mastercard Foundation Scholars Program"
@@ -2267,8 +2735,11 @@ export const scholarships: Scholarship[] = [
       id: "Mastercard Foundation",
       en: "Mastercard Foundation"
     },
-    degreeLevels: ["bachelor", "master"],
-    fundingType: "full",
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya kuliah penuh dan biaya pendaftaran",
@@ -2299,7 +2770,7 @@ export const scholarships: Scholarship[] = [
         "Possess leadership potential and commit to giving back to home country"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-09-30",
     applicationUrl: "https://mastercardfdn.org/all/scholars/",
     description: {
@@ -2325,7 +2796,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "yenching-academy",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa Yenching Academy (Peking University)",
       en: "Yenching Academy Fellowship"
@@ -2334,8 +2807,10 @@ export const scholarships: Scholarship[] = [
       id: "Yenching Academy of Peking University",
       en: "Yenching Academy of Peking University"
     },
-    degreeLevels: ["master"],
-    fundingType: "full",
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya kuliah penuh di Universitas Peking",
@@ -2366,7 +2841,7 @@ export const scholarships: Scholarship[] = [
         "English proficiency (IELTS 7.0 / TOEFL iBT 100+)"
       ]
     },
-    status: "soon",
+    status: 'soon',
     deadline: "2026-11-27",
     applicationUrl: "https://yenchingacademy.pku.edu.cn/",
     description: {
@@ -2392,7 +2867,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "rotary-peace",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa Rotary Peace Fellowships",
       en: "Rotary Peace Fellowships"
@@ -2401,8 +2878,10 @@ export const scholarships: Scholarship[] = [
       id: "Rotary International Foundation",
       en: "Rotary International Foundation"
     },
-    degreeLevels: ["master"],
-    fundingType: "full",
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya kuliah universitas penuh",
@@ -2431,7 +2910,7 @@ export const scholarships: Scholarship[] = [
         "Local Rotary Club endorsement recommendation"
       ]
     },
-    status: "open",
+    status: 'closed',
     deadline: "2026-05-15",
     applicationUrl: "https://www.rotary.org/en/our-programs/peace-fellowships",
     description: {
@@ -2457,7 +2936,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "great-scholarship-uk",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa GREAT (Inggris)",
       en: "GREAT Scholarships"
@@ -2466,8 +2947,10 @@ export const scholarships: Scholarship[] = [
       id: "British Council & Pemerintah Inggris",
       en: "British Council & UK Government"
     },
-    degreeLevels: ["master"],
-    fundingType: "partial",
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Bantuan biaya kuliah sebesar £10.000 untuk program S2 satu tahun",
@@ -2492,7 +2975,7 @@ export const scholarships: Scholarship[] = [
         "Demonstrate active engagement in their study field"
       ]
     },
-    status: "soon",
+    status: 'closed',
     deadline: "2026-05-31",
     applicationUrl: "https://study-uk.britishcouncil.org/scholarships-funding/great-scholarships",
     description: {
@@ -2516,7 +2999,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "vliruos-belgium",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa VLIR-UOS (Belgia)",
       en: "VLIR-UOS Scholarships"
@@ -2525,8 +3010,10 @@ export const scholarships: Scholarship[] = [
       id: "Lembaga Pendidikan Pemerintah Flanders Belgia",
       en: "Flemish Interuniversity Council (Belgium)"
     },
-    degreeLevels: ["master"],
-    fundingType: "full",
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya kuliah universitas penuh di Belgia",
@@ -2555,7 +3042,7 @@ export const scholarships: Scholarship[] = [
         "Applying for an approved English-taught Master's program in Flanders"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-02-01",
     applicationUrl: "https://www.vliruos.be/en/scholarships",
     description: {
@@ -2579,7 +3066,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "bdgs-brunei",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa Pemerintah Brunei Darussalam (BDGS)",
       en: "Brunei Darussalam Government Scholarship"
@@ -2588,8 +3077,11 @@ export const scholarships: Scholarship[] = [
       id: "Kementerian Luar Negeri Brunei Darussalam",
       en: "Ministry of Foreign Affairs of Brunei Darussalam"
     },
-    degreeLevels: ["bachelor", "master"],
-    fundingType: "full",
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Pembebasan biaya kuliah universitas penuh",
@@ -2618,7 +3110,7 @@ export const scholarships: Scholarship[] = [
         "Excellent academic transcripts of prior study"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-02-15",
     applicationUrl: "http://www.mfa.gov.bn/pages/bdgs.aspx",
     description: {
@@ -2642,7 +3134,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "ajinomoto-japan",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa Pascasarjana Ajinomoto",
       en: "Ajinomoto Postgraduate Scholarship"
@@ -2651,8 +3145,10 @@ export const scholarships: Scholarship[] = [
       id: "Ajinomoto Foundation Indonesia",
       en: "Ajinomoto Postgraduate Scholarship"
     },
-    degreeLevels: ["master"],
-    fundingType: "full",
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Tunjangan bulanan 150.000 - 180.000 Yen",
@@ -2681,7 +3177,7 @@ export const scholarships: Scholarship[] = [
         "Interested in nutrition, food science, agriculture, or related STEM fields"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-03-05",
     applicationUrl: "https://www.ajinomoto.co.id/en/scholarship",
     description: {
@@ -2707,7 +3203,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "inpex-scholarship",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa INPEX Foundation",
       en: "INPEX Scholarship"
@@ -2716,8 +3214,10 @@ export const scholarships: Scholarship[] = [
       id: "INPEX Foundation (Perusahaan Migas Jepang)",
       en: "INPEX Foundation (Japanese Energy Company)"
     },
-    degreeLevels: ["master"],
-    fundingType: "full",
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya kuliah penuh di universitas Jepang",
@@ -2746,7 +3246,7 @@ export const scholarships: Scholarship[] = [
         "Admitted or planning to apply to a Japanese graduate school"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-10-31",
     applicationUrl: "https://www.inpex-s.com/",
     description: {
@@ -2772,7 +3272,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "honjo-international",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa Honjo Foundation (Jepang)",
       en: "Honjo International Scholarship"
@@ -2781,8 +3283,11 @@ export const scholarships: Scholarship[] = [
       id: "Honjo International Scholarship Foundation",
       en: "Honjo International Scholarship Foundation"
     },
-    degreeLevels: ["master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Tunjangan hidup bulanan melimpah (150.000 - 200.000 Yen)",
@@ -2809,7 +3314,7 @@ export const scholarships: Scholarship[] = [
         "Commitment to return and contribute to home country after graduation"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-10-31",
     applicationUrl: "https://www.honjo-scholarship.or.jp/",
     description: {
@@ -2833,7 +3338,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "ust-korea",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa UST Korea (Sains & Teknologi)",
       en: "UST Scholarships (South Korea)"
@@ -2842,8 +3349,11 @@ export const scholarships: Scholarship[] = [
       id: "University of Science and Technology (UST) Korea Selatan",
       en: "University of Science and Technology (UST) South Korea"
     },
-    degreeLevels: ["master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Uang kuliah penuh 100%",
@@ -2872,7 +3382,7 @@ export const scholarships: Scholarship[] = [
         "Strong interest in applied science, engineering and national research projects"
       ]
     },
-    status: "soon",
+    status: 'closed',
     deadline: "2026-05-08",
     applicationUrl: "https://www.ust.ac.kr/eng.do",
     description: {
@@ -2898,7 +3408,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "gks-undergraduate",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Global Korea Scholarship (GKS) S1",
       en: "GKS for Undergraduate"
@@ -2907,8 +3419,10 @@ export const scholarships: Scholarship[] = [
       id: "NIIED (Pemerintah Korea Selatan)",
       en: "NIIED (Government of South Korea)"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "full",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya kuliah penuh dibayarkan ke universitas Korea",
@@ -2939,7 +3453,7 @@ export const scholarships: Scholarship[] = [
         "Never received a Korean government scholarship before"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-10-20",
     applicationUrl: "https://www.studyinkorea.go.kr/",
     description: {
@@ -2963,7 +3477,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "france-excellence-indonesia",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa France Excellence Indonesia",
       en: "France Excellence Indonesia"
@@ -2972,8 +3488,10 @@ export const scholarships: Scholarship[] = [
       id: "Kedutaan Besar Prancis di Indonesia & Campus France",
       en: "Embassy of France in Indonesia & Campus France"
     },
-    degreeLevels: ["master"],
-    fundingType: "full",
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Tunjangan hidup bulanan tetap sebesar €860",
@@ -3002,7 +3520,7 @@ export const scholarships: Scholarship[] = [
         "Solid study plan and academic motivation statement"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-04-30",
     applicationUrl: "https://www.indonesie.campusfrance.org/",
     description: {
@@ -3026,7 +3544,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "invest-your-talent-italy",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa Invest Your Talent in Italy (IYT)",
       en: "Invest Your Talent in Italy"
@@ -3035,8 +3555,10 @@ export const scholarships: Scholarship[] = [
       id: "Kementerian Luar Negeri Italia",
       en: "Italian Ministry of Foreign Affairs"
     },
-    degreeLevels: ["master"],
-    fundingType: "full",
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Tunjangan bulanan €1.000 selama tahun akademik",
@@ -3065,7 +3587,7 @@ export const scholarships: Scholarship[] = [
         "Video essay introducing candidate's background and academic motivation"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-03-01",
     applicationUrl: "https://investyourtalentitaly.esteri.it/",
     description: {
@@ -3091,7 +3613,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "ireland-postgraduate",
-    studyLocation: ["overseas"],
+    studyLocation: [
+      'overseas'
+    ],
     name: {
       id: "Beasiswa Pemerintah Irlandia Pascasarjana",
       en: "Government of Ireland Postgraduate Scholarship"
@@ -3100,8 +3624,11 @@ export const scholarships: Scholarship[] = [
       id: "Irish Research Council (IRC)",
       en: "Irish Research Council (IRC)"
     },
-    degreeLevels: ["master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Tunjangan hidup tahunan €22.000",
@@ -3128,7 +3655,7 @@ export const scholarships: Scholarship[] = [
         "Two academic reference letters"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-10-10",
     applicationUrl: "https://research.ie/funding/government-of-ireland-postgraduate-scholarship-programme/",
     description: {
@@ -3154,7 +3681,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "astra-1st-scholarship",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Astra 1st",
       en: "Astra 1st Scholarship"
@@ -3163,8 +3692,10 @@ export const scholarships: Scholarship[] = [
       id: "PT Astra International Tbk",
       en: "PT Astra International Tbk"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Bantuan biaya kuliah untuk 2 semester",
@@ -3193,7 +3724,7 @@ export const scholarships: Scholarship[] = [
         "Pass Astra's interview and leadership psychometric test selection"
       ]
     },
-    status: "soon",
+    status: 'closed',
     deadline: "2026-04-15",
     applicationUrl: "https://career.astra.co.id/",
     description: {
@@ -3217,7 +3748,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "pertamina-sobat-bumi",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Pertamina Sobat Bumi",
       en: "Beasiswa Pertamina Sobat Bumi"
@@ -3226,8 +3759,10 @@ export const scholarships: Scholarship[] = [
       id: "Pertamina Foundation",
       en: "Pertamina Foundation"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "full",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Bantuan UKT / biaya SPP kuliah semester penuh",
@@ -3256,7 +3791,7 @@ export const scholarships: Scholarship[] = [
         "Write an essay/idea on environmental awareness and sustainability"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-03-20",
     applicationUrl: "https://pertaminafoundation.org/",
     description: {
@@ -3280,7 +3815,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "beasiswa-kominfo-dalam-negeri",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Kominfo Pascasarjana (Dalam Negeri)",
       en: "Beasiswa Kominfo Postgraduate (Domestic)"
@@ -3289,8 +3826,11 @@ export const scholarships: Scholarship[] = [
       id: "Kementerian Komunikasi dan Informatika (Kominfo)",
       en: "Ministry of Communication and Informatics (Kominfo)"
     },
-    degreeLevels: ["master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Uang kuliah penuh dibayarkan langsung ke universitas mitra (misal UI, ITB, UGM)",
@@ -3319,7 +3859,7 @@ export const scholarships: Scholarship[] = [
         "Minimum GPA of 3.00 on a Bachelor's degree"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-07-15",
     applicationUrl: "https://beasiswa.kominfo.go.id/",
     description: {
@@ -3343,7 +3883,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "beasiswa-bappenas-dalam-negeri",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Pusbindiklatren Bappenas (Dalam Negeri)",
       en: "Pusbindiklatren Bappenas Scholarship (Domestic)"
@@ -3352,8 +3894,11 @@ export const scholarships: Scholarship[] = [
       id: "Kementerian PPN / Bappenas",
       en: "Ministry of National Development Planning / Bappenas"
     },
-    degreeLevels: ["master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Uang kuliah penuh dibayarkan langsung",
@@ -3382,7 +3927,7 @@ export const scholarships: Scholarship[] = [
         "Min GPA 3.00, pass Academic Potential Test (TPA Bappenas) & TOEFL"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-03-15",
     applicationUrl: "https://pusbindiklatren.bappenas.go.id/",
     description: {
@@ -3406,7 +3951,10 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "beasiswa-bpi",
-    studyLocation: ["domestic", "overseas"],
+    studyLocation: [
+      'domestic',
+      'overseas'
+    ],
     name: {
       id: "Beasiswa Pendidikan Indonesia (BPI)",
       en: "Beasiswa Pendidikan Indonesia (BPI)"
@@ -3415,8 +3963,12 @@ export const scholarships: Scholarship[] = [
       id: "Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi",
       en: "Ministry of Education, Culture, Research, and Technology (Kemendikbudristek)"
     },
-    degreeLevels: ["bachelor", "master", "doctoral"],
-    fundingType: "full",
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Biaya pendaftaran dan SPP kuliah penuh",
@@ -3445,7 +3997,7 @@ export const scholarships: Scholarship[] = [
         "Min GPA according to target category requirements"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-06-30",
     applicationUrl: "https://beasiswa.kemdikbud.go.id/",
     description: {
@@ -3469,7 +4021,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "ybm-brilian-bright",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Bright Scholarship YBM BRILiaN",
       en: "Bright Scholarship YBM BRILiaN"
@@ -3478,8 +4032,10 @@ export const scholarships: Scholarship[] = [
       id: "Yayasan Baitul Maal (YBM) BRILiaN",
       en: "Yayasan Baitul Maal (YBM) BRILiaN"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "full",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Bantuan UKT / SPP kuliah penuh setiap semester",
@@ -3508,7 +4064,7 @@ export const scholarships: Scholarship[] = [
         "Possess leadership potential and commit to the boarding house program"
       ]
     },
-    status: "soon",
+    status: 'soon',
     deadline: "2026-09-15",
     applicationUrl: "https://ybmbrilian.id/",
     description: {
@@ -3532,7 +4088,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "beasiswa-mahaghora",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Mahaghora",
       en: "Beasiswa Mahaghora"
@@ -3541,8 +4099,10 @@ export const scholarships: Scholarship[] = [
       id: "Yayasan Mahaghora (Mahaghora Group)",
       en: "Yayasan Mahaghora (Mahaghora Group)"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "full",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Uang kuliah penuh SPP/UKT hingga lulus (maksimal 8 semester)",
@@ -3571,7 +4131,7 @@ export const scholarships: Scholarship[] = [
         "Pass application screening, interview, and group dynamics testing"
       ]
     },
-    status: "soon",
+    status: 'soon',
     deadline: "2026-11-10",
     applicationUrl: "https://beasiswamahaghora.com/",
     description: {
@@ -3595,7 +4155,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "beasiswa-bca-finance",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa BCA Finance",
       en: "BCA Finance Scholarship"
@@ -3604,8 +4166,10 @@ export const scholarships: Scholarship[] = [
       id: "PT BCA Finance",
       en: "PT BCA Finance"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Bantuan dana pendidikan sebesar Rp 3.500.000 per semester",
@@ -3630,7 +4194,7 @@ export const scholarships: Scholarship[] = [
         "Submit family financial statements (or SKTM for special category)"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-06-15",
     applicationUrl: "https://www.bcafinance.co.id/",
     description: {
@@ -3652,7 +4216,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "cargill-global-scholars",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Cargill Global Scholars",
       en: "Cargill Global Scholars Program"
@@ -3661,8 +4227,10 @@ export const scholarships: Scholarship[] = [
       id: "Cargill & Institute of International Education (IIE)",
       en: "Cargill & Institute of International Education (IIE)"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "full",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Bantuan biaya kuliah tahunan sebesar $2.500 selama maksimal 2 tahun",
@@ -3691,7 +4259,7 @@ export const scholarships: Scholarship[] = [
         "Demonstrate leadership potential and good English communication skills"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-03-05",
     applicationUrl: "https://www.cargillglobalscholars.com/",
     description: {
@@ -3715,7 +4283,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "rumah-kepemimpinan",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Pembinaan Rumah Kepemimpinan",
       en: "Rumah Kepemimpinan Scholarship"
@@ -3724,8 +4294,10 @@ export const scholarships: Scholarship[] = [
       id: "Yayasan Rumah Kepemimpinan",
       en: "Yayasan Rumah Kepemimpinan"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Akomodasi asrama tempat tinggal gratis selama 2 tahun",
@@ -3754,7 +4326,7 @@ export const scholarships: Scholarship[] = [
         "Pass leadership interview selection"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-07-30",
     applicationUrl: "https://rumahkepemimpinan.org/",
     description: {
@@ -3778,7 +4350,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "beasiswa-mizan",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Mizan (Bantuan Tesis & Disertasi)",
       en: "Beasiswa Mizan"
@@ -3787,8 +4361,12 @@ export const scholarships: Scholarship[] = [
       id: "Mizan Group",
       en: "Beasiswa Mizan"
     },
-    degreeLevels: ["bachelor", "master", "doctoral"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Bantuan dana penulisan tugas akhir / skripsi / tesis / disertasi",
@@ -3813,7 +4391,7 @@ export const scholarships: Scholarship[] = [
         "Have a minimum GPA of 3.00"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-04-10",
     applicationUrl: "https://mizan.com/beasiswa-mizan/",
     description: {
@@ -3837,7 +4415,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "beasiswa-ppa",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Peningkatan Prestasi Akademik (PPA)",
       en: "PPA Scholarship"
@@ -3846,8 +4426,10 @@ export const scholarships: Scholarship[] = [
       id: "Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi",
       en: "Ministry of Education and Culture (Kemendikbudristek)"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Bantuan biaya operasional kuliah sebesar Rp 400.000 per bulan",
@@ -3872,7 +4454,7 @@ export const scholarships: Scholarship[] = [
         "Officially recommended by the university's Vice Rector of Student Affairs"
       ]
     },
-    status: "soon",
+    status: 'soon',
     deadline: "2026-08-30",
     applicationUrl: "https://www.kemdikbud.go.id/",
     description: {
@@ -3894,7 +4476,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "xl-axiata-future-leaders",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa XL Axiata Future Leaders (XLFL)",
       en: "XL Axiata Future Leaders"
@@ -3903,8 +4487,10 @@ export const scholarships: Scholarship[] = [
       id: "PT XL Axiata Tbk",
       en: "PT XL Axiata Tbk"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Pelatihan kepemimpinan dan manajemen eksklusif selama 2 tahun",
@@ -3933,7 +4519,7 @@ export const scholarships: Scholarship[] = [
         "Pass XLFL's case study presentation, interview, and group assessment selection"
       ]
     },
-    status: "open",
+    status: 'closed',
     deadline: "2026-05-30",
     applicationUrl: "https://xlaxiatadataleaders.com/",
     description: {
@@ -3957,7 +4543,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "beasiswa-korindo",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Korindo Foundation",
       en: "Beasiswa Korindo"
@@ -3966,8 +4554,10 @@ export const scholarships: Scholarship[] = [
       id: "Yayasan Korindo (Korindo Group)",
       en: "Yayasan Korindo (Korindo Group)"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Tunjangan biaya kuliah tahunan untuk 2 semester berturut-turut",
@@ -3992,7 +4582,7 @@ export const scholarships: Scholarship[] = [
         "Not receiving other scholarships concurrently"
       ]
     },
-    status: "soon",
+    status: 'soon',
     deadline: "2026-09-30",
     applicationUrl: "http://www.korindo.co.id/",
     description: {
@@ -4016,7 +4606,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "beasiswa-dataprint",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa DataPrint",
       en: "DataPrint Scholarship"
@@ -4025,8 +4617,10 @@ export const scholarships: Scholarship[] = [
       id: "DataPrint Indonesia",
       en: "DataPrint Indonesia"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Dana bantuan pendidikan sekali bayar (Rp 400.000 - Rp 1.000.000)",
@@ -4051,7 +4645,7 @@ export const scholarships: Scholarship[] = [
         "Write a short essay on digital education/creativity"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-12-15",
     applicationUrl: "http://beasiswadataprint.com/",
     description: {
@@ -4075,7 +4669,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "indofood-riset-nugraha",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Indofood Riset Nugraha (IRN)",
       en: "Indofood Riset Nugraha (IRN)"
@@ -4084,8 +4680,10 @@ export const scholarships: Scholarship[] = [
       id: "PT Indofood Sukses Makmur Tbk",
       en: "PT Indofood Sukses Makmur Tbk"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Dana hibah penelitian tugas akhir skripsi",
@@ -4112,7 +4710,7 @@ export const scholarships: Scholarship[] = [
         "Pass presentation screening before the IRN expert panels"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-07-10",
     applicationUrl: "https://www.indofoodrisetnugraha.com/",
     description: {
@@ -4136,7 +4734,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "loreal-unesco-women-science",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa L'Oréal-UNESCO For Women in Science",
       en: "L'Oréal-UNESCO For Women in Science"
@@ -4145,8 +4745,11 @@ export const scholarships: Scholarship[] = [
       id: "L'Oréal Indonesia & Komisi Nasional Indonesia untuk UNESCO",
       en: "L'Oréal Indonesia & Indonesian National Commission for UNESCO"
     },
-    degreeLevels: ["master", "doctoral"],
-    fundingType: "partial",
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Hibah penelitian nasional bernilai Rp 100.000.000",
@@ -4173,7 +4776,7 @@ export const scholarships: Scholarship[] = [
         "Submit an original research proposal with potential high impact for Indonesia"
       ]
     },
-    status: "open",
+    status: 'closed',
     deadline: "2026-09-01",
     applicationUrl: "https://www.loreal.com/en/indonesia/pages/commitments/for-women-in-science/",
     description: {
@@ -4199,7 +4802,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "beasiswa-kemenpora",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Kemenpora Pascasarjana",
       en: "Beasiswa Kemenpora Postgraduate"
@@ -4208,8 +4813,10 @@ export const scholarships: Scholarship[] = [
       id: "Kementerian Pemuda dan Olahraga (Kemenpora)",
       en: "Ministry of Youth and Sports (Kemenpora)"
     },
-    degreeLevels: ["master"],
-    fundingType: "full",
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Uang kuliah penuh SPP/UKT magister",
@@ -4236,7 +4843,7 @@ export const scholarships: Scholarship[] = [
         "Recommendation letter from a registered national/regional youth organization"
       ]
     },
-    status: "soon",
+    status: 'closed',
     deadline: "2026-08-15",
     applicationUrl: "https://kemenpora.go.id/",
     description: {
@@ -4260,7 +4867,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "beasiswa-kjmu-jakarta",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Kartu Jakarta Mahasiswa Unggul (KJMU)",
       en: "Kartu Jakarta Mahasiswa Unggul (KJMU)"
@@ -4269,8 +4878,10 @@ export const scholarships: Scholarship[] = [
       id: "Pemerintah Provinsi DKI Jakarta",
       en: "Provincial Government of DKI Jakarta"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "full",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Bantuan dana personal & biaya kuliah sebesar Rp 9.000.000 per semester",
@@ -4295,7 +4906,7 @@ export const scholarships: Scholarship[] = [
         "Admitted to a state university (PTN) or Grade-A private university in Indonesia"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-09-10",
     applicationUrl: "https://kjp.jakarta.go.id/",
     description: {
@@ -4319,7 +4930,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "beasiswa-pemprov-jatim",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Pemprov Jatim (Pendidikan Keagamaan)",
       en: "Beasiswa Pemprov Jatim"
@@ -4328,8 +4941,11 @@ export const scholarships: Scholarship[] = [
       id: "Pemerintah Provinsi Jawa Timur",
       en: "Provincial Government of East Java"
     },
-    degreeLevels: ["bachelor", "master"],
-    fundingType: "full",
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Bantuan SPP kuliah penuh hingga kelulusan",
@@ -4354,7 +4970,7 @@ export const scholarships: Scholarship[] = [
         "Minimum GPA of 3.00 on a 4.00 scale"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-07-20",
     applicationUrl: "https://jatimprov.go.id/",
     description: {
@@ -4378,7 +4994,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "beasiswa-pemprov-jateng",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Pemprov Jateng (Berprestasi Prasejahtera)",
       en: "Beasiswa Pemprov Jateng"
@@ -4387,8 +5005,10 @@ export const scholarships: Scholarship[] = [
       id: "Pemerintah Provinsi Jawa Tengah",
       en: "Provincial Government of Central Java"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "full",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Uang kuliah kuliah penuh di universitas negeri Jawa Tengah",
@@ -4415,7 +5035,7 @@ export const scholarships: Scholarship[] = [
         "Not receiving other scholarship awards"
       ]
     },
-    status: "soon",
+    status: 'soon',
     deadline: "2026-08-10",
     applicationUrl: "https://jatengprov.go.id/",
     description: {
@@ -4439,7 +5059,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "bni-lestari-scholarship",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa BNI Lestari (CSR)",
       en: "BNI Lestari Scholarship"
@@ -4448,8 +5070,10 @@ export const scholarships: Scholarship[] = [
       id: "PT Bank Negara Indonesia (Persero) Tbk",
       en: "PT Bank Negara Indonesia (Persero) Tbk"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Dana tunjangan pendidikan tahunan sebesar Rp 8.000.000",
@@ -4476,7 +5100,7 @@ export const scholarships: Scholarship[] = [
         "Majors: Economics, Business, Accounting, or Computer Science/IT"
       ]
     },
-    status: "soon",
+    status: 'soon',
     deadline: "2026-09-15",
     applicationUrl: "https://www.bni.co.id/",
     description: {
@@ -4500,7 +5124,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "bank-mandiri-csr-scholarship",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Bank Mandiri CSR",
       en: "Bank Mandiri CSR Scholarship"
@@ -4509,8 +5135,10 @@ export const scholarships: Scholarship[] = [
       id: "PT Bank Mandiri (Persero) Tbk",
       en: "PT Bank Mandiri (Persero) Tbk"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Bantuan dana tunai biaya pendidikan Rp 10.000.000 per tahun",
@@ -4537,7 +5165,7 @@ export const scholarships: Scholarship[] = [
         "Not receiving scholarships from competitor banking/corporate entities"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-05-15",
     applicationUrl: "https://www.bankmandiri.co.id/",
     description: {
@@ -4561,7 +5189,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "etos-id-scholarship",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Etos ID (Dompet Dhuafa)",
       en: "Etos ID Scholarship"
@@ -4570,8 +5200,10 @@ export const scholarships: Scholarship[] = [
       id: "Dompet Dhuafa & Lembaga Pengembangan Insani (LPI)",
       en: "Dompet Dhuafa & Lembaga Pengembangan Insani (LPI)"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "full",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
     coverage: {
       id: [
         "Bantuan UKT / SPP kuliah penuh selama 8 semester",
@@ -4600,7 +5232,7 @@ export const scholarships: Scholarship[] = [
         "Commit to all onboarding, dormitory training, and social service actions"
       ]
     },
-    status: "closed",
+    status: 'closed',
     deadline: "2026-08-20",
     applicationUrl: "https://www.etos-id.net/",
     description: {
@@ -4624,7 +5256,9 @@ export const scholarships: Scholarship[] = [
   },
   {
     id: "rumah-zakat-scholarship",
-    studyLocation: ["domestic"],
+    studyLocation: [
+      'domestic'
+    ],
     name: {
       id: "Beasiswa Juara Rumah Zakat",
       en: "Beasiswa Juara Rumah Zakat"
@@ -4633,8 +5267,10 @@ export const scholarships: Scholarship[] = [
       id: "Lembaga Zakat Rumah Zakat",
       en: "Rumah Zakat Foundation"
     },
-    degreeLevels: ["bachelor"],
-    fundingType: "partial",
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
     coverage: {
       id: [
         "Bantuan dana UKT kuliah berkelanjutan setiap semester",
@@ -4661,7 +5297,7 @@ export const scholarships: Scholarship[] = [
         "Active engagement in volunteer work or community empowerment initiatives"
       ]
     },
-    status: "open",
+    status: 'open',
     deadline: "2026-11-15",
     applicationUrl: "https://www.rumahzakat.org/",
     description: {

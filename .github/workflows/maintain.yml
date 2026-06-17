@@ -1,0 +1,45 @@
+name: Daily Scholarship Database Maintenance
+
+on:
+  schedule:
+    # Run every day at 23:00 UTC (which is 06:00 AM Jakarta Time / WIB)
+    - cron: '0 23 * * *'
+  workflow_dispatch: # Allows manual triggers from the GitHub Actions tab
+
+jobs:
+  maintain:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run Maintenance Script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: npx tsx scripts/maintain.ts
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/scholarships.ts
+          
+          # Only commit and push if there are actual changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit today."
+          else
+            git commit -m "chore: daily scholarship database update [skip ci]"
+            git push
+          fi
