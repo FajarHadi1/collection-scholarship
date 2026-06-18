@@ -76,7 +76,7 @@ export const translations: Record<Language, Dictionary> = {
     disclaimerTitle: "Penafian (Disclaimer)",
     disclaimerText: "Informasi di atas disediakan hanya sebagai referensi. Persyaratan, kriteria, benefit, dan tenggat waktu dapat berubah sewaktu-waktu oleh penyedia beasiswa resmi. Selalu lakukan verifikasi ulang di situs web resmi sebelum melamar.",
     reportInaccuracy: "Laporkan Kesalahan Data atau Link Rusak ⚠️",
-    reportFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLScC1w-0g9rA38v8_placeholder/viewform?usp=pp_url&entry.123456789=SCHOLARSHIP_NAME",
+    reportFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLScKKx6hbMnyk3n9qVUpDyeCfAWTJxIM3SmfFSEgUCF-vL9CaA/viewform?usp=pp_url&entry.735125092=SCHOLARSHIP_NAME",
   },
   en: {
     subtitle: "Discover and track curated scholarship opportunities from Bachelor (S1) to Doctoral (S3) programs.",
@@ -114,6 +114,6 @@ export const translations: Record<Language, Dictionary> = {
     disclaimerTitle: "Disclaimer",
     disclaimerText: "The information provided above is for reference only. Requirements, coverage, and deadlines are subject to change by official providers. Always verify details on the official website before applying.",
     reportInaccuracy: "Report Data Error or Broken Link ⚠️",
-    reportFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLScC1w-0g9rA38v8_placeholder/viewform?usp=pp_url&entry.123456789=SCHOLARSHIP_NAME",
+    reportFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLScKKx6hbMnyk3n9qVUpDyeCfAWTJxIM3SmfFSEgUCF-vL9CaA/viewform?usp=pp_url&entry.735125092=SCHOLARSHIP_NAME",
   }
 };
