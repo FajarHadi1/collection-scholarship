@@ -206,6 +206,25 @@ export default function ScholarshipModal({
             </span>
           </div>
 
+           {/* ── Disclaimer Box ── */}
+          <div
+            className="lg-panel"
+            style={{
+              padding: "0.85rem 1.15rem",
+              marginBottom: "1.75rem",
+              background: "rgba(255, 255, 255, 0.25)",
+              border: "1px solid rgba(255, 255, 255, 0.35)",
+              borderRadius: "14px",
+            }}
+          >
+            <p className="section-label" style={{ fontSize: "0.72rem", marginBottom: "0.2rem", color: "var(--text-soft)", fontWeight: 700 }}>
+              ⚠️ {t.disclaimerTitle}
+            </p>
+            <p style={{ fontSize: "0.75rem", color: "var(--text-muted)", lineHeight: 1.5 }}>
+              {t.disclaimerText}
+            </p>
+          </div>
+
           {/* ── CTA footer ── */}
           <div className="flex items-center gap-4 flex-wrap">
             <button
@@ -233,6 +252,33 @@ export default function ScholarshipModal({
               style={{ flex: 1, textDecoration: "none", textAlign: "center" }}
             >
               {t.applyBtn}
+            </a>
+          </div>
+
+          {/* ── Report Link ── */}
+          <div style={{ textAlign: "center", marginTop: "1.5rem" }}>
+            <a
+              href={`mailto:report@adigunascholarship.com?subject=${encodeURIComponent(
+                language === "id" ? `Laporan Kesalahan: ${name.id}` : `Data Error Report: ${name.en}`
+              )}&body=${encodeURIComponent(
+                language === "id"
+                  ? `Halo Tim Adiguna,\n\nSaya ingin melaporkan kesalahan data atau link rusak pada beasiswa "${name.id}".\n\nDetail Kesalahan:\n- \n- \n`
+                  : `Hello Adiguna Team,\n\nI would like to report a data error or broken link for the scholarship "${name.en}".\n\nError details:\n- \n- \n`
+              )}`}
+              style={{
+                fontSize: "0.75rem",
+                color: "var(--text-soft)",
+                textDecoration: "none",
+                fontWeight: 600,
+                transition: "color 0.2s",
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "0.25rem"
+              }}
+              onMouseEnter={(e) => (e.currentTarget.style.color = "var(--accent-dark)")}
+              onMouseLeave={(e) => (e.currentTarget.style.color = "var(--text-soft)")}
+            >
+              {t.reportInaccuracy}
             </a>
           </div>
         </div>

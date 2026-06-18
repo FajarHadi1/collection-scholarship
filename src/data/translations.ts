@@ -33,6 +33,9 @@ export interface Dictionary {
   savedBtn: string;
   applyBtn: string;
   footerText: string;
+  disclaimerTitle: string;
+  disclaimerText: string;
+  reportInaccuracy: string;
 }
 
 export const translations: Record<Language, Dictionary> = {
@@ -69,6 +72,9 @@ export const translations: Record<Language, Dictionary> = {
     savedBtn: "Disimpan",
     applyBtn: "Daftar di Situs Resmi ↗",
     footerText: "Adiguna Scholarship · Dibuat dengan ❤️ untuk scholar Indonesia di seluruh dunia",
+    disclaimerTitle: "Penafian (Disclaimer)",
+    disclaimerText: "Informasi di atas disediakan hanya sebagai referensi. Persyaratan, kriteria, benefit, dan tenggat waktu dapat berubah sewaktu-waktu oleh penyedia beasiswa resmi. Selalu lakukan verifikasi ulang di situs web resmi sebelum melamar.",
+    reportInaccuracy: "Laporkan Kesalahan Data atau Link Rusak ⚠️",
   },
   en: {
     subtitle: "Discover and track curated scholarship opportunities from Bachelor (S1) to Doctoral (S3) programs.",
@@ -103,5 +109,8 @@ export const translations: Record<Language, Dictionary> = {
     savedBtn: "Saved",
     applyBtn: "Apply on Official Site ↗",
     footerText: "Adiguna Scholarship · Made with ❤️ for Indonesian scholars worldwide",
+    disclaimerTitle: "Disclaimer",
+    disclaimerText: "The information provided above is for reference only. Requirements, coverage, and deadlines are subject to change by official providers. Always verify details on the official website before applying.",
+    reportInaccuracy: "Report Data Error or Broken Link ⚠️",
   }
 };
