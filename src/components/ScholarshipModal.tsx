@@ -258,13 +258,9 @@ export default function ScholarshipModal({
           {/* ── Report Link ── */}
           <div style={{ textAlign: "center", marginTop: "1.5rem" }}>
             <a
-              href={`mailto:report@adigunascholarship.com?subject=${encodeURIComponent(
-                language === "id" ? `Laporan Kesalahan: ${name.id}` : `Data Error Report: ${name.en}`
-              )}&body=${encodeURIComponent(
-                language === "id"
-                  ? `Halo Tim Adiguna,\n\nSaya ingin melaporkan kesalahan data atau link rusak pada beasiswa "${name.id}".\n\nDetail Kesalahan:\n- \n- \n`
-                  : `Hello Adiguna Team,\n\nI would like to report a data error or broken link for the scholarship "${name.en}".\n\nError details:\n- \n- \n`
-              )}`}
+              href={t.reportFormUrl.replace("SCHOLARSHIP_NAME", encodeURIComponent(name[language]))}
+              target="_blank"
+              rel="noopener noreferrer"
               style={{
                 fontSize: "0.75rem",
                 color: "var(--text-soft)",
