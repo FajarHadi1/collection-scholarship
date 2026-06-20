@@ -8,6 +8,7 @@ import ScholarshipCard from "../components/ScholarshipCard";
 import ScholarshipModal from "../components/ScholarshipModal";
 
 import { translations, Language } from "../data/translations";
+import { trackEvent } from "../lib/gtag";
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -38,27 +39,59 @@ export default function Home() {
     setLanguage(lang);
     try {
       localStorage.setItem("adiguna_language", lang);
+      trackEvent("change_language", { language: lang });
     } catch {}
   };
 
   const t = translations[language];
 
   const toggleBookmark = (id: string) => {
-    const updated = bookmarks.includes(id)
+    const isBookmarked = bookmarks.includes(id);
+    const updated = isBookmarked
       ? bookmarks.filter((b) => b !== id)
       : [...bookmarks, id];
     setBookmarks(updated);
     localStorage.setItem("scholarship_bookmarks", JSON.stringify(updated));
+    trackEvent("toggle_bookmark", { scholarship_id: id, action: isBookmarked ? "remove" : "add" });
   };
 
-  const toggleDegree  = (d: string) =>
-    setSelectedDegrees((p) => (p.includes(d) ? p.filter((x) => x !== d) : [...p, d]));
-  const toggleFunding = (f: string) =>
-    setSelectedFunding((p) => (p.includes(f) ? p.filter((x) => x !== f) : [...p, f]));
-  const toggleLocation = (l: string) =>
-    setSelectedLocations((p) => (p.includes(l) ? p.filter((x) => x !== l) : [...p, l]));
-  const toggleStatus = (s: string) =>
-    setSelectedStatuses((p) => (p.includes(s) ? p.filter((x) => x !== s) : [...p, s]));
+  const toggleDegree  = (d: string) => {
+    setSelectedDegrees((p) => {
+      const active = p.includes(d);
+      trackEvent("use_filter", { filter_category: "degree_level", filter_value: d, action: active ? "remove" : "add" });
+      return active ? p.filter((x) => x !== d) : [...p, d];
+    });
+  };
+  const toggleFunding = (f: string) => {
+    setSelectedFunding((p) => {
+      const active = p.includes(f);
+      trackEvent("use_filter", { filter_category: "funding_type", filter_value: f, action: active ? "remove" : "add" });
+      return active ? p.filter((x) => x !== f) : [...p, f];
+    });
+  };
+  const toggleLocation = (l: string) => {
+    setSelectedLocations((p) => {
+      const active = p.includes(l);
+      trackEvent("use_filter", { filter_category: "study_location", filter_value: l, action: active ? "remove" : "add" });
+      return active ? p.filter((x) => x !== l) : [...p, l];
+    });
+  };
+  const toggleStatus = (s: string) => {
+    setSelectedStatuses((p) => {
+      const active = p.includes(s);
+      trackEvent("use_filter", { filter_category: "application_status", filter_value: s, action: active ? "remove" : "add" });
+      return active ? p.filter((x) => x !== s) : [...p, s];
+    });
+  };
+
+  const handleOpenDetails = (sc: Scholarship) => {
+    setSelectedScholarship(sc);
+    trackEvent("view_scholarship", {
+      scholarship_id: sc.id,
+      scholarship_name: sc.name[language],
+      provider: sc.provider[language]
+    });
+  };
 
   const hasActiveFilter =
     !!searchQuery || selectedDegrees.length > 0 || selectedFunding.length > 0 || selectedLocations.length > 0 || selectedStatuses.length > 0 || !!deadlineAfter || showBookmarkedOnly;
@@ -216,7 +249,7 @@ export default function Home() {
                   scholarship={sc}
                   isBookmarked={bookmarks.includes(sc.id)}
                   onToggleBookmark={() => toggleBookmark(sc.id)}
-                  onOpenDetails={() => setSelectedScholarship(sc)}
+                  onOpenDetails={() => handleOpenDetails(sc)}
                   index={i}
                   t={t}
                   language={language}
