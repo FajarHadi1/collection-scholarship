@@ -4900,7 +4900,7 @@ export const scholarships: Scholarship[] = [
         "Applying for a full-time undergraduate degree program at NTU"
       ]
     },
-    status: 'open',
+    status: 'closed',
     deadline: "2026-03-15",
     applicationUrl: "https://www.ntu.edu.sg/admissions/undergraduate/scholarships/asean-undergraduate-scholarship",
     description: {
@@ -4969,7 +4969,7 @@ export const scholarships: Scholarship[] = [
         "Citizen of a country along the Belt and Road Initiative (including Indonesia)"
       ]
     },
-    status: 'open',
+    status: 'closed',
     deadline: "2026-04-30",
     applicationUrl: "https://www.campuschina.org/",
     description: {
@@ -5234,7 +5234,7 @@ export const scholarships: Scholarship[] = [
         "Pass all selection rounds including written, psychological, interview, and physical tests"
       ]
     },
-    status: 'open',
+    status: 'closed',
     deadline: "2026-05-15",
     applicationUrl: "https://www.smart-tbk.com/beasiswa/",
     description: {
