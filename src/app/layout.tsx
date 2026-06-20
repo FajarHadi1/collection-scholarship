@@ -10,9 +10,17 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Adiguna Scholarship — Indonesia's Premier Scholarship Portal",
+  title: "Adiguna Scholarship — Portal Info Beasiswa S1, S2, S3 Terlengkap",
   description:
-    "Discover and track scholarship opportunities from Bachelor (S1) to Doctoral (S3) programs in Indonesia and abroad.",
+    "Temukan dan pantau peluang beasiswa kuliah S1, S2, hingga S3 di dalam dan luar negeri secara gratis dan terupdate.",
+  keywords: ["beasiswa", "info beasiswa", "beasiswa s1", "beasiswa s2", "beasiswa s3", "beasiswa luar negeri", "beasiswa dalam negeri", "adiguna scholarship"],
+  authors: [{ name: "Adiguna Scholarship" }],
+  openGraph: {
+    title: "Adiguna Scholarship — Portal Info Beasiswa S1, S2, S3 Terlengkap",
+    description:
+      "Temukan dan pantau peluang beasiswa kuliah S1, S2, hingga S3 di dalam dan luar negeri secara gratis dan terupdate.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
