@@ -5427,7 +5427,7 @@ export const scholarships: Scholarship[] = [
         "Open to candidates of all nationalities (including Indonesia)"
       ]
     },
-    status: 'open',
+    status: 'closed',
     deadline: "2026-11-15",
     applicationUrl: "https://nusgs.nus.edu.sg/scholarships-fellowships/",
     description: {
@@ -5491,7 +5491,7 @@ export const scholarships: Scholarship[] = [
         "High-level English language proficiency (minimum IELTS 7.0 or TOEFL iBT 100)"
       ]
     },
-    status: 'soon',
+    status: 'closed',
     deadline: "2026-03-25",
     applicationUrl: "https://ias.unu.edu/en/admissions/degrees",
     description: {
@@ -5558,7 +5558,7 @@ export const scholarships: Scholarship[] = [
         "English proficiency certificate (minimum TOEFL iBT 71 or IELTS 6.0)"
       ]
     },
-    status: 'soon',
+    status: 'closed',
     deadline: "2026-05-15",
     applicationUrl: "https://www.aminef.or.id/",
     description: {
@@ -5881,7 +5881,7 @@ export const scholarships: Scholarship[] = [
         "Originating from Medco Group's operational regions (preferred)"
       ]
     },
-    status: 'soon',
+    status: 'closed',
     deadline: "2026-08-15",
     applicationUrl: "https://www.medcofoundation.org/",
     description: {
@@ -6027,6 +6027,644 @@ export const scholarships: Scholarship[] = [
         "Domestic",
         "Banking",
         "MT"
+      ]
+    }
+  },
+  {
+    id: "kip-kuliah",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Kartu Indonesia Pintar Kuliah (KIP-K)",
+      en: "Kartu Indonesia Pintar Kuliah (KIP-K) Scholarship"
+    },
+    provider: {
+      id: "Puslapdik Kemendikbudristek RI",
+      en: "Puslapdik Ministry of Education, Culture, Research, and Technology"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh (UKT/SPP) langsung ke perguruan tinggi",
+        "Tunjangan biaya hidup bulanan berkisar antara Rp 800.000 hingga Rp 1.400.000 sesuai klaster wilayah"
+      ],
+      en: [
+        "Full tuition fee waiver paid directly to the university",
+        "Monthly living allowance ranging from IDR 800,000 to IDR 1,400,000 based on regional cost clusters"
+      ]
+    },
+    requirements: {
+      id: [
+        "Lulusan SMA/SMK/sederajat tahun berjalan atau maksimal 2 tahun sebelumnya",
+        "Memiliki potensi akademik baik tetapi memiliki keterbatasan ekonomi yang dibuktikan dengan KIP/KKS/DTKS",
+        "Lolos seleksi penerimaan mahasiswa baru di perguruan tinggi negeri atau swasta pada prodi terakreditasi"
+      ],
+      en: [
+        "High school graduate of the current year or maximum 2 years prior",
+        "Demonstrate academic potential but face economic constraints backed by KIP/KKS/DTKS data",
+        "Passed university admission selection at state or private universities in accredited programs"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-10-31",
+    applicationUrl: "https://kip-kuliah.kemdikbud.go.id/",
+    description: {
+      id: "Program bantuan biaya pendidikan kuliah dari pemerintah Indonesia untuk siswa berprestasi dengan keterbatasan ekonomi.",
+      en: "Indonesian government's educational financial assistance program for high-achieving high school graduates with economic limitations."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Bantuan Sosial",
+        "S1"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Social Aid",
+        "Undergraduate"
+      ]
+    }
+  },
+  {
+    id: "kaltim-tuntas",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Kaltim Tuntas",
+      en: "East Kalimantan Tuntas Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Kalimantan Timur",
+      en: "Provincial Government of East Kalimantan"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Uang kuliah tunggal (UKT) penuh hingga lulus sesuai masa studi normatif",
+        "Dukungan operasional pendidikan tahunan"
+      ],
+      en: [
+        "Full tuition fee (UKT) coverage until graduation based on normative study period",
+        "Annual educational operational support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara Indonesia berdomisili di Kalimantan Timur dibuktikan dengan KTP/KK",
+        "Mahasiswa aktif di perguruan tinggi terakreditasi minimal B",
+        "Memiliki IPK minimal sesuai ketentuan program (prestasi akademik/non-akademik)"
+      ],
+      en: [
+        "Indonesian citizen residing in East Kalimantan proven by ID Card/Family Card",
+        "Active student at a university accredited at least B",
+        "Minimum GPA meets program criteria (academic/non-academic achievements)"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-08-30",
+    applicationUrl: "https://beasiswa.kaltimprov.go.id/",
+    description: {
+      id: "Beasiswa penuh dari Pemprov Kaltim untuk mendukung peningkatan kualitas SDM putra-putri Kalimantan Timur.",
+      en: "Full scholarship funded by the East Kalimantan Provincial Government to support higher education for local youths."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Daerah",
+        "Kaltim"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Regional",
+        "East Kalimantan"
+      ]
+    }
+  },
+  {
+    id: "paragon-scholarship",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Paragon Scholarship Program (PSP)",
+      en: "Paragon Scholarship Program (PSP)"
+    },
+    provider: {
+      id: "PT Paragon Technology and Innovation",
+      en: "PT Paragon Technology and Innovation"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana pendidikan per semester",
+        "Pelatihan soft skills dan kepemimpinan eksklusif",
+        "Kesempatan magang di Paragon Group",
+        "Jalur karir cepat (fast track recruitment) di Paragon"
+      ],
+      en: [
+        "Educational allowance per semester",
+        "Exclusive leadership and soft skills training programs",
+        "Internship opportunities in Paragon Group",
+        "Fast-track recruitment career opportunities at Paragon"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif S1 di perguruan tinggi mitra semester 5 pada saat pendaftaran",
+        "IPK minimal 3.30 dari skala 4.00",
+        "Aktif berorganisasi dan tidak sedang menerima beasiswa lain"
+      ],
+      en: [
+        "Active undergraduate student in partner universities entering 5th semester",
+        "Minimum GPA of 3.30 on a 4.00 scale",
+        "Active in organizational activities and not receiving other scholarships"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-08-15",
+    applicationUrl: "https://www.paragon-innovation.com/",
+    description: {
+      id: "Program beasiswa CSR dari produsen kosmetik terbesar di Indonesia (Wardah, Kahf, Emina) untuk pengembangan kepemimpinan mahasiswa.",
+      en: "CSR scholarship program from Indonesia's leading cosmetics manufacturer supporting university student leadership development."
+    },
+    tags: {
+      id: [
+        "Perusahaan",
+        "Dalam Negeri",
+        "Kepemimpinan",
+        "Karir"
+      ],
+      en: [
+        "Company",
+        "Domestic",
+        "Leadership",
+        "Career"
+      ]
+    }
+  },
+  {
+    id: "bca-finance-scholarship",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa BCA Finance",
+      en: "BCA Finance Scholarship"
+    },
+    provider: {
+      id: "PT BCA Finance",
+      en: "PT BCA Finance"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan finansial biaya pendidikan sebesar Rp 3.500.000 per semester hingga lulus (maksimal semester 8)"
+      ],
+      en: [
+        "Financial education assistance of IDR 3,500,000 per semester until graduation (max semester 8)"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif S1 semua jurusan minimal semester 4",
+        "IPK minimal 3.00 (PTN) atau 3.40 (PTS)",
+        "Tidak sedang menerima beasiswa lain dari pihak mana pun"
+      ],
+      en: [
+        "Active undergraduate student from any major in at least 4th semester",
+        "Minimum GPA of 3.00 (State Universities) or 3.40 (Private Universities)",
+        "Not receiving other scholarships from any institution"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-30",
+    applicationUrl: "https://bcafinance.co.id/",
+    description: {
+      id: "Bantuan finansial dari BCA Finance bagi mahasiswa berprestasi di seluruh Indonesia yang memiliki keterbatasan dana.",
+      en: "Financial scholarship from BCA Finance supporting high-achieving undergraduate students across Indonesia."
+    },
+    tags: {
+      id: [
+        "Perusahaan",
+        "Dalam Negeri",
+        "Finansial"
+      ],
+      en: [
+        "Company",
+        "Domestic",
+        "Financial Support"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-jakarta",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Yayasan Beasiswa Jakarta (YBJ)",
+      en: "Yayasan Beasiswa Jakarta (YBJ) Scholarship"
+    },
+    provider: {
+      id: "Yayasan Beasiswa Jakarta",
+      en: "Yayasan Beasiswa Jakarta"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan penulisan tugas akhir / skripsi dan biaya pendidikan tahunan"
+      ],
+      en: [
+        "Financial assistance for final thesis writing and annual educational support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga DKI Jakarta dibuktikan dengan KTP & Kartu Keluarga",
+        "Mahasiswa aktif jenjang D3/S1 di perguruan tinggi di wilayah DKI Jakarta",
+        "IPK minimal 3.00 dan berusia maksimal 25 tahun"
+      ],
+      en: [
+        "DKI Jakarta resident proven by ID and Family Card",
+        "Active student pursuing D3/S1 degree in a college located in DKI Jakarta",
+        "Minimum GPA of 3.00 and maximum 25 years old"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-08-31",
+    applicationUrl: "http://beasiswajakarta.jakarta.go.id/",
+    description: {
+      id: "Beasiswa bantuan dana pendidikan dari Pemerintah Provinsi DKI Jakarta melalui YBJ untuk mahasiswa berprestasi dan kurang mampu.",
+      en: "Educational scholarship support provided by the DKI Jakarta Provincial Government through YBJ for local students."
+    },
+    tags: {
+      id: [
+        "Daerah",
+        "Dalam Negeri",
+        "Jakarta",
+        "Finansial"
+      ],
+      en: [
+        "Regional",
+        "Domestic",
+        "Jakarta",
+        "Financial Support"
+      ]
+    }
+  },
+  {
+    id: "gates-cambridge",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Gates Cambridge (Inggris)",
+      en: "Gates Cambridge Scholarship (UK)"
+    },
+    provider: {
+      id: "Bill & Melinda Gates Foundation",
+      en: "Bill & Melinda Gates Foundation"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Biaya kuliah penuh (Composition Fee) di Universitas Cambridge",
+        "Tunjangan pemeliharaan hidup senilai £20.000 per tahun",
+        "Tiket pesawat ekonomi pulang-pergi kelas satu",
+        "Tunjangan visa masuk & biaya kesehatan imigrasi (IHS)",
+        "Pendanaan akademik tambahan untuk konferensi dan penelitian"
+      ],
+      en: [
+        "Full cost of tuition (University Composition Fee) at Cambridge",
+        "Maintenance allowance of £20,000 per year",
+        "One economy-class round-trip airfare",
+        "Inbound visa costs & Immigration Health Surcharge (IHS)",
+        "Additional academic development funding for conferences and research"
+      ]
+    },
+    requirements: {
+      id: [
+        "Bukan warga negara Inggris (terbuka untuk WNI)",
+        "Mendaftar kuliah pascasarjana penuh waktu (Master atau Ph.D.) di Universitas Cambridge",
+        "Memiliki kemampuan akademik yang luar biasa dan kapasitas kepemimpinan kuat",
+        "Memiliki komitmen untuk memperbaiki kehidupan orang lain"
+      ],
+      en: [
+        "Citizen of any country outside the UK (including Indonesia)",
+        "Applying to pursue a full-time postgraduate degree (Master or Ph.D.) at Cambridge",
+        "Outstanding academic excellence and strong leadership capacity",
+        "Commitment to improving the lives of others"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-12-05",
+    applicationUrl: "https://www.gatescambridge.org/",
+    description: {
+      id: "Salah satu beasiswa internasional paling kompetitif dan prestisius di dunia, didirikan oleh Bill Gates untuk studi pascasarjana di Cambridge.",
+      en: "One of the most prestigious and competitive international scholarships globally, funded by Bill Gates for graduate studies at Cambridge."
+    },
+    tags: {
+      id: [
+        "Yayasan",
+        "Luar Negeri",
+        "Inggris",
+        "Prestisius",
+        "Riset"
+      ],
+      en: [
+        "Foundation",
+        "Overseas",
+        "United Kingdom",
+        "Prestigious",
+        "Research"
+      ]
+    }
+  },
+  {
+    id: "stipendium-hungaricum",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Pemerintah Hongaria (Stipendium Hungaricum)",
+      en: "Stipendium Hungaricum Scholarship (Hungary)"
+    },
+    provider: {
+      id: "Pemerintah Hongaria / Tempus Public Foundation",
+      en: "Government of Hungary / Tempus Public Foundation"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bebas biaya kuliah penuh",
+        "Tunjangan bulanan HUF 43.790 (non-PhD) atau HUF 140.000-180.000 (PhD)",
+        "Kontribusi akomodasi asrama gratis atau bantuan sewa rumah HUF 40.000",
+        "Asuransi kesehatan lengkap tahunan"
+      ],
+      en: [
+        "Tuition-free education coverage",
+        "Monthly stipend of HUF 43,790 (non-PhD) or HUF 140,000-180,000 (PhD)",
+        "Free dormitory place or housing allowance of HUF 40,000 per month",
+        "Comprehensive medical insurance coverage"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara asing yang menjadi mitra kerja sama beasiswa (termasuk Indonesia)",
+        "Berusia minimal 18 tahun pada tanggal 31 Agustus tahun berjalan",
+        "Memenuhi persyaratan bahasa asing universitas tujuan (Inggris/Hongaria)"
+      ],
+      en: [
+        "Citizen of sending partner countries (including Indonesia)",
+        "At least 18 years old by August 31 of the application year",
+        "Meet the language proficiency requirements (English/Hungarian) of host universities"
+      ]
+    },
+    status: 'open',
+    deadline: "2027-01-15",
+    applicationUrl: "https://stipendiumhungaricum.hu/",
+    description: {
+      id: "Program beasiswa unggulan pemerintah Hongaria untuk menarik mahasiswa internasional berprestasi dari seluruh dunia.",
+      en: "The Hungarian Government's flagship higher education scholarship program attracting top international students globally."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Luar Negeri",
+        "Hongaria",
+        "Eropa"
+      ],
+      en: [
+        "Government",
+        "Overseas",
+        "Hungary",
+        "Europe"
+      ]
+    }
+  },
+  {
+    id: "chinese-government-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Pemerintah Tiongkok (CGS)",
+      en: "Chinese Government Scholarship (CGS)"
+    },
+    provider: {
+      id: "Kementerian Pendidikan Republik Rakyat Tiongkok / CSC",
+      en: "Ministry of Education of the People's Republic of China / CSC"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bebas biaya kuliah penuh",
+        "Tunjangan hidup bulanan CNY 2.500 (S1), CNY 3.000 (S2), atau CNY 3.500 (S3)",
+        "Akomodasi asrama universitas gratis",
+        "Asuransi kesehatan komprehensif"
+      ],
+      en: [
+        "Full tuition fees coverage waiver",
+        "Monthly stipend of CNY 2,500 (S1), CNY 3,000 (S2), or CNY 3,500 (S3)",
+        "Free university dormitory accommodation",
+        "Comprehensive medical insurance coverage"
+      ]
+    },
+    requirements: {
+      id: [
+        "Bukan warga negara Tiongkok (terbuka untuk WNI)",
+        "Memiliki ijazah kelulusan jenjang sebelumnya (SMA untuk S1, S1 untuk S2, S2 untuk S3)",
+        "Memenuhi batasan usia (di bawah 25 untuk S1, di bawah 35 untuk S2, di bawah 40 untuk S3)",
+        "Sertifikat kemahiran bahasa HSK (bahasa Mandarin) atau HSK/IELTS/TOEFL"
+      ],
+      en: [
+        "Non-Chinese citizen (including Indonesian)",
+        "Academic certificate of previous studies",
+        "Age limits: under 25 for bachelor's, under 35 for master's, under 40 for doctoral",
+        "Language proficiency: HSK for Chinese-taught programs or IELTS/TOEFL for English-taught"
+      ]
+    },
+    status: 'soon',
+    deadline: "2027-02-15",
+    applicationUrl: "http://www.campuschina.org/",
+    description: {
+      id: "Beasiswa penuh dari pemerintah Tiongkok untuk mempererat hubungan internasional dan mempromosikan pendidikan di Tiongkok.",
+      en: "Fully funded scholarship provided by the Chinese government to promote international student exchange and study in China."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Luar Negeri",
+        "Tiongkok",
+        "Asia"
+      ],
+      en: [
+        "Government",
+        "Overseas",
+        "China",
+        "Asia"
+      ]
+    }
+  },
+  {
+    id: "taiwan-moe-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Taiwan MOE (Kementerian Pendidikan Taiwan)",
+      en: "Taiwan Ministry of Education (MOE) Scholarship"
+    },
+    provider: {
+      id: "Kementerian Pendidikan Taiwan (MOE)",
+      en: "Ministry of Education Taiwan (MOE)"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Subsidi biaya kuliah hingga NTD 40.000 per semester",
+        "Tunjangan biaya hidup bulanan NTD 15.000 (S1) atau NTD 20.000 (S2/S3)"
+      ],
+      en: [
+        "Tuition fee subsidy up to NTD 40,000 per semester",
+        "Monthly living allowance of NTD 15,000 (Undergraduate) or NTD 20,000 (Graduate)"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara Indonesia lulusan SMA/S1/S2 berprestasi",
+        "Memiliki kemampuan bahasa Inggris (IELTS/TOEFL) atau Mandarin (TOCFL)",
+        "Bukan warga negara Taiwan atau keturunan Tionghoa perantauan dari Taiwan"
+      ],
+      en: [
+        "Indonesian citizen with excellent academic records",
+        "English (IELTS/TOEFL) or Mandarin (TOCFL) language proficiency certificates",
+        "Not a Taiwan national or an overseas Chinese student from Taiwan"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-03-31",
+    applicationUrl: "https://www.studylinktaiwan.com/",
+    description: {
+      id: "Beasiswa penuh dari pemerintah Taiwan melalui Kementerian Pendidikan untuk mendanai mahasiswa berprestasi menempuh kuliah di Taiwan.",
+      en: "Government-funded scholarship by the Ministry of Education of Taiwan supporting international degree-seeking students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Luar Negeri",
+        "Taiwan",
+        "Asia"
+      ],
+      en: [
+        "Government",
+        "Overseas",
+        "Taiwan",
+        "Asia"
+      ]
+    }
+  },
+  {
+    id: "russian-government-open-doors",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Open Doors Russian Olympiad",
+      en: "Open Doors Russian Scholarship Project"
+    },
+    provider: {
+      id: "Asosiasi Universitas Global & Pemerintah Rusia",
+      en: "Global Universities Association & Government of the Russian Federation"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bebas biaya kuliah penuh 100% di salah satu universitas unggulan Rusia",
+        "Penerimaan masuk universitas tanpa tes seleksi reguler"
+      ],
+      en: [
+        "100% tuition fee waiver coverage at one of the top Russian universities",
+        "Fast-track admissions without any regular entrance examinations"
+      ]
+    },
+    requirements: {
+      id: [
+        "Memiliki gelar Sarjana (untuk S2) atau Magister (untuk S3) dari semua warga negara asing",
+        "Mengikuti kompetisi olimpiade portofolio secara daring di platform resmi",
+        "Lolos babak wawancara/ujian pemecahan masalah bagi yang terpilih"
+      ],
+      en: [
+        "Hold a Bachelor's (for Master's track) or Master's (for PhD track) from any country",
+        "Participate in the online portfolio Olympiad competition on the official site",
+        "Pass the interview/problem-solving stage if selected"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-12-10",
+    applicationUrl: "https://od.globaluni.ru/en/",
+    description: {
+      id: "Beasiswa berbasis olimpiade kompetisi portofolio untuk mahasiswa internasional yang ingin melanjutkan S2 atau PhD di Rusia secara gratis.",
+      en: "Olympiad-based portfolio scholarship project offering international students free master's or PhD entry at top Russian universities."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Luar Negeri",
+        "Rusia",
+        "Olimpiade"
+      ],
+      en: [
+        "Government",
+        "Overseas",
+        "Russia",
+        "Olympiad"
       ]
     }
   }
