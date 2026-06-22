@@ -6667,5 +6667,640 @@ export const scholarships: Scholarship[] = [
         "Olympiad"
       ]
     }
+  },
+  {
+    id: "jfls-scholarship",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Jabar Future Leaders Scholarship (JFLS)",
+      en: "Jabar Future Leaders Scholarship (JFLS)"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Jawa Barat",
+      en: "Provincial Government of West Java"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bantuan biaya pendidikan penuh (UKT/SPP) selama masa studi normatif",
+        "Akses ke jejaring komunitas JFLS dan program magang Pemprov Jabar"
+      ],
+      en: [
+        "Full tuition fees coverage (UKT/SPP) for the normative duration of study",
+        "Access to the JFLS community network and West Java government internships"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga Jawa Barat dibuktikan dengan KTP dan Kartu Keluarga",
+        "Mahasiswa aktif di perguruan tinggi mitra Pemprov Jabar dengan IPK minimal sesuai kategori",
+        "Memiliki prestasi akademik atau non-akademik di bidang seni, olahraga, atau organisasi"
+      ],
+      en: [
+        "Resident of West Java proven by ID Card and Family Card",
+        "Active student at a West Java government partner university with minimum GPA based on category",
+        "Have academic or non-academic achievements in arts, sports, or organizational leadership"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-07-31",
+    applicationUrl: "https://jfls.jabarprov.go.id/",
+    description: {
+      id: "Program beasiswa dari Pemerintah Provinsi Jawa Barat untuk mencetak generasi muda Jawa Barat yang berkarakter dan kepemimpinan kuat.",
+      en: "Scholarship program by the Provincial Government of West Java fostering youth character and leadership."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Jawa Barat",
+        "Daerah"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "West Java",
+        "Regional"
+      ]
+    }
+  },
+  {
+    id: "xl-future-leaders",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa XL Future Leaders (XLFL)",
+      en: "XL Future Leaders (XLFL) Scholarship"
+    },
+    provider: {
+      id: "PT XL Axiata Tbk",
+      en: "PT XL Axiata Tbk"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Program pelatihan kepemimpinan intensif selama 2 tahun",
+        "Tunjangan gadget/laptop dan pulsa bulanan",
+        "Akses jaringan profesional global"
+      ],
+      en: [
+        "2-year intensive leadership development program",
+        "Monthly gadget/laptop allowance and internet quota package",
+        "Access to global professional networks"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif S1/D4 tingkat 1 atau 2 (semester 2 atau 4) dari semua jurusan",
+        "IPK minimal 2.85 dari skala 4.00",
+        "Aktif berorganisasi dan fasih berbahasa Inggris"
+      ],
+      en: [
+        "Active undergraduate student in 1st or 2nd year (2nd or 4th semester) from any major",
+        "Minimum GPA of 2.85 on a 4.00 scale",
+        "Active in campus organizations and fluent in English"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-07-15",
+    applicationUrl: "https://xlfutureleaders.org/",
+    description: {
+      id: "Program CSR kepemimpinan paling bergengsi dari XL Axiata untuk membekali mahasiswa dengan keahlian soft skills abad 21.",
+      en: "XL Axiata's premier leadership development CSR program equipping students with essential 21st-century soft skills."
+    },
+    tags: {
+      id: [
+        "Perusahaan",
+        "Dalam Negeri",
+        "Kepemimpinan",
+        "Pengembangan Diri"
+      ],
+      en: [
+        "Company",
+        "Domestic",
+        "Leadership",
+        "Self Development"
+      ]
+    }
+  },
+  {
+    id: "sampoerna-foundation-scholarship",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Putera Sampoerna Foundation (PSF)",
+      en: "Putera Sampoerna Foundation (PSF) Scholarship"
+    },
+    provider: {
+      id: "Putera Sampoerna Foundation",
+      en: "Putera Sampoerna Foundation"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Biaya kuliah penuh (tuition fee) hingga kelulusan",
+        "Tunjangan biaya hidup bulanan dan buku",
+        "Program pengembangan karakter dan kepemimpinan"
+      ],
+      en: [
+        "Full tuition fees coverage until graduation",
+        "Monthly living and book allowance stipend",
+        "Character and leadership development program"
+      ]
+    },
+    requirements: {
+      id: [
+        "Lulusan SMA/SMK/sederajat berprestasi tinggi akademis",
+        "Menunjukkan keterbatasan ekonomi finansial keluarga",
+        "Lolos ujian masuk universitas mitra PSF"
+      ],
+      en: [
+        "High school graduate with outstanding academic records",
+        "Demonstrate financial need/economic constraints",
+        "Pass the admission test for PSF partner universities"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-05-30",
+    applicationUrl: "https://www.puterampornafoundation.org/",
+    description: {
+      id: "Beasiswa penuh dari yayasan Sampoerna untuk mencetak pemimpin masa depan berkelas dunia yang peduli pada kemajuan sosial.",
+      en: "Full scholarship funded by Sampoerna Foundation to raise world-class future leaders committed to social progress."
+    },
+    tags: {
+      id: [
+        "Yayasan",
+        "Dalam Negeri",
+        "S1",
+        "Sosial"
+      ],
+      en: [
+        "Foundation",
+        "Domestic",
+        "Undergraduate",
+        "Social Support"
+      ]
+    }
+  },
+  {
+    id: "tj-park-posco-scholarship",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa TJ Park POSCO",
+      en: "TJ Park POSCO Scholarship"
+    },
+    provider: {
+      id: "POSCO TJ Park Foundation (Korea)",
+      en: "POSCO TJ Park Foundation (Korea)"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bantuan finansial biaya kuliah penuh selama 2 tahun akademik (semester 5-8)",
+        "Program magang dan peluang karir di perusahaan afiliasi POSCO"
+      ],
+      en: [
+        "Full tuition fees coverage for 2 academic years (semesters 5-8)",
+        "Internship and career pathways at POSCO affiliated companies"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif S1 semester 4 dari universitas mitra (seperti UI, ITB, UGM)",
+        "IPK minimal 3.30 dari skala 4.00",
+        "Berasal dari jurusan sains, teknik, atau bahasa Korea lebih diutamakan"
+      ],
+      en: [
+        "Active undergraduate student in 4th semester at partner universities (UI, ITB, UGM)",
+        "Minimum GPA of 3.30 on a 4.00 scale",
+        "Majoring in science, engineering, or Korean language studies preferred"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-15",
+    applicationUrl: "https://www.postjpark.org/",
+    description: {
+      id: "Beasiswa prestasi dari yayasan raksasa baja Korea Selatan POSCO untuk mahasiswa terbaik di universitas top Indonesia.",
+      en: "Merit-based scholarship by South Korea's steel giant POSCO supporting top-tier students at Indonesia's leading universities."
+    },
+    tags: {
+      id: [
+        "Yayasan",
+        "Dalam Negeri",
+        "Prestasi",
+        "Korea Link"
+      ],
+      en: [
+        "Foundation",
+        "Domestic",
+        "Academic Merit",
+        "Korean Connection"
+      ]
+    }
+  },
+  {
+    id: "cgi-thailand-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Chulabhorn Graduate Institute (Thailand)",
+      en: "Chulabhorn Graduate Institute Scholarship (Thailand)"
+    },
+    provider: {
+      id: "Chulabhorn Graduate Institute (CGI)",
+      en: "Chulabhorn Graduate Institute (CGI)"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Uang kuliah penuh dibayarkan langsung ke CGI",
+        "Tunjangan biaya hidup bulanan dan akomodasi tempat tinggal gratis",
+        "Tiket pesawat ekonomi pulang-pergi",
+        "Asuransi kesehatan lengkap dan tunjangan buku tahunan"
+      ],
+      en: [
+        "Full tuition fees paid directly to CGI",
+        "Monthly living allowance and free housing accommodation",
+        "Economy-class round-trip airfare",
+        "Comprehensive health insurance and annual book allowance stipend"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara non-Thailand (termasuk WNI) berusia di bawah 30 tahun",
+        "Lulusan S1 di bidang sains (kimia, biologi, farmasi) dengan IPK minimal 3.00",
+        "Sertifikat IELTS minimal 6.0 atau TOEFL iBT 79"
+      ],
+      en: [
+        "Non-Thai citizen (including Indonesian) under 30 years old",
+        "Bachelor's degree in science (chemistry, biology, pharmacy) with min GPA 3.00",
+        "English proficiency certificate (IELTS min 6.0 or TOEFL iBT 79)"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-10-30",
+    applicationUrl: "https://www.cgi.ac.th/admissions/scholarship/",
+    description: {
+      id: "Beasiswa penuh pascasarjana bidang sains terapan dan farmasi di Thailand yang disponsori oleh Putri Kerajaan Thailand Chulabhorn.",
+      en: "Fully funded master's scholarship in applied sciences and pharmacy in Thailand, sponsored by HRH Princess Chulabhorn."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Luar Negeri",
+        "Thailand",
+        "Sains"
+      ],
+      en: [
+        "Government",
+        "Overseas",
+        "Thailand",
+        "Science"
+      ]
+    }
+  },
+  {
+    id: "ait-thailand-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Asian Institute of Technology (AIT)",
+      en: "Asian Institute of Technology (AIT) Scholarship"
+    },
+    provider: {
+      id: "Asian Institute of Technology (AIT)",
+      en: "Asian Institute of Technology (AIT)"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bebas biaya kuliah penuh (tuition fee) selama masa studi",
+        "Tunjangan biaya hidup bulanan dan akomodasi asrama mahasiswa AIT"
+      ],
+      en: [
+        "Full tuition fees waiver coverage for the duration of study",
+        "Monthly living allowance and campus dormitory accommodation"
+      ]
+    },
+    requirements: {
+      id: [
+        "Memiliki rekam akademis yang luar biasa (IPK minimal 3.00 dari skala 4.00)",
+        "Memenuhi persyaratan kemahiran bahasa Inggris AIT (IELTS minimal 6.0)",
+        "Terbuka untuk semua warga negara asing (termasuk Indonesia)"
+      ],
+      en: [
+        "Outstanding academic records (min GPA 3.00 on a 4.00 scale)",
+        "Meet AIT's English language proficiency (IELTS min 6.0 or equivalent)",
+        "Open to candidates of all nationalities (including Indonesia)"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-11-30",
+    applicationUrl: "https://ait.ac.th/admissions/scholarships/",
+    description: {
+      id: "Program beasiswa penuh di institut teknologi internasional terkemuka di Thailand untuk riset pascasarjana tingkat lanjut.",
+      en: "Fully funded scholarships at Thailand's premier international technology institute supporting graduate level research."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Thailand",
+        "Teknik",
+        "STEM"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Thailand",
+        "Engineering",
+        "STEM"
+      ]
+    }
+  },
+  {
+    id: "kaad-scholarship-germany",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa KAAD (Jerman)",
+      en: "KAAD Scholarship (Germany)"
+    },
+    provider: {
+      id: "Catholic Academic Exchange Service (KAAD)",
+      en: "Catholic Academic Exchange Service (KAAD)"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Uang kuliah penuh, asuransi kesehatan, dan tunjangan hidup bulanan di Jerman",
+        "Kursus bahasa Jerman intensif sebelum keberangkatan",
+        "Tiket pesawat ekonomi internasional pulang-pergi"
+      ],
+      en: [
+        "Full tuition fees, health insurance, and monthly living allowance in Germany",
+        "Intensive German language course costs covered pre-departure",
+        "International economy-class round-trip airfare"
+      ]
+    },
+    requirements: {
+      id: [
+        "Berasal dari negara berkembang (termasuk Indonesia) dan berdomisili di tanah air",
+        "Memiliki prestasi akademik di atas rata-rata dan komitmen sosial-kemasyarakatan",
+        "Memiliki sertifikat bahasa Jerman atau Inggris sesuai program studi tujuan"
+      ],
+      en: [
+        "Citizen of a developing country (including Indonesia) and residing there",
+        "Above-average academic records and commitment to social/societal progress",
+        "German or English language certificate based on target program requirements"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-31",
+    applicationUrl: "https://www.kaad.de/en/scholarships/",
+    description: {
+      id: "Beasiswa penuh dari lembaga pertukaran akademis Katolik Jerman untuk mendukung mahasiswa berprestasi yang berkomitmen membangun tanah air.",
+      en: "Fully funded scholarship by Germany's Catholic Academic Exchange Service supporting graduate studies for social builders."
+    },
+    tags: {
+      id: [
+        "Yayasan",
+        "Luar Negeri",
+        "Jerman",
+        "Eropa",
+        "Sosial"
+      ],
+      en: [
+        "Foundation",
+        "Overseas",
+        "Germany",
+        "Europe",
+        "Social Focus"
+      ]
+    }
+  },
+  {
+    id: "si-visby-program-sweden",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa SI Visby Programme (Swedia)",
+      en: "SI Visby Programme Scholarship (Sweden)"
+    },
+    provider: {
+      id: "Swedish Institute (SI)",
+      en: "Swedish Institute (SI)"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bebas biaya kuliah penuh dibayarkan langsung ke universitas Swedia",
+        "Tunjangan biaya hidup bulanan sebesar SEK 10.000",
+        "Tunjangan biaya perjalanan tiket pesawat satu kali",
+        "Asuransi kesehatan lengkap tahunan"
+      ],
+      en: [
+        "Full tuition fees paid directly to the Swedish university",
+        "Monthly living allowance of SEK 10,000",
+        "One-off travel grant for flight ticket costs",
+        "Comprehensive health and accident insurance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara dari negara-negara mitra terpilih yang masuk kriteria program",
+        "Mendaftar kuliah program Master di Swedia yang memenuhi syarat",
+        "Menunjukkan potensi kepemimpinan dan pengalaman kerja relevan"
+      ],
+      en: [
+        "Citizen of eligible target countries participating in the program",
+        "Applying for eligible Master's programs at Swedish universities",
+        "Demonstrate leadership potential and relevant professional experience"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-02-15",
+    applicationUrl: "https://si.se/en/apply/scholarships/visby-programme/",
+    description: {
+      id: "Program beasiswa penuh pemerintah Swedia yang kompetitif untuk melatih pemimpin masa depan dalam pembangunan berkelanjutan.",
+      en: "Sweden government's highly competitive scholarship program training future leaders in sustainable development."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Luar Negeri",
+        "Swedia",
+        "Eropa"
+      ],
+      en: [
+        "Government",
+        "Overseas",
+        "Sweden",
+        "Europe"
+      ]
+    }
+  },
+  {
+    id: "ubc-leader-tomorrow-canada",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa UBC Karen McKellin International Leader of Tomorrow (Kanada)",
+      en: "UBC Karen McKellin International Leader of Tomorrow Award (Canada)"
+    },
+    provider: {
+      id: "University of British Columbia (UBC)",
+      en: "University of British Columbia (UBC)"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bantuan pendanaan penuh yang disesuaikan dengan kebutuhan finansial (mencakup biaya kuliah penuh dan biaya hidup)",
+        "Program pembinaan kepemimpinan global mahasiwa"
+      ],
+      en: [
+        "Full funding package tailored to financial need (covering full tuition and living expenses)",
+        "Global student leadership development mentoring program"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional berprestasi akademik luar biasa (IPK tinggi)",
+        "Dicalonkan secara resmi oleh sekolah asal (SMA/sederajat)",
+        "Menunjukkan kebutuhan finansial keluarga yang signifikan"
+      ],
+      en: [
+        "International student demonstrating exceptional academic achievement (high GPA)",
+        "Officially nominated by their current high school",
+        "Demonstrate significant and verified financial need"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-01-15",
+    applicationUrl: "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/",
+    description: {
+      id: "Penghargaan beasiswa penuh berbasis kebutuhan finansial dan prestasi akademik tertinggi di Universitas British Columbia bagi siswa SMA sedunia.",
+      en: "UBC's prestigious need-and-merit-based full scholarship for outstanding high school graduates worldwide."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Kanada",
+        "S1",
+        "Prestisius"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Canada",
+        "Undergraduate",
+        "Prestigious"
+      ]
+    }
+  },
+  {
+    id: "orange-tulip-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Orange Tulip Scholarship (OTS) Belanda",
+      en: "Orange Tulip Scholarship (OTS) Netherlands"
+    },
+    provider: {
+      id: "Nuffic Neso Indonesia & Universitas Belanda",
+      en: "Nuffic Neso Indonesia & Dutch Universities"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Potongan biaya kuliah (tuition fee) hingga 50% - 100%",
+        "Bantuan pengurusan visa pelajar ke Belanda"
+      ],
+      en: [
+        "Tuition fee waiver discount up to 50% - 100%",
+        "Assistance with student visa application for the Netherlands"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara Indonesia (WNI) berprestasi",
+        "Diterima di salah satu skema universitas Belanda yang berpartisipasi",
+        "Sertifikat bahasa Inggris minimal IELTS 6.5 atau TOEFL iBT 90"
+      ],
+      en: [
+        "Indonesian citizen (WNI) with excellent academic performance",
+        "Admitted to a participating Dutch university program scheme",
+        "English proficiency certificate (IELTS min 6.5 or TOEFL iBT 90)"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-04-01",
+    applicationUrl: "https://www.studyinnl.org/",
+    description: {
+      id: "Beasiswa potongan biaya kuliah khusus untuk mahasiswa Indonesia yang ingin menempuh studi sarjana atau pascasarjana di Belanda.",
+      en: "Tuition fee waiver scholarship scheme specifically for Indonesian students pursuing bachelor's or master's degrees in the Netherlands."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Luar Negeri",
+        "Belanda",
+        "Eropa"
+      ],
+      en: [
+        "Government",
+        "Overseas",
+        "Netherlands",
+        "Europe"
+      ]
+    }
   }
 ];
