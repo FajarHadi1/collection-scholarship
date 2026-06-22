@@ -6835,7 +6835,7 @@ export const scholarships: Scholarship[] = [
         "Pass the admission test for PSF partner universities"
       ]
     },
-    status: 'soon',
+    status: 'closed',
     deadline: "2026-05-30",
     applicationUrl: "https://www.puterampornafoundation.org/",
     description: {
@@ -7089,7 +7089,7 @@ export const scholarships: Scholarship[] = [
         "German or English language certificate based on target program requirements"
       ]
     },
-    status: 'open',
+    status: 'closed',
     deadline: "2026-07-31",
     applicationUrl: "https://www.kaad.de/en/scholarships/",
     description: {
@@ -7300,6 +7300,634 @@ export const scholarships: Scholarship[] = [
         "Overseas",
         "Netherlands",
         "Europe"
+      ]
+    }
+  },
+  {
+    id: "monash-presidents-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Monash President's Scholarship (MPS)",
+      en: "Monash President's Scholarship (MPS)"
+    },
+    provider: {
+      id: "Monash University (Australia)",
+      en: "Monash University (Australia)"
+    },
+    degreeLevels: [
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Biaya kuliah penuh untuk jenjang Ph.D.",
+        "Tunjangan hidup tahunan senilai AUD 33.000",
+        "Asuransi kesehatan lengkap mahasiswa asing (OSHC)",
+        "Tunjangan relokasi perjalanan"
+      ],
+      en: [
+        "Full tuition fees coverage for Ph.D. studies",
+        "Annual living allowance of AUD 33,000",
+        "Single Overseas Student Health Cover (OSHC)",
+        "Travel relocation allowance contribution"
+      ]
+    },
+    requirements: {
+      id: [
+        "Memenuhi persyaratan akademik masuk Ph.D. di Monash University",
+        "Memiliki prestasi akademis di atas rata-rata dan portofolio riset yang kuat",
+        "Sertifikat bahasa Inggris minimal IELTS 6.5 atau TOEFL iBT 79"
+      ],
+      en: [
+        "Meet Monash University's Ph.D. admission requirements",
+        "Hold outstanding academic records and a strong research profile",
+        "English proficiency certificate (IELTS min 6.5 or TOEFL iBT 79)"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-31",
+    applicationUrl: "https://www.monash.edu/study/fees-scholarships/scholarships/",
+    description: {
+      id: "Beasiswa riset doktoral penuh yang kompetitif dari Universitas Monash untuk mendanai kandidat Ph.D. terbaik dunia.",
+      en: "Monash University's highly competitive doctoral research scholarship supporting outstanding Ph.D. candidates globally."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Australia",
+        "Riset"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Australia",
+        "Research"
+      ]
+    }
+  },
+  {
+    id: "chulalongkorn-asean-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Pascasarjana Chulalongkorn University untuk Negara ASEAN",
+      en: "Chulalongkorn University Scholarship for ASEAN Countries"
+    },
+    provider: {
+      id: "Chulalongkorn University (Thailand)",
+      en: "Chulalongkorn University (Thailand)"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Uang kuliah penuh selama studi pascasarjana",
+        "Tunjangan hidup bulanan sebesar THB 16.000",
+        "Akomodasi asrama universitas gratis",
+        "Tiket pesawat ekonomi pulang-pergi"
+      ],
+      en: [
+        "Full tuition fees coverage for graduate program",
+        "Monthly living allowance of THB 16,000",
+        "Free university dormitory accommodation",
+        "Economy-class round-trip airfare"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara dari negara-negara ASEAN (termasuk Indonesia) selain Thailand",
+        "Lulusan S1 untuk S2 (maksimal usia 35) atau S2 untuk S3 (maksimal usia 40)",
+        "Memiliki rekam prestasi akademik yang baik dan sehat jasmani"
+      ],
+      en: [
+        "Citizen of ASEAN countries (including Indonesia) other than Thailand",
+        "Bachelor's degree for Master (max age 35) or Master's for PhD (max age 40)",
+        "Good academic records and in good physical health"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-15",
+    applicationUrl: "https://www.academic.chula.ac.th/",
+    description: {
+      id: "Program beasiswa penuh pemerintah Thailand di Universitas Chulalongkorn untuk mendukung integrasi dan kerja sama pelajar ASEAN.",
+      en: "Fully funded graduate level scholarships at Thailand's top-ranked Chulalongkorn University supporting ASEAN student cooperation."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Thailand",
+        "Asia"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Thailand",
+        "Asia"
+      ]
+    }
+  },
+  {
+    id: "utokyo-fellowship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Universitas Tokyo Fellowship",
+      en: "University of Tokyo Fellowship (UTokyo Fellowship)"
+    },
+    provider: {
+      id: "University of Tokyo (Jepang)",
+      en: "University of Tokyo (Japan)"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bebas biaya pendaftaran dan biaya kuliah penuh di UTokyo",
+        "Tunjangan penelitian bulanan senilai JPY 150.000 hingga JPY 200.000"
+      ],
+      en: [
+        "Admission and full tuition fees waiver coverage at UTokyo",
+        "Monthly research grant stipend of JPY 150,000 to JPY 200,000"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional berprestasi akademik tertinggi yang mendaftar program pascasarjana di UTokyo",
+        "Mendapat rekomendasi akademik kuat dari calon profesor pembimbing",
+        "Memiliki rekam riset yang sangat solid"
+      ],
+      en: [
+        "International students demonstrating highest academic excellence applying to UTokyo graduate school",
+        "Supported by strong academic recommendation from prospective UTokyo advisor",
+        "Show solid research experience and publications profile"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-10-30",
+    applicationUrl: "https://www.u-tokyo.ac.jp/en/prospective-students/scholarships.html",
+    description: {
+      id: "Beasiswa penelitian pascasarjana penuh yang prestisius dari Universitas Tokyo bagi peneliti muda berprestasi tingkat global.",
+      en: "Prestigious graduate research fellowship awarded by the University of Tokyo to outstanding international young researchers."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Jepang",
+        "Riset"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Japan",
+        "Research"
+      ]
+    }
+  },
+  {
+    id: "goi-ies-ireland",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Pemerintah Irlandia Internasional (GOI-IES)",
+      en: "Government of Ireland International Education Scholarship (GOI-IES)"
+    },
+    provider: {
+      id: "Higher Education Authority (HEA) Irlandia",
+      en: "Higher Education Authority (HEA) Ireland"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Uang saku biaya hidup tahunan senilai €10.000 untuk 1 tahun studi",
+        "Bebas biaya kuliah penuh (tuition fee) di universitas terdaftar di Irlandia"
+      ],
+      en: [
+        "Individual stipend of €10,000 for 1 year's study living costs",
+        "Full tuition fee waiver coverage at participating Irish universities"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara non-Uni Eropa (terbuka untuk WNI)",
+        "Memiliki surat tawaran masuk (LOA) bersyarat atau tidak bersyarat dari universitas Irlandia",
+        "Menunjukkan prestasi akademik luar biasa dan kemampuan komunikasi yang baik"
+      ],
+      en: [
+        "Citizen of non-EU countries (including Indonesia)",
+        "Hold a conditional or unconditional admission offer (LOA) from an Irish higher education institution",
+        "Demonstrate excellent academic credentials and communication skills"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-03-15",
+    applicationUrl: "https://euraxess.ec.europa.eu/",
+    description: {
+      id: "Beasiswa penuh selama 1 tahun dari pemerintah Irlandia untuk mahasiswa internasional berprestasi tingkat sarjana maupun pascasarjana.",
+      en: "Fully funded 1-year scholarship by the Government of Ireland supporting high-achieving undergraduate and postgraduate students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Luar Negeri",
+        "Irlandia",
+        "Eropa"
+      ],
+      en: [
+        "Government",
+        "Overseas",
+        "Ireland",
+        "Europe"
+      ]
+    }
+  },
+  {
+    id: "gates-millennium-scholars",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Gates Millennium Scholars Program",
+      en: "Gates Millennium Scholars Program"
+    },
+    provider: {
+      id: "Bill & Melinda Gates Foundation",
+      en: "Bill & Melinda Gates Foundation"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Biaya kuliah penuh di universitas mana pun di Amerika Serikat",
+        "Tunjangan buku, akomodasi perumahan, asuransi kesehatan, dan biaya hidup",
+        "Program pendampingan kepemimpinan mahasiswa"
+      ],
+      en: [
+        "Full tuition fees coverage at any accredited US university",
+        "Stipend for books, housing accommodation, health insurance, and personal expenses",
+        "Student leadership development and mentoring program"
+      ]
+    },
+    requirements: {
+      id: [
+        "Terbuka untuk mahasiswa minoritas berprestasi luar biasa",
+        "Memenuhi kriteria kelayakan finansial Pell Grant",
+        "IPK minimal 3.30 dari skala 4.00 dan aktif berorganisasi"
+      ],
+      en: [
+        "Open to outstanding minority students with excellent academic records",
+        "Meet Pell Grant financial eligibility criteria",
+        "Minimum GPA of 3.30 on a 4.00 scale and active in community leadership"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-01-15",
+    applicationUrl: "https://gmsp.org/",
+    description: {
+      id: "Beasiswa penuh prestisius dari yayasan Gates untuk mendukung pendidikan tinggi mahasiswa minoritas berprestasi di Amerika Serikat.",
+      en: "Prestigious full scholarship funded by the Gates Foundation supporting undergraduate higher education for minority leaders in the US."
+    },
+    tags: {
+      id: [
+        "Yayasan",
+        "Luar Negeri",
+        "Amerika Serikat",
+        "Prestisius"
+      ],
+      en: [
+        "Foundation",
+        "Overseas",
+        "United States",
+        "Prestigious"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-bakti-tani",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Bakti Tani",
+      en: "Bakti Tani Scholarship"
+    },
+    provider: {
+      id: "TaniFoundation (Yayasan Tani)",
+      en: "TaniFoundation (Tani Foundation)"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Uang kuliah tunggal (UKT) penuh hingga lulus (maksimal 8 semester)",
+        "Tunjangan pengembangan kapasitas soft skills bertema pertanian modern",
+        "Jejaring dengan komunitas petani binaan TaniHub Group"
+      ],
+      en: [
+        "Full tuition fees (UKT) coverage until graduation (max 8 semesters)",
+        "Soft skills development training in modern agricultural innovation",
+        "Networking with agricultural community networks guided by TaniHub Group"
+      ]
+    },
+    requirements: {
+      id: [
+        "Anak petani atau memiliki ketertarikan kuat di bidang pertanian",
+        "Mahasiswa aktif S1/D4 jurusan pertanian, teknologi pangan, peternakan, perikanan, kehutanan, atau agronomi",
+        "IPK minimal 3.00 dan aktif berorganisasi"
+      ],
+      en: [
+        "Child of a farmer or demonstrate strong interest in agriculture",
+        "Active student in agriculture, food tech, animal husbandry, fisheries, forestry, or agronomy majors",
+        "Minimum GPA of 3.00 and active in student organizations"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-08-15",
+    applicationUrl: "https://tanifoundation.org/",
+    description: {
+      id: "Beasiswa dari TaniFoundation untuk mencetak generasi muda inovatif yang memajukan sektor pertanian modern di Indonesia.",
+      en: "TaniFoundation scholarship supporting innovative youth leaders in modernizing Indonesia's agricultural sector."
+    },
+    tags: {
+      id: [
+        "Yayasan",
+        "Dalam Negeri",
+        "Pertanian",
+        "S1"
+      ],
+      en: [
+        "Foundation",
+        "Domestic",
+        "Agriculture",
+        "Undergraduate"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-maybank-finance",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Maybank Indonesia Finance",
+      en: "Maybank Indonesia Finance Scholarship"
+    },
+    provider: {
+      id: "PT Maybank Indonesia Finance",
+      en: "PT Maybank Indonesia Finance"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan pembiayaan biaya UKT kuliah sebesar Rp 4.000.000 per semester",
+        "Kesempatan program magang eksklusif di kantor cabang Maybank Finance"
+      ],
+      en: [
+        "Educational allowance contribution of IDR 4,000,000 per semester",
+        "Exclusive internship opportunities at Maybank Finance branch offices"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif jenjang S1 semester 4 sampai 6 dari semua jurusan",
+        "IPK minimal 3.00 (PTN) atau 3.20 (PTS) dari skala 4.00",
+        "Tidak sedang menerima beasiswa dari institusi lain"
+      ],
+      en: [
+        "Active undergraduate student in 4th to 6th semester from any major",
+        "Minimum GPA of 3.00 (State) or 3.20 (Private) on a 4.00 scale",
+        "Not currently receiving other scholarships from other institutions"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-30",
+    applicationUrl: "https://maybankfinance.co.id/",
+    description: {
+      id: "Bantuan finansial beasiswa dari Maybank Finance untuk meringankan biaya kuliah mahasiswa berprestasi di perguruan tinggi Indonesia.",
+      en: "Financial scholarship assistance provided by Maybank Finance for high-achieving undergraduate students in Indonesia."
+    },
+    tags: {
+      id: [
+        "Perusahaan",
+        "Dalam Negeri",
+        "Finansial"
+      ],
+      en: [
+        "Company",
+        "Domestic",
+        "Financial Support"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemuda-tangguh-sby",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemuda Tangguh Surabaya",
+      en: "Surabaya Pemuda Tangguh Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kota Surabaya",
+      en: "Surabaya City Government"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bantuan biaya kuliah (UKT) penuh hingga lulus sesuai ketentuan",
+        "Tunjangan bulanan berupa uang saku dan bantuan kebutuhan kuliah"
+      ],
+      en: [
+        "Full tuition fee (UKT) coverage until graduation based on rules",
+        "Monthly stipend allowance for student basic educational needs"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga Kota Surabaya asli dibuktikan dengan KTP Surabaya",
+        "Mahasiswa aktif S1 di perguruan tinggi negeri mitra Pemkot Surabaya",
+        "Mempunyai IPK minimal 3.00 dan masuk kategori keluarga pra-sejahtera (Masyarakat Berpenghasilan Rendah/MBR)"
+      ],
+      en: [
+        "Surabaya resident holding a Surabaya ID card",
+        "Active S1 student at a state university partner of Surabaya government",
+        "Minimum GPA of 3.00 and classified under low-income family database (MBR)"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-07-20",
+    applicationUrl: "https://sharia.surabaya.go.id/",
+    description: {
+      id: "Program beasiswa Pemkot Surabaya untuk memastikan akses pendidikan tinggi bagi pemuda Surabaya dari keluarga pra-sejahtera.",
+      en: "Surabaya City Government's full tuition scholarship ensuring higher education access for local underprivileged youth."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Surabaya",
+        "Daerah"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Surabaya",
+        "Regional"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-kompas-kg",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Kompas Gramedia (KG Scholarship)",
+      en: "Kompas Gramedia Scholarship (KG Scholarship)"
+    },
+    provider: {
+      id: "Kompas Gramedia Group",
+      en: "Kompas Gramedia Group"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh (tuition fee) hingga kelulusan",
+        "Tunjangan uang saku bulanan dan bantuan buku tahunan",
+        "Kesempatan magang di media jaringan KG Group"
+      ],
+      en: [
+        "Full tuition fees coverage paid to host university until graduation",
+        "Monthly stipend allowance and annual book support contribution",
+        "Internship opportunities in KG Group media networks"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif S1 semester 4 dari jurusan terkait (Komunikasi, Jurnalistik, Desain, IT, dll)",
+        "IPK minimal 3.25 dan aktif di kepengurusan pers mahasiswa atau organisasi",
+        "Lolos seleksi uji kompetensi menulis/portofolio karya kreatif Kompas"
+      ],
+      en: [
+        "Active undergraduate in 4th semester majoring in Communication, Journalism, Design, IT, etc.",
+        "Minimum GPA of 3.25 and active in student press or campus organizations",
+        "Pass Kompas's writing competency or creative portfolio selection test"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-08-30",
+    applicationUrl: "https://www.kompas.com/",
+    description: {
+      id: "Beasiswa penuh dari KG Group untuk mendukung calon jurnalis, analis data media, dan kreator konten masa depan di Indonesia.",
+      en: "KG Group's full scholarship program supporting future journalists, media analysts, and creative content creators in Indonesia."
+    },
+    tags: {
+      id: [
+        "Perusahaan",
+        "Dalam Negeri",
+        "Jurnalistik",
+        "Magang"
+      ],
+      en: [
+        "Company",
+        "Domestic",
+        "Journalism",
+        "Internship"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pusri",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pusri (Pupuk Sriwidjaja)",
+      en: "Pusri Scholarship (Pupuk Sriwidjaja)"
+    },
+    provider: {
+      id: "PT Pupuk Sriwidjaja Palembang",
+      en: "PT Pupuk Sriwidjaja Palembang"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bantuan biaya kuliah penuh per semester (s/d semester 8)",
+        "Tunjangan biaya hidup tahunan komprehensif",
+        "Program pendampingan kepemimpinan dari manajemen Pusri"
+      ],
+      en: [
+        "Full semester tuition fee coverage (up to semester 8)",
+        "Comprehensive annual living costs allowance contribution",
+        "Leadership mentoring program by Pusri management team"
+      ]
+    },
+    requirements: {
+      id: [
+        "Berasal dari keluarga pra-sejahtera di sekitar wilayah operasional PT Pusri (Sumatera Selatan)",
+        "Mahasiswa aktif S1 semester 2 di perguruan tinggi negeri mitra",
+        "IPK minimal 3.00 dari skala 4.00 dan berkelakuan baik"
+      ],
+      en: [
+        "Belong to low-income families around PT Pusri's operational area (South Sumatra)",
+        "Active undergraduate in 2nd semester at partner state universities",
+        "Minimum GPA of 3.00 on a 4.00 scale and good conduct record"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-10",
+    applicationUrl: "https://www.pusri.co.id/",
+    description: {
+      id: "Program beasiswa CSR kemitraan Pusri untuk membiayai kuliah putra-putri berprestasi dari keluarga kurang mampu di Sumatera Selatan.",
+      en: "Pusri's partnership CSR scholarship supporting underprivileged South Sumatran students in completing university education."
+    },
+    tags: {
+      id: [
+        "Perusahaan",
+        "Dalam Negeri",
+        "Sumatera Selatan",
+        "Bantuan Sosial"
+      ],
+      en: [
+        "Company",
+        "Domestic",
+        "South Sumatra",
+        "Social Aid"
       ]
     }
   }
