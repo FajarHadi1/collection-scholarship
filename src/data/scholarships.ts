@@ -7930,5 +7930,631 @@ export const scholarships: Scholarship[] = [
         "Social Aid"
       ]
     }
+  },
+  {
+    id: "telkom-university-opes",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Telkom University OPES",
+      en: "Telkom University OPES Scholarship"
+    },
+    provider: {
+      id: "Telkom University",
+      en: "Telkom University"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh (biaya pendidikan) hingga lulus (8 semester)",
+        "Akses ke fasilitas laboratorium dan program inkubasi startup mahasiswa Telkom"
+      ],
+      en: [
+        "Full tuition fees waiver coverage until graduation (8 semesters)",
+        "Access to laboratory facilities and Telkom student startup incubation programs"
+      ]
+    },
+    requirements: {
+      id: [
+        "Lulusan SMA/SMK/sederajat dengan nilai rapor rata-rata minimal 80",
+        "Lolos ujian seleksi masuk jalur khusus beasiswa OPES Telkom",
+        "Menunjukkan prestasi akademik atau non-akademik di tingkat nasional"
+      ],
+      en: [
+        "High school graduate with minimum average report card score of 80",
+        "Pass Telkom's special OPES scholarship entrance examination",
+        "Demonstrate academic or non-academic achievements at the national level"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-08-15",
+    applicationUrl: "https://smb.telkomuniversity.ac.id/",
+    description: {
+      id: "Beasiswa prestasi penuh dari Telkom University untuk menjaring calon mahasiswa cerdas di bidang teknologi informasi dan komunikasi.",
+      en: "Telkom University's premier full scholarship program seeking outstanding student candidates in information and communications technology."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Dalam Negeri",
+        "Teknologi",
+        "S1"
+      ],
+      en: [
+        "University",
+        "Domestic",
+        "Technology",
+        "Undergraduate"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-mtf",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Mandiri Tunas Finance",
+      en: "Mandiri Tunas Finance Scholarship"
+    },
+    provider: {
+      id: "PT Mandiri Tunas Finance (MTF)",
+      en: "PT Mandiri Tunas Finance (MTF)"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan biaya kuliah per semester untuk menunjang pendidikan",
+        "Kesempatan program pelatihan kepemimpinan eksklusif di MTF",
+        "Jalur khusus rekrutmen karir di MTF setelah kelulusan"
+      ],
+      en: [
+        "Educational allowance contribution per semester",
+        "Exclusive leadership development training program at MTF",
+        "Priority career recruitment pathways at MTF after graduation"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif S1 semester 4 sampai 6 dari universitas mitra",
+        "IPK minimal 3.00 dari skala 4.00",
+        "Aktif berorganisasi dan tidak sedang menerima beasiswa lain"
+      ],
+      en: [
+        "Active undergraduate student in 4th to 6th semester at partner universities",
+        "Minimum GPA of 3.00 on a 4.00 scale",
+        "Active in student organizations and not receiving other scholarships"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-10",
+    applicationUrl: "https://www.mtf.co.id/",
+    description: {
+      id: "Program beasiswa CSR dari Mandiri Tunas Finance untuk membekali mahasiswa dengan kemampuan kepemimpinan dan kesiapan dunia kerja.",
+      en: "CSR scholarship program by Mandiri Tunas Finance equipping students with leadership capabilities and career readiness."
+    },
+    tags: {
+      id: [
+        "Perusahaan",
+        "Dalam Negeri",
+        "Kepemimpinan",
+        "Karir"
+      ],
+      en: [
+        "Company",
+        "Domestic",
+        "Leadership",
+        "Career"
+      ]
+    }
+  },
+  {
+    id: "samsung-innovation-campus",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Samsung Innovation Campus (SIC)",
+      en: "Samsung Innovation Campus (SIC)"
+    },
+    provider: {
+      id: "Samsung Electronics Indonesia",
+      en: "Samsung Electronics Indonesia"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pelatihan coding gratis (Python, AI, IoT, Web Dev) bersertifikat internasional",
+        "Hibah dana proyek teknologi bagi tim pemenang kompetisi",
+        "Pendampingan karir intensif dari mentor profesional"
+      ],
+      en: [
+        "Free coding training (Python, AI, IoT, Web Dev) with international certificates",
+        "Project funding grant for winning teams of the competition",
+        "Intensive career mentoring by tech professional mentors"
+      ]
+    },
+    requirements: {
+      id: [
+        "Siswa SMK/SMA sederajat kelas XI atau mahasiswa aktif S1/D4 tingkat awal",
+        "Memiliki ketertarikan tinggi di bidang teknologi dan sains komputer",
+        "Berkomitmen mengikuti seluruh rangkaian pelatihan secara daring hingga akhir"
+      ],
+      en: [
+        "Vocational/High school student in 11th grade or active early-stage undergraduate",
+        "Demonstrate strong interest in technology and computer science studies",
+        "Committed to attending the entire online training phase until completion"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-08-30",
+    applicationUrl: "https://www.samsung.com/id/samsung-innovation-campus/",
+    description: {
+      id: "Program CSR Samsung global untuk membekali generasi muda Indonesia dengan keahlian teknologi digital yang relevan dengan industri modern.",
+      en: "Samsung's global CSR program empowering Indonesian youth with essential digital technology and coding skills."
+    },
+    tags: {
+      id: [
+        "Perusahaan",
+        "Dalam Negeri",
+        "Teknologi",
+        "Coding"
+      ],
+      en: [
+        "Company",
+        "Domestic",
+        "Technology",
+        "Coding"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-tunas-unggul",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Tunas Unggul",
+      en: "Tunas Unggul Scholarship"
+    },
+    provider: {
+      id: "Yayasan Tunas Unggul",
+      en: "Tunas Unggul Foundation"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Uang kuliah tunggal (UKT) penuh hingga lulus sesuai masa studi normatif",
+        "Tunjangan biaya hidup bulanan tetap",
+        "Program pembinaan karakter kepemimpinan berkala"
+      ],
+      en: [
+        "Full tuition fee (UKT) coverage until graduation based on normative study period",
+        "Monthly living allowance stipend support",
+        "Regular character and leadership development training programs"
+      ]
+    },
+    requirements: {
+      id: [
+        "Lulusan SMA/SMK/sederajat berprestasi akademik tinggi namun kurang mampu secara finansial",
+        "Memiliki rekam kepemimpinan di organisasi sekolah atau masyarakat",
+        "Lolos seleksi berkas dan wawancara panel dari pengurus Yayasan"
+      ],
+      en: [
+        "High school graduate with outstanding academic achievements facing financial difficulties",
+        "Demonstrate leadership records in school or local community organizations",
+        "Pass document screening and panel interview selection by the Foundation"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-06-30",
+    applicationUrl: "http://tunasunggul.or.id/",
+    description: {
+      id: "Program beasiswa penuh dari Yayasan Tunas Unggul untuk membantu mahasiswa berprestasi dari keluarga kurang mampu meraih gelar sarjana.",
+      en: "Full undergraduate scholarship provided by Tunas Unggul Foundation supporting high-achieving underprivileged students."
+    },
+    tags: {
+      id: [
+        "Yayasan",
+        "Dalam Negeri",
+        "Sosial",
+        "S1"
+      ],
+      en: [
+        "Foundation",
+        "Domestic",
+        "Social Aid",
+        "Undergraduate"
+      ]
+    }
+  },
+  {
+    id: "mext-university-recommendation",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Pemerintah Jepang MEXT (Rekomendasi Universitas)",
+      en: "MEXT Scholarship (University Recommendation)"
+    },
+    provider: {
+      id: "Kementerian Pendidikan, Kebudayaan, Olahraga, Sains, dan Teknologi Jepang (MEXT)",
+      en: "Ministry of Education, Culture, Sports, Science and Technology Japan (MEXT)"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bebas biaya kuliah penuh (tuition fee) di universitas penerima di Jepang",
+        "Tunjangan biaya hidup bulanan JPY 143.000 (S2) atau JPY 144.000 (S3)",
+        "Tiket pesawat kelas ekonomi internasional pulang-pergi"
+      ],
+      en: [
+        "Full tuition fees waiver coverage at host Japanese universities",
+        "Monthly living allowance JPY 143,000 (Master) or JPY 144,000 (PhD)",
+        "Economy-class international round-trip airfare"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara non-Jepang (terbuka untuk WNI)",
+        "Direkomendasikan secara resmi oleh universitas di Jepang tempat Anda mendaftar",
+        "Memiliki IPK minimal setara dengan 2.30 dari skala 3.00 standar MEXT"
+      ],
+      en: [
+        "Non-Japanese citizen (including Indonesian)",
+        "Officially recommended by the host university in Japan you are applying to",
+        "Minimum GPA equivalent to 2.30 on a 3.00 scale based on MEXT calculations"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-11-30",
+    applicationUrl: "https://www.studyinjapan.go.jp/en/planning/scholarship/",
+    description: {
+      id: "Program beasiswa penuh pemerintah Jepang melalui jalur seleksi rekomendasi universitas untuk studi pascasarjana di Jepang.",
+      en: "Japan government's fully funded postgraduate scholarship program selected through direct Japanese university recommendation."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Luar Negeri",
+        "Jepang",
+        "Asia"
+      ],
+      en: [
+        "Government",
+        "Overseas",
+        "Japan",
+        "Asia"
+      ]
+    }
+  },
+  {
+    id: "questbridge-college-match",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa QuestBridge National College Match (AS)",
+      en: "QuestBridge National College Match Scholarship (US)"
+    },
+    provider: {
+      id: "QuestBridge Foundation",
+      en: "QuestBridge Foundation"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Uang kuliah penuh, asrama gratis, biaya makan, dan biaya operasional lainnya selama 4 tahun",
+        "Tanpa biaya pinjaman siswa (no student loans)"
+      ],
+      en: [
+        "Full tuition fees, free room and board, meal plans, and academic supplies for 4 years",
+        "Completely loan-free financial aid package (no student loans)"
+      ]
+    },
+    requirements: {
+      id: [
+        "Siswa SMA kelas XII berprestasi akademis luar biasa se-dunia",
+        "Menunjukkan keterbatasan ekonomi finansial keluarga yang signifikan",
+        "Lolos seleksi esai kompetitif dan rekomendasi dari sekolah"
+      ],
+      en: [
+        "Outstanding high school senior academic records globally",
+        "Demonstrate significant and verified family financial need",
+        "Pass competitive essays and academic counselor recommendations selection"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-09-25",
+    applicationUrl: "https://www.questbridge.org/",
+    description: {
+      id: "Program beasiswa penuh prestisius berbasis kebutuhan finansial bagi siswa SMA berprestasi luar biasa untuk kuliah di universitas top Amerika Serikat.",
+      en: "QuestBridge's highly prestigious need-and-merit-based full scholarship matching top high school graduates with elite US universities."
+    },
+    tags: {
+      id: [
+        "Yayasan",
+        "Luar Negeri",
+        "Amerika Serikat",
+        "Prestisius"
+      ],
+      en: [
+        "Foundation",
+        "Overseas",
+        "United States",
+        "Prestigious"
+      ]
+    }
+  },
+  {
+    id: "amgen-scholars-program",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Riset Musim Panas Amgen Scholars",
+      en: "Amgen Scholars Summer Research Program"
+    },
+    provider: {
+      id: "Amgen Foundation",
+      en: "Amgen Foundation"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Biaya penuh keikutsertaan laboratorium riset musim panas (8-10 minggu)",
+        "Tunjangan uang saku biaya hidup musim panas",
+        "Akomodasi perumahan gratis dan tiket pesawat pulang-pergi ke institusi penyelenggara"
+      ],
+      en: [
+        "Full program costs for 8-10 weeks summer research laboratory participation",
+        "Summer living stipend allowance support",
+        "Free housing accommodation and round-trip airfare to hosting institution"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif S1 dari seluruh dunia yang terdaftar di bidang sains/STEM",
+        "Telah menyelesaikan minimal tahun pertama kuliah sarjana",
+        "IPK tinggi setara di atas 3.20 skala 4.00 dan memiliki rekam minat riset sains"
+      ],
+      en: [
+        "Active undergraduate student globally enrolled in science/STEM fields",
+        "Completed at least the first year of undergraduate studies",
+        "High GPA equivalent above 3.20 on a 4.00 scale and interest in scientific research"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-02-01",
+    applicationUrl: "https://amgenscholars.com/",
+    description: {
+      id: "Beasiswa magang riset musim panas bergengsi di universitas top dunia (seperti Harvard, UTokyo, Cambridge) untuk calon ilmuwan masa depan.",
+      en: "Highly prestigious summer research internship scholarship at world-class institutions (Harvard, UTokyo, Cambridge) for future scientists."
+    },
+    tags: {
+      id: [
+        "Yayasan",
+        "Luar Negeri",
+        "Riset",
+        "Musim Panas",
+        "STEM"
+      ],
+      en: [
+        "Foundation",
+        "Overseas",
+        "Research",
+        "Summer",
+        "STEM"
+      ]
+    }
+  },
+  {
+    id: "clark-presidents-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Clark University President's Scholarship (AS)",
+      en: "Clark University President's Scholarship (US)"
+    },
+    provider: {
+      id: "Clark University (Amerika Serikat)",
+      en: "Clark University (United States)"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bebas biaya kuliah penuh 100% selama 4 tahun studi sarjana",
+        "Tunjangan operasional buku dan penunjang pendidikan tahunan"
+      ],
+      en: [
+        "100% full tuition fee waiver coverage for 4 years of undergraduate study",
+        "Annual educational operational and book allowance support contribution"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional berprestasi akademik luar biasa (termasuk Indonesia)",
+        "Menunjukkan kapasitas kepemimpinan di sekolah dan komitmen kontribusi global",
+        "Mengajukan esai khusus beasiswa presiden pada saat pendaftaran universitas"
+      ],
+      en: [
+        "International students demonstrating highest academic excellence (including Indonesia)",
+        "Show strong leadership potential and commitment to global community contribution",
+        "Submit a dedicated presidential scholarship essay during university application"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-01-15",
+    applicationUrl: "https://www.clarku.edu/offices/financial-aid/scholarships/",
+    description: {
+      id: "Beasiswa prestasi penuh dari Universitas Clark bagi mahasiswa internasional terbaik dengan jiwa kepemimpinan global yang tinggi.",
+      en: "Clark University's premier full tuition merit-based scholarship for top international undergraduate candidates with global leadership potential."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Amerika Serikat",
+        "Prestasi"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "United States",
+        "Academic Merit"
+      ]
+    }
+  },
+  {
+    id: "inlaks-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Inlaks Shivdasani Foundation",
+      en: "Inlaks Shivdasani Foundation Scholarship"
+    },
+    provider: {
+      id: "Inlaks Shivdasani Foundation (India/UK)",
+      en: "Inlaks Shivdasani Foundation (India/UK)"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Uang kuliah penuh, tunjangan biaya hidup bulanan, dan tiket pesawat ekonomi pulang-pergi ke universitas mitra di UK, AS, atau Eropa",
+        "Asuransi kesehatan lengkap"
+      ],
+      en: [
+        "Full tuition fees, monthly living stipend, and economy-class round-trip airfare to partner universities in UK, US, or Europe",
+        "Comprehensive health insurance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara asing berprestasi akademik luar biasa",
+        "Berusia di bawah 30 tahun pada tahun pendaftaran",
+        "Memiliki LoA (Letter of Admission) dari universitas terkemuka di luar negeri"
+      ],
+      en: [
+        "International student with exceptional academic records",
+        "Under 30 years old by the application year",
+        "Hold a Letter of Admission (LoA) from top-tier foreign universities"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-03-30",
+    applicationUrl: "https://www.inlaksfoundation.org/",
+    description: {
+      id: "Beasiswa penuh pascasarjana dari yayasan Inlaks untuk mahasiswa berbakat luar biasa guna menempuh studi di universitas top dunia.",
+      en: "Fully funded graduate scholarships by the Inlaks Foundation supporting top-tier talented students globally."
+    },
+    tags: {
+      id: [
+        "Yayasan",
+        "Luar Negeri",
+        "Pascasarjana",
+        "Prestisius"
+      ],
+      en: [
+        "Foundation",
+        "Overseas",
+        "Postgraduate",
+        "Prestigious"
+      ]
+    }
+  },
+  {
+    id: "bca-solusi-pintar",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Bakti BCA Solusi Pintar",
+      en: "Bakti BCA Solusi Pintar Scholarship"
+    },
+    provider: {
+      id: "PT Bank Central Asia Tbk (BCA)",
+      en: "PT Bank Central Asia Tbk (BCA)"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bantuan dana kuliah penuh (UKT/SPP) semester berjalan",
+        "Tunjangan biaya hidup bulanan dan bantuan buku tahunan",
+        "Pelatihan pengembangan diri dan soft skills berkala"
+      ],
+      en: [
+        "Full tuition fee (UKT/SPP) coverage for active semesters",
+        "Monthly living allowance and annual academic book support stipend",
+        "Regular self-development and soft skills training programs"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif jenjang S1 semester 4 dari universitas mitra Bakti BCA",
+        "IPK minimal 3.00 dari skala 4.00 dan dipertahankan",
+        "Menunjukkan keterbatasan finansial dibuktikan dengan dokumen resmi"
+      ],
+      en: [
+        "Active undergraduate student in 4th semester at Bakti BCA partner universities",
+        "Minimum GPA of 3.00 on a 4.00 scale and maintained",
+        "Demonstrate financial need supported by official documents"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-08-15",
+    applicationUrl: "https://www.bca.co.id/en/tentang-bca/Corporate-Social-Responsibility/bakti-bca/",
+    description: {
+      id: "Program beasiswa CSR Bakti BCA untuk membantu biaya kuliah mahasiswa berprestasi yang menghadapi kendala finansial.",
+      en: "Bakti BCA's CSR scholarship program supporting high-achieving undergraduate students facing financial difficulties."
+    },
+    tags: {
+      id: [
+        "Perusahaan",
+        "Dalam Negeri",
+        "BCA",
+        "Finansial"
+      ],
+      en: [
+        "Company",
+        "Domestic",
+        "BCA",
+        "Financial Support"
+      ]
+    }
   }
 ];
