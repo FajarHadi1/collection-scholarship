@@ -8535,7 +8535,7 @@ export const scholarships: Scholarship[] = [
         "Demonstrate financial need supported by official documents"
       ]
     },
-    status: 'soon',
+    status: 'closed',
     deadline: "2026-08-15",
     applicationUrl: "https://www.bca.co.id/en/tentang-bca/Corporate-Social-Responsibility/bakti-bca/",
     description: {
@@ -8554,6 +8554,623 @@ export const scholarships: Scholarship[] = [
         "Domestic",
         "BCA",
         "Financial Support"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-ppa",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Peningkatan Prestasi Akademik (PPA)",
+      en: "Academic Achievement Enhancement (PPA) Scholarship"
+    },
+    provider: {
+      id: "Kementerian Pendidikan dan Kebudayaan RI",
+      en: "Ministry of Education and Culture of the Republic of Indonesia"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan finansial biaya pendidikan tunai bulanan selama 1-2 semester",
+        "Penghargaan prestasi akademik tingkat nasional"
+      ],
+      en: [
+        "Monthly cash educational financial assistance for 1-2 semesters",
+        "National-level academic achievement merit award"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif jenjang S1/D4/D3 minimal semester 2",
+        "IPK minimal 3.00 dari skala 4.00 dan dipertahankan",
+        "Mengajukan berkas prestasi akademik serta surat rekomendasi dekan fakultas"
+      ],
+      en: [
+        "Active undergraduate or diploma student in at least 2nd semester",
+        "Minimum GPA of 3.00 on a 4.00 scale and maintained",
+        "Submit academic achievement portfolio and faculty dean recommendation letter"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-08-30",
+    applicationUrl: "https://kemdikbud.go.id/",
+    description: {
+      id: "Bantuan dana prestasi akademis dari pemerintah Indonesia untuk mengapresiasi mahasiswa berprestasi di perguruan tinggi negeri maupun swasta.",
+      en: "Academic merit scholarship from the Indonesian government supporting high-achieving university students nationwide."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Prestasi",
+        "S1"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Academic Merit",
+        "Undergraduate"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-yayasan-salim",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Yayasan Salim",
+      en: "Yayasan Salim Scholarship"
+    },
+    provider: {
+      id: "Yayasan Salim (Salim Group)",
+      en: "Yayasan Salim (Salim Group)"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan finansial biaya pendidikan (UKT) tahunan hingga lulus sesuai ketentuan",
+        "Program pembinaan soft skills berkala"
+      ],
+      en: [
+        "Annual financial tuition fee (UKT) assistance until graduation based on rules",
+        "Regular capacity building and soft skills training programs"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif S1 dari perguruan tinggi negeri mitra Yayasan Salim",
+        "IPK minimal 3.00 (jurusan eksakta) atau 3.25 (jurusan non-eksakta)",
+        "Berasal dari keluarga pra-sejahtera dibuktikan dengan surat keterangan tidak mampu (SKTM)"
+      ],
+      en: [
+        "Active undergraduate student at Salim Foundation partner state universities",
+        "Minimum GPA of 3.00 (science majors) or 3.25 (social/art majors)",
+        "Come from low-income families supported by official financial need documents"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-15",
+    applicationUrl: "https://www.salimgroup.com/",
+    description: {
+      id: "Program beasiswa CSR dari grup perusahaan Salim untuk meringankan beban finansial mahasiswa berprestasi di Indonesia.",
+      en: "CSR scholarship program by Salim Group supporting high-achieving undergraduate students facing financial constraints."
+    },
+    tags: {
+      id: [
+        "Perusahaan",
+        "Dalam Negeri",
+        "Yayasan",
+        "Bantuan Sosial"
+      ],
+      en: [
+        "Company",
+        "Domestic",
+        "Foundation",
+        "Social Aid"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-bank-danamon",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Bank Danamon",
+      en: "Bank Danamon Scholarship"
+    },
+    provider: {
+      id: "PT Bank Danamon Indonesia Tbk",
+      en: "PT Bank Danamon Indonesia Tbk"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan biaya pendidikan UKT per semester selama 1 tahun akademik",
+        "Kesempatan magang di kantor wilayah Bank Danamon",
+        "Prioritas rekrutmen karir setelah kelulusan"
+      ],
+      en: [
+        "Tuition fee (UKT) allowance support per semester for 1 academic year",
+        "Internship opportunities at Bank Danamon regional offices",
+        "Priority recruitment career path after graduation"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif S1 semester 4 atau 6 dari semua jurusan",
+        "IPK minimal 3.25 dari skala 4.00 dan aktif berorganisasi",
+        "Tidak sedang menerima beasiswa lain dari pihak luar"
+      ],
+      en: [
+        "Active undergraduate student in 4th or 6th semester from any major",
+        "Minimum GPA of 3.25 on a 4.00 scale and active in student organizations",
+        "Not currently receiving other scholarships from external institutions"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-30",
+    applicationUrl: "https://www.danamon.co.id/",
+    description: {
+      id: "Bantuan finansial beasiswa CSR dari Bank Danamon untuk mendukung pendidikan tinggi mahasiswa berprestasi dan berkarakter kepemimpinan.",
+      en: "CSR financial scholarship by Bank Danamon supporting high-achieving undergraduate students with leadership qualities."
+    },
+    tags: {
+      id: [
+        "Perusahaan",
+        "Dalam Negeri",
+        "Finansial",
+        "Karir"
+      ],
+      en: [
+        "Company",
+        "Domestic",
+        "Financial Support",
+        "Career"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-bawaku-bandung",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Bawaku (Pemerintah Kota Bandung)",
+      en: "Bawaku Scholarship (Bandung City Government)"
+    },
+    provider: {
+      id: "Pemerintah Kota Bandung",
+      en: "Bandung City Government"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bantuan biaya SPP/UKT pendidikan penuh semester berjalan",
+        "Dukungan biaya perlengkapan operasional sekolah/kuliah tahunan"
+      ],
+      en: [
+        "Full tuition fee (SPP/UKT) coverage for active semesters",
+        "Annual school/college operational supplies and equipment support allowance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga Kota Bandung asli dibuktikan dengan KTP dan Kartu Keluarga Bandung",
+        "Mahasiswa aktif jenjang S1 di perguruan tinggi negeri/swasta mitra Pemkot Bandung",
+        "Terdaftar dalam database warga miskin (DTKS) Kota Bandung"
+      ],
+      en: [
+        "Bandung resident holding a Bandung ID and Family Card",
+        "Active S1 student at a state or private university partner of Bandung government",
+        "Registered under Bandung city's low-income family database (DTKS)"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-07-20",
+    applicationUrl: "https://bandung.go.id/",
+    description: {
+      id: "Program jaminan pendidikan daerah dari Pemkot Bandung untuk membantu biaya sekolah/kuliah warga Bandung berprestasi dari keluarga kurang mampu.",
+      en: "Bandung City Government's educational financial assistance program supporting local underprivileged students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Bandung",
+        "Daerah"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Bandung",
+        "Regional"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-gudang-garam",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Gudang Garam",
+      en: "Gudang Garam Scholarship"
+    },
+    provider: {
+      id: "PT Gudang Garam Tbk",
+      en: "PT Gudang Garam Tbk"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana pendidikan SPP/UKT per semester hingga lulus (semester 8)",
+        "Kesempatan program magang industri di pabrik Gudang Garam"
+      ],
+      en: [
+        "Tuition fee allowance support per semester until graduation (semester 8)",
+        "Industrial internship program opportunities at Gudang Garam manufacturing sites"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif S1 semester 4 dari perguruan tinggi mitra (terutama wilayah Jawa Timur)",
+        "IPK minimal 3.00 skala 4.00",
+        "Berasal dari jurusan teknik, pertanian, sains, atau ekonomi bisnis"
+      ],
+      en: [
+        "Active undergraduate in 4th semester at partner universities (primarily East Java)",
+        "Minimum GPA of 3.00 on a 4.00 scale",
+        "Majoring in engineering, agriculture, science, or economics/business fields"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-08-25",
+    applicationUrl: "https://www.gudanggaramtbk.com/",
+    description: {
+      id: "Program beasiswa CSR Gudang Garam untuk menyokong biaya kuliah mahasiswa berprestasi khususnya di bidang teknik dan sains industri.",
+      en: "Gudang Garam's CSR scholarship program supporting high-achieving undergraduate students majoring in engineering and sciences."
+    },
+    tags: {
+      id: [
+        "Perusahaan",
+        "Dalam Negeri",
+        "Jawa Timur",
+        "Finansial"
+      ],
+      en: [
+        "Company",
+        "Domestic",
+        "East Java",
+        "Financial Support"
+      ]
+    }
+  },
+  {
+    id: "sydney-international-strategic",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Strategis Internasional Universitas Sydney",
+      en: "University of Sydney International Strategic Scholarship"
+    },
+    provider: {
+      id: "University of Sydney (Australia)",
+      en: "University of Sydney (Australia)"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Biaya kuliah penuh untuk program riset pascasarjana (MRes/PhD)",
+        "Tunjangan biaya hidup tahunan senilai AUD 37.207",
+        "Dukungan biaya dana riset dan asuransi kesehatan asing (OSHC)"
+      ],
+      en: [
+        "Full tuition fees coverage for postgraduate research (MRes/PhD) programs",
+        "Annual living allowance stipend of AUD 37,207",
+        "Research expenses support and Overseas Student Health Cover (OSHC) coverage"
+      ]
+    },
+    requirements: {
+      id: [
+        "Memenuhi kriteria masuk riset pascasarjana di Universitas Sydney",
+        "Memiliki proposal penelitian yang luar biasa dengan supervisor riset yang setuju",
+        "Sertifikat kemahiran bahasa Inggris (IELTS minimal 6.5 atau setara)"
+      ],
+      en: [
+        "Meet University of Sydney's postgraduate research admission criteria",
+        "Outstanding research proposal with a confirmed research supervisor",
+        "English language proficiency certificate (IELTS min 6.5 or equivalent)"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-09-15",
+    applicationUrl: "https://www.sydney.edu.au/study/fees-scholarships/scholarships/",
+    description: {
+      id: "Beasiswa penuh riset bergengsi dari Universitas Sydney bagi peneliti muda internasional berprestasi akademik tinggi se-dunia.",
+      en: "University of Sydney's prestigious fully funded postgraduate research scholarship supporting top-tier international scholars."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Australia",
+        "Riset"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Australia",
+        "Research"
+      ]
+    }
+  },
+  {
+    id: "anu-chancellors-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa ANU Chancellor's International Scholarship (Australia)",
+      en: "ANU Chancellor's International Scholarship (Australia)"
+    },
+    provider: {
+      id: "Australian National University (ANU)",
+      en: "Australian National University (ANU)"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan biaya kuliah (tuition fee reduction) sebesar 25% atau 50% selama masa studi"
+      ],
+      en: [
+        "25% or 50% tuition fee reduction discount for the duration of the program"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional dari wilayah yang ditentukan (termasuk Indonesia) yang mendaftar ke ANU",
+        "Memenuhi semua persyaratan akademis masuk kuliah di ANU",
+        "Memiliki rekam akademis tertinggi di kelas sekolah/kampus sebelumnya"
+      ],
+      en: [
+        "International student from eligible regions (including Indonesia) applying to ANU",
+        "Meet all academic admission criteria for the selected program at ANU",
+        "Demonstrate top-tier academic records in previous school/university studies"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-10-15",
+    applicationUrl: "https://www.anu.edu.au/study/scholarships/",
+    description: {
+      id: "Beasiswa potongan biaya kuliah bergengsi dari Rektor ANU untuk menarik mahasiswa berprestasi global terbaik kuliah di Australia.",
+      en: "ANU's premier tuition fee discount scholarship awarded to top international students demonstrating academic merit."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Australia",
+        "Akademik"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Australia",
+        "Academic Merit"
+      ]
+    }
+  },
+  {
+    id: "unibo-study-grants",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Universitas Bologna (Unibo Action 1 & 2)",
+      en: "University of Bologna Study Grants (Unibo Action 1 & 2)"
+    },
+    provider: {
+      id: "University of Bologna (Italia)",
+      en: "University of Bologna (Italy)"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Tunjangan hidup tahunan bersih sebesar €11.059 (Unibo Action 2)",
+        "Pembebasan biaya kuliah penuh (Unibo Action 1) di Universitas Bologna"
+      ],
+      en: [
+        "Annual living stipend of €11,059 (Unibo Action 2)",
+        "Full tuition fees waiver coverage (Unibo Action 1) at University of Bologna"
+      ]
+    },
+    requirements: {
+      id: [
+        "Memiliki ijazah pendidikan non-Italia (terbuka untuk WNI)",
+        "Mengikuti tes seleksi internasional (SAT untuk S1, GRE untuk S2)",
+        "Berusia di bawah 30 tahun pada saat pendaftaran"
+      ],
+      en: [
+        "Hold a non-Italian educational qualification (open to Indonesian candidates)",
+        "Take international selection tests (SAT for Bachelor, GRE for Master)",
+        "Under 30 years old by the application deadline"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-04-30",
+    applicationUrl: "https://www.unibo.it/en/services-and-opportunities/study-grants-and-subsidies/",
+    description: {
+      id: "Beasiswa penuh dari universitas tertua di dunia, Universitas Bologna, bagi mahasiswa internasional berprestasi berdasarkan skor SAT/GRE.",
+      en: "Fully funded study grants and tuition waivers by the University of Bologna based on SAT or GRE scores."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Italia",
+        "Eropa"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Italy",
+        "Europe"
+      ]
+    }
+  },
+  {
+    id: "ghent-doctoral-fellowship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Doktoral Universitas Ghent (Belgia)",
+      en: "Ghent University Doctoral Fellowship (Belgium)"
+    },
+    provider: {
+      id: "Ghent University (Belgia)",
+      en: "Ghent University (Belgium)"
+    },
+    degreeLevels: [
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Tunjangan hidup bulanan Ph.D. senilai €2.200 selama 24 bulan (skema sandwich)",
+        "Dukungan biaya riset tahunan €310 dan kontribusi perjalanan pulang-pergi"
+      ],
+      en: [
+        "Monthly Ph.D. living allowance of €2,200 for 24 months (sandwich model)",
+        "Annual research expenses allowance of €310 and round-trip travel contribution"
+      ]
+    },
+    requirements: {
+      id: [
+        "Kandidat Ph.D. dari negara berkembang (termasuk Indonesia)",
+        "Melakukan riset skema sandwich (24 bulan di Ghent University, 24 bulan di universitas asal)",
+        "Didukung secara resmi oleh supervisor riset di Ghent University"
+      ],
+      en: [
+        "Ph.D. candidates from developing countries (including Indonesia)",
+        "Pursuing sandwich model research (24 months at Ghent, 24 months at home university)",
+        "Supported by a supervisor (promoter) at Ghent University"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-03-01",
+    applicationUrl: "https://www.ugent.be/en/research/funding/phd/ghent-university/",
+    description: {
+      id: "Beasiswa doktor skema sandwich dari Universitas Ghent untuk mendukung riset doktoral berkualitas tinggi dari kandidat negara berkembang.",
+      en: "Ghent University's sandwich doctoral fellowship supporting PhD research for candidates from developing countries."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Belgia",
+        "Eropa",
+        "Riset"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Belgium",
+        "Europe",
+        "Research"
+      ]
+    }
+  },
+  {
+    id: "ku-leuven-science-fellowship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Sains Science@Leuven (Belgia)",
+      en: "Science@Leuven Scholarship (Belgium)"
+    },
+    provider: {
+      id: "KU Leuven (Belgia)",
+      en: "KU Leuven (Belgium)"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan pendanaan biaya kuliah dan uang saku tahunan hingga €10.000 selama 1 tahun (dapat diperpanjang)"
+      ],
+      en: [
+        "Tuition fee subsidy and living allowance package up to €10,000 for 1 year (renewable)"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional berprestasi akademik luar biasa yang mendaftar ke program Master di Fakultas Sains KU Leuven",
+        "Sertifikat bahasa Inggris minimal IELTS 7.0 atau TOEFL iBT 94",
+        "Memiliki rekam jejak akademik tertinggi (IPK tinggi)"
+      ],
+      en: [
+        "Outstanding international students applying to Master programs in Faculty of Science at KU Leuven",
+        "English language certificate (IELTS min 7.0 or TOEFL iBT 94)",
+        "Demonstrate exceptional academic records (highest GPA)"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-02-15",
+    applicationUrl: "https://science.kuleuven.be/scholars/",
+    description: {
+      id: "Beasiswa prestasi dari Fakultas Sains KU Leuven untuk mendanai sebagian kuliah Master sains tingkat lanjut bagi mahasiswa terbaik dunia.",
+      en: "Science@Leuven scholarship supporting top international students in master's science programs at KU Leuven."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Belgia",
+        "Eropa",
+        "Sains"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Belgium",
+        "Europe",
+        "Science"
       ]
     }
   }
