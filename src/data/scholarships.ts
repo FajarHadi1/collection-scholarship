@@ -9589,7 +9589,7 @@ export const scholarships: Scholarship[] = [
         "English language proficiency certificate (IELTS min 6.5 or TOEFL iBT 87)"
       ]
     },
-    status: 'open',
+    status: 'closed',
     deadline: "2026-09-01",
     applicationUrl: "https://study.uq.edu.au/fees-scholarships/scholarships/",
     description: {
@@ -9797,6 +9797,648 @@ export const scholarships: Scholarship[] = [
         "Overseas",
         "Japan",
         "Research"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-kaltara-cerdas",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Kaltara Cerdas (Provinsi Kalimantan Utara)",
+      en: "Kaltara Cerdas Scholarship (North Kalimantan Province)"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Kalimantan Utara",
+      en: "Provincial Government of North Kalimantan"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan biaya pendidikan tahunan",
+        "Dukungan dana riset untuk tugas akhir"
+      ],
+      en: [
+        "Annual education financial assistance",
+        "Research funding support for final thesis"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga Negara Indonesia asal Kalimantan Utara",
+        "Mahasiswa aktif D3/D4/S1/S2/S3",
+        "IPK minimal 3.00 untuk jurusan eksakta atau 3.20 untuk sosial",
+        "Tidak sedang menerima beasiswa dari instansi lain"
+      ],
+      en: [
+        "Indonesian citizen from North Kalimantan",
+        "Active student of Diploma, Bachelor, Master, or Doctoral degree",
+        "Minimum GPA of 3.00 for science majors or 3.20 for social sciences",
+        "Not currently receiving any other scholarships"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-11-30",
+    applicationUrl: "https://kaltaraprov.go.id/",
+    description: {
+      id: "Beasiswa dari Pemerintah Provinsi Kalimantan Utara untuk membantu mahasiswa berprestasi dan kurang mampu dari Kaltara menempuh pendidikan tinggi.",
+      en: "Scholarship program by the Provincial Government of North Kalimantan to assist outstanding and underprivileged students from North Kalimantan in higher education."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Kaltara",
+        "Bantuan Biaya"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Kaltara",
+        "Financial Aid"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-minangkabau",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Minangkabau (Provinsi Sumatera Barat)",
+      en: "Minangkabau Scholarship (West Sumatra Province)"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Sumatera Barat",
+      en: "Provincial Government of West Sumatra"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana UKT per semester",
+        "Tunjangan buku dan alat tulis"
+      ],
+      en: [
+        "Tuition fee (UKT) assistance per semester",
+        "Book and stationary allowance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Memiliki KTP Sumatera Barat atau keturunan Minangkabau",
+        "Mahasiswa aktif di perguruan tinggi negeri atau swasta terakreditasi",
+        "IPK minimal 3.00 (skala 4.00)",
+        "Menulis esai kontribusi untuk kemajuan Sumatera Barat"
+      ],
+      en: [
+        "Hold West Sumatra ID card or be of Minangkabau descent",
+        "Active student at an accredited public or private university",
+        "Minimum GPA of 3.00 on a 4.00 scale",
+        "Submit an essay on contributing to the development of West Sumatra"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-30",
+    applicationUrl: "https://sumbarprov.go.id/",
+    description: {
+      id: "Program beasiswa Pemerintah Provinsi Sumatera Barat untuk mendukung peningkatan kapasitas SDM pemuda-pemudi berprestasi asal Minangkabau.",
+      en: "Scholarship program by the Provincial Government of West Sumatra to support capacity building for outstanding youth of Minangkabau descent."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Sumatera Barat",
+        "Daerah"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "West Sumatra",
+        "Regional"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkot-malang",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Mahasiswa Berprestasi Pemerintah Kota Malang",
+      en: "Malang Municipal Government Outstanding Student Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kota Malang",
+      en: "Malang City Government"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan biaya kuliah tahunan",
+        "Pelatihan kepemimpinan dan pengabdian masyarakat"
+      ],
+      en: [
+        "Annual tuition fee assistance",
+        "Leadership training and community service development"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga Kota Malang (dibuktikan dengan KTP/KK Kota Malang)",
+        "Mahasiswa aktif S1/D4 di perguruan tinggi di Malang",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi akademik/non-akademik nasional",
+        "IPK minimal 3.00 (akademik) atau 2.75 (non-akademik)"
+      ],
+      en: [
+        "Resident of Malang City (proven by Malang City ID/Family Card)",
+        "Active undergraduate student at a university in Malang",
+        "From an underprivileged family or have national academic/non-academic achievements",
+        "Minimum GPA of 3.00 (academic) or 2.75 (non-academic)"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-10-15",
+    applicationUrl: "https://malangkota.go.id/",
+    description: {
+      id: "Beasiswa Pemerintah Kota Malang untuk mendukung mahasiswa berprestasi dan kurang mampu yang berdomisili di Kota Malang.",
+      en: "Malang City Government scholarship to support outstanding and underprivileged undergraduate students residing in Malang City."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Malang",
+        "Sosial"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Malang",
+        "Social"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-banyuwangi-cerdas",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Banyuwangi Cerdas",
+      en: "Banyuwangi Cerdas Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Banyuwangi",
+      en: "Banyuwangi Regency Government"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Biaya kuliah penuh (UKT) sampai lulus (maksimal 8 semester)",
+        "Uang saku bulanan untuk kebutuhan hidup",
+        "Tunjangan buku dan alat penunjang belajar"
+      ],
+      en: [
+        "Full tuition fee (UKT) coverage until graduation (max 8 semesters)",
+        "Monthly living allowance",
+        "Book and learning support allowance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Kabupaten Banyuwangi (KTP/KK Banyuwangi)",
+        "Lulusan SMA/SMK/MA sederajat yang akan atau sedang menempuh studi S1",
+        "Berasal dari keluarga kurang mampu secara ekonomi",
+        "Berkomitmen mengabdi untuk kemajuan Banyuwangi setelah lulus"
+      ],
+      en: [
+        "Native resident of Banyuwangi Regency (Banyuwangi ID/Family Card)",
+        "High school graduate pursuing or planning to pursue a Bachelor's degree",
+        "From an economically disadvantaged family",
+        "Committed to serving the community in Banyuwangi upon graduation"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-20",
+    applicationUrl: "https://banyuwangikab.go.id/",
+    description: {
+      id: "Program beasiswa penuh dari Pemerintah Kabupaten Banyuwangi bagi anak-anak muda berprestasi dari keluarga kurang mampu untuk kuliah S1.",
+      en: "A full scholarship program by the Banyuwangi Regency Government for high-achieving youth from underprivileged families to pursue higher education."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Banyuwangi",
+        "Beasiswa Penuh"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Banyuwangi",
+        "Full Scholarship"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-bakti-bni",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Bakti BNI (Bank Negara Indonesia)",
+      en: "Bakti BNI Scholarship (Bank Negara Indonesia)"
+    },
+    provider: {
+      id: "PT Bank Negara Indonesia (Persero) Tbk",
+      en: "PT Bank Negara Indonesia (Persero) Tbk"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Biaya kuliah (UKT) penuh per semester",
+        "Uang saku bulanan sebesar Rp 1.000.000",
+        "Program mentorship profesional dengan karyawan BNI",
+        "Kesempatan magang dan rekrutmen prioritas setelah lulus"
+      ],
+      en: [
+        "Full tuition fee (UKT) coverage per semester",
+        "Monthly living allowance of Rp 1,000,000",
+        "Professional mentorship program with BNI employees",
+        "Internship opportunities and priority recruitment upon graduation"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif S1 semester 5 di universitas mitra BNI",
+        "IPK minimal 3.25 pada skala 4.00",
+        "Aktif berorganisasi dan memiliki kemampuan komunikasi yang baik",
+        "Tidak sedang menerima beasiswa lain"
+      ],
+      en: [
+        "Active 5th-semester undergraduate student in BNI partner universities",
+        "Minimum GPA of 3.25 on a 4.00 scale",
+        "Active in student organizations and possess excellent communication skills",
+        "Not currently receiving any other scholarships"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-10-31",
+    applicationUrl: "https://www.bni.co.id/",
+    description: {
+      id: "Program beasiswa CSR Bank Negara Indonesia untuk membantu biaya pendidikan dan pengembangan kepemimpinan mahasiswa sarjana berprestasi.",
+      en: "CSR scholarship program by Bank Negara Indonesia to support education costs and leadership development of outstanding undergraduate students."
+    },
+    tags: {
+      id: [
+        "Swasta",
+        "Dalam Negeri",
+        "Perbankan",
+        "BUMN"
+      ],
+      en: [
+        "Private",
+        "Domestic",
+        "Banking",
+        "SOE"
+      ]
+    }
+  },
+  {
+    id: "kyoto-university-iussp-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Program Sarjana Internasional Universitas Kyoto (iUSSP)",
+      en: "Kyoto University International Undergraduate Scholarship Program (iUSSP)"
+    },
+    provider: {
+      id: "Kyoto University, Jepang",
+      en: "Kyoto University, Japan"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Uang pendaftaran dan kuliah 100% dibebaskan",
+        "Tunjangan hidup bulanan JPY 120.000 selama 4 tahun",
+        "Tiket pesawat kelas ekonomi dari negara asal ke Jepang",
+        "Bantuan akomodasi tahun pertama di asrama universitas"
+      ],
+      en: [
+        "100% registration and tuition fees waiver",
+        "Monthly living stipend of JPY 120,000 for 4 years",
+        "Economy-class airfare from home country to Japan",
+        "Accommodation support in the university dormitory for the first year"
+      ]
+    },
+    requirements: {
+      id: [
+        "Bukan warga negara Jepang dan menyelesaikan pendidikan menengah atas di luar Jepang",
+        "Memenuhi kualifikasi masuk akademik program sarjana Universitas Kyoto",
+        "Kemampuan bahasa Inggris tingkat tinggi (IELTS minimal 6.5 / TOEFL iBT 90)"
+      ],
+      en: [
+        "Non-Japanese citizen who completed high school education outside Japan",
+        "Meet the academic admission requirements of Kyoto University undergraduate program",
+        "High English proficiency (minimum IELTS 6.5 or TOEFL iBT 90)"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-12-05",
+    applicationUrl: "https://www.kyoto-u.ac.jp/en/education-campus/undergraduate/iussp",
+    description: {
+      id: "Beasiswa bergengsi dari Universitas Kyoto untuk menarik siswa sekolah menengah internasional terbaik menempuh studi S1 di Jepang.",
+      en: "A prestigious scholarship by Kyoto University to attract outstanding international high school graduates to pursue bachelor's studies in Japan."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Jepang",
+        "Beasiswa Penuh"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Japan",
+        "Full Scholarship"
+      ]
+    }
+  },
+  {
+    id: "snu-gsfs-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Seoul National University GSFS (Korea Selatan)",
+      en: "Seoul National University GSFS (Graduate Scholarship for Excellent Foreign Students)"
+    },
+    provider: {
+      id: "Seoul National University, Korea Selatan",
+      en: "Seoul National University, South Korea"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bebas biaya kuliah penuh maksimal 4 semester",
+        "Tunjangan hidup bulanan minimal KRW 500.000",
+        "Asuransi kesehatan kelompok di Korea Selatan"
+      ],
+      en: [
+        "Full tuition fee waiver for up to 4 semesters",
+        "Monthly living allowance of minimum KRW 500,000",
+        "Group health insurance in South Korea"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara non-Korea (kedua orang tua juga bukan warga negara Korea)",
+        "Mendaftar program magister atau doktoral di Seoul National University",
+        "Berasal dari negara berkembang di wilayah Asia (termasuk Indonesia)",
+        "IPK sangat memuaskan dari jenjang studi sebelumnya"
+      ],
+      en: [
+        "Non-Korean citizen (neither applicant nor parents hold Korean citizenship)",
+        "Applying for a master's or doctoral program at Seoul National University",
+        "From a developing country in Asia (including Indonesia)",
+        "Excellent academic record/GPA from the previous level of study"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-10",
+    applicationUrl: "https://en.snu.ac.kr/admission",
+    description: {
+      id: "Beasiswa pascasarjana Seoul National University bagi mahasiswa asing berprestasi dari negara-negara berkembang Asia untuk riset lanjutan.",
+      en: "Seoul National University's graduate scholarship for outstanding international students from developing Asian countries to pursue advanced research."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Korea Selatan",
+        "Pascasarjana"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "South Korea",
+        "Graduate"
+      ]
+    }
+  },
+  {
+    id: "bristol-think-big-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Think Big Universitas Bristol (Inggris)",
+      en: "University of Bristol Think Big Scholarship (UK)"
+    },
+    provider: {
+      id: "University of Bristol, Inggris",
+      en: "University of Bristol, UK"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan biaya kuliah tahunan senilai £6.500, £13.000, atau £26.000",
+        "Undangan ke kegiatan pengembangan jaringan dan karir mahasiswa asing"
+      ],
+      en: [
+        "Tuition fee reduction of £6,500, £13,000, or £26,000 per year",
+        "Invitation to exclusive networking and career events for international students"
+      ]
+    },
+    requirements: {
+      id: [
+        "Dikategorikan sebagai mahasiswa asing dengan tarif biaya kuliah internasional",
+        "Telah mendaftar program sarjana atau magister penuh waktu di Universitas Bristol",
+        "Menunjukkan motivasi kuat dan pemikiran orisinal melalui esai pendaftaran"
+      ],
+      en: [
+        "Classified as an international student for fee-paying purposes",
+        "Applied to start a full-time undergraduate or postgraduate course at the University of Bristol",
+        "Demonstrate strong motivation and original thinking through the application essay"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-05-18",
+    applicationUrl: "https://www.bristol.ac.uk/international/fees-finance/scholarships/think-big/",
+    description: {
+      id: "Program beasiswa Universitas Bristol untuk mendukung mahasiswa internasional berbakat yang ingin membuat perubahan di tingkat global.",
+      en: "University of Bristol scholarship program designed to support talented international students who want to make a difference on a global scale."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Inggris",
+        "Bantuan Kuliah"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "UK",
+        "Tuition Support"
+      ]
+    }
+  },
+  {
+    id: "auckland-international-student-excellence-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Auckland International Student Excellence (Selandia Baru)",
+      en: "University of Auckland International Student Excellence Scholarship"
+    },
+    provider: {
+      id: "University of Auckland, Selandia Baru",
+      en: "University of Auckland, New Zealand"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan biaya kuliah hingga NZD 10.000 untuk tahun pertama"
+      ],
+      en: [
+        "Tuition fee offset of up to NZD 10,000 for the first year"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional baru yang mendaftar program gelar penuh",
+        "Memiliki prestasi akademik yang sangat memuaskan (setara IPK 3.50+)",
+        "Menunjukkan rencana studi yang jelas dan relevansi karir masa depan"
+      ],
+      en: [
+        "New international student enrolled in a full-time degree program",
+        "Outstanding academic performance (equivalent to GPA 3.50+)",
+        "Demonstrate a clear study plan and relevance to future career goals"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-11-20",
+    applicationUrl: "https://www.auckland.ac.nz/en/study/scholarships-and-awards/find-a-scholarship/auckland-international-student-excellence-scholarship.html",
+    description: {
+      id: "Beasiswa dari Universitas Auckland untuk mendukung mahasiswa internasional berprestasi akademik tinggi menempuh studi sarjana atau pascasarjana.",
+      en: "A scholarship by the University of Auckland to support high-achieving international students to pursue undergraduate or postgraduate studies."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Selandia Baru",
+        "Prestasi"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "New Zealand",
+        "Excellence"
+      ]
+    }
+  },
+  {
+    id: "swiss-government-excellence-postdoctoral-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Pemerintah Swiss untuk Penelitian Postdoctoral",
+      en: "Swiss Government Excellence Postdoctoral Scholarships"
+    },
+    provider: {
+      id: "Pemerintah Konfederasi Swiss",
+      en: "Federal Commission for Scholarships for Foreign Students (FCS), Switzerland"
+    },
+    degreeLevels: [
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Tunjangan biaya hidup bulanan senilai CHF 3.500 selama penelitian",
+        "Asuransi kesehatan dan bantuan perumahan",
+        "Tiket pesawat perjalanan pulang-pergi ke Swiss",
+        "Biaya penunjang riset di universitas tuan rumah Swiss"
+      ],
+      en: [
+        "Monthly living allowance of CHF 3,500 during the research period",
+        "Mandatory health insurance and housing allowance support",
+        "Round-trip economy-class airfare to Switzerland",
+        "Research support fees at the host Swiss university"
+      ]
+    },
+    requirements: {
+      id: [
+        "Memegang gelar PhD yang diselesaikan dalam waktu kurang dari 5 tahun saat mendaftar",
+        "Maju dengan rencana proposal riset yang solid dan disetujui profesor di Swiss",
+        "Kemampuan bahasa akademis (Inggris/Jerman/Prancis) yang sangat baik"
+      ],
+      en: [
+        "Hold a PhD completed less than 5 years prior to the application deadline",
+        "Submit a solid research proposal approved by a host professor in Switzerland",
+        "Excellent proficiency in the academic language (English/German/French)"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-11-15",
+    applicationUrl: "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html",
+    description: {
+      id: "Beasiswa bergengsi Pemerintah Swiss untuk peneliti postdoctoral asing guna melakukan penelitian di universitas riset terkemuka di Swiss.",
+      en: "A prestigious scholarship by the Swiss government for international postdoctoral researchers to conduct research at top Swiss universities."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Luar Negeri",
+        "Swiss",
+        "Postdoctoral"
+      ],
+      en: [
+        "Government",
+        "Overseas",
+        "Switzerland",
+        "Postdoctoral"
       ]
     }
   }
