@@ -8906,7 +8906,7 @@ export const scholarships: Scholarship[] = [
         "English language proficiency certificate (IELTS min 6.5 or equivalent)"
       ]
     },
-    status: 'open',
+    status: 'closed',
     deadline: "2026-09-15",
     applicationUrl: "https://www.sydney.edu.au/study/fees-scholarships/scholarships/",
     description: {
@@ -9171,6 +9171,632 @@ export const scholarships: Scholarship[] = [
         "Belgium",
         "Europe",
         "Science"
+      ]
+    }
+  },
+  {
+    id: "wardah-scholarship",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Wardah Scholarship Program (WSP)",
+      en: "Wardah Scholarship Program (WSP)"
+    },
+    provider: {
+      id: "PT Paragon Technology and Innovation",
+      en: "PT Paragon Technology and Innovation"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan finansial dana pendidikan per semester selama 1 tahun akademik",
+        "Program pengembangan diri (personal development) dan pembekalan karir",
+        "Kesempatan magang di Paragon Group dan prioritas rekrutmen"
+      ],
+      en: [
+        "Financial education support per semester for 1 academic year",
+        "Personal development and career preparation programs",
+        "Internship opportunities at Paragon Group and priority recruitment"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif S1 perempuan semester 4 atau 6 di perguruan tinggi mitra",
+        "IPK minimal 3.00 dari skala 4.00 dan aktif berorganisasi",
+        "Memiliki ketertarikan tinggi pada industri kecantikan dan kepemimpinan perempuan"
+      ],
+      en: [
+        "Active female undergraduate student in 4th or 6th semester at partner universities",
+        "Minimum GPA of 3.00 on a 4.00 scale and active in student organizations",
+        "Strong interest in the beauty industry and female leadership"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-08-30",
+    applicationUrl: "https://www.paragon-innovation.com/",
+    description: {
+      id: "Program beasiswa CSR bertema kepemimpinan perempuan dari Wardah untuk membekali mahasiswi berprestasi di Indonesia.",
+      en: "Wardah's CSR scholarship program themed around female leadership empowering outstanding female students in Indonesia."
+    },
+    tags: {
+      id: [
+        "Perusahaan",
+        "Dalam Negeri",
+        "Kepemimpinan",
+        "Perempuan"
+      ],
+      en: [
+        "Company",
+        "Domestic",
+        "Leadership",
+        "Female Empowerment"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-indomaret",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Indomaret",
+      en: "Indomaret Scholarship"
+    },
+    provider: {
+      id: "PT Indomarco Prismatama (Indomaret)",
+      en: "PT Indomarco Prismatama (Indomaret)"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan biaya pendidikan UKT per semester hingga lulus sesuai ketentuan",
+        "Kesempatan magang eksklusif di kantor cabang atau pusat Indomaret Group"
+      ],
+      en: [
+        "Tuition fee (UKT) assistance per semester until graduation based on rules",
+        "Exclusive internship opportunities at Indomaret Group branch or head offices"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif S1 tingkat akhir (semester 6 atau 8) dari semua jurusan",
+        "IPK minimal 3.00 dari skala 4.00",
+        "Berseda melakukan ikatan dinas kerja di Indomaret setelah lulus"
+      ],
+      en: [
+        "Active S1 undergraduate student in final year (6th or 8th semester) from any major",
+        "Minimum GPA of 3.00 on a 4.00 scale",
+        "Willing to undergo employment bond with Indomaret after graduation"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-15",
+    applicationUrl: "https://indomaret.co.id/",
+    description: {
+      id: "Program beasiswa ikatan dinas dari Indomaret Group untuk memberikan bantuan biaya pendidikan dan jaminan karir lulusan universitas.",
+      en: "Employment bond scholarship program by Indomaret Group offering financial support and guaranteed career pathways."
+    },
+    tags: {
+      id: [
+        "Perusahaan",
+        "Dalam Negeri",
+        "Ikatan Dinas",
+        "Karir"
+      ],
+      en: [
+        "Company",
+        "Domestic",
+        "Employment Bond",
+        "Career"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-bfi-finance",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa BFI Finance",
+      en: "BFI Finance Scholarship"
+    },
+    provider: {
+      id: "PT BFI Finance Indonesia Tbk",
+      en: "PT BFI Finance Indonesia Tbk"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana UKT semesteran dan tunjangan uang saku bulanan",
+        "Program pendampingan mentor karir dari manajemen BFI Finance"
+      ],
+      en: [
+        "Semester tuition fee (UKT) support and monthly living allowance stipend",
+        "Career mentorship program guided by BFI Finance management"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif S1 semester 4 sampai 6 dari jurusan terkait",
+        "IPK minimal 3.00 skala 4.00 dan aktif di organisasi kampus",
+        "Lolos seleksi berkas administrasi dan wawancara panel BFI"
+      ],
+      en: [
+        "Active undergraduate student in 4th to 6th semester majoring in eligible fields",
+        "Minimum GPA of 3.00 on a 4.00 scale and active in campus organizations",
+        "Pass administrative screening and BFI panel interview selection"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-30",
+    applicationUrl: "https://www.bfi.co.id/",
+    description: {
+      id: "Bantuan finansial dari BFI Finance untuk menopang biaya pendidikan mahasiswa berprestasi dengan jaminan pengembangan soft skills karir.",
+      en: "Financial scholarship by BFI Finance supporting high-achieving undergraduate students with career development mentoring."
+    },
+    tags: {
+      id: [
+        "Perusahaan",
+        "Dalam Negeri",
+        "Finansial",
+        "Karir"
+      ],
+      en: [
+        "Company",
+        "Domestic",
+        "Financial Support",
+        "Career"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-bank-kaltimtara",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Bank Kaltimtara",
+      en: "Bank Kaltimtara Scholarship"
+    },
+    provider: {
+      id: "PT BPD Kaltim Kaltara (Bank Kaltimtara)",
+      en: "PT BPD Kaltim Kaltara (Bank Kaltimtara)"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan biaya pendidikan UKT tunai per semester selama 1 tahun akademik",
+        "Program pelatihan literasi perbankan syariah dan konvensional"
+      ],
+      en: [
+        "Tuition fee (UKT) cash assistance per semester for 1 academic year",
+        "Capacity building program in syariah and conventional banking literacy"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif S1 di perguruan tinggi mitra wilayah Kalimantan Timur atau Kalimantan Utara",
+        "IPK minimal 3.00 (PTN) atau 3.25 (PTS) skala 4.00",
+        "Berasal dari keluarga pra-sejahtera dibuktikan dengan dokumen resmi"
+      ],
+      en: [
+        "Active S1 student at partner universities in East Kalimantan or North Kalimantan",
+        "Minimum GPA of 3.00 (State) or 3.25 (Private) on a 4.00 scale",
+        "Come from low-income families supported by official need documents"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-08-20",
+    applicationUrl: "https://www.bankkaltimtara.co.id/",
+    description: {
+      id: "Beasiswa CSR dari Bank Pembangunan Daerah Kaltim Kaltara untuk membantu pembiayaan kuliah putra-putri daerah berprestasi.",
+      en: "CSR scholarship funded by Bank Kaltimtara supporting local higher education for regional students."
+    },
+    tags: {
+      id: [
+        "Perusahaan",
+        "Dalam Negeri",
+        "Kalimantan",
+        "Daerah"
+      ],
+      en: [
+        "Company",
+        "Domestic",
+        "Kalimantan",
+        "Regional"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-riau",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemerintah Provinsi Riau",
+      en: "Riau Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Riau",
+      en: "Provincial Government of Riau"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Uang kuliah tunggal (UKT) penuh hingga lulus sesuai masa studi normatif",
+        "Tunjangan biaya penyusunan tugas akhir / skripsi / tesis"
+      ],
+      en: [
+        "Full tuition fee (UKT) coverage until graduation based on normative study period",
+        "Financial thesis/dissertation write-up grant contribution support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga Provinsi Riau asli dibuktikan dengan KTP dan Kartu Keluarga Riau",
+        "Mahasiswa aktif di perguruan tinggi mitra Pemprov Riau dengan IPK minimal sesuai kategori",
+        "Terdaftar dalam database warga miskin atau berprestasi akademik tinggi"
+      ],
+      en: [
+        "Riau resident holding a Riau ID and Family Card",
+        "Active student at a Riau government partner university with minimum GPA based on rules",
+        "Registered under regional low-income family database or holds high academic records"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-07-31",
+    applicationUrl: "https://riau.go.id/",
+    description: {
+      id: "Program beasiswa Pemprov Riau untuk memberikan bantuan biaya pendidikan tinggi bagi putra-putri Riau berprestasi dan kurang mampu.",
+      en: "Riau Provincial Government's educational financial assistance program supporting local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Riau",
+        "Daerah"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Riau",
+        "Regional"
+      ]
+    }
+  },
+  {
+    id: "uwa-international-postgraduate",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Riset Pascasarjana Internasional UWA (Australia)",
+      en: "UWA International Postgraduate Research Scholarship (Australia)"
+    },
+    provider: {
+      id: "University of Western Australia (UWA)",
+      en: "University of Western Australia (UWA)"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Biaya kuliah penuh untuk program riset pascasarjana (Master by Research/PhD)",
+        "Tunjangan hidup tahunan senilai AUD 33.000",
+        "Asuransi kesehatan lengkap mahasiswa asing (OSHC)"
+      ],
+      en: [
+        "Full tuition fees coverage for postgraduate research (Master/PhD) studies",
+        "Annual living allowance of AUD 33,000",
+        "Single Overseas Student Health Cover (OSHC) coverage"
+      ]
+    },
+    requirements: {
+      id: [
+        "Memenuhi kriteria masuk riset pascasarjana di UWA",
+        "Memiliki proposal riset yang luar biasa dengan persetujuan dari supervisor UWA",
+        "Sertifikat bahasa Inggris minimal IELTS 6.5 atau TOEFL iBT 82"
+      ],
+      en: [
+        "Meet UWA's postgraduate research admission requirements",
+        "Hold an outstanding research proposal approved by a UWA academic supervisor",
+        "English proficiency certificate (IELTS min 6.5 or TOEFL iBT 82)"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-31",
+    applicationUrl: "https://www.uwa.edu.au/study/fees-and-scholarships/",
+    description: {
+      id: "Beasiswa penuh riset doktoral dan magister bergengsi dari Universitas Western Australia bagi peneliti internasional terbaik se-dunia.",
+      en: "UWA's highly competitive postgraduate research scholarship supporting top-tier international scholars."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Australia",
+        "Riset"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Australia",
+        "Research"
+      ]
+    }
+  },
+  {
+    id: "uq-research-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Riset Pascasarjana Universitas Queensland (Australia)",
+      en: "University of Queensland (UQ) Research Scholarship"
+    },
+    provider: {
+      id: "University of Queensland (Australia)",
+      en: "University of Queensland (Australia)"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Biaya kuliah penuh untuk jenjang Master by Research atau Ph.D.",
+        "Tunjangan biaya hidup tahunan senilai AUD 32.192 selama masa studi riset",
+        "Asuransi kesehatan luar negeri mahasiswa asing (OSHC)"
+      ],
+      en: [
+        "Full tuition fees coverage for Master by Research or Ph.D. programs",
+        "Annual living allowance stipend of AUD 32,192 for the duration of research studies",
+        "Single Overseas Student Health Cover (OSHC) coverage"
+      ]
+    },
+    requirements: {
+      id: [
+        "Memenuhi persyaratan akademik masuk riset pascasarjana di UQ",
+        "Memiliki proposal riset yang disetujui oleh calon pembimbing riset di UQ",
+        "Kemahiran bahasa Inggris (IELTS minimal 6.5 atau TOEFL iBT 87)"
+      ],
+      en: [
+        "Meet UQ's postgraduate research academic admission criteria",
+        "Hold a research proposal approved by a prospective UQ advisor",
+        "English language proficiency certificate (IELTS min 6.5 or TOEFL iBT 87)"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-09-01",
+    applicationUrl: "https://study.uq.edu.au/fees-scholarships/scholarships/",
+    description: {
+      id: "Beasiswa riset pascasarjana penuh yang sangat kompetitif dari Universitas Queensland bagi calon doktor dan peneliti muda berprestasi tingkat dunia.",
+      en: "UQ's highly competitive fully funded postgraduate research scholarship supporting outstanding PhD and Master candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Australia",
+        "Riset"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Australia",
+        "Research"
+      ]
+    }
+  },
+  {
+    id: "otago-doctoral-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Doktoral Universitas Otago (Selandia Baru)",
+      en: "University of Otago Doctoral Scholarship (New Zealand)"
+    },
+    provider: {
+      id: "University of Otago (Selandia Baru)",
+      en: "University of Otago (New Zealand)"
+    },
+    degreeLevels: [
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Uang kuliah penuh jenjang Ph.D. selama 3 tahun masa studi",
+        "Tunjangan hidup tahunan senilai NZD 32.544",
+        "Bebas biaya administrasi dan keanggotaan mahasiswa"
+      ],
+      en: [
+        "Full tuition fees coverage for Ph.D. studies for up to 3 years",
+        "Annual living allowance of NZD 32,544",
+        "Waiver of student services fees and levies"
+      ]
+    },
+    requirements: {
+      id: [
+        "Memenuhi persyaratan pendaftaran Ph.D. penuh waktu di Universitas Otago",
+        "Memiliki rekam prestasi akademik tertinggi (IPK tinggi setara kelas utama/First Class)",
+        "Proposal penelitian riset orisinal dengan persetujuan calon supervisor riset Otago"
+      ],
+      en: [
+        "Meet full-time Ph.D. admission requirements at the University of Otago",
+        "Hold outstanding academic records (equivalent to First Class Honours degree)",
+        "Original research proposal approved by a prospective Otago supervisor"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-11-30",
+    applicationUrl: "https://www.otago.ac.nz/study/scholarships/",
+    description: {
+      id: "Beasiswa doktor riset penuh dari Universitas Otago untuk menarik kandidat Ph.D. berprestasi tinggi se-dunia untuk menempuh riset di Selandia Baru.",
+      en: "University of Otago's fully funded doctoral research scholarship attracting top-tier Ph.D. candidates globally."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Selandia Baru",
+        "Riset"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "New Zealand",
+        "Research"
+      ]
+    }
+  },
+  {
+    id: "tohoku-presidents-fellowship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Tohoku University President's Fellowship (Jepang)",
+      en: "Tohoku University President's Fellowship (Japan)"
+    },
+    provider: {
+      id: "Tohoku University (Jepang)",
+      en: "Tohoku University (Japan)"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bebas biaya kuliah penuh di Tohoku University",
+        "Tunjangan hidup bulanan senilai JPY 150.000 (S2) atau JPY 180.000 (S3)"
+      ],
+      en: [
+        "Full tuition fees waiver coverage at Tohoku University",
+        "Monthly living allowance stipend of JPY 150,000 (Master) or JPY 180,000 (PhD)"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional berprestasi akademik luar biasa yang mendaftar ke Tohoku University",
+        "Didukung secara resmi oleh supervisor akademik Tohoku University",
+        "Memiliki rekam riset yang kuat di bidang sains, teknik, atau kedokteran"
+      ],
+      en: [
+        "International students demonstrating highest academic excellence applying to Tohoku University",
+        "Officially recommended by Tohoku University academic advisor",
+        "Hold strong research records in science, engineering, or medical fields"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-10-15",
+    applicationUrl: "https://www.tohoku.ac.jp/en/admissions/financial_aid.html",
+    description: {
+      id: "Beasiswa riset pascasarjana penuh yang prestisius dari Universitas Tohoku bagi peneliti muda berprestasi tingkat internasional.",
+      en: "Tohoku University's highly prestigious fully funded graduate fellowship supporting top-tier international researchers."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Jepang",
+        "Riset"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Japan",
+        "Research"
+      ]
+    }
+  },
+  {
+    id: "hokkaido-presidents-fellowship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Hokkaido University President's Fellowship (Jepang)",
+      en: "Hokkaido University President's Fellowship (Japan)"
+    },
+    provider: {
+      id: "Hokkaido University (Jepang)",
+      en: "Hokkaido University (Japan)"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bebas biaya kuliah penuh di Hokkaido University",
+        "Tunjangan hidup bulanan senilai JPY 150.000 hingga JPY 180.000 selama masa studi",
+        "Akomodasi asrama universitas internasional gratis"
+      ],
+      en: [
+        "Full tuition fees waiver coverage at Hokkaido University",
+        "Monthly living allowance of JPY 150,000 to JPY 180,000 for the program duration",
+        "Free international student dormitory accommodation"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional dengan prestasi akademik luar biasa yang mendaftar program pascasarjana",
+        "Memiliki rekam riset yang terbukti dan didukung calon pembimbing di Hokkaido University",
+        "Sertifikat kemahiran bahasa Inggris (IELTS/TOEFL) atau Jepang (JLPT)"
+      ],
+      en: [
+        "International students demonstrating highest academic excellence applying to graduate programs",
+        "Hold proven research record and supported by a prospective Hokkaido advisor",
+        "English (IELTS/TOEFL) or Japanese (JLPT) language certificate"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-10-30",
+    applicationUrl: "https://www.global.hokudai.ac.jp/admissions/scholarships/",
+    description: {
+      id: "Beasiswa penuh prestisius dari Rektor Universitas Hokkaido untuk menyokong biaya kuliah dan hidup peneliti muda internasional berprestasi.",
+      en: "Hokkaido University's prestigious fully funded fellowship supporting top international postgraduate research candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Jepang",
+        "Riset"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Japan",
+        "Research"
       ]
     }
   }
