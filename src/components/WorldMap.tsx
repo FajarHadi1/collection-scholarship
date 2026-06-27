@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Dictionary } from "../data/translations";
+import L from "leaflet";
+import "leaflet/dist/leaflet.css";
 
 interface WorldMapProps {
   scholarships: any[];
@@ -12,36 +14,37 @@ interface WorldMapProps {
 interface MapCountry {
   id: string;
   name: { id: string; en: string };
-  x: number;
-  y: number;
-  tags: string[]; // matches tags in scholarships
+  lat: number;
+  lng: number;
+  zoom: number;
+  tags: string[];
 }
 
 const COUNTRIES: MapCountry[] = [
-  { id: "indonesia", name: { id: "Indonesia", en: "Indonesia" }, x: 770, y: 320, tags: ["Indonesia", "Dalam Negeri"] },
-  { id: "japan", name: { id: "Jepang", en: "Japan" }, x: 875, y: 140, tags: ["Jepang", "Japan"] },
-  { id: "usa", name: { id: "Amerika Serikat", en: "United States" }, x: 180, y: 150, tags: ["Amerika Serikat", "USA", "United States"] },
-  { id: "uk", name: { id: "Inggris", en: "United Kingdom" }, x: 460, y: 125, tags: ["Inggris", "UK", "United Kingdom"] },
-  { id: "australia", name: { id: "Australia", en: "Australia" }, x: 860, y: 400, tags: ["Australia"] },
-  { id: "singapore", name: { id: "Singapura", en: "Singapore" }, x: 760, y: 300, tags: ["Singapura", "Singapore"] },
-  { id: "netherlands", name: { id: "Belanda", en: "Netherlands" }, x: 480, y: 130, tags: ["Belanda", "Netherlands"] },
-  { id: "germany", name: { id: "Jerman", en: "Germany" }, x: 495, y: 140, tags: ["Jerman", "Germany"] },
-  { id: "south_korea", name: { id: "Korea Selatan", en: "South Korea" }, x: 840, y: 155, tags: ["Korea Selatan", "South Korea"] },
-  { id: "canada", name: { id: "Kanada", en: "Canada" }, x: 170, y: 100, tags: ["Kanada", "Canada"] },
-  { id: "france", name: { id: "Prancis", en: "France" }, x: 475, y: 155, tags: ["Prancis", "France"] },
-  { id: "new_zealand", name: { id: "Selandia Baru", en: "New Zealand" }, x: 920, y: 440, tags: ["Selandia Baru", "New Zealand"] },
-  { id: "sweden", name: { id: "Swedia", en: "Sweden" }, x: 510, y: 95, tags: ["Swedia", "Sweden"] },
-  { id: "swiss", name: { id: "Swiss", en: "Switzerland" }, x: 495, y: 158, tags: ["Swiss", "Switzerland"] },
-  { id: "italy", name: { id: "Italia", en: "Italy" }, x: 505, y: 175, tags: ["Italia", "Italy"] },
-  { id: "thailand", name: { id: "Thailand", en: "Thailand" }, x: 740, y: 260, tags: ["Thailand"] },
-  { id: "turkey", name: { id: "Turki", en: "Turkey" }, x: 565, y: 195, tags: ["Turki", "Turkey"] },
-  { id: "belgium", name: { id: "Belgia", en: "Belgium" }, x: 480, y: 140, tags: ["Belgia", "Belgium"] },
-  { id: "ireland", name: { id: "Irlandia", en: "Ireland" }, x: 440, y: 130, tags: ["Irlandia", "Ireland"] },
-  { id: "saudi_arabia", name: { id: "Arab Saudi", en: "Saudi Arabia" }, x: 615, y: 240, tags: ["Arab Saudi", "Saudi Arabia"] },
-  { id: "austria", name: { id: "Austria", en: "Austria" }, x: 510, y: 150, tags: ["Austria"] },
-  { id: "china", name: { id: "Tiongkok", en: "China" }, x: 780, y: 180, tags: ["Tiongkok", "China"] },
-  { id: "brunei", name: { id: "Brunei Darussalam", en: "Brunei" }, x: 780, y: 300, tags: ["Brunei Darussalam", "Brunei"] },
-  { id: "kuwait", name: { id: "Kuwait", en: "Kuwait" }, x: 605, y: 230, tags: ["Kuwait"] }
+  { id: "indonesia", name: { id: "Indonesia", en: "Indonesia" }, lat: -0.789275, lng: 113.921327, zoom: 4, tags: ["Indonesia", "Dalam Negeri"] },
+  { id: "japan", name: { id: "Jepang", en: "Japan" }, lat: 36.204824, lng: 138.252924, zoom: 5, tags: ["Jepang", "Japan"] },
+  { id: "usa", name: { id: "Amerika Serikat", en: "United States" }, lat: 37.09024, lng: -95.712891, zoom: 4, tags: ["Amerika Serikat", "USA", "United States"] },
+  { id: "uk", name: { id: "Inggris", en: "United Kingdom" }, lat: 55.378051, lng: -3.435973, zoom: 5, tags: ["Inggris", "UK", "United Kingdom"] },
+  { id: "australia", name: { id: "Australia", en: "Australia" }, lat: -25.274398, lng: 133.775136, zoom: 4, tags: ["Australia"] },
+  { id: "singapore", name: { id: "Singapura", en: "Singapore" }, lat: 1.352083, lng: 103.819836, zoom: 7, tags: ["Singapura", "Singapore"] },
+  { id: "netherlands", name: { id: "Belanda", en: "Netherlands" }, lat: 52.132633, lng: 5.291266, zoom: 6, tags: ["Belanda", "Netherlands"] },
+  { id: "germany", name: { id: "Jerman", en: "Germany" }, lat: 51.165691, lng: 10.451526, zoom: 5, tags: ["Jerman", "Germany"] },
+  { id: "south_korea", name: { id: "Korea Selatan", en: "South Korea" }, lat: 35.907757, lng: 127.766922, zoom: 6, tags: ["Korea Selatan", "South Korea"] },
+  { id: "canada", name: { id: "Kanada", en: "Canada" }, lat: 56.130366, lng: -106.346771, zoom: 4, tags: ["Kanada", "Canada"] },
+  { id: "france", name: { id: "Prancis", en: "France" }, lat: 46.227638, lng: 2.213749, zoom: 5, tags: ["Prancis", "France"] },
+  { id: "new_zealand", name: { id: "Selandia Baru", en: "New Zealand" }, lat: -40.900557, lng: 174.885971, zoom: 5, tags: ["Selandia Baru", "New Zealand"] },
+  { id: "sweden", name: { id: "Swedia", en: "Sweden" }, lat: 60.128161, lng: 18.643501, zoom: 5, tags: ["Swedia", "Sweden"] },
+  { id: "swiss", name: { id: "Swiss", en: "Switzerland" }, lat: 46.818188, lng: 8.227512, zoom: 6, tags: ["Swiss", "Switzerland"] },
+  { id: "italy", name: { id: "Italia", en: "Italy" }, lat: 41.87194, lng: 12.56738, zoom: 5, tags: ["Italia", "Italy"] },
+  { id: "thailand", name: { id: "Thailand", en: "Thailand" }, lat: 15.870032, lng: 100.992541, zoom: 5, tags: ["Thailand"] },
+  { id: "turkey", name: { id: "Turki", en: "Turkey" }, lat: 38.963745, lng: 35.243322, zoom: 5, tags: ["Turki", "Turkey"] },
+  { id: "belgium", name: { id: "Belgia", en: "Belgium" }, lat: 50.503887, lng: 4.469936, zoom: 6, tags: ["Belgia", "Belgium"] },
+  { id: "ireland", name: { id: "Irlandia", en: "Ireland" }, lat: 53.41291, lng: -8.24389, zoom: 6, tags: ["Irlandia", "Ireland"] },
+  { id: "saudi_arabia", name: { id: "Arab Saudi", en: "Saudi Arabia" }, lat: 23.885942, lng: 45.079162, zoom: 5, tags: ["Arab Saudi", "Saudi Arabia"] },
+  { id: "austria", name: { id: "Austria", en: "Austria" }, lat: 47.516231, lng: 14.5501, zoom: 6, tags: ["Austria"] },
+  { id: "china", name: { id: "Tiongkok", en: "China" }, lat: 35.86166, lng: 104.195397, zoom: 4, tags: ["Tiongkok", "China"] },
+  { id: "brunei", name: { id: "Brunei Darussalam", en: "Brunei" }, lat: 4.535277, lng: 114.727669, zoom: 6, tags: ["Brunei Darussalam", "Brunei"] },
+  { id: "kuwait", name: { id: "Kuwait", en: "Kuwait" }, lat: 29.375859, lng: 47.977405, zoom: 6, tags: ["Kuwait"] }
 ];
 
 export default function WorldMap({
@@ -51,18 +54,17 @@ export default function WorldMap({
   language,
   t
 }: WorldMapProps) {
-  const [hoveredCountry, setHoveredCountry] = useState<MapCountry | null>(null);
-  const [viewBox, setViewBox] = useState<string>("0 0 1000 500");
+  const mapContainerRef = useRef<HTMLDivElement>(null);
+  const mapInstanceRef = useRef<L.Map | null>(null);
+  const markersRef = useRef<Record<string, L.Marker>>({});
   const [isZoomed, setIsZoomed] = useState<boolean>(false);
 
   // Helper to count scholarships for each country based on tags
   const getScholarshipCount = (country: MapCountry) => {
     return scholarships.filter((sc) => {
-      // For Indonesia, also check studyLocation
       if (country.id === "indonesia" && sc.studyLocation.includes("domestic")) {
         return true;
       }
-      // Check tags
       const allTags = [...sc.tags.id, ...sc.tags.en];
       return country.tags.some((ctag) =>
         allTags.some((tag) => tag.toLowerCase() === ctag.toLowerCase())
@@ -70,32 +72,162 @@ export default function WorldMap({
     }).length;
   };
 
-  const handleCountryClick = (country: MapCountry) => {
+  // Initialize Map
+  useEffect(() => {
+    if (!mapContainerRef.current) return;
+
+    // CartoDB Positron Lite tiles for clean premium aesthetic
+    const map = L.map(mapContainerRef.current, {
+      center: [25, 10],
+      zoom: 2,
+      minZoom: 1.5,
+      maxZoom: 9,
+      zoomControl: false,
+      attributionControl: false,
+    });
+
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+      maxZoom: 20
+    }).addTo(map);
+
+    mapInstanceRef.current = map;
+
+    // Add Markers
+    COUNTRIES.forEach((country) => {
+      const count = getScholarshipCount(country);
+      if (count === 0) return; // Skip if no programs
+
+      const label = language === "id" ? country.name.id : country.name.en;
+      const tooltipContent = `
+        <div style="font-family: var(--font-main); font-size: 0.72rem; padding: 0.1rem 0.2rem;">
+          <strong style="color: var(--text-primary);">${label}</strong><br/>
+          <span style="color: var(--accent-dark); font-weight: 700;">${count} ${language === "id" ? "Program" : "Programs"}</span>
+        </div>
+      `;
+
+      // Custom Pulse Marker DIV Icon
+      const customIcon = L.divIcon({
+        className: "custom-leaflet-marker",
+        html: `<div class="pulse-marker-core" id="marker-${country.id}"></div>`,
+        iconSize: [20, 20],
+        iconAnchor: [10, 10]
+      });
+
+      const marker = L.marker([country.lat, country.lng], { icon: customIcon })
+        .addTo(map)
+        .bindTooltip(tooltipContent, {
+          direction: "top",
+          offset: [0, -5],
+          opacity: 0.95
+        });
+
+      marker.on("click", () => {
+        handleMarkerClick(country);
+      });
+
+      markersRef.current[country.id] = marker;
+    });
+
+    return () => {
+      map.remove();
+      mapInstanceRef.current = null;
+      markersRef.current = {};
+    };
+  }, [scholarships, language]);
+
+  // Handle active marker updates when activeCountry changes externally
+  useEffect(() => {
+    COUNTRIES.forEach((c) => {
+      const el = document.getElementById(`marker-${c.id}`);
+      if (el) {
+        if (activeCountry === c.id) {
+          el.classList.add("selected");
+        } else {
+          el.classList.remove("selected");
+        }
+      }
+    });
+
+    setIsZoomed(!!activeCountry);
+  }, [activeCountry]);
+
+  const handleMarkerClick = (country: MapCountry) => {
+    const map = mapInstanceRef.current;
+    if (!map) return;
+
     if (activeCountry === country.id) {
-      // Reset zoom
-      setViewBox("0 0 1000 500");
-      setIsZoomed(false);
+      // Zoom out if clicked again
+      map.setView([25, 10], 2);
       onCountrySelect(null);
     } else {
-      // Zoom into the country coords
-      const zoomWidth = 250;
-      const zoomHeight = 150;
-      const x = Math.max(0, Math.min(1000 - zoomWidth, country.x - zoomWidth / 2));
-      const y = Math.max(0, Math.min(500 - zoomHeight, country.y - zoomHeight / 2));
-      setViewBox(`${x} ${y} ${zoomWidth} ${zoomHeight}`);
-      setIsZoomed(true);
+      // Pan and zoom in
+      map.setView([country.lat, country.lng], country.zoom);
       onCountrySelect(country.id);
     }
   };
 
   const handleResetZoom = () => {
-    setViewBox("0 0 1000 500");
-    setIsZoomed(false);
+    const map = mapInstanceRef.current;
+    if (map) {
+      map.setView([25, 10], 2);
+    }
     onCountrySelect(null);
   };
 
   return (
     <div className="lg-panel map-outer-container anim-fade-up" style={{ padding: "1.25rem", position: "relative" }}>
+      {/* CSS injection for Leaflet customized styles */}
+      <style>{`
+        .pulse-marker-core {
+          width: 12px;
+          height: 12px;
+          background-color: var(--accent);
+          border: 2px solid white;
+          border-radius: 50%;
+          position: relative;
+          box-shadow: 0 0 8px rgba(99, 102, 241, 0.7);
+          transition: all 0.3s ease;
+        }
+        .pulse-marker-core::after {
+          content: '';
+          position: absolute;
+          top: -6px;
+          left: -6px;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          border: 2px solid var(--accent);
+          animation: leaflet-pulsate 2s infinite ease-out;
+          opacity: 0;
+        }
+        .pulse-marker-core.selected {
+          background-color: #f59e0b;
+          border-color: #fff;
+          width: 16px;
+          height: 16px;
+          transform: translate(-2px, -2px);
+          box-shadow: 0 0 14px rgba(245, 158, 11, 0.9);
+        }
+        .pulse-marker-core.selected::after {
+          border-color: #f59e0b;
+        }
+        @keyframes leaflet-pulsate {
+          0% { transform: scale(0.5); opacity: 0; }
+          50% { opacity: 0.8; }
+          100% { transform: scale(1.5); opacity: 0; }
+        }
+        .leaflet-tooltip {
+          background: rgba(255, 255, 255, 0.92) !important;
+          backdrop-filter: blur(8px);
+          border: 1px solid rgba(0, 0, 0, 0.08) !important;
+          box-shadow: 0 4px 12px rgba(0,0,0,0.12) !important;
+          border-radius: 8px !important;
+        }
+        .leaflet-tooltip-top::before {
+          border-top-color: rgba(255, 255, 255, 0.92) !important;
+        }
+      `}</style>
+
       {/* Map Header */}
       <div className="flex items-center justify-between" style={{ marginBottom: "1rem" }}>
         <div>
@@ -125,132 +257,19 @@ export default function WorldMap({
         )}
       </div>
 
-      {/* SVG Canvas Map */}
+      {/* Map Container */}
       <div
+        ref={mapContainerRef}
         style={{
           width: "100%",
-          height: "280px",
-          background: "radial-gradient(circle at center, rgba(30, 41, 59, 0.15), rgba(15, 23, 42, 0.25))",
+          height: "320px",
           borderRadius: "12px",
           overflow: "hidden",
           border: "1.5px solid rgba(255,255,255,0.06)",
-          position: "relative"
+          position: "relative",
+          zIndex: 5,
         }}
-      >
-        <svg
-          viewBox={viewBox}
-          style={{
-            width: "100%",
-            height: "100%",
-            transition: "viewBox 0.8s cubic-bezier(0.25, 1, 0.5, 1)",
-          }}
-        >
-          {/* Graticule/Grid Lines */}
-          <defs>
-            <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-              <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.03)" strokeWidth="1" />
-            </pattern>
-          </defs>
-          <rect width="1000" height="500" fill="url(#grid)" />
-
-          {/* Minimalist World Continents Layout */}
-          <g fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255, 255, 255, 0.15)" strokeWidth="1" strokeLinejoin="round">
-            {/* North America */}
-            <path d="M 80 100 L 150 70 L 250 80 L 280 120 L 240 180 L 180 200 L 150 250 L 130 250 L 140 200 L 80 150 Z" />
-            {/* South America */}
-            <path d="M 190 280 L 240 270 L 290 320 L 260 420 L 220 460 L 200 400 Z" />
-            {/* Africa */}
-            <path d="M 420 220 L 490 220 L 540 270 L 520 350 L 460 410 L 430 400 L 390 280 Z" />
-            {/* Eurasia (Europe + Asia) */}
-            <path d="M 360 120 L 440 80 L 600 60 L 800 80 L 920 120 L 900 240 L 800 320 L 740 310 L 710 260 L 620 250 L 560 290 L 500 280 L 440 240 L 360 220 Z" />
-            {/* Australia */}
-            <path d="M 820 380 L 890 370 L 910 420 L 830 430 Z" />
-          </g>
-
-          {/* Pulsing Hotspots (Map Pins) */}
-          {COUNTRIES.map((country) => {
-            const count = getScholarshipCount(country);
-            if (count === 0) return null; // Only show pins for countries with scholarships
-
-            const isSelected = activeCountry === country.id;
-
-            return (
-              <g
-                key={country.id}
-                style={{ cursor: "pointer" }}
-                onClick={() => handleCountryClick(country)}
-                onMouseEnter={() => setHoveredCountry(country)}
-                onMouseLeave={() => setHoveredCountry(null)}
-              >
-                {/* Glowing Outer Ring */}
-                <circle
-                  cx={country.x}
-                  cy={country.y}
-                  r={isSelected ? 14 : 9}
-                  fill="rgba(99, 102, 241, 0.15)"
-                  stroke={isSelected ? "rgba(99, 102, 241, 0.6)" : "rgba(99, 102, 241, 0.3)"}
-                  strokeWidth="1.5"
-                />
-
-                {/* Pulse Ring Animation */}
-                <circle
-                  cx={country.x}
-                  cy={country.y}
-                  r={isSelected ? 22 : 16}
-                  fill="none"
-                  stroke="rgba(99, 102, 241, 0.4)"
-                  strokeWidth="1"
-                  style={{
-                    transformOrigin: `${country.x}px ${country.y}px`,
-                    animation: "map-pulse 2s infinite ease-out"
-                  }}
-                />
-
-                {/* Core Pin */}
-                <circle
-                  cx={country.x}
-                  cy={country.y}
-                  r={isSelected ? 6 : 4}
-                  fill="var(--accent)"
-                  stroke="#ffffff"
-                  strokeWidth="1.5"
-                />
-              </g>
-            );
-          })}
-        </svg>
-
-        {/* Live Floating Tooltip */}
-        {hoveredCountry && (
-          <div
-            style={{
-              position: "absolute",
-              top: "10px",
-              left: "10px",
-              background: "rgba(15, 23, 42, 0.85)",
-              backdropFilter: "blur(8px)",
-              border: "1px solid rgba(255,255,255,0.08)",
-              borderRadius: "8px",
-              padding: "0.5rem 0.75rem",
-              color: "white",
-              fontSize: "0.72rem",
-              pointerEvents: "none",
-              boxShadow: "0 4px 12px rgba(0,0,0,0.3)",
-              zIndex: 10,
-              display: "flex",
-              flexDirection: "column",
-              gap: "2px"
-            }}
-          >
-            <span style={{ fontWeight: 800 }}>
-              {language === "id" ? hoveredCountry.name.id : hoveredCountry.name.en}
-            </span>
-            <span style={{ color: "var(--accent-light)" }}>
-              {getScholarshipCount(hoveredCountry)} {language === "id" ? "Program Beasiswa" : "Scholarship Programs"}
-            </span>
-          </div>
-        )}
-      </div>
+      />
     </div>
   );
 }
