@@ -6,9 +6,16 @@ import Header from "../components/Header";
 import FilterBar from "../components/FilterBar";
 import ScholarshipCard from "../components/ScholarshipCard";
 import ScholarshipModal from "../components/ScholarshipModal";
+import WorldMap from "../components/WorldMap";
 
 import { translations, Language } from "../data/translations";
 import { trackEvent } from "../lib/gtag";
+
+const DEGREE_LABEL: Record<string, string> = {
+  bachelor: "S1",
+  master:   "S2",
+  doctoral: "S3",
+};
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -22,6 +29,11 @@ export default function Home() {
   const [selectedScholarship, setSelectedScholarship] = useState<Scholarship | null>(null);
   const [mounted, setMounted] = useState(false);
   const [language, setLanguage] = useState<Language>("id");
+
+  // Comparison & Map States
+  const [selectedCompareIds, setSelectedCompareIds] = useState<string[]>([]);
+  const [isCompareModalOpen, setIsCompareModalOpen] = useState(false);
+  const [mapCountryFilter, setMapCountryFilter] = useState<string | null>(null);
 
   useEffect(() => {
     setMounted(true);
@@ -53,6 +65,19 @@ export default function Home() {
     setBookmarks(updated);
     localStorage.setItem("scholarship_bookmarks", JSON.stringify(updated));
     trackEvent("toggle_bookmark", { scholarship_id: id, action: isBookmarked ? "remove" : "add" });
+  };
+
+  const toggleCompare = (id: string) => {
+    setSelectedCompareIds((prev) => {
+      if (prev.includes(id)) {
+        return prev.filter((i) => i !== id);
+      }
+      if (prev.length >= 3) {
+        alert(language === "id" ? "Maksimal membandingkan 3 beasiswa!" : "Maximum of 3 scholarships can be compared!");
+        return prev;
+      }
+      return [...prev, id];
+    });
   };
 
   const toggleDegree  = (d: string) => {
@@ -94,17 +119,68 @@ export default function Home() {
   };
 
   const hasActiveFilter =
-    !!searchQuery || selectedDegrees.length > 0 || selectedFunding.length > 0 || selectedLocations.length > 0 || selectedStatuses.length > 0 || !!deadlineAfter || showBookmarkedOnly;
+    !!searchQuery || selectedDegrees.length > 0 || selectedFunding.length > 0 || selectedLocations.length > 0 || selectedStatuses.length > 0 || !!deadlineAfter || showBookmarkedOnly || !!mapCountryFilter;
+
+  // Tag & Location matching helper for map country codes
+  const matchCountry = (sc: Scholarship, countryId: string) => {
+    const countryTags: Record<string, string[]> = {
+      indonesia: ["indonesia", "dalam negeri"],
+      japan: ["jepang", "japan"],
+      usa: ["amerika serikat", "usa", "united states"],
+      uk: ["inggris", "uk", "united kingdom"],
+      australia: ["australia"],
+      singapore: ["singapura", "singapore"],
+      netherlands: ["belanda", "netherlands"],
+      germany: ["jerman", "germany"],
+      south_korea: ["korea selatan", "south korea"],
+      canada: ["kanada", "canada"],
+      france: ["prancis", "france"],
+      new_zealand: ["selandia baru", "new zealand"],
+      sweden: ["swedia", "sweden"],
+      swiss: ["swiss", "switzerland"],
+      italy: ["italia", "italy"],
+      thailand: ["thailand"],
+      turkey: ["turki", "turkey"],
+      belgium: ["belgia", "belgium"],
+      ireland: ["irlandia", "ireland"],
+      saudi_arabia: ["arab saudi", "saudi arabia"],
+      austria: ["austria"],
+      china: ["tiongkok", "china"],
+      brunei: ["brunei darussalam", "brunei"],
+      kuwait: ["kuwait"]
+    };
+    
+    if (countryId === "indonesia" && sc.studyLocation.includes("domestic")) {
+      return true;
+    }
+    
+    const tags = countryTags[countryId];
+    if (!tags) return false;
+    
+    const allScTags = [...sc.tags.id, ...sc.tags.en].map(t => t.toLowerCase());
+    return tags.some(ctag => allScTags.includes(ctag.toLowerCase()));
+  };
 
   const filtered = scholarships.filter((sc) => {
     if (searchQuery) {
-      const q = searchQuery.toLowerCase();
-      const nameMatch = sc.name[language].toLowerCase().includes(q);
-      const providerMatch = sc.provider[language].toLowerCase().includes(q);
-      const descMatch = sc.description[language].toLowerCase().includes(q);
-      const tagMatch = sc.tags[language].some((t) => t.toLowerCase().includes(q));
-
-      if (!nameMatch && !providerMatch && !descMatch && !tagMatch) return false;
+      const q = searchQuery.toLowerCase().trim();
+      const searchTerms = q.split(/\s+/).filter(term => term.length > 0);
+      
+      if (searchTerms.length > 0) {
+        const nameText = sc.name[language].toLowerCase();
+        const providerText = sc.provider[language].toLowerCase();
+        const descText = sc.description[language].toLowerCase();
+        const allTagsText = [...sc.tags.id, ...sc.tags.en].map(t => t.toLowerCase()).join(" ");
+        
+        const match = searchTerms.every(term => 
+          nameText.includes(term) ||
+          providerText.includes(term) ||
+          descText.includes(term) ||
+          allTagsText.includes(term)
+        );
+        
+        if (!match) return false;
+      }
     }
     if (selectedDegrees.length > 0 && !sc.degreeLevels.some((d) => selectedDegrees.includes(d))) return false;
     if (selectedFunding.length > 0 && !selectedFunding.includes(sc.fundingType)) return false;
@@ -112,6 +188,7 @@ export default function Home() {
     if (selectedStatuses.length > 0 && !selectedStatuses.includes(sc.status)) return false;
     if (deadlineAfter && sc.deadline < deadlineAfter) return false;
     if (showBookmarkedOnly && !bookmarks.includes(sc.id)) return false;
+    if (mapCountryFilter && !matchCountry(sc, mapCountryFilter)) return false;
     return true;
   });
 
@@ -144,7 +221,9 @@ export default function Home() {
         </div>
       </div>
     );
-  }  return (
+  }
+
+  return (
     <main className="page-wrapper">
       <div className="dashboard-layout">
         {/* Left Column (Sticky Sidebar) */}
@@ -179,6 +258,15 @@ export default function Home() {
 
         {/* Right Column (Main Content) */}
         <div style={{ display: "flex", flexDirection: "column", gap: "1.75rem" }}>
+          {/* Interactive World Map */}
+          <WorldMap
+            scholarships={scholarships}
+            activeCountry={mapCountryFilter}
+            onCountrySelect={setMapCountryFilter}
+            language={language}
+            t={t}
+          />
+
           {/* Section heading + reset */}
           <div className="flex items-center justify-between px-1" style={{ marginBottom: "0.25rem" }}>
             <h2
@@ -211,6 +299,7 @@ export default function Home() {
                   setSelectedStatuses([]);
                   setDeadlineAfter("");
                   setShowBookmarkedOnly(false);
+                  setMapCountryFilter(null);
                 }}
                 style={{
                   fontSize: "0.75rem", fontWeight: 700, letterSpacing: "0.06em",
@@ -250,6 +339,9 @@ export default function Home() {
                   isBookmarked={bookmarks.includes(sc.id)}
                   onToggleBookmark={() => toggleBookmark(sc.id)}
                   onOpenDetails={() => handleOpenDetails(sc)}
+                  isCompareSelected={selectedCompareIds.includes(sc.id)}
+                  onToggleCompare={() => toggleCompare(sc.id)}
+                  searchQuery={searchQuery}
                   index={i}
                   t={t}
                   language={language}
@@ -271,6 +363,162 @@ export default function Home() {
           </footer>
         </div>
       </div>
+
+      {/* Floating Comparison Drawer */}
+      {selectedCompareIds.length > 0 && (
+        <div className="compare-dock">
+          <span style={{ fontSize: "0.75rem", fontWeight: 800, color: "var(--text-primary)" }}>
+            <span className="compare-badge">{selectedCompareIds.length}</span>{" "}
+            {language === "id" ? "beasiswa dipilih" : "scholarships selected"}
+          </span>
+          <div className="flex gap-2">
+            <button
+              onClick={() => setIsCompareModalOpen(true)}
+              className="btn btn-primary"
+              style={{ padding: "0.45rem 1rem", fontSize: "0.72rem", borderRadius: "10px", textTransform: "none" }}
+            >
+              {language === "id" ? "Bandingkan Sekarang" : "Compare Now"}
+            </button>
+            <button
+              onClick={() => setSelectedCompareIds([])}
+              className="btn-glass"
+              style={{ padding: "0.45rem 1rem", fontSize: "0.72rem", borderRadius: "10px", textTransform: "none" }}
+            >
+              {language === "id" ? "Batal" : "Clear"}
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* Comparison Modal Overlay */}
+      {isCompareModalOpen && (
+        <div className="compare-modal-overlay" onClick={() => setIsCompareModalOpen(false)}>
+          <div className="lg-panel lg-panel-strong modal-panel compare-modal anim-fade-up" onClick={(e) => e.stopPropagation()}>
+            <div className="flex items-center justify-between" style={{ borderBottom: "1.5px solid rgba(0,0,0,0.08)", paddingBottom: "1.25rem" }}>
+              <h2 style={{ fontSize: "1.2rem", fontWeight: 900, color: "var(--text-primary)" }}>
+                {language === "id" ? "Perbandingan Beasiswa" : "Scholarship Comparison"}
+              </h2>
+              <button
+                onClick={() => setIsCompareModalOpen(false)}
+                className="btn-glass"
+                style={{ padding: "0.45rem 0.85rem", borderRadius: "10px", fontSize: "0.72rem", textTransform: "none" }}
+              >
+                ✕ {language === "id" ? "Tutup" : "Close"}
+              </button>
+            </div>
+
+            <div style={{ overflowX: "auto" }}>
+              <table className="compare-table">
+                <thead>
+                  <tr>
+                    <th style={{ width: "160px" }}>{language === "id" ? "Aspek / Fitur" : "Aspect / Feature"}</th>
+                    {selectedCompareIds.map((id) => {
+                      const sc = scholarships.find((s) => s.id === id);
+                      return (
+                        <th key={id} style={{ fontSize: "0.85rem", fontWeight: 800, color: "var(--text-primary)" }}>
+                          {sc?.name[language]}
+                        </th>
+                      );
+                    })}
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>{language === "id" ? "Penyedia" : "Provider"}</th>
+                    {selectedCompareIds.map((id) => {
+                      const sc = scholarships.find((s) => s.id === id);
+                      return <td key={id}>{sc?.provider[language]}</td>;
+                    })}
+                  </tr>
+                  <tr>
+                    <th>{language === "id" ? "Jenjang Pendidikan" : "Degree Levels"}</th>
+                    {selectedCompareIds.map((id) => {
+                      const sc = scholarships.find((s) => s.id === id);
+                      return (
+                        <td key={id} style={{ fontWeight: 600 }}>
+                          {sc?.degreeLevels.map((lvl) => DEGREE_LABEL[lvl]).join(", ")}
+                        </td>
+                      );
+                    })}
+                  </tr>
+                  <tr>
+                    <th>{language === "id" ? "Lokasi Studi" : "Study Location"}</th>
+                    {selectedCompareIds.map((id) => {
+                      const sc = scholarships.find((s) => s.id === id);
+                      return (
+                        <td key={id}>
+                          {sc?.studyLocation
+                            .map((l) => (l === "domestic" ? (language === "id" ? "Dalam Negeri" : "Domestic") : (language === "id" ? "Luar Negeri" : "Overseas")))
+                            .join(", ")}
+                        </td>
+                      );
+                    })}
+                  </tr>
+                  <tr>
+                    <th>{language === "id" ? "Jenis Pendanaan" : "Funding Type"}</th>
+                    {selectedCompareIds.map((id) => {
+                      const sc = scholarships.find((s) => s.id === id);
+                      return (
+                        <td key={id}>
+                          <span className="badge badge-degree">
+                            {sc?.fundingType === "full" ? (language === "id" ? "Penuh (Fully Funded)" : "Full") : (language === "id" ? "Sebagian (Partial)" : "Partial")}
+                          </span>
+                        </td>
+                      );
+                    })}
+                  </tr>
+                  <tr>
+                    <th>{language === "id" ? "Cakupan Biaya" : "Coverage & Benefits"}</th>
+                    {selectedCompareIds.map((id) => {
+                      const sc = scholarships.find((s) => s.id === id);
+                      return (
+                        <td key={id}>
+                          <ul style={{ listStyleType: "disc", paddingLeft: "1.2rem", margin: 0, gap: "0.25rem", display: "flex", flexDirection: "column" }}>
+                            {sc?.coverage[language].map((cov: string, idx: number) => (
+                              <li key={idx} style={{ fontSize: "0.78rem" }}>{cov}</li>
+                            ))}
+                          </ul>
+                        </td>
+                      );
+                    })}
+                  </tr>
+                  <tr>
+                    <th>{language === "id" ? "Persyaratan" : "Requirements"}</th>
+                    {selectedCompareIds.map((id) => {
+                      const sc = scholarships.find((s) => s.id === id);
+                      return (
+                        <td key={id}>
+                          <ul style={{ listStyleType: "disc", paddingLeft: "1.2rem", margin: 0, gap: "0.25rem", display: "flex", flexDirection: "column" }}>
+                            {sc?.requirements[language].map((req: string, idx: number) => (
+                              <li key={idx} style={{ fontSize: "0.78rem" }}>{req}</li>
+                            ))}
+                          </ul>
+                        </td>
+                      );
+                    })}
+                  </tr>
+                  <tr>
+                    <th>{language === "id" ? "Tenggat Pendaftaran" : "Application Deadline"}</th>
+                    {selectedCompareIds.map((id) => {
+                      const sc = scholarships.find((s) => s.id === id);
+                      return (
+                        <td key={id} style={{ fontWeight: 700 }}>
+                          {sc &&
+                            new Date(sc.deadline).toLocaleDateString(language === "id" ? "id-ID" : "en-US", {
+                              day: "numeric",
+                              month: "short",
+                              year: "numeric",
+                            })}
+                        </td>
+                      );
+                    })}
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Modal */}
       <ScholarshipModal

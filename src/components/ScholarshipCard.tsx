@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Scholarship } from "../data/scholarships";
 import { Language, Dictionary } from "../data/translations";
 
@@ -7,6 +7,9 @@ interface ScholarshipCardProps {
   isBookmarked: boolean;
   onToggleBookmark: () => void;
   onOpenDetails: () => void;
+  isCompareSelected: boolean;
+  onToggleCompare: () => void;
+  searchQuery?: string;
   index?: number;
   t: Dictionary;
   language: Language;
@@ -39,11 +42,38 @@ const DELAY_CLASSES = [
   "anim-delay-4","anim-delay-5","anim-delay-6",
 ];
 
+function highlightText(text: string, query?: string): React.ReactNode {
+  if (!query || !query.trim()) return text;
+  const terms = query.split(/\s+/).filter(t => t.length > 0);
+  if (terms.length === 0) return text;
+  
+  const escapedTerms = terms.map(t => t.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'));
+  const regex = new RegExp(`(${escapedTerms.join('|')})`, 'gi');
+  
+  const parts = text.split(regex);
+  return (
+    <>
+      {parts.map((part, i) =>
+        regex.test(part) ? (
+          <mark key={i} className="search-highlight">
+            {part}
+          </mark>
+        ) : (
+          part
+        )
+      )}
+    </>
+  );
+}
+
 export default function ScholarshipCard({
   scholarship,
   isBookmarked,
   onToggleBookmark,
   onOpenDetails,
+  isCompareSelected,
+  onToggleCompare,
+  searchQuery = "",
   index = 0,
   t,
   language,
@@ -55,47 +85,94 @@ export default function ScholarshipCard({
   const progress = deadlineProgress(deadline);
   const delayClass = DELAY_CLASSES[index % DELAY_CLASSES.length];
 
+  // Lazy Render Viewport Hook
+  const [isVisible, setIsVisible] = useState(false);
+  const cardRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "150px" }
+    );
+    if (cardRef.current) {
+      observer.observe(cardRef.current);
+    }
+    return () => observer.disconnect();
+  }, []);
+
+  if (!isVisible) {
+    return (
+      <article
+        ref={cardRef}
+        className="lg-panel card-panel"
+        style={{
+          minHeight: "360px",
+          background: "rgba(255, 255, 255, 0.25)",
+          border: "1px solid rgba(255,255,255,0.4)"
+        }}
+      />
+    );
+  }
+
   return (
     <article
+      ref={cardRef}
       className={`lg-panel lg-panel-hover card-panel anim-fade-up ${delayClass}`}
       style={{ minHeight: "360px" }}
     >
-      {/* ── Top row: provider + bookmark ── */}
+      {/* ── Top row: provider + compare + bookmark ── */}
       <div className="flex items-start justify-between gap-3" style={{ marginBottom: "1.25rem" }}>
         <p
           className="section-label truncate"
-          style={{ maxWidth: "210px" }}
+          style={{ maxWidth: "140px" }}
           title={provider[language]}
         >
-          {provider[language]}
+          {highlightText(provider[language], searchQuery)}
         </p>
 
-        <button
-          onClick={(e) => { e.stopPropagation(); onToggleBookmark(); }}
-          aria-label={isBookmarked ? "Remove bookmark" : "Add bookmark"}
-          style={{
-            padding: "0.45rem",
-            borderRadius: "10px",
-            background: isBookmarked ? "rgba(244,63,94,0.12)" : "rgba(255,255,255,0.55)",
-            border: `1.5px solid ${isBookmarked ? "rgba(244,63,94,0.35)" : "rgba(255,255,255,0.75)"}`,
-            cursor: "pointer",
-            transition: "all 0.2s ease",
-            display: "flex", alignItems: "center", justifyContent: "center",
-          }}
-        >
-          <svg
-            viewBox="0 0 24 24" strokeWidth="2.2"
+        <div className="flex items-center gap-2.5">
+          <label style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem", cursor: "pointer", fontSize: "0.68rem", fontWeight: 800, color: "var(--text-muted)", background: "rgba(255,255,255,0.4)", padding: "0.25rem 0.5rem", borderRadius: "8px", border: "1px solid rgba(0,0,0,0.05)" }}>
+            <input 
+              type="checkbox" 
+              checked={isCompareSelected} 
+              onChange={(e) => { e.stopPropagation(); onToggleCompare(); }} 
+              style={{ cursor: "pointer", accentColor: "var(--accent)" }} 
+            />
+            <span>{language === "id" ? "Bandingkan" : "Compare"}</span>
+          </label>
+
+          <button
+            onClick={(e) => { e.stopPropagation(); onToggleBookmark(); }}
+            aria-label={isBookmarked ? "Remove bookmark" : "Add bookmark"}
             style={{
-              width: "15px", height: "15px",
-              fill: isBookmarked ? "#f43f5e" : "none",
-              stroke: isBookmarked ? "#f43f5e" : "var(--text-soft)",
-              transition: "all 0.2s",
+              padding: "0.45rem",
+              borderRadius: "10px",
+              background: isBookmarked ? "rgba(244,63,94,0.12)" : "rgba(255,255,255,0.55)",
+              border: `1.5px solid ${isBookmarked ? "rgba(244,63,94,0.35)" : "rgba(255,255,255,0.75)"}`,
+              cursor: "pointer",
+              transition: "all 0.2s ease",
+              display: "flex", alignItems: "center", justifyContent: "center",
             }}
           >
-            <path strokeLinecap="round" strokeLinejoin="round"
-              d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-          </svg>
-        </button>
+            <svg
+              viewBox="0 0 24 24" strokeWidth="2.2"
+              style={{
+                width: "15px", height: "15px",
+                fill: isBookmarked ? "#f43f5e" : "none",
+                stroke: isBookmarked ? "#f43f5e" : "var(--text-soft)",
+                transition: "all 0.2s",
+              }}
+            >
+              <path strokeLinecap="round" strokeLinejoin="round"
+                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+            </svg>
+          </button>
+        </div>
       </div>
 
       {/* ── Title ── */}
@@ -111,7 +188,7 @@ export default function ScholarshipCard({
           marginBottom: "1rem",
         }}
       >
-        {name[language]}
+        {highlightText(name[language], searchQuery)}
       </h3>
 
       {/* ── Badges ── */}
@@ -139,7 +216,7 @@ export default function ScholarshipCard({
           marginBottom: "1.75rem",
         }}
       >
-        {description[language]}
+        {highlightText(description[language], searchQuery)}
       </p>
 
       {/* ── Deadline bar ── */}
@@ -187,3 +264,4 @@ export default function ScholarshipCard({
     </article>
   );
 }
+
