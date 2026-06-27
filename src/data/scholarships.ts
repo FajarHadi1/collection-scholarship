@@ -10490,9 +10490,9 @@ export const scholarships: Scholarship[] = [
         "Pass administration screening and interview with the supervisor at the host university"
       ]
     },
-    status: 'soon',
-    deadline: "2027-04-15",
-    applicationUrl: "https://www.pmdsu.id/",
+    status: 'open',
+    deadline: "2026-07-06",
+    applicationUrl: "https://pmdsu.kemdiktisaintek.go.id/v2",
     description: {
       id: "Program beasiswa percepatan pendidikan magister menuju doktor dalam waktu 4 tahun bagi sarjana unggulan di bawah bimbingan promotor andal.",
       en: "An accelerated scholarship program enabling outstanding bachelor graduates to earn master and doctoral degrees within 4 years under top-tier supervisors."
