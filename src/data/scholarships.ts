@@ -11081,5 +11081,652 @@ export const scholarships: Scholarship[] = [
         "Full Scholarship"
       ]
     }
+  },
+  {
+    id: "beasiswa-jambi-tuntas",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Jambi Tuntas (Provinsi Jambi)",
+      en: "Jambi Tuntas Scholarship (Jambi Province)"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Jambi",
+      en: "Provincial Government of Jambi"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana pendidikan stimulan tahunan untuk jenjang D3/S1/S2/S3",
+        "Dukungan penulisan tugas akhir atau disertasi"
+      ],
+      en: [
+        "Annual stimulant education funding assistance for D3/S1/S2/S3 levels",
+        "Thesis or dissertation writing support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga Negara Indonesia kelahiran atau berdomisili di Provinsi Jambi (KTP Jambi)",
+        "Mahasiswa aktif di perguruan tinggi negeri atau swasta yang terakreditasi",
+        "IPK minimal 3.00 (S1) atau 3.25 (S2/S3)",
+        "Tidak sedang menerima bantuan biaya pendidikan dari sumber APBD/APBN lainnya"
+      ],
+      en: [
+        "Indonesian citizen born or residing in Jambi Province (Jambi ID card required)",
+        "Active student at an accredited public or private higher education institution",
+        "Minimum GPA of 3.00 (Bachelor) or 3.25 (Master/Doctoral)",
+        "Not currently receiving education funding from other regional or state budgets (APBD/APBN)"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-10-15",
+    applicationUrl: "https://jambiprov.go.id/",
+    description: {
+      id: "Beasiswa pendidikan dari Pemprov Jambi untuk meningkatkan kualitas SDM dan menunjang penyelesaian studi mahasiswa asli daerah Jambi.",
+      en: "Education scholarship from the Jambi Provincial Government to enhance human resource quality and support study completion for native students of Jambi."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Jambi",
+        "Daerah"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Jambi",
+        "Regional"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-sumut",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Mahasiswa Berprestasi Provinsi Sumatera Utara",
+      en: "North Sumatra Provincial Government Outstanding Student Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Sumatera Utara",
+      en: "Provincial Government of North Sumatra"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana UKT / biaya kuliah per semester",
+        "Tunjangan stimulan penelitian tugas akhir"
+      ],
+      en: [
+        "Tuition fee (UKT) assistance per semester",
+        "Thesis research stimulant allowance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga Negara Indonesia asal Sumatera Utara (dibuktikan dengan KTP & KK Sumut)",
+        "Mahasiswa aktif D3/D4/S1/S2/S3 di perguruan tinggi negeri atau swasta mitra",
+        "IPK minimal 3.00 (jurusan eksakta) atau 3.30 (jurusan non-eksakta)",
+        "Membuat surat pernyataan bebas narkoba dan berkelakuan baik"
+      ],
+      en: [
+        "Indonesian citizen from North Sumatra (proven by North Sumatra ID & Family Card)",
+        "Active student of Diploma, Bachelor, Master, or Doctoral degrees at partner universities",
+        "Minimum GPA of 3.00 (science majors) or 3.30 (non-science majors)",
+        "Submit a statement letter of drug-free status and good conduct"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-11-15",
+    applicationUrl: "https://sumutprov.go.id/",
+    description: {
+      id: "Program beasiswa Pemerintah Provinsi Sumatera Utara untuk meringankan biaya kuliah mahasiswa berprestasi dan kurang mampu asal Sumut.",
+      en: "North Sumatra Provincial Government scholarship program to ease tuition costs for outstanding and underprivileged students from the region."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Sumatera Utara",
+        "Daerah"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "North Sumatra",
+        "Regional"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-sulsel",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Prestasi Pemerintah Provinsi Sulawesi Selatan",
+      en: "South Sulawesi Provincial Government Academic Excellence Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Sulawesi Selatan",
+      en: "Provincial Government of South Sulawesi"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana UKT kuliah tahunan",
+        "Pelatihan kompetensi digital dan kepemimpinan"
+      ],
+      en: [
+        "Annual tuition fee (UKT) financial assistance",
+        "Digital competence and leadership training"
+      ]
+    },
+    requirements: {
+      id: [
+        "Memiliki KTP dan Kartu Keluarga wilayah Provinsi Sulawesi Selatan",
+        "Mahasiswa aktif program Sarjana (S1) semester 3, 5, atau 7",
+        "IPK minimal 3.50 berturut-turut pada jenjang perkuliahan",
+        "Aktif berorganisasi dan tidak pernah terlibat kasus hukum"
+      ],
+      en: [
+        "Possess ID and Family Card of South Sulawesi Province",
+        "Active Bachelor (S1) student in 3rd, 5th, or 7th semesters",
+        "Minimum GPA of 3.50 consecutively in their college records",
+        "Active in student organizations and never involved in legal cases"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-09-30",
+    applicationUrl: "https://sulselprov.go.id/",
+    description: {
+      id: "Beasiswa prestasi dari Pemerintah Provinsi Sulawesi Selatan untuk memajukan kualitas akademisi muda berprestasi di Sulsel.",
+      en: "Academic excellence scholarship by the South Sulawesi Provincial Government to advance the quality of high-achieving youth in the province."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Sulawesi Selatan",
+        "Prestasi"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "South Sulawesi",
+        "Excellence"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-baitul-mal-aceh",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Senif Muallaf & Dhuafa Baitul Mal Aceh",
+      en: "Baitul Mal Aceh Muallaf & Dhuafa Scholarship"
+    },
+    provider: {
+      id: "Baitul Mal Provinsi Aceh",
+      en: "Baitul Mal of Aceh Province"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Uang saku bulanan biaya hidup",
+        "Bantuan dana UKT kuliah 100% penuh hingga lulus (maksimal 8 semester)",
+        "Program pembinaan keislaman dan kajian kontemporer"
+      ],
+      en: [
+        "Monthly living allowance",
+        "100% full tuition fee (UKT) assistance until graduation (max 8 semesters)",
+        "Islamic development program and contemporary studies"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga Negara Indonesia asal Aceh dibuktikan dengan KK/KTP Aceh",
+        "Berasal dari keluarga kurang mampu (dhuafa) atau berstatus muallaf",
+        "Mahasiswa aktif di perguruan tinggi negeri di wilayah Provinsi Aceh",
+        "IPK minimal 2.75 dan berkelakuan baik"
+      ],
+      en: [
+        "Indonesian citizen from Aceh proven by Aceh Family Card/ID",
+        "From an underprivileged family (dhuafa) or have muallaf status",
+        "Active student at a public university located in Aceh Province",
+        "Minimum GPA of 2.75 and possess good conduct"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-25",
+    applicationUrl: "https://baitulmal.acehprov.go.id/",
+    description: {
+      id: "Beasiswa penuh dari Baitul Mal Aceh menggunakan dana zakat untuk menjamin akses kuliah mahasiswa dhuafa dan muallaf di Aceh.",
+      en: "A fully funded scholarship by Baitul Mal Aceh funded by zakat to ensure higher education access for dhuafa and muallaf students in Aceh."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Aceh",
+        "Zakat"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Aceh",
+        "Zakat"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-bali",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Mahasiswa Berprestasi Pemerintah Provinsi Bali",
+      en: "Bali Provincial Government Outstanding Student Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Bali",
+      en: "Provincial Government of Bali"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana stimulan biaya pendidikan tahunan",
+        "Pelatihan kewirausahaan dan pelestarian budaya Bali"
+      ],
+      en: [
+        "Annual stimulant education funding assistance",
+        "Entrepreneurship training and Bali cultural preservation programs"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga Provinsi Bali dibuktikan dengan KTP & Kartu Keluarga Bali",
+        "Mahasiswa aktif minimal semester 3 di perguruan tinggi negeri/swasta di Bali",
+        "IPK minimal 3.25 untuk sains/teknologi atau 3.40 untuk ilmu sosial/budaya",
+        "Aktif melestarikan seni, budaya, atau kearifan lokal Bali"
+      ],
+      en: [
+        "Resident of Bali Province proven by Bali ID & Family Card",
+        "Active student in at least 3rd semester at public/private colleges in Bali",
+        "Minimum GPA of 3.25 for science/technology or 3.40 for social/humanities",
+        "Actively participate in preserving Balinese arts, culture, or local wisdom"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-10-10",
+    applicationUrl: "https://baliprov.go.id/",
+    description: {
+      id: "Program apresiasi dari Pemprov Bali untuk mendukung biaya perkuliahan mahasiswa berprestasi yang peduli pelestarian budaya Bali.",
+      en: "Appreciation program by the Bali Provincial Government to support tuition fees of outstanding students dedicated to preserving Balinese culture."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Bali",
+        "Budaya"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Bali",
+        "Culture"
+      ]
+    }
+  },
+  {
+    id: "mccall-macbain-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa McCall MacBain (Universitas McGill, Kanada)",
+      en: "McCall MacBain Scholarships (McGill University, Canada)"
+    },
+    provider: {
+      id: "McCall MacBain Foundation & McGill University",
+      en: "McCall MacBain Foundation & McGill University"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Uang kuliah penuh 100% dan biaya pendaftaran di Universitas McGill",
+        "Tunjangan biaya hidup bulanan CAD 2.000 selama studi",
+        "Program mentorship kepemimpinan global yang intensif",
+        "Tunjangan relokasi kedatangan sekali bayar"
+      ],
+      en: [
+        "100% full tuition and admission fees coverage at McGill University",
+        "Monthly living stipend of CAD 2,000 during the study program",
+        "Intensive global leadership mentoring program",
+        "One-off relocation grant to Montreal"
+      ]
+    },
+    requirements: {
+      id: [
+        "Terbuka untuk pelamar internasional (termasuk Indonesia) yang mendaftar S2/S3 di McGill",
+        "Menunjukkan rekam kepemimpinan luar biasa, kepedulian sosial, dan karakter yang kuat",
+        "Memegang gelar sarjana dengan nilai akademik tingkat tinggi",
+        "Kemampuan bahasa Inggris tingkat tinggi (IELTS minimal 7.0 atau TOEFL iBT 100)"
+      ],
+      en: [
+        "Open to international applicants applying for eligible Master's or professional degrees at McGill",
+        "Demonstrate exceptional leadership, community engagement, and strong character",
+        "Hold a Bachelor's degree with high academic standards",
+        "High English proficiency (minimum IELTS 7.0 or TOEFL iBT 100)"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-21",
+    applicationUrl: "https://mccallmacbainscholars.org/",
+    description: {
+      id: "Beasiswa penuh kepemimpinan pascasarjana di Universitas McGill, Kanada, untuk mencetak pemimpin masa depan yang berkarakter.",
+      en: "A full graduate leadership scholarship at McGill University, Canada, designed to support outstanding scholars who show character and leadership."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Kanada",
+        "Kepemimpinan"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Canada",
+        "Leadership"
+      ]
+    }
+  },
+  {
+    id: "tubitak-graduate-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Riset Pascasarjana TÜBITAK (Turki)",
+      en: "TÜBITAK Graduate Scholarship (Turkey)"
+    },
+    provider: {
+      id: "Lembaga Riset Ilmiah dan Teknologi Turki (TÜBİTAK)",
+      en: "Scientific and Technological Research Council of Turkey (TÜBİTAK)"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Uang kuliah penuh dibebaskan di universitas mitra Turki",
+        "Tunjangan biaya hidup bulanan untuk S2 dan S3",
+        "Dana hibah riset dan biaya publikasi jurnal ilmiah",
+        "Asuransi kesehatan dan tiket pesawat pulang-pergi"
+      ],
+      en: [
+        "Full tuition fee waiver at partner Turkish universities",
+        "Monthly living allowance for Master's and PhD research",
+        "Research project grant and scientific publication support",
+        "Health insurance coverage and round-trip airfare"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara asing berprestasi yang mendaftar S2/S3 riset di Turki",
+        "Batas usia: Maksimal 30 tahun (S2) dan 35 tahun (S3)",
+        "IPK minimal setara 3.00 dari skala 4.00",
+        "Mendapatkan persetujuan riset dari profesor di Turki"
+      ],
+      en: [
+        "International students applying for research-oriented Master or PhD in Turkey",
+        "Age limits: Maximum 30 years for Master and 35 years for PhD",
+        "Minimum GPA equivalent to 3.00 on a 4.00 scale",
+        "Hold a confirmed acceptance from an academic supervisor in Turkey"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-11-10",
+    applicationUrl: "https://www.tubitak.gov.tr/",
+    description: {
+      id: "Beasiswa riset pascasarjana bergengsi dari Dewan Riset Turki untuk mendukung ilmuwan muda internasional berbakat melakukan penelitian di Turki.",
+      en: "A prestigious research scholarship by the Turkish Research Council supporting talented international scientists in engineering and natural sciences."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Luar Negeri",
+        "Turki",
+        "Riset"
+      ],
+      en: [
+        "Government",
+        "Overseas",
+        "Turkey",
+        "Research"
+      ]
+    }
+  },
+  {
+    id: "weidenfeld-hoffmann-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Kepemimpinan Weidenfeld-Hoffmann (Universitas Oxford, Inggris)",
+      en: "Weidenfeld-Hoffmann Scholarships and Leadership Programme (University of Oxford, UK)"
+    },
+    provider: {
+      id: "The Weidenfeld-Hoffmann Trust & Universitas Oxford",
+      en: "The Weidenfeld-Hoffmann Trust & University of Oxford"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Biaya kuliah penuh 100% di Universitas Oxford",
+        "Tunjangan biaya hidup tahunan minimal £19.000",
+        "Akses eksklusif program pengembangan kepemimpinan dan jejaring karir"
+      ],
+      en: [
+        "100% full tuition fees coverage at the University of Oxford",
+        "Annual living costs grant of at least £19,000",
+        "Exclusive access to leadership development modules and networking events"
+      ]
+    },
+    requirements: {
+      id: [
+        "Berasal dari negara berkembang (termasuk Indonesia) yang mendaftar S2 tertentu di Oxford",
+        "Berkomitmen kembali ke negara asal setelah lulus untuk memberikan kontribusi nyata",
+        "Memiliki prestasi akademik yang luar biasa dan potensi kepemimpinan tinggi"
+      ],
+      en: [
+        "Citizen of an eligible developing country (inc. Indonesia) applying for Master's at Oxford",
+        "Committed to returning to home country to make a significant impact upon graduation",
+        "Outstanding academic excellence and proven leadership potential"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-12-15",
+    applicationUrl: "https://www.weidenfeldhoffmann.org/",
+    description: {
+      id: "Beasiswa pascasarjana penuh Universitas Oxford untuk membentuk pemimpin masa depan dari negara berkembang melalui pelatihan kepemimpinan intensif.",
+      en: "A fully funded Master's scholarship at Oxford University combined with a leadership program for young leaders from emerging economies."
+    },
+    tags: {
+      id: [
+        "Yayasan",
+        "Luar Negeri",
+        "Inggris",
+        "Kepemimpinan"
+      ],
+      en: [
+        "Foundation",
+        "Overseas",
+        "UK",
+        "Leadership"
+      ]
+    }
+  },
+  {
+    id: "la-trobe-research-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Riset Pascasarjana Universitas La Trobe (Australia)",
+      en: "La Trobe University Research Scholarships (Australia)"
+    },
+    provider: {
+      id: "La Trobe University, Australia",
+      en: "La Trobe University, Australia"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Biaya kuliah penuh (tuition fee offset) selama masa program riset",
+        "Tunjangan biaya hidup tahunan senilai AUD 34.000",
+        "Asuransi kesehatan mahasiswa asing (OSHC) Single"
+      ],
+      en: [
+        "Full tuition fee offset for the standard duration of the research degree",
+        "Annual living stipend of AUD 34,000",
+        "Overseas Student Health Cover (OSHC) Single membership"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional baru yang mendaftar program riset S2 atau S3 di La Trobe",
+        "Memiliki gelar Honours Kelas Satu (First Class) atau setara IPK 3.60+",
+        "Memiliki proposal riset terakreditasi dan didukung supervisor akademik"
+      ],
+      en: [
+        "New international student enrolled in a Master by Research or PhD at La Trobe",
+        "Hold a First-Class Honours degree or equivalent GPA of 3.60+",
+        "Submit a strong research proposal supported by a prospective advisor"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-09-30",
+    applicationUrl: "https://www.latrobe.edu.au/research/scholarships",
+    description: {
+      id: "Beasiswa riset penuh dari Universitas La Trobe untuk mendukung kandidat internasional berprestasi tinggi melakukan riset inovatif di Australia.",
+      en: "Full research scholarship offered by La Trobe University to support top international candidates conducting innovative research in Australia."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Australia",
+        "Riset"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Australia",
+        "Research"
+      ]
+    }
+  },
+  {
+    id: "geneva-excellence-master-fellowship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Excellence Master Universitas Jenewa (Swiss)",
+      en: "University of Geneva Excellence Master Fellowships (Switzerland)"
+    },
+    provider: {
+      id: "University of Geneva, Swiss",
+      en: "University of Geneva, Switzerland"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Tunjangan hidup tahunan senilai CHF 10.000 hingga CHF 15.000",
+        "Bimbingan akademis intensif dan integrasi ke dalam proyek riset laboratorium"
+      ],
+      en: [
+        "Annual living allowance of CHF 10,000 to CHF 15,000",
+        "Intensive academic mentorship and integration into laboratory research projects"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional luar biasa mendaftar program Master di Fakultas Sains Jenewa",
+        "Berada di peringkat 10% teratas pada program Sarjana sebelumnya",
+        "Mengirimkan esai motivasi riset dan dua surat rekomendasi dari profesor",
+        "Kemampuan bahasa Inggris tinggi (IELTS minimal 6.5 / TOEFL iBT 90)"
+      ],
+      en: [
+        "Outstanding international students applying to Master's at the Faculty of Science, Geneva",
+        "Belong to the top 10% of their graduating Bachelor's class",
+        "Submit research motivation essay and two academic recommendation letters",
+        "High English proficiency (minimum IELTS 6.5 or TOEFL iBT 90)"
+      ]
+    },
+    status: 'soon',
+    deadline: "2027-03-15",
+    applicationUrl: "https://www.unige.ch/sciences/en/teachings/excellencemaster/",
+    description: {
+      id: "Beasiswa prestasi dari Universitas Jenewa untuk mendanai mahasiswa internasional unggulan di bidang sains terapan, fisika, dan kimia.",
+      en: "Excellence master fellowships by the University of Geneva to support outstanding international students in sciences, physics, and chemistry."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Swiss",
+        "Sains"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Switzerland",
+        "Science"
+      ]
+    }
   }
 ];
