@@ -10929,7 +10929,7 @@ export const scholarships: Scholarship[] = [
         "Demonstrate leadership commitment and a strong motivation essay"
       ]
     },
-    status: 'open',
+    status: 'closed',
     deadline: "2026-02-01",
     applicationUrl: "https://vu.nl/en/education/master/scholarships-fellowships/vufp-scholarship",
     description: {
@@ -11060,7 +11060,7 @@ export const scholarships: Scholarship[] = [
         "High English language proficiency (minimum IELTS 7.0 or TOEFL iBT 100)"
       ]
     },
-    status: 'soon',
+    status: 'closed',
     deadline: "2026-02-01",
     applicationUrl: "https://www.uu.nl/masters/en/general-information/international-students/financial-matters/scholarships/utrecht-excellence-scholarship",
     description: {
@@ -11726,6 +11726,657 @@ export const scholarships: Scholarship[] = [
         "Overseas",
         "Switzerland",
         "Science"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-bca-smart",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa BCA Smart (Bank Central Asia)",
+      en: "BCA Smart Scholarship (Bank Central Asia)"
+    },
+    provider: {
+      id: "PT Bank Central Asia Tbk",
+      en: "PT Bank Central Asia Tbk"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bantuan uang kuliah tunggal (UKT) penuh hingga lulus",
+        "Tunjangan uang saku bulanan",
+        "Program pengembangan soft skills dan keterampilan finansial",
+        "Kesempatan magang di kantor cabang atau pusat BCA"
+      ],
+      en: [
+        "Full tuition fee (UKT) coverage until graduation",
+        "Monthly living stipend allowance",
+        "Soft skills and financial literacy development programs",
+        "Internship opportunities at BCA branches or headquarters"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif program Sarjana (S1) semester 1 atau 3 di universitas mitra",
+        "Berasal dari keluarga dengan latar belakang ekonomi kurang mampu",
+        "IPK minimal 3.00 pada skala 4.00",
+        "Lolos seleksi berkas, tes kemampuan dasar, dan wawancara"
+      ],
+      en: [
+        "Active Bachelor's (S1) student in 1st or 3rd semester at partner universities",
+        "From an economically disadvantaged family background",
+        "Minimum GPA of 3.00 on a 4.00 scale",
+        "Pass application screening, basic ability test, and interview rounds"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-10-30",
+    applicationUrl: "https://www.karir.bca.co.id/beasiswa",
+    description: {
+      id: "Program beasiswa CSR Bank Central Asia untuk membantu pembiayaan kuliah mahasiswa berprestasi dari keluarga pra-sejahtera.",
+      en: "BCA's CSR scholarship program designed to finance the higher education of outstanding students from underprivileged families."
+    },
+    tags: {
+      id: [
+        "Swasta",
+        "Dalam Negeri",
+        "Perbankan",
+        "Bantuan Kuliah"
+      ],
+      en: [
+        "Private",
+        "Domestic",
+        "Banking",
+        "Tuition Support"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-bojonegoro",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Satu Desa Dua Sarjana Kabupaten Bojonegoro",
+      en: "Bojonegoro Regency One Village Two Graduates Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Bojonegoro",
+      en: "Regency Government of Bojonegoro"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bantuan biaya pendidikan (UKT) penuh hingga maksimal 8 semester"
+      ],
+      en: [
+        "Full tuition fee (UKT) coverage for up to 8 semesters"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga Negara Indonesia berdomisili asli di Kabupaten Bojonegoro",
+        "Memiliki KTP dan Kartu Keluarga Bojonegoro",
+        "Mahasiswa aktif program Sarjana (S1) di PTN/PTS mitra",
+        "Terdaftar sebagai penduduk desa setempat yang mengajukan permohonan",
+        "IPK minimal 3.00 untuk mahasiswa eksakta atau 3.25 untuk sosial"
+      ],
+      en: [
+        "Indonesian citizen with native residency in Bojonegoro Regency",
+        "Possess Bojonegoro ID and Family Card",
+        "Active Bachelor's (S1) student at partner public or private universities",
+        "Registered as a local villager applying for the designated slot",
+        "Minimum GPA of 3.00 for science majors or 3.25 for social sciences"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-09-30",
+    applicationUrl: "https://bojonegorokab.go.id/",
+    description: {
+      id: "Program beasiswa Pemerintah Kabupaten Bojonegoro untuk mencetak sarjana di setiap desa guna mempercepat pembangunan daerah.",
+      en: "Bojonegoro Regency Government scholarship program aimed at producing graduates in every village to accelerate regional development."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Bojonegoro",
+        "Daerah"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Bojonegoro",
+        "Regional"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pbsb-kemenag",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Program Beasiswa Santri Berprestasi (PBSB) Kementerian Agama",
+      en: "PBSB Outstanding Santri Scholarship (Ministry of Religious Affairs)"
+    },
+    provider: {
+      id: "Direktorat Pendidikan Diniyah dan Pondok Pesantren Kemenag RI",
+      en: "Directorate of Islamic Boarding School Education, Ministry of Religious Affairs"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Biaya pendidikan kuliah (UKT) 100% penuh",
+        "Tunjangan biaya hidup bulanan",
+        "Bantuan biaya asrama dan biaya buku",
+        "Program pembinaan karakter santri di universitas mitra"
+      ],
+      en: [
+        "100% full tuition fee (UKT) coverage",
+        "Monthly living allowance stipend",
+        "Dormitory and book allowances support",
+        "Santri character development program at partner universities"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga Negara Indonesia berasal dari pondok pesantren terdaftar (PBSB Kemenag)",
+        "Santri mukim yang telah menyelesaikan jenjang MA/PDF/SPM",
+        "Rekomendasi tertulis dari Pimpinan Pondok Pesantren",
+        "Lolos ujian seleksi berbasis komputer dan tes wawancara Kemenag"
+      ],
+      en: [
+        "Indonesian citizen originating from registered Islamic boarding schools (Pesantren)",
+        "Santri resident who completed senior high school equivalent (MA/PDF/SPM)",
+        "Written recommendation from the head of the Islamic boarding school",
+        "Pass computer-based entrance test and interview conducted by MoRA"
+      ]
+    },
+    status: 'soon',
+    deadline: "2027-05-15",
+    applicationUrl: "https://ditponton.kemenag.go.id/pbsb/",
+    description: {
+      id: "Beasiswa penuh dari Kementerian Agama bagi santri pondok pesantren berprestasi untuk menempuh kuliah di universitas unggulan Indonesia.",
+      en: "A fully funded scholarship by the Ministry of Religious Affairs for outstanding santri to pursue degrees at top Indonesian universities."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Kemenag",
+        "Pesantren"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "MoRA",
+        "Boarding School"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-ruangpeduli-ruangguru",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa RuangPeduli Ruangguru",
+      en: "RuangPeduli Ruangguru Scholarship"
+    },
+    provider: {
+      id: "Yayasan Ruang Pengabdi Indonesia (RuangPeduli) & Ruangguru",
+      en: "Ruang Pengabdi Indonesia Foundation (RuangPeduli) & Ruangguru"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan biaya SPP/UKT kuliah per semester",
+        "Akses gratis platform belajar Ruangguru dan pendampingan mentor",
+        "Pelatihan keterampilan digital dan persiapan karir"
+      ],
+      en: [
+        "Tuition fee (UKT) financial assistance per semester",
+        "Free access to Ruangguru learning platform and mentoring support",
+        "Digital skills training and career preparation programs"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif program Diploma atau Sarjana semester 1 hingga 5",
+        "Berasal dari keluarga dengan keterbatasan finansial",
+        "IPK minimal 3.00 pada skala 4.00",
+        "Membuat esai motivasi kontribusi sosial"
+      ],
+      en: [
+        "Active Diploma or Bachelor's student in 1st to 5th semesters",
+        "From a family with financial limitations",
+        "Minimum GPA of 3.00 on a 4.00 scale",
+        "Submit a motivation essay on social contribution"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-15",
+    applicationUrl: "https://www.ruangpeduli.org/",
+    description: {
+      id: "Beasiswa dari Ruangguru melalui program RuangPeduli untuk menunjang biaya kuliah dan pengembangan kompetensi digital mahasiswa Indonesia.",
+      en: "Scholarship program by Ruangguru through RuangPeduli to support tuition costs and digital competency development for Indonesian students."
+    },
+    tags: {
+      id: [
+        "Swasta",
+        "Dalam Negeri",
+        "Pendidikan",
+        "Teknologi"
+      ],
+      en: [
+        "Private",
+        "Domestic",
+        "Education",
+        "Technology"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-kukar-idaman",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Kukar Idaman (Kabupaten Kutai Kartanegara)",
+      en: "Kukar Idaman Scholarship (Kutai Kartanegara Regency)"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Kutai Kartanegara",
+      en: "Regency Government of Kutai Kartanegara"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana stimulan biaya pendidikan tahunan",
+        "Bantuan dana penyelesaian tugas akhir atau penelitian"
+      ],
+      en: [
+        "Annual stimulant education funding assistance",
+        "Thesis writing or research completion grant"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga Negara Indonesia berdomisili di Kabupaten Kutai Kartanegara",
+        "Memiliki KTP dan Kartu Keluarga Kutai Kartanegara",
+        "Mahasiswa aktif D3/D4/S1/S2/S3",
+        "IPK minimal 3.00 (jurusan eksakta) atau 3.20 (jurusan sosial)"
+      ],
+      en: [
+        "Indonesian citizen residing in Kutai Kartanegara Regency",
+        "Possess Kutai Kartanegara ID and Family Card",
+        "Active student of Diploma, Bachelor, Master, or Doctoral degrees",
+        "Minimum GPA of 3.00 (science majors) or 3.20 (social science majors)"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-10-15",
+    applicationUrl: "https://kukarkab.go.id/",
+    description: {
+      id: "Program beasiswa Pemerintah Kabupaten Kutai Kartanegara bagi mahasiswa berprestasi dan kurang mampu asal Kukar.",
+      en: "Kutai Kartanegara Regency Government scholarship program for outstanding and underprivileged students from the region."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Kutai Kartanegara",
+        "Daerah"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Kutai Kartanegara",
+        "Regional"
+      ]
+    }
+  },
+  {
+    id: "tokyo-presidents-fellowship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa President's Fellowship Universitas Tokyo (Jepang)",
+      en: "University of Tokyo President's Fellowship (Japan)"
+    },
+    provider: {
+      id: "University of Tokyo, Jepang",
+      en: "University of Tokyo, Japan"
+    },
+    degreeLevels: [
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Uang kuliah penuh dibebaskan (100% tuition waiver)",
+        "Tunjangan biaya hidup bulanan senilai JPY 200.000 selama studi doktoral",
+        "Akses fasilitas asrama dan laboratorium riset utama"
+      ],
+      en: [
+        "100% full tuition fee waiver",
+        "Monthly living stipend of JPY 200,000 during doctoral studies",
+        "Access to university dormitories and core research laboratories"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional baru yang mendaftar program Ph.D. di UTokyo",
+        "Memiliki prestasi akademik yang luar biasa dari jenjang studi sebelumnya",
+        "Direkomendasikan secara resmi oleh dekan fakultas atau pembimbing riset",
+        "Memiliki proposal riset doktoral yang solid dan berdaya dampak tinggi"
+      ],
+      en: [
+        "New international student applying for a Ph.D. program at UTokyo",
+        "Outstanding academic records from previous tertiary qualifications",
+        "Officially recommended by the dean of the faculty or research supervisor",
+        "Submit a solid and high-impact doctoral research proposal"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-11-15",
+    applicationUrl: "https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html",
+    description: {
+      id: "Beasiswa riset doktoral penuh paling bergengsi dari Universitas Tokyo untuk menyokong ilmuwan muda internasional berbakat dunia.",
+      en: "UTokyo's highly prestigious fully funded doctoral fellowship supporting top-tier international graduate researchers."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Jepang",
+        "Doktoral"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Japan",
+        "Doctoral"
+      ]
+    }
+  },
+  {
+    id: "mahidol-university-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Universitas Mahidol untuk Mahasiswa Internasional (Thailand)",
+      en: "Mahidol University Scholarships for International Students (Thailand)"
+    },
+    provider: {
+      id: "Mahidol University, Thailand",
+      en: "Mahidol University, Thailand"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bebas biaya kuliah penuh (tuition fee waiver) maksimal 4 semester S2 atau 6 semester S3",
+        "Tunjangan biaya hidup bulanan minimal THB 10.000",
+        "Asuransi kesehatan kelompok mahasiswa asing"
+      ],
+      en: [
+        "Full tuition fee waiver for up to 4 semesters (Master) or 6 semesters (PhD)",
+        "Monthly living allowance of minimum THB 10,000",
+        "Group international student health insurance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara non-Thailand dengan latar belakang akademik yang memuaskan",
+        "Diterima di program pascasarjana penuh waktu di Universitas Mahidol",
+        "Kemampuan bahasa Inggris tinggi (IELTS minimal 6.0 / TOEFL iBT 80)",
+        "Menunjukkan ketertarikan kuat dalam bidang kesehatan, sains, atau studi pembangunan"
+      ],
+      en: [
+        "Non-Thai citizen with solid academic background records",
+        "Admitted to a full-time graduate degree program at Mahidol University",
+        "High English proficiency (minimum IELTS 6.0 or TOEFL iBT 80)",
+        "Demonstrate strong interest in health, science, or development studies"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-05-30",
+    applicationUrl: "https://mahidol.ac.th/en/",
+    description: {
+      id: "Beasiswa pascasarjana dari Universitas Mahidol bagi mahasiswa internasional berprestasi di bidang kedokteran, sains, dan ilmu sosial.",
+      en: "Graduate scholarship by Mahidol University for outstanding international students in medicine, science, and social sciences."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Thailand",
+        "Sains"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Thailand",
+        "Science"
+      ]
+    }
+  },
+  {
+    id: "lund-university-global-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Global Universitas Lund (Swedia)",
+      en: "Lund University Global Scholarship (Sweden)"
+    },
+    provider: {
+      id: "Lund University, Swedia",
+      en: "Lund University, Sweden"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan biaya kuliah sebesar 25%, 50%, 75%, atau 100%"
+      ],
+      en: [
+        "Tuition fee reduction of 25%, 50%, 75%, or 100% of the total program cost"
+      ]
+    },
+    requirements: {
+      id: [
+        "WN negara di luar Uni Eropa/EEA yang diwajibkan membayar biaya kuliah internasional",
+        "Telah mendaftar program sarjana atau master di Universitas Lund",
+        "Memiliki rekam prestasi akademik yang sangat unggul di sekolah/universitas sebelumnya",
+        "Memilih Universitas Lund sebagai pilihan pertama saat mendaftar di Swedia"
+      ],
+      en: [
+        "Citizen of a country outside the EU/EEA required to pay tuition fees",
+        "Applied for Bachelor's or Master's studies at Lund University",
+        "Excellent academic results from previous high school or university studies",
+        "Choose Lund University as first priority choice in Swedish admissions"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-02-01",
+    applicationUrl: "https://www.lunduniversity.lu.se/admissions/bachelors-and-masters-studies/scholarships-and-funding/lund-university-global-scholarship",
+    description: {
+      id: "Beasiswa prestasi akademis dari Universitas Lund untuk menarik mahasiswa internasional berbakat di luar Uni Eropa.",
+      en: "Academic excellence scholarship by Lund University designed to attract top-tier non-EU/EEA international students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Swedia",
+        "Bantuan Kuliah"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Sweden",
+        "Tuition Support"
+      ]
+    }
+  },
+  {
+    id: "kuwait-government-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Pemerintah Kuwait untuk Mahasiswa Asing",
+      en: "Kuwait Government Scholarship for International Students"
+    },
+    provider: {
+      id: "Kementerian Pendidikan Tinggi Negara Kuwait",
+      en: "Ministry of Higher Education, State of Kuwait"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Biaya pendidikan kuliah dibebaskan penuh",
+        "Uang saku biaya hidup bulanan",
+        "Akomodasi asrama gratis dan makanan sehari-hari",
+        "Tiket pesawat ekonomi pulang-pergi setiap tahun akademik"
+      ],
+      en: [
+        "Full tuition and registration fees waiver",
+        "Monthly living allowance stipend",
+        "Free dormitory housing and daily meals provided",
+        "Round-trip economy-class airfare ticket per academic year"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga Negara non-Kuwait lulusan SMA/sederajat dengan nilai minimal 80%",
+        "Usia minimal 18 tahun dan maksimal 23 tahun pada saat mendaftar",
+        "Kemampuan bahasa Arab yang memadai (untuk program studi tertentu)",
+        "Menyerahkan dokumen kesehatan bebas penyakit menular"
+      ],
+      en: [
+        "Non-Kuwaiti citizen with a high school certificate average of at least 80%",
+        "Aged between 18 and 23 years old at the time of application",
+        "Arabic language proficiency (required for specific humanities courses)",
+        "Submit a medical certificate proving free of infectious diseases"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-07-15",
+    applicationUrl: "https://mohe.edu.kw/",
+    description: {
+      id: "Beasiswa penuh dari Pemerintah Kuwait bagi mahasiswa internasional untuk menempuh program sarjana di Universitas Kuwait.",
+      en: "A fully funded scholarship by the Kuwaiti government for international students to pursue bachelor's studies at Kuwait University."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Luar Negeri",
+        "Kuwait",
+        "Beasiswa Penuh"
+      ],
+      en: [
+        "Government",
+        "Overseas",
+        "Kuwait",
+        "Full Scholarship"
+      ]
+    }
+  },
+  {
+    id: "university-of-twente-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa UTS Universitas Twente (Belanda)",
+      en: "University of Twente Scholarship (UTS) (Netherlands)"
+    },
+    provider: {
+      id: "University of Twente, Belanda",
+      en: "University of Twente, Netherlands"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan pendanaan studi senilai EUR 3.000 hingga EUR 22.000 per tahun",
+        "Kesempatan menjadi duta mahasiswa internasional Universitas Twente"
+      ],
+      en: [
+        "Study financial support grant of EUR 3,000 to EUR 22,000 per year",
+        "Opportunity to join the University of Twente student ambassador program"
+      ]
+    },
+    requirements: {
+      id: [
+        "Bukan warga negara Uni Eropa/EEA yang mendaftar Master di Twente",
+        "Telah mendapatkan surat penerimaan akademik (LoA) bersyarat atau tidak bersyarat",
+        "IPK teratas di kelas kelulusan sebelumnya (setara rata-rata nilai 80%+$)",
+        "Memenuhi syarat kemampuan bahasa Inggris (IELTS minimal 6.5 / TOEFL iBT 90)"
+      ],
+      en: [
+        "Non-EU / EEA citizen applying for eligible Master's courses at Twente",
+        "Hold a conditional or unconditional letter of admission (LoA)",
+        "Top student in their graduating class (equivalent to an average of 80%+)",
+        "Meet English language requirements (minimum IELTS 6.5 or TOEFL iBT 90)"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-05-01",
+    applicationUrl: "https://www.utwente.nl/en/education/scholarship-finder/university-of-twente-scholarship/",
+    description: {
+      id: "Beasiswa prestasi dari Universitas Twente untuk membantu pendanaan studi mahasiswa internasional berbakat program Master.",
+      en: "Academic excellence scholarship by the University of Twente to support talented international Master's degree students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Belanda",
+        "Teknologi"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Netherlands",
+        "Technology"
       ]
     }
   }
