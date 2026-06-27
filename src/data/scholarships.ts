@@ -10167,7 +10167,7 @@ export const scholarships: Scholarship[] = [
         "High English proficiency (minimum IELTS 6.5 or TOEFL iBT 90)"
       ]
     },
-    status: 'open',
+    status: 'closed',
     deadline: "2026-12-05",
     applicationUrl: "https://www.kyoto-u.ac.jp/en/education-campus/undergraduate/iussp",
     description: {
@@ -10233,7 +10233,7 @@ export const scholarships: Scholarship[] = [
         "Excellent academic record/GPA from the previous level of study"
       ]
     },
-    status: 'soon',
+    status: 'closed',
     deadline: "2026-09-10",
     applicationUrl: "https://en.snu.ac.kr/admission",
     description: {
@@ -10295,7 +10295,7 @@ export const scholarships: Scholarship[] = [
         "Demonstrate strong motivation and original thinking through the application essay"
       ]
     },
-    status: 'open',
+    status: 'closed',
     deadline: "2026-05-18",
     applicationUrl: "https://www.bristol.ac.uk/international/fees-finance/scholarships/think-big/",
     description: {
@@ -10355,7 +10355,7 @@ export const scholarships: Scholarship[] = [
         "Demonstrate a clear study plan and relevance to future career goals"
       ]
     },
-    status: 'open',
+    status: 'closed',
     deadline: "2026-11-20",
     applicationUrl: "https://www.auckland.ac.nz/en/study/scholarships-and-awards/find-a-scholarship/auckland-international-student-excellence-scholarship.html",
     description: {
@@ -10439,6 +10439,646 @@ export const scholarships: Scholarship[] = [
         "Overseas",
         "Switzerland",
         "Postdoctoral"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pmdsu",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa PMDSU (Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi)",
+      en: "PMDSU Scholarship (Ministry of Education, Culture, Research, and Technology)"
+    },
+    provider: {
+      id: "Direktorat Jenderal Pendidikan Tinggi, Riset, dan Teknologi Kemendikbudristek",
+      en: "Directorate General of Higher Education, Research, and Technology, MoECRT"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Biaya pendidikan (SPP/UKT) penuh untuk program Magister dan Doktor (4 tahun)",
+        "Uang saku bulanan dan tunjangan biaya hidup",
+        "Dana hibah penelitian tugas akhir dan riset kolaborasi",
+        "Bantuan biaya publikasi jurnal ilmiah internasional"
+      ],
+      en: [
+        "Full tuition fee coverage for Master and Doctoral programs (4 years)",
+        "Monthly living allowance and stipend",
+        "Research grant for final thesis and collaborative research",
+        "Financial support for publishing in international scientific journals"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga Negara Indonesia (WNI) lulusan S1 berprestasi",
+        "Usia maksimal 24 tahun (fresh graduate) atau sesuai ketentuan kementerian",
+        "IPK minimal 3.25 dari perguruan tinggi terakreditasi",
+        "Memperoleh rekomendasi dari dosen pembimbing akademik S1",
+        "Lolos seleksi administrasi dan wawancara dengan promotor di universitas penyelenggara"
+      ],
+      en: [
+        "Indonesian citizen (WNI) with outstanding Bachelor's academic records",
+        "Maximum age of 24 years (fresh graduate) or based on ministry guidelines",
+        "Minimum GPA of 3.25 from an accredited higher education institution",
+        "Obtain a recommendation letter from Bachelor's academic advisor",
+        "Pass administration screening and interview with the supervisor at the host university"
+      ]
+    },
+    status: 'soon',
+    deadline: "2027-04-15",
+    applicationUrl: "https://www.pmdsu.id/",
+    description: {
+      id: "Program beasiswa percepatan pendidikan magister menuju doktor dalam waktu 4 tahun bagi sarjana unggulan di bawah bimbingan promotor andal.",
+      en: "An accelerated scholarship program enabling outstanding bachelor graduates to earn master and doctoral degrees within 4 years under top-tier supervisors."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Percepatan",
+        "Riset"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Accelerated",
+        "Research"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-kalteng-berkah",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Kalteng Berkah (Provinsi Kalimantan Tengah)",
+      en: "Kalteng Berkah Scholarship (Central Kalimantan Province)"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Kalimantan Tengah",
+      en: "Provincial Government of Central Kalimantan"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana pendidikan stimulan tahunan",
+        "Dukungan persiapan tugas akhir kuliah"
+      ],
+      en: [
+        "Annual education financial support grant",
+        "Support for final thesis preparation"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga Negara Indonesia berdomisili di Kalimantan Tengah",
+        "Memiliki KTP dan Kartu Keluarga Provinsi Kalimantan Tengah",
+        "Mahasiswa aktif program Diploma (D3/D4) atau Sarjana (S1)",
+        "IPK minimal 3.00 (jurusan eksakta) atau 3.20 (jurusan non-eksakta)"
+      ],
+      en: [
+        "Indonesian citizen residing in Central Kalimantan",
+        "Possess Central Kalimantan ID and Family Card",
+        "Active student in Diploma (D3/D4) or Bachelor (S1) programs",
+        "Minimum GPA of 3.00 (science majors) or 3.20 (non-science majors)"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-10-30",
+    applicationUrl: "https://kalteng.go.id/",
+    description: {
+      id: "Bantuan biaya pendidikan stimulan dari Pemprov Kalimantan Tengah bagi mahasiswa berprestasi dan kurang mampu asal Kalteng.",
+      en: "Stimulant education financial aid from the Central Kalimantan Provincial Government for outstanding and underprivileged students from the region."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Kalimantan Tengah",
+        "Bantuan"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Central Kalimantan",
+        "Financial Aid"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-jember",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Mahasiswa Berprestasi Kabupaten Jember",
+      en: "Jember Regency Government Outstanding Student Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Jember",
+      en: "Regency Government of Jember"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan pembebasan biaya kuliah (UKT) per semester"
+      ],
+      en: [
+        "Tuition fee (UKT) waiver assistance per semester"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kabupaten Jember dibuktikan dengan KTP/KK Jember",
+        "Mahasiswa aktif program D3/D4/S1 di perguruan tinggi negeri atau swasta mitra",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi seni/olahraga/akademik",
+        "IPK minimal 3.00 atau memiliki rekomendasi resmi dinas terkait"
+      ],
+      en: [
+        "Native resident of Jember Regency proven by Jember ID/Family Card",
+        "Active student of Diploma or Bachelor programs at partner public or private universities",
+        "From an underprivileged family or possess achievements in arts, sports, or academics",
+        "Minimum GPA of 3.00 or have an official recommendation from the related department"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-09-15",
+    applicationUrl: "https://jemberkab.go.id/",
+    description: {
+      id: "Beasiswa Pemerintah Kabupaten Jember untuk memfasilitasi pemerataan kesempatan belajar bagi mahasiswa asli daerah Jember.",
+      en: "Jember Regency Government scholarship program aimed at providing equal education opportunities for native students from Jember."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Jember",
+        "Daerah"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Jember",
+        "Regional"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-soposurung",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Yayasan Soposurung (Toba)",
+      en: "Soposurung Foundation Scholarship (Toba)"
+    },
+    provider: {
+      id: "Yayasan Soposurung Balige",
+      en: "Soposurung Foundation Balige"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Biaya pendidikan penuh terakomodasi di asrama",
+        "Uang saku bulanan dan biaya makan sehari-hari",
+        "Fasilitas pembinaan karakter dan pelatihan bahasa asing"
+      ],
+      en: [
+        "Full tuition and boarding fees covered in the dormitory",
+        "Monthly allowance and daily meals",
+        "Character building facilities and foreign language training"
+      ]
+    },
+    requirements: {
+      id: [
+        "Lulusan SMP/sederajat asal Kabupaten Toba atau wilayah Sumatera Utara",
+        "Lolos seleksi masuk asrama Yayasan Soposurung (tes akademik, fisik, kesehatan, psikotes)",
+        "Memiliki integritas tinggi dan bersedia tinggal di asrama selama masa studi"
+      ],
+      en: [
+        "Junior High School graduate from Toba Regency or North Sumatra region",
+        "Pass the Soposurung Foundation entrance selection (academic, physical, health, and psychometric tests)",
+        "Possess high integrity and willing to reside in the dormitory during the study period"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-31",
+    applicationUrl: "http://yayasansoposurung.or.id/",
+    description: {
+      id: "Program beasiswa asrama penuh di Balige untuk mencetak siswa berkarakter kuat, berprestasi tinggi, dan berwawasan global.",
+      en: "A boarding scholarship program in Balige designed to cultivate high-achieving students with strong character and global perspectives."
+    },
+    tags: {
+      id: [
+        "Yayasan",
+        "Dalam Negeri",
+        "Asrama",
+        "Sumatera Utara"
+      ],
+      en: [
+        "Foundation",
+        "Domestic",
+        "Boarding",
+        "North Sumatra"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-kartu-cerdas-diy",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Kartu Cerdas Daerah Istimewa Yogyakarta",
+      en: "Yogyakarta Special Region Kartu Cerdas Scholarship"
+    },
+    provider: {
+      id: "Dinas Pendidikan, Pemuda, dan Olahraga Pemda DIY",
+      en: "Department of Education, Youth, and Sports, Yogyakarta Regional Government"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana operasional pendidikan tahunan",
+        "Subsidi pembelian buku dan perlengkapan studi"
+      ],
+      en: [
+        "Annual education operational funding assistance",
+        "Subsidy for purchasing books and study supplies"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga Daerah Istimewa Yogyakarta (dibuktikan dengan KTP/KK DIY)",
+        "Berasal dari keluarga pemegang kartu pengaman sosial (KPS/KKS/KIP)",
+        "Mahasiswa aktif program sarjana (S1) atau diploma",
+        "IPK minimal 2.75 pada skala 4.00"
+      ],
+      en: [
+        "Resident of Yogyakarta Special Region (proven by Yogyakarta ID/Family Card)",
+        "From families holding social security cards (KPS/KKS/KIP)",
+        "Active student in Bachelor's or Diploma programs",
+        "Minimum GPA of 2.75 on a 4.00 scale"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-30",
+    applicationUrl: "https://dikpora.jogjaprov.go.id/",
+    description: {
+      id: "Program bantuan biaya operasional pendidikan dari Dinas Pendidikan DIY untuk menjamin keberlangsungan kuliah mahasiswa kurang mampu.",
+      en: "Education operational funding assistance program by the Yogyakarta Department of Education to ensure higher education continuity for underprivileged students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Yogyakarta",
+        "Bantuan Sosial"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Yogyakarta",
+        "Social Aid"
+      ]
+    }
+  },
+  {
+    id: "kaist-undergraduate-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Sarjana KAIST (Korea Selatan)",
+      en: "KAIST Undergraduate Scholarship (South Korea)"
+    },
+    provider: {
+      id: "Korea Advanced Institute of Science and Technology (KAIST)",
+      en: "Korea Advanced Institute of Science and Technology (KAIST)"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh (8 semester)",
+        "Tunjangan biaya hidup bulanan senilai KRW 350.000",
+        "Asuransi kesehatan nasional Korea Selatan ditanggung penuh"
+      ],
+      en: [
+        "Full tuition fee waiver for 8 semesters",
+        "Monthly living allowance of KRW 350,000",
+        "Full coverage of Korean National Health Insurance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Bukan warga negara Korea Selatan (orang tua juga bukan warga negara Korea)",
+        "Lulusan SMA/sederajat dengan prestasi akademik sains dan matematika yang kuat",
+        "Memenuhi kemampuan bahasa Inggris (IELTS minimal 6.5 / TOEFL iBT 83)",
+        "Menjaga nilai IPK kumulatif minimal 2.70 pada skala 4.30 di KAIST"
+      ],
+      en: [
+        "Non-Korean citizen (neither applicant nor parents hold Korean citizenship)",
+        "High school graduate with outstanding academic performance in science and mathematics",
+        "Proof of English language proficiency (minimum IELTS 6.5 or TOEFL iBT 83)",
+        "Maintain a minimum cumulative GPA of 2.70 out of 4.30 scale at KAIST"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-10-23",
+    applicationUrl: "https://admission.kaist.ac.kr/intl-undergraduate/",
+    description: {
+      id: "Beasiswa penuh dari institut sains terkemuka Korea Selatan KAIST untuk mencetak inovator masa depan di bidang teknik dan sains.",
+      en: "Full scholarship from South Korea's leading science and technology institute KAIST to nurture global innovators in engineering and sciences."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Korea Selatan",
+        "Sains"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "South Korea",
+        "Science"
+      ]
+    }
+  },
+  {
+    id: "jasso-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa JASSO (Japan Student Services Organization)",
+      en: "JASSO Scholarship (Japan Student Services Organization)"
+    },
+    provider: {
+      id: "Japan Student Services Organization (JASSO)",
+      en: "Japan Student Services Organization (JASSO)"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Tunjangan hidup bulanan JPY 80.000 selama program pertukaran atau studi jangka pendek"
+      ],
+      en: [
+        "Monthly living stipend of JPY 80,000 for the duration of exchange or short-term study program"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif di universitas luar Jepang yang menjalin kerja sama pertukaran dengan universitas Jepang",
+        "Direkomendasikan oleh universitas asal",
+        "Memiliki IPK minimal 2.30 pada skala 3.00 standar JASSO",
+        "Menunjukkan ketertarikan kuat pada bahasa dan budaya Jepang"
+      ],
+      en: [
+        "Active student at a university outside Japan which has an exchange agreement with a Japanese university",
+        "Recommended by the home university",
+        "Minimum GPA of 2.30 on a 3.00 scale based on JASSO calculation",
+        "Demonstrate strong interest in Japanese language and culture"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-11-30",
+    applicationUrl: "https://www.jasso.go.jp/en/index.html",
+    description: {
+      id: "Beasiswa Pemerintah Jepang untuk mendukung mahasiswa internasional yang mengikuti program pertukaran pelajar jangka pendek di Jepang.",
+      en: "Japanese government scholarship to support international students participating in short-term exchange study programs in Japan."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Luar Negeri",
+        "Jepang",
+        "Pertukaran Mahasiswa"
+      ],
+      en: [
+        "Government",
+        "Overseas",
+        "Japan",
+        "Student Exchange"
+      ]
+    }
+  },
+  {
+    id: "vu-amsterdam-fellowship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa VUFP (Vrije Universiteit Amsterdam, Belanda)",
+      en: "VU Amsterdam Fellowship Programme (VUFP) (Netherlands)"
+    },
+    provider: {
+      id: "Vrije Universiteit Amsterdam",
+      en: "Vrije Universiteit Amsterdam"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan biaya kuliah tahunan senilai EUR 5.000, EUR 10.000, atau EUR 15.000"
+      ],
+      en: [
+        "Tuition fee reduction of EUR 5,000, EUR 10,000, or EUR 15,000 per year"
+      ]
+    },
+    requirements: {
+      id: [
+        "Bukan warga negara Uni Eropa / EEA (termasuk mahasiswa Indonesia)",
+        "Telah mendaftar program Magister penuh waktu di VU Amsterdam",
+        "Memiliki rekam prestasi akademik yang sangat unggul (setara IPK 3.70+)",
+        "Menunjukkan komitmen kepemimpinan dan esai motivasi yang kuat"
+      ],
+      en: [
+        "Non-EU / EEA citizen (including Indonesian students)",
+        "Applied for admission to a full-time Master's program at VU Amsterdam",
+        "Outstanding academic excellence (GPA equivalent to 3.70+)",
+        "Demonstrate leadership commitment and a strong motivation essay"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-02-01",
+    applicationUrl: "https://vu.nl/en/education/master/scholarships-fellowships/vufp-scholarship",
+    description: {
+      id: "Beasiswa bergengsi VU Amsterdam untuk menarik mahasiswa internasional berprestasi akademik tinggi menempuh program Magister.",
+      en: "A prestigious scholarship by VU Amsterdam targeting high-achieving international students to pursue Master's programs."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Belanda",
+        "Magister"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Netherlands",
+        "Master"
+      ]
+    }
+  },
+  {
+    id: "ernst-mach-grant",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Ernst Mach Grant Pemerintah Austria",
+      en: "Austrian Government Ernst Mach Grant"
+    },
+    provider: {
+      id: "Badan Kerja Sama Internasional Austria untuk Pendidikan dan Penelitian (OeAD)",
+      en: "Austria's Agency for Education and Internationalisation (OeAD)"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Tunjangan biaya hidup bulanan senilai EUR 1.250",
+        "Subsidi biaya perjalanan tiket pesawat hingga EUR 1.000",
+        "Pembebasan biaya kuliah di universitas Austria",
+        "Asuransi kesehatan dan bantuan penyediaan akomodasi"
+      ],
+      en: [
+        "Monthly living allowance of EUR 1,250",
+        "Travel subsidy grant of up to EUR 1,000",
+        "Waiver of tuition fees at the host Austrian university",
+        "Health insurance coverage and housing accommodation assistance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa pascasarjana (S2/S3) aktif di luar Austria",
+        "Bukan warga negara Austria dan berusia maksimal 35 tahun",
+        "Mendapatkan persetujuan riset dari profesor di universitas Austria",
+        "Kemampuan bahasa akademis (Inggris/Jerman) sesuai kebutuhan riset"
+      ],
+      en: [
+        "Active postgraduate (Master/PhD) student outside Austria",
+        "Non-Austrian citizen and maximum age of 35 years",
+        "Have a confirmed supervisor/host professor at an Austrian university",
+        "Proficiency in the academic language (English/German) required for research"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-01",
+    applicationUrl: "https://grants.at/en/",
+    description: {
+      id: "Beasiswa riset dari Pemerintah Austria untuk membiayai studi jangka pendek (riset tesis/disertasi) di universitas-universitas Austria.",
+      en: "Austrian government research scholarship supporting short-term study visits (thesis or dissertation research) at Austrian universities."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Luar Negeri",
+        "Austria",
+        "Riset"
+      ],
+      en: [
+        "Government",
+        "Overseas",
+        "Austria",
+        "Research"
+      ]
+    }
+  },
+  {
+    id: "utrecht-excellence-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Utrecht Excellence Scholarship (Belanda)",
+      en: "Utrecht Excellence Scholarship (Netherlands)"
+    },
+    provider: {
+      id: "Utrecht University, Belanda",
+      en: "Utrecht University, Netherlands"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Uang kuliah penuh (full tuition fees) selama masa program Master",
+        "Tunjangan biaya hidup tahunan senilai EUR 11.000"
+      ],
+      en: [
+        "Full tuition fee coverage for the duration of the Master's program",
+        "Annual living expense allowance of EUR 11,000"
+      ]
+    },
+    requirements: {
+      id: [
+        "Bukan warga negara Uni Eropa/EEA dan bukan alumni pendidikan Belanda",
+        "Diterima di salah satu program Master internasional terpilih di Utrecht University",
+        "Berasal dari peringkat 10% teratas di angkatan kelulusan sebelumnya",
+        "Kemampuan bahasa Inggris tinggi (IELTS minimal 7.0 / TOEFL iBT 100)"
+      ],
+      en: [
+        "Non-EU / EEA citizen and did not graduate from a Dutch educational institution",
+        "Admitted to one of the eligible international Master's programs at Utrecht University",
+        "Belong to the top 10% of their graduating class",
+        "High English language proficiency (minimum IELTS 7.0 or TOEFL iBT 100)"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-02-01",
+    applicationUrl: "https://www.uu.nl/masters/en/general-information/international-students/financial-matters/scholarships/utrecht-excellence-scholarship",
+    description: {
+      id: "Beasiswa bergengsi dari Universitas Utrecht bagi mahasiswa asing non-Uni Eropa dengan bakat luar biasa untuk studi program Master.",
+      en: "A highly selective and prestigious scholarship by Utrecht University for outstanding non-EU students to pursue Master's degrees."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Belanda",
+        "Beasiswa Penuh"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Netherlands",
+        "Full Scholarship"
       ]
     }
   }
