@@ -80,6 +80,7 @@ export default function Header({ totalCount, openCount, language, onLanguageChan
           <span className="gradient-text">Adiguna</span>
           <br />
           <span style={{ color: "var(--text-primary)" }}>Scholarship</span>
+          <span className="sr-only" style={{ display: "none" }}> - Portal Informasi Beasiswa S1, S2, S3 Terlengkap</span>
         </h1>
 
         <p
