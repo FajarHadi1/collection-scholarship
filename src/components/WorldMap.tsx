@@ -76,15 +76,19 @@ export default function WorldMap({
   useEffect(() => {
     if (!mapContainerRef.current) return;
 
-    // CartoDB Positron Lite tiles for clean premium aesthetic
     const map = L.map(mapContainerRef.current, {
       center: [25, 10],
       zoom: 2,
       minZoom: 1.5,
       maxZoom: 9,
       zoomControl: false,
+      scrollWheelZoom: true,
+      doubleClickZoom: true,
+      boxZoom: true,
       attributionControl: false,
     });
+
+    L.control.zoom({ position: "topright" }).addTo(map);
 
     L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
       maxZoom: 20
@@ -225,6 +229,25 @@ export default function WorldMap({
         }
         .leaflet-tooltip-top::before {
           border-top-color: rgba(255, 255, 255, 0.92) !important;
+        }
+        .leaflet-control-zoom {
+          border: 1px solid rgba(255, 255, 255, 0.7) !important;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+          border-radius: 10px !important;
+          overflow: hidden;
+        }
+        .leaflet-control-zoom-in, .leaflet-control-zoom-out {
+          background: rgba(255, 255, 255, 0.85) !important;
+          backdrop-filter: blur(8px) !important;
+          -webkit-backdrop-filter: blur(8px) !important;
+          color: var(--text-primary) !important;
+          border: none !important;
+          font-weight: 800 !important;
+          transition: all 0.2s ease !important;
+        }
+        .leaflet-control-zoom-in:hover, .leaflet-control-zoom-out:hover {
+          background: rgba(255, 255, 255, 1) !important;
+          color: var(--accent) !important;
         }
       `}</style>
 
