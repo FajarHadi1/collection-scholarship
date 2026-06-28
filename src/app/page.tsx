@@ -43,6 +43,7 @@ const WorldMap = dynamic(() => import("../components/WorldMap"), {
 
 import { translations, Language } from "../data/translations";
 import { trackEvent } from "../lib/gtag";
+import NewsletterForm from "../components/NewsletterForm";
 
 const DEGREE_LABEL: Record<string, string> = {
   bachelor: "S1",
@@ -287,6 +288,8 @@ export default function Home() {
             bookmarkedCount={bookmarks.length}
             t={t}
           />
+
+          <NewsletterForm language={language} t={t} />
         </aside>
 
         {/* Right Column (Main Content) */}

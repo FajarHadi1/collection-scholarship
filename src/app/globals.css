@@ -582,3 +582,9 @@ body::after {
   background: rgba(255, 255, 255, 0.65);
 }
 
+.newsletter-input:focus {
+  border-color: var(--accent) !important;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+  background: #ffffff !important;
+}
+
