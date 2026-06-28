@@ -12861,5 +12861,244 @@ export const scholarships: Scholarship[] = [
       id: ["Universitas", "Luar Negeri", "China", "Asia"],
       en: ["University", "Overseas", "China", "Asia"]
     }
+  },
+  {
+    id: "beasiswa-pemerintah-rusia",
+    studyLocation: ['overseas'],
+    name: {
+      id: "Beasiswa Pemerintah Federasi Rusia (RGS)",
+      en: "Russian Government Scholarship (RGS)"
+    },
+    provider: {
+      id: "Kementerian Sains dan Pendidikan Tinggi Federasi Rusia",
+      en: "Ministry of Science and Higher Education of the Russian Federation"
+    },
+    degreeLevels: ['bachelor', 'master', 'doctoral'],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bebas biaya kuliah 100% untuk seluruh durasi studi",
+        "Tunjangan biaya hidup bulanan dasar",
+        "Akomodasi asrama universitas dengan biaya sangat bersubsidi"
+      ],
+      en: [
+        "100% tuition fee waiver for the entire duration of study",
+        "Basic monthly living allowance",
+        "Highly subsidized university dormitory accommodation"
+      ]
+    },
+    requirements: {
+      id: [
+        "Terbuka untuk semua warganegara asing (termasuk Indonesia)",
+        "Lulusan SMA/sederajat (untuk S1) atau Sarjana (untuk S2/S3)",
+        "Lolos seleksi berkas administrasi dan portofolio akademik melalui kuota negara"
+      ],
+      en: [
+        "Open to all international citizens (including Indonesians)",
+        "High school graduates (for Bachelor) or Bachelor graduates (for Master/PhD)",
+        "Pass document screening and academic portfolio selection via state quotas"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-11-20",
+    applicationUrl: "https://education-in-russia.com/",
+    description: {
+      id: "Beasiswa kuota resmi dari Pemerintah Federasi Rusia untuk memberikan kesempatan belajar gratis bagi mahasiswa internasional di perguruan tinggi Rusia.",
+      en: "Official state quota scholarship by the Russian Government offering free higher education opportunities for international students at Russian universities."
+    },
+    tags: {
+      id: ["Pemerintah", "Luar Negeri", "Rusia", "Kuota"],
+      en: ["Government", "Overseas", "Russia", "Quota"]
+    }
+  },
+  {
+    id: "beasiswa-hse-gold",
+    studyLocation: ['overseas'],
+    name: {
+      id: "Beasiswa HSE Gold (National Research University Higher School of Economics)",
+      en: "HSE Gold Scholarship (National Research University Higher School of Economics)"
+    },
+    provider: {
+      id: "HSE University Moscow",
+      en: "HSE University Moscow"
+    },
+    degreeLevels: ['master'],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah 100% program Master",
+        "Dukungan asrama mahasiswa di Moskow"
+      ],
+      en: [
+        "100% tuition fee waiver for Master's program",
+        "Student dormitory support in Moscow"
+      ]
+    },
+    requirements: {
+      id: [
+        "Memiliki gelar Sarjana dengan prestasi akademis sangat unggul",
+        "Lolos seleksi portofolio masuk program studi Master HSE yang dipilih",
+        "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) atau Rusia sesuai syarat prodi"
+      ],
+      en: [
+        "Hold a Bachelor's degree with outstanding academic records",
+        "Pass the portfolio selection for the chosen HSE Master's program",
+        "Possess English (IELTS/TOEFL) or Russian language certificate based on program requirements"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-10",
+    applicationUrl: "https://admissions.hse.ru/en/graduate-scholarships",
+    description: {
+      id: "Beasiswa prestasi akademis penuh dari HSE University, salah satu universitas riset ekonomi dan sosial terbaik di Rusia.",
+      en: "Full academic merit scholarship by HSE University, one of the top research universities in economics and social sciences in Russia."
+    },
+    tags: {
+      id: ["Universitas", "Luar Negeri", "Rusia", "Ekonomi"],
+      en: ["University", "Overseas", "Russia", "Economics"]
+    }
+  },
+  {
+    id: "beasiswa-skoltech-graduate",
+    studyLocation: ['overseas'],
+    name: {
+      id: "Beasiswa Penuh Skoltech (Skolkovo Institute of Science and Technology)",
+      en: "Skoltech Graduate Scholarships (Skolkovo Institute of Science and Technology)"
+    },
+    provider: {
+      id: "Skolkovo Institute of Science and Technology, Russia",
+      en: "Skolkovo Institute of Science and Technology, Russia"
+    },
+    degreeLevels: ['master', 'doctoral'],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh 100%",
+        "Tunjangan bulanan mulai dari 40.000 RUB (S2) hingga 75.000 RUB (S3)",
+        "Asuransi kesehatan komprehensif gratis"
+      ],
+      en: [
+        "100% tuition fees coverage",
+        "Monthly stipend starting from 40,000 RUB (MSc) up to 75,000 RUB (PhD)",
+        "Free comprehensive medical insurance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Lulusan S1 atau S2 bidang STEM (Sains, Teknologi, Teknik, Matematika)",
+        "Lolos ujian tertulis masuk online dan seleksi wawancara akademik",
+        "Kemampuan bahasa Inggris yang baik (seluruh perkuliahan dalam bahasa Inggris)"
+      ],
+      en: [
+        "Bachelor or Master graduates in STEM (Science, Technology, Engineering, Math) fields",
+        "Pass online entrance exams and academic interview selection",
+        "Good English proficiency (all programs are fully taught in English)"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-07-15",
+    applicationUrl: "https://www.skoltech.ru/en/apply/",
+    description: {
+      id: "Beasiswa penuh riset STEM prestisius dari Skoltech di Moskow, didesain untuk mendidik peneliti dan inovator teknologi masa depan.",
+      en: "A prestigious fully funded STEM research scholarship by Skoltech in Moscow, designed to nurture future world-class researchers and tech innovators."
+    },
+    tags: {
+      id: ["Universitas", "Luar Negeri", "Rusia", "Teknologi", "Riset"],
+      en: ["University", "Overseas", "Russia", "Technology", "Research"]
+    }
+  },
+  {
+    id: "beasiswa-mephi-nuclear",
+    studyLocation: ['overseas'],
+    name: {
+      id: "Beasiswa Nuklir & Fisika MEPhI (Universitas Nuklir Nasional Rusia)",
+      en: "MEPhI Nuclear & Physics Scholarship (National Research Nuclear University)"
+    },
+    provider: {
+      id: "National Research Nuclear University MEPhI, Moscow",
+      en: "National Research Nuclear University MEPhI, Moscow"
+    },
+    degreeLevels: ['bachelor', 'master', 'doctoral'],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bebas biaya pendidikan penuh bidang nuklir & fisika",
+        "Akses laboratorium riset reaktor nuklir universitas"
+      ],
+      en: [
+        "Full tuition fee waiver in nuclear engineering and physics",
+        "Access to university nuclear research reactor laboratories"
+      ]
+    },
+    requirements: {
+      id: [
+        "Memiliki latar belakang yang kuat di bidang Matematika dan Fisika",
+        "Lolos ujian seleksi masuk akademik MEPhI",
+        "Bersedia menempuh kelas persiapan bahasa Rusia jika memilih kelas reguler"
+      ],
+      en: [
+        "Strong academic background in Mathematics and Physics",
+        "Pass the MEPhI academic entrance exam",
+        "Willing to undergo Russian language preparatory course if choosing regular classes"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-06-30",
+    applicationUrl: "https://eng.mephi.ru/admissions/scholarships",
+    description: {
+      id: "Beasiswa khusus rekayasa nuklir dan fisika energi tinggi dari MEPhI untuk mendidik ahli teknologi nuklir tingkat internasional.",
+      en: "Specialized scholarship in nuclear engineering and high-energy physics by MEPhI to train international nuclear technology experts."
+    },
+    tags: {
+      id: ["Universitas", "Luar Negeri", "Rusia", "Nuklir", "Fisika"],
+      en: ["University", "Overseas", "Russia", "Nuclear", "Physics"]
+    }
+  },
+  {
+    id: "beasiswa-spbu-quota",
+    studyLocation: ['overseas'],
+    name: {
+      id: "Beasiswa Pemerintah Universitas Negeri Saint Petersburg (SPbU)",
+      en: "Saint Petersburg State University Government Quota (SPbU)"
+    },
+    provider: {
+      id: "Saint Petersburg State University, Russia",
+      en: "Saint Petersburg State University, Russia"
+    },
+    degreeLevels: ['bachelor', 'master'],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya SPP kuliah penuh",
+        "Tunjangan hidup bulanan dasar dari dana federal"
+      ],
+      en: [
+        "Full tuition fee waiver",
+        "Basic monthly federal living allowance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Bukan warga negara Rusia (mahasiswa internasional)",
+        "Memiliki portofolio akademik berprestasi dan esai motivasi",
+        "Lolos seleksi administrasi portofolio departemen SPbU"
+      ],
+      en: [
+        "Non-Russian citizens (international students)",
+        "Possess a high-achieving academic portfolio and a motivation essay",
+        "Pass SPbU's portfolio selection process"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-06-15",
+    applicationUrl: "https://english.spbu.ru/admission",
+    description: {
+      id: "Kuota beasiswa khusus dari SPbU, universitas tertua di Rusia, untuk menarik mahasiswa asing berbakat kuliah di Saint Petersburg.",
+      en: "Special government quota scholarship allocation by SPbU, Russia's oldest university, to attract talented international students to Saint Petersburg."
+    },
+    tags: {
+      id: ["Universitas", "Luar Negeri", "Rusia", "Saint Petersburg"],
+      en: ["University", "Overseas", "Russia", "Saint Petersburg"]
+    }
   }
 ];
