@@ -12379,5 +12379,487 @@ export const scholarships: Scholarship[] = [
         "Technology"
       ]
     }
+  },
+  {
+    id: "beasiswa-pemprov-lampung",
+    studyLocation: ['domestic'],
+    name: {
+      id: "Beasiswa Pemerintah Provinsi Lampung (Beasiswa Lampung Unggul)",
+      en: "Lampung Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Lampung",
+      en: "Provincial Government of Lampung"
+    },
+    degreeLevels: ['bachelor', 'master'],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan biaya pendidikan UKT/SPP",
+        "Bantuan biaya hidup semesteran",
+        "Dana penunjang tugas akhir"
+      ],
+      en: [
+        "Tuition fee assistance",
+        "Semester living allowance",
+        "Thesis support allowance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Provinsi Lampung dibuktikan dengan KTP/KK Lampung",
+        "Mahasiswa aktif minimal semester 3 di PTN/PTS mitra",
+        "IPK minimal 3.00 untuk rumpun sosial/humaniora atau 2.85 untuk saintek"
+      ],
+      en: [
+        "Native resident of Lampung Province proven by ID/Family Card",
+        "Active student (min. 3rd semester) at partner universities",
+        "Minimum GPA of 3.00 for social sciences or 2.85 for science & technology"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-10-15",
+    applicationUrl: "https://lampungprov.go.id/",
+    description: {
+      id: "Program bantuan biaya pendidikan dari Pemerintah Provinsi Lampung untuk mendorong peningkatan kualitas SDM lokal di jenjang perguruan tinggi.",
+      en: "Lampung Provincial Government's educational financial support program intended to enhance the quality of local human resources in higher education."
+    },
+    tags: {
+      id: ["Pemerintah", "Dalam Negeri", "Lampung", "Bantuan"],
+      en: ["Government", "Domestic", "Lampung", "Assistance"]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-kalbar",
+    studyLocation: ['domestic'],
+    name: {
+      id: "Beasiswa Pemerintah Provinsi Kalimantan Barat (Beasiswa Kalbar Cerdas)",
+      en: "West Kalimantan Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Kalimantan Barat",
+      en: "Provincial Government of West Kalimantan"
+    },
+    degreeLevels: ['bachelor'],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya SPP/UKT penuh hingga lulus",
+        "Bantuan biaya buku dan alat tulis",
+        "Tunjangan biaya hidup tahunan"
+      ],
+      en: [
+        "Full tuition fees coverage until graduation",
+        "Book and stationery allowance",
+        "Annual living stipend"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Provinsi Kalimantan Barat (KTP/KK Kalbar)",
+        "Mahasiswa baru atau aktif semester berjalan di perguruan tinggi negeri",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi akademik/non-akademik unggul"
+      ],
+      en: [
+        "Native resident of West Kalimantan Province (Kalbar ID/Family Card)",
+        "New or active student at state universities",
+        "From underprivileged family background or possesses outstanding academic/non-academic records"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-20",
+    applicationUrl: "https://kalbarprov.go.id/",
+    description: {
+      id: "Beasiswa penuh dari Pemprov Kalbar untuk membantu putra-putri daerah berprestasi dari keluarga kurang mampu menempuh studi sarjana.",
+      en: "West Kalimantan Provincial Government's full scholarship helping high-achieving local youths from underprivileged families complete undergraduate studies."
+    },
+    tags: {
+      id: ["Pemerintah", "Dalam Negeri", "Kalimantan", "Bantuan"],
+      en: ["Government", "Domestic", "Kalimantan", "Assistance"]
+    }
+  },
+  {
+    id: "beasiswa-tangerang-gemilang",
+    studyLocation: ['domestic'],
+    name: {
+      id: "Beasiswa Tangerang Gemilang (Pemerintah Kabupaten Tangerang)",
+      en: "Tangerang Gemilang Scholarship (Tangerang Regency)"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Tangerang",
+      en: "Regency Government of Tangerang"
+    },
+    degreeLevels: ['bachelor'],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya kuliah UKT per semester",
+        "Bantuan dana riset skripsi/tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy",
+        "Thesis research grant assistance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Memiliki KTP dan Kartu Keluarga Kabupaten Tangerang",
+        "Mahasiswa aktif S1 di perguruan tinggi negeri/swasta terakreditasi minimal B",
+        "IPK minimal 3.25 untuk jalur prestasi akademik"
+      ],
+      en: [
+        "Possess Tangerang Regency ID and Family Card",
+        "Active S1 student at accredited state or private universities (min. B accreditation)",
+        "Minimum GPA of 3.25 for academic excellence track"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-05",
+    applicationUrl: "https://tangerangkab.go.id/",
+    description: {
+      id: "Program pemberian beasiswa stimulan dari Pemerintah Kabupaten Tangerang bagi mahasiswa berprestasi asli daerah Banten.",
+      en: "Tangerang Regency Government's stimulus scholarship program for high-achieving college students native to Banten region."
+    },
+    tags: {
+      id: ["Pemerintah", "Dalam Negeri", "Tangerang", "Banten"],
+      en: ["Government", "Domestic", "Tangerang", "Banten"]
+    }
+  },
+  {
+    id: "beasiswa-pemkot-semarang",
+    studyLocation: ['domestic'],
+    name: {
+      id: "Beasiswa Pemkot Semarang (Semarang Hebat)",
+      en: "Semarang City Government Scholarship (Semarang Hebat)"
+    },
+    provider: {
+      id: "Pemerintah Kota Semarang",
+      en: "City Government of Semarang"
+    },
+    degreeLevels: ['bachelor'],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan biaya pendidikan semesteran",
+        "Pelatihan soft skills dan kepemimpinan oleh Pemkot"
+      ],
+      en: [
+        "Semester educational financial assistance",
+        "Soft skills and leadership training by the City Government"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Kota Semarang dibuktikan dengan KTP/KK Semarang",
+        "Terdaftar sebagai mahasiswa aktif S1 di universitas mitra di wilayah Semarang",
+        "IPK minimal 3.00 dan aktif berorganisasi"
+      ],
+      en: [
+        "Native resident of Semarang City proven by Semarang ID/Family Card",
+        "Registered active S1 student at partner universities in Semarang area",
+        "Minimum GPA of 3.00 and active in student organizations"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-10",
+    applicationUrl: "https://semarangkab.go.id/",
+    description: {
+      id: "Program bantuan studi untuk memotivasi mahasiswa berprestasi asal Semarang agar berkontribusi nyata pada kemajuan kota.",
+      en: "Study assistance program intended to motivate high-achieving students from Semarang to contribute to the city's development."
+    },
+    tags: {
+      id: ["Pemerintah", "Dalam Negeri", "Semarang", "Bantuan"],
+      en: ["Government", "Domestic", "Semarang", "Assistance"]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-sulut",
+    studyLocation: ['domestic'],
+    name: {
+      id: "Beasiswa Pemerintah Provinsi Sulawesi Utara (Beasiswa Sulut Hebat)",
+      en: "North Sulawesi Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Sulawesi Utara",
+      en: "Provincial Government of North Sulawesi"
+    },
+    degreeLevels: ['bachelor', 'master'],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Dana stimulan pendidikan untuk SPP/UKT",
+        "Subsidi biaya penelitian tugas akhir"
+      ],
+      en: [
+        "Educational tuition fee stimulus grant",
+        "Subsidiary research grant for final thesis"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Sulawesi Utara (KK/KTP Sulut)",
+        "Mahasiswa aktif di universitas terakreditasi baik di dalam Sulut maupun luar daerah",
+        "IPK minimal 3.00 untuk sains dan 3.25 untuk sosial"
+      ],
+      en: [
+        "Native resident of North Sulawesi (Sulut ID/Family Card)",
+        "Active student at accredited universities in North Sulawesi or other regions",
+        "Minimum GPA of 3.00 for science or 3.25 for social studies"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-30",
+    applicationUrl: "https://sulutprov.go.id/",
+    description: {
+      id: "Beasiswa bantuan pendidikan dari Pemprov Sulawesi Utara bagi mahasiswa berprestasi tinggi untuk mempercepat penyelesaian studi.",
+      en: "Educational assistance scholarship from North Sulawesi Provincial Government for outstanding students to accelerate their graduation."
+    },
+    tags: {
+      id: ["Pemerintah", "Dalam Negeri", "Sulawesi", "Bantuan"],
+      en: ["Government", "Domestic", "Sulawesi", "Assistance"]
+    }
+  },
+  {
+    id: "eth-esop-switzerland",
+    studyLocation: ['overseas'],
+    name: {
+      id: "ETH Zurich Excellence Scholarship & Opportunity Programme (ESOP)",
+      en: "ETH Zurich Excellence Scholarship & Opportunity Programme (ESOP)"
+    },
+    provider: {
+      id: "ETH Zurich (Swiss Federal Institute of Technology)",
+      en: "ETH Zurich (Swiss Federal Institute of Technology)"
+    },
+    degreeLevels: ['master'],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh",
+        "Uang saku bulanan dan tunjangan hidup senilai CHF 12.000 per semester",
+        "Mentoring khusus dan jejaring riset eksklusif"
+      ],
+      en: [
+        "Full tuition fee waiver",
+        "Monthly stipend and living allowance worth CHF 12,000 per semester",
+        "Special mentoring and exclusive research networking"
+      ]
+    },
+    requirements: {
+      id: [
+        "Lulusan sarjana dengan hasil akademis sangat baik (masuk 10% terbaik di angkatannya)",
+        "Menulis proposal pra-proyek tesis master (Master's thesis pre-proposal)",
+        "Diterima di salah satu program Master di ETH Zurich"
+      ],
+      en: [
+        "Bachelor graduates with outstanding academic results (top 10% of their class)",
+        "Write a Master's thesis pre-proposal of high quality",
+        "Admitted to an eligible Master's program at ETH Zurich"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-12-15",
+    applicationUrl: "https://ethz.ch/en/studies/financial/scholarships/excellencescholarship.html",
+    description: {
+      id: "Beasiswa riset elit dari ETH Zurich, universitas teknologi top dunia, untuk mendukung calon ilmuwan unggulan menyelesaikan studi Master.",
+      en: "An elite research scholarship by ETH Zurich, one of the world's leading technology universities, supporting outstanding future scientists in master's studies."
+    },
+    tags: {
+      id: ["Universitas", "Luar Negeri", "Swiss", "Teknologi", "Riset"],
+      en: ["University", "Overseas", "Switzerland", "Technology", "Research"]
+    }
+  },
+  {
+    id: "edinburgh-global-research",
+    studyLocation: ['overseas'],
+    name: {
+      id: "Beasiswa Riset Global Edinburgh (Universitas Edinburgh)",
+      en: "Edinburgh Global Research Scholarship (University of Edinburgh)"
+    },
+    provider: {
+      id: "University of Edinburgh, UK",
+      en: "University of Edinburgh, UK"
+    },
+    degreeLevels: ['doctoral'],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Cakupan selisih biaya kuliah internasional penuh",
+        "Tunjangan biaya riset tahunan"
+      ],
+      en: [
+        "Full international tuition fee rate coverage",
+        "Annual research cost allowance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Terbuka bagi mahasiswa internasional luar UK",
+        "Telah terdaftar atau diterima di program PhD riset penuh waktu di Edinburgh",
+        "Memiliki rekam jejak akademik yang luar biasa dan proposal riset yang berdampak luas"
+      ],
+      en: [
+        "Open to international students outside the UK",
+        "Admitted to a full-time PhD research program at Edinburgh",
+        "Possess outstanding academic record and a high-impact research proposal"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-02-02",
+    applicationUrl: "https://www.ed.ac.uk/student-funding/postgraduate/international/global/research",
+    description: {
+      id: "Beasiswa bergengsi dari Universitas Edinburgh untuk mendukung kandidat PhD internasional melakukan penelitian tingkat tinggi di Skotlandia.",
+      en: "Prestigious scholarship offered by the University of Edinburgh to support outstanding international PhD candidates conducting high-level research in Scotland."
+    },
+    tags: {
+      id: ["Universitas", "Luar Negeri", "Inggris", "Riset", "Doktor"],
+      en: ["University", "Overseas", "UK", "Research", "Doctoral"]
+    }
+  },
+  {
+    id: "hong-kong-phd-hkpfs",
+    studyLocation: ['overseas'],
+    name: {
+      id: "Beasiswa Skema PhD Hong Kong (HKPFS)",
+      en: "Hong Kong PhD Fellowship Scheme (HKPFS)"
+    },
+    provider: {
+      id: "Research Grants Council (RGC) Hong Kong",
+      en: "Research Grants Council (RGC) Hong Kong"
+    },
+    degreeLevels: ['doctoral'],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Tunjangan tahunan sebesar HKD 331.200",
+        "Tunjangan perjalanan terkait konferensi senilai HKD 13.800 per tahun",
+        "Bantuan akomodasi kampus terjamin"
+      ],
+      en: [
+        "Annual stipend of HKD 331,200",
+        "Conference and research-related travel allowance of HKD 13,800 per year",
+        "Guaranteed on-campus accommodation assistance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Terbuka untuk calon mahasiswa PhD dari seluruh belahan dunia",
+        "Memenuhi standar akademik tinggi dan kemampuan berbahasa Inggris yang sangat baik",
+        "Menunjukkan potensi kepemimpinan dan rekam jejak riset yang kuat"
+      ],
+      en: [
+        "Open to PhD candidates from all countries globally",
+        "Meet high academic excellence standards and excellent English proficiency",
+        "Demonstrate strong leadership potential and research record"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-12-01",
+    applicationUrl: "https://www.ugc.edu.hk/eng/rgc/funding_opport/hkpfs/",
+    description: {
+      id: "Program beasiswa riset prestisius dari pemerintah Hong Kong untuk menarik mahasiswa PhD terbaik se-dunia ke universitas kelas dunia di Hong Kong.",
+      en: "A highly prestigious research fellowship program established by the Hong Kong government to attract the best PhD students worldwide to study in Hong Kong."
+    },
+    tags: {
+      id: ["Pemerintah", "Luar Negeri", "Hong Kong", "Riset", "Doktor"],
+      en: ["Government", "Overseas", "Hong Kong", "Research", "Doctoral"]
+    }
+  },
+  {
+    id: "peking-university-pkus",
+    studyLocation: ['overseas'],
+    name: {
+      id: "Beasiswa Universitas Peking (Peking University Scholarship - PKUS)",
+      en: "Peking University Scholarship (PKUS)"
+    },
+    provider: {
+      id: "Peking University, China",
+      en: "Peking University, China"
+    },
+    degreeLevels: ['bachelor', 'master', 'doctoral'],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh (spp)",
+        "Uang saku bulanan untuk biaya hidup",
+        "Asuransi kesehatan komprehensif bagi mahasiswa asing"
+      ],
+      en: [
+        "Full tuition fee waiver",
+        "Monthly living stipend support",
+        "Comprehensive medical insurance for international students"
+      ]
+    },
+    requirements: {
+      id: [
+        "Bukan warga negara Tiongkok (mahasiswa internasional)",
+        "Memenuhi syarat kemampuan bahasa HSK (Mandarin) atau IELTS/TOEFL untuk kelas bahasa Inggris",
+        "Menunjukkan prestasi akademis di atas rata-rata dari jenjang sekolah/kuliah sebelumnya"
+      ],
+      en: [
+        "Non-Chinese citizen (international students)",
+        "Meet language proficiency standards in HSK (Mandarin) or IELTS/TOEFL for English-taught classes",
+        "Demonstrate above-average academic performance from previous education"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-04-30",
+    applicationUrl: "https://www.isd.pku.edu.cn/scholarship/detail/8.html",
+    description: {
+      id: "Beasiswa tingkat universitas dari Peking University, universitas terbaik di China, untuk mendanai studi sarjana dan pascasarjana mahasiswa internasional.",
+      en: "University-level scholarship by Peking University, China's premier university, supporting international students in undergraduate and graduate degree studies."
+    },
+    tags: {
+      id: ["Universitas", "Luar Negeri", "China", "Asia"],
+      en: ["University", "Overseas", "China", "Asia"]
+    }
+  },
+  {
+    id: "tsinghua-university-scholarship",
+    studyLocation: ['overseas'],
+    name: {
+      id: "Beasiswa Universitas Tsinghua untuk Mahasiswa Internasional",
+      en: "Tsinghua University Scholarship for International Students"
+    },
+    provider: {
+      id: "Tsinghua University, China",
+      en: "Tsinghua University, China"
+    },
+    degreeLevels: ['master', 'doctoral'],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh atau sebagian",
+        "Tunjangan biaya hidup bulanan untuk mahasiswa pascasarjana",
+        "Akomodasi asrama kampus gratis atau bersubsidi"
+      ],
+      en: [
+        "Full or partial tuition fee waiver",
+        "Monthly living stipend for graduate students",
+        "Free or subsidized on-campus dormitory accommodation"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional non-Tiongkok yang mendaftar program degree di Tsinghua",
+        "Memiliki rekam jejak akademis yang sangat baik",
+        "Lolos seleksi masuk akademik program studi yang dituju"
+      ],
+      en: [
+        "Non-Chinese international students applying for degree studies at Tsinghua",
+        "Possess outstanding academic records",
+        "Pass the academic admission process of the target department"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-03-31",
+    applicationUrl: "https://www.tsinghua.edu.cn/en/Admissions/International_Students.htm",
+    description: {
+      id: "Beasiswa bergengsi dari Universitas Tsinghua untuk memfasilitasi mahasiswa internasional berprestasi menempuh studi lanjut di Beijing.",
+      en: "Prestigious scholarship offered by Tsinghua University to support high-achieving international students in pursuing advanced degrees in Beijing."
+    },
+    tags: {
+      id: ["Universitas", "Luar Negeri", "China", "Asia"],
+      en: ["University", "Overseas", "China", "Asia"]
+    }
   }
 ];
