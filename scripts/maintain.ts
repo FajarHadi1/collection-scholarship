@@ -175,7 +175,88 @@ Output MUST be a raw JSON array of objects conforming to the Scholarship interfa
   }
 }
 
-// 5. Main Execution
+// 5. Check map pins and filter tags integrity (Job 3)
+function checkMapAndFilterIntegrity(list: Scholarship[]) {
+  const mapPath = path.resolve(__dirname, "../src/components/WorldMap.tsx");
+  const pagePath = path.resolve(__dirname, "../src/app/page.tsx");
+  
+  if (!fs.existsSync(mapPath) || !fs.existsSync(pagePath)) {
+    console.log("[MAP CHECK] Skipping map integrity check (files not found).");
+    return;
+  }
+  
+  const mapContent = fs.readFileSync(mapPath, "utf-8");
+  const pageContent = fs.readFileSync(pagePath, "utf-8");
+  
+  let mapCountries: any[] = [];
+  let pageCountryTags: Record<string, string[]> = {};
+  
+  try {
+    const countriesMarker = "const COUNTRIES: MapCountry[] =";
+    const countriesStartIndex = mapContent.indexOf(countriesMarker);
+    if (countriesStartIndex !== -1) {
+      const arrayStart = mapContent.indexOf("[", countriesStartIndex);
+      const arrayEnd = mapContent.indexOf("];", arrayStart);
+      if (arrayStart !== -1 && arrayEnd !== -1) {
+        mapCountries = new Function(`return ${mapContent.substring(arrayStart, arrayEnd + 1)};`)();
+      }
+    }
+    
+    const tagsMarker = "const countryTags: Record<string, string[]> =";
+    const tagsStartIndex = pageContent.indexOf(tagsMarker);
+    if (tagsStartIndex !== -1) {
+      const objStart = pageContent.indexOf("{", tagsStartIndex);
+      const objEnd = pageContent.indexOf("};", objStart);
+      if (objStart !== -1 && objEnd !== -1) {
+        pageCountryTags = new Function(`return ${pageContent.substring(objStart, objEnd + 1)};`)();
+      }
+    }
+  } catch (e: any) {
+    console.error("[MAP CHECK ERROR] Failed to parse map or page configurations:", e.message);
+    return;
+  }
+  
+  console.log(`Verifying geographical pins for ${list.length} scholarships...`);
+  
+  const mapCountryTagsSet = new Set<string>();
+  mapCountries.forEach(c => {
+    c.tags.forEach((t: string) => mapCountryTagsSet.add(t.toLowerCase()));
+  });
+  
+  const pageTagsSet = new Set<string>();
+  Object.values(pageCountryTags).forEach(tagsList => {
+    tagsList.forEach((t: string) => pageTagsSet.add(t.toLowerCase()));
+  });
+  
+  let missingPinsCount = 0;
+  
+  for (const sc of list) {
+    if (sc.studyLocation.includes("domestic")) {
+      continue;
+    }
+    
+    const allScTags = [...sc.tags.id, ...sc.tags.en].map(t => t.toLowerCase());
+    
+    const hasMapPin = allScTags.some(tag => mapCountryTagsSet.has(tag));
+    const hasPageFilter = allScTags.some(tag => pageTagsSet.has(tag));
+    
+    if (!hasMapPin) {
+      console.log(`⚠️ [MAP WARNING] Scholarship '${sc.id}' (Overseas) has tags ${JSON.stringify(sc.tags.id)} but matches NO country marker pin in WorldMap.tsx!`);
+      missingPinsCount++;
+    }
+    if (!hasPageFilter) {
+      console.log(`⚠️ [MAP WARNING] Scholarship '${sc.id}' (Overseas) has tags ${JSON.stringify(sc.tags.id)} but matches NO filter configuration in page.tsx!`);
+    }
+  }
+  
+  if (missingPinsCount === 0) {
+    console.log("✅ All international scholarships successfully mapped to geographical pins.");
+  } else {
+    console.log(`⚠️ [MAP INTEGRITY] Detected ${missingPinsCount} scholarships without active map pins. Please update COUNTRIES in WorldMap.tsx and countryTags in page.tsx.`);
+  }
+}
+
+// 6. Main Execution
 async function main() {
   const args = process.argv.slice(2);
   const checkOnly = args.includes("--check-only");
@@ -197,6 +278,9 @@ async function main() {
       }
     }
     
+    // Job 3: Check map and filter integrity
+    checkMapAndFilterIntegrity(list);
+    
     if (updatedCount > 0 || addedCount > 0) {
       // Save changes back to file
       const serialized = serializeScholarships(list);
@@ -213,3 +297,4 @@ async function main() {
 }
 
 main();
+
