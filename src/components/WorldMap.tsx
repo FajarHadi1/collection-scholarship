@@ -44,7 +44,9 @@ const COUNTRIES: MapCountry[] = [
   { id: "austria", name: { id: "Austria", en: "Austria" }, lat: 47.516231, lng: 14.5501, zoom: 6, tags: ["Austria"] },
   { id: "china", name: { id: "Tiongkok", en: "China" }, lat: 35.86166, lng: 104.195397, zoom: 4, tags: ["Tiongkok", "China"] },
   { id: "brunei", name: { id: "Brunei Darussalam", en: "Brunei" }, lat: 4.535277, lng: 114.727669, zoom: 6, tags: ["Brunei Darussalam", "Brunei"] },
-  { id: "kuwait", name: { id: "Kuwait", en: "Kuwait" }, lat: 29.375859, lng: 47.977405, zoom: 6, tags: ["Kuwait"] }
+  { id: "kuwait", name: { id: "Kuwait", en: "Kuwait" }, lat: 29.375859, lng: 47.977405, zoom: 6, tags: ["Kuwait"] },
+  { id: "russia", name: { id: "Rusia", en: "Russia" }, lat: 61.52401, lng: 105.318756, zoom: 3, tags: ["Rusia", "Russia"] },
+  { id: "hong_kong", name: { id: "Hong Kong", en: "Hong Kong" }, lat: 22.319304, lng: 114.169361, zoom: 8, tags: ["Hong Kong", "Hongkong"] }
 ];
 
 export default function WorldMap({

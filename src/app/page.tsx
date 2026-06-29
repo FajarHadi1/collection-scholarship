@@ -181,7 +181,9 @@ export default function Home() {
       austria: ["austria"],
       china: ["tiongkok", "china"],
       brunei: ["brunei darussalam", "brunei"],
-      kuwait: ["kuwait"]
+      kuwait: ["kuwait"],
+      russia: ["rusia", "russia"],
+      hong_kong: ["hong kong", "hongkong"]
     };
     
     if (countryId === "indonesia" && sc.studyLocation.includes("domestic")) {
