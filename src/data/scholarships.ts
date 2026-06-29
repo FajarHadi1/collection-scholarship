@@ -13100,5 +13100,585 @@ export const scholarships: Scholarship[] = [
       id: ["Universitas", "Luar Negeri", "Rusia", "Saint Petersburg"],
       en: ["University", "Overseas", "Russia", "Saint Petersburg"]
     }
+  },
+  {
+    id: "beasiswa-pemkab-tuban",
+    studyLocation: ["domestic"],
+    name: {
+      "id": "Beasiswa Pemerintah Kabupaten Tuban (Beasiswa Prestasi Tuban)",
+      "en": "Tuban Regency Government Scholarship"
+},
+    provider: {
+      "id": "Pemerintah Kabupaten Tuban",
+      "en": "Regency Government of Tuban"
+},
+    degreeLevels: ["bachelor"],
+    fundingType: 'partial',
+    coverage: {
+      "id": [
+            "Bantuan biaya kuliah semesteran",
+            "Uang saku penunjang riset tugas akhir"
+      ],
+      "en": [
+            "Semester tuition fee assistance",
+            "Stipend support for final thesis research"
+      ]
+},
+    requirements: {
+      "id": [
+            "Warga asli Kabupaten Tuban dibuktikan dengan KTP/KK Tuban",
+            "Mahasiswa aktif S1 di perguruan tinggi negeri maupun swasta",
+            "IPK minimal 3.00 untuk prestasi akademik atau memiliki prestasi non-akademik minimal tingkat provinsi"
+      ],
+      "en": [
+            "Native resident of Tuban Regency proven by Tuban ID/Family Card",
+            "Active S1 student at state or private universities",
+            "Minimum GPA of 3.00 for academic track or regional non-academic achievement"
+      ]
+},
+    status: 'soon',
+    deadline: "2026-09-30",
+    applicationUrl: "https://tubankab.go.id/",
+    description: {
+      "id": "Bantuan stimulan biaya pendidikan tinggi dari Pemkab Tuban untuk memajukan kualitas akademis mahasiswa berprestasi daerah.",
+      "en": "Higher education financial assistance stimulus from Tuban Regency Government to elevate the academic achievements of local students."
+},
+    tags: {
+      "id": [
+            "Pemerintah",
+            "Dalam Negeri",
+            "Tuban",
+            "Jawa Timur"
+      ],
+      "en": [
+            "Government",
+            "Domestic",
+            "Tuban",
+            "East Java"
+      ]
+}
+  },
+  {
+    id: "beasiswa-pemkab-lamongan",
+    studyLocation: ["domestic"],
+    name: {
+      "id": "Beasiswa Pemkab Lamongan (Beasiswa Transisi Gafura Cerdas)",
+      "en": "Lamongan Regency Government Scholarship"
+},
+    provider: {
+      "id": "Pemerintah Kabupaten Lamongan",
+      "en": "Regency Government of Lamongan"
+},
+    degreeLevels: ["bachelor"],
+    fundingType: 'partial',
+    coverage: {
+      "id": [
+            "Bantuan dana pendidikan UKT per semester",
+            "Pelatihan karir dan pengabdian masyarakat dari Pemkab"
+      ],
+      "en": [
+            "Semester tuition fee grant assistance",
+            "Career training and community service by Regency Government"
+      ]
+},
+    requirements: {
+      "id": [
+            "Memiliki KTP/KK asli Kabupaten Lamongan",
+            "Mahasiswa aktif program sarjana (S1) di universitas terakreditasi minimal B",
+            "Berasal dari keluarga kurang mampu atau memiliki prestasi akademik/non-akademik unggul"
+      ],
+      "en": [
+            "Possess native Lamongan Regency ID/Family Card",
+            "Active S1 student at accredited universities (min. B accreditation)",
+            "From underprivileged background or possesses outstanding academic/non-academic records"
+      ]
+},
+    status: 'open',
+    deadline: "2026-07-25",
+    applicationUrl: "https://lamongankab.go.id/",
+    description: {
+      "id": "Program beasiswa stimulan dari Pemerintah Kabupaten Lamongan untuk meminimalkan angka putus sekolah tinggi bagi pemuda berprestasi daerah.",
+      "en": "Stimulus scholarship program by Lamongan Regency Government to prevent higher education dropouts among local talented youths."
+},
+    tags: {
+      "id": [
+            "Pemerintah",
+            "Dalam Negeri",
+            "Lamongan",
+            "Jawa Timur"
+      ],
+      "en": [
+            "Government",
+            "Domestic",
+            "Lamongan",
+            "East Java"
+      ]
+}
+  },
+  {
+    id: "beasiswa-pemprov-kepri",
+    studyLocation: ["domestic"],
+    name: {
+      "id": "Beasiswa Pemprov Kepulauan Riau (Kepri Berprestasi)",
+      "en": "Riau Islands Provincial Government Scholarship"
+},
+    provider: {
+      "id": "Pemerintah Provinsi Kepulauan Riau",
+      "en": "Provincial Government of Riau Islands"
+},
+    degreeLevels: ["bachelor", "master"],
+    fundingType: 'partial',
+    coverage: {
+      "id": [
+            "Subsidi biaya pendidikan SPP/UKT per semester",
+            "Bantuan biaya penyusunan skripsi/tesis"
+      ],
+      "en": [
+            "Semester tuition fee subsidy assistance",
+            "Research writing grant for final thesis"
+      ]
+},
+    requirements: {
+      "id": [
+            "Warga asli Provinsi Kepulauan Riau dibuktikan dengan KTP/KK Kepri",
+            "Mahasiswa aktif perguruan tinggi negeri/swasta di dalam maupun luar wilayah Kepri",
+            "IPK minimal 3.10 untuk saintek atau 3.25 untuk rumpun sosial/humaniora"
+      ],
+      "en": [
+            "Native resident of Riau Islands Province (Kepri ID/Family Card)",
+            "Active student at state or private universities inside/outside Kepri",
+            "Minimum GPA of 3.10 for science or 3.25 for social studies"
+      ]
+},
+    status: 'open',
+    deadline: "2026-08-15",
+    applicationUrl: "https://kepriprov.go.id/",
+    description: {
+      "id": "Program bantuan biaya pendidikan tinggi dari Pemprov Kepri untuk meringankan beban pendidikan putra-putri daerah berprestasi.",
+      "en": "Higher education financial assistance program by Kepri Provincial Government supporting outstanding local students."
+},
+    tags: {
+      "id": [
+            "Pemerintah",
+            "Dalam Negeri",
+            "Kepri",
+            "Bantuan"
+      ],
+      "en": [
+            "Government",
+            "Domestic",
+            "Kepri",
+            "Assistance"
+      ]
+}
+  },
+  {
+    id: "beasiswa-pemkab-sumenep",
+    studyLocation: ["domestic"],
+    name: {
+      "id": "Beasiswa Pemkab Sumenep (Beasiswa Santri & Mahasiswa Berprestasi)",
+      "en": "Sumenep Regency Government Scholarship"
+},
+    provider: {
+      "id": "Pemerintah Kabupaten Sumenep",
+      "en": "Regency Government of Sumenep"
+},
+    degreeLevels: ["bachelor"],
+    fundingType: 'partial',
+    coverage: {
+      "id": [
+            "Dana stimulan biaya SPP kuliah per semester",
+            "Bantuan biaya hidup penunjang pendidikan"
+      ],
+      "en": [
+            "Semester tuition fee stimulus grant",
+            "Living cost assistance for educational support"
+      ]
+},
+    requirements: {
+      "id": [
+            "Warga asli Kabupaten Sumenep (KK/KTP Madura/Sumenep)",
+            "Mahasiswa aktif program S1 atau santri aktif di pondok pesantren terakreditasi",
+            "Berasal dari keluarga kurang mampu atau memiliki prestasi tahfidz/akademik"
+      ],
+      "en": [
+            "Native resident of Sumenep Regency (Sumenep/Madura ID/Family Card)",
+            "Active S1 student or active santri at accredited Islamic boarding school",
+            "From low-income family background or possesses tahfidz/academic records"
+      ]
+},
+    status: 'soon',
+    deadline: "2026-09-20",
+    applicationUrl: "https://sumenepkab.go.id/",
+    description: {
+      "id": "Bantuan sosial pendidikan dari Pemerintah Kabupaten Sumenep untuk meningkatkan indeks pembangunan manusia bagi santri dan mahasiswa daerah.",
+      "en": "Educational social assistance from Sumenep Regency Government to elevate the human development index for local students and santri."
+},
+    tags: {
+      "id": [
+            "Pemerintah",
+            "Dalam Negeri",
+            "Sumenep",
+            "Madura"
+      ],
+      "en": [
+            "Government",
+            "Domestic",
+            "Sumenep",
+            "Madura"
+      ]
+}
+  },
+  {
+    id: "beasiswa-pemprov-bengkulu",
+    studyLocation: ["domestic"],
+    name: {
+      "id": "Beasiswa Pemerintah Provinsi Bengkulu (Beasiswa Bengkulu Unggul)",
+      "en": "Bengkulu Provincial Government Scholarship"
+},
+    provider: {
+      "id": "Pemerintah Provinsi Bengkulu",
+      "en": "Provincial Government of Bengkulu"
+},
+    degreeLevels: ["bachelor", "master"],
+    fundingType: 'partial',
+    coverage: {
+      "id": [
+            "Subsidi biaya pendidikan UKT/SPP tahunan",
+            "Bantuan dana penunjang tugas akhir kuliah"
+      ],
+      "en": [
+            "Annual tuition fee subsidy support",
+            "Thesis drafting financial assistance"
+      ]
+},
+    requirements: {
+      "id": [
+            "Penduduk asli Provinsi Bengkulu (KTP/KK Bengkulu)",
+            "Mahasiswa aktif di universitas negeri/swasta terakreditasi minimal B",
+            "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      "en": [
+            "Native resident of Bengkulu Province (Bengkulu ID/Family Card)",
+            "Active student at accredited state or private universities (min. B)",
+            "Minimum GPA of 3.00 for academic excellence track"
+      ]
+},
+    status: 'open',
+    deadline: "2026-07-15",
+    applicationUrl: "https://bengkuluprov.go.id/",
+    description: {
+      "id": "Program beasiswa bantuan biaya kuliah dari Pemprov Bengkulu untuk mendorong pemerataan pendidikan tinggi di wilayah Bengkulu.",
+      "en": "Tuition fee financial assistance scholarship by Bengkulu Provincial Government supporting higher education accessibility in Bengkulu."
+},
+    tags: {
+      "id": [
+            "Pemerintah",
+            "Dalam Negeri",
+            "Bengkulu",
+            "Sumatera"
+      ],
+      "en": [
+            "Government",
+            "Domestic",
+            "Bengkulu",
+            "Sumatra"
+      ]
+}
+  },
+  {
+    id: "tudelft-excellence-netherlands",
+    studyLocation: ["overseas"],
+    name: {
+      "id": "Beasiswa Unggulan Justus & Louise van Effen TU Delft",
+      "en": "TU Delft Justus & Louise van Effen Excellence Scholarships"
+},
+    provider: {
+      "id": "Delft University of Technology (TU Delft)",
+      "en": "Delft University of Technology (TU Delft)"
+},
+    degreeLevels: ["master"],
+    fundingType: 'full',
+    coverage: {
+      "id": [
+            "Pembebasan biaya kuliah penuh 100% program Master",
+            "Tunjangan biaya hidup tahunan senilai EUR 30.000",
+            "Keanggotaan eksklusif dalam klub beasiswa rintisan industri"
+      ],
+      "en": [
+            "100% tuition fees coverage for Master's program",
+            "Living expenses allowance worth EUR 30,000 per year",
+            "Exclusive membership in startup and industrial research clubs"
+      ]
+},
+    requirements: {
+      "id": [
+            "Diterima di salah satu program MSc regular TU Delft",
+            "IPK kumulatif minimal 3.75 dari skala 4.00 di universitas sebelumnya",
+            "Menulis esai motivasi yang kuat serta melampirkan portfolio akademik unggul"
+      ],
+      "en": [
+            "Admitted to one of the regular MSc programs at TU Delft",
+            "Cumulative GPA of at least 3.75 out of 4.00 scale in previous university",
+            "Write a strong motivation essay and submit outstanding academic portfolio"
+      ]
+},
+    status: 'soon',
+    deadline: "2026-12-01",
+    applicationUrl: "https://www.tudelft.nl/",
+    description: {
+      "id": "Beasiswa riset paling bergengsi dari TU Delft, Belanda, untuk melatih calon rekayasawan dan peneliti sains terapan dunia.",
+      "en": "The most prestigious research scholarship by TU Delft, Netherlands, aimed at nurturing future world-class engineers and scientists."
+},
+    tags: {
+      "id": [
+            "Universitas",
+            "Luar Negeri",
+            "Belanda",
+            "Teknologi",
+            "Riset"
+      ],
+      "en": [
+            "University",
+            "Overseas",
+            "Netherlands",
+            "Technology",
+            "Research"
+      ]
+}
+  },
+  {
+    id: "waterloo-master-excellence-canada",
+    studyLocation: ["overseas"],
+    name: {
+      "id": "Beasiswa Prestasi Master Internasional Universitas Waterloo",
+      "en": "University of Waterloo International Master's Award of Excellence"
+},
+    provider: {
+      "id": "University of Waterloo, Kanada",
+      "en": "University of Waterloo, Canada"
+},
+    degreeLevels: ["master"],
+    fundingType: 'partial',
+    coverage: {
+      "id": [
+            "Tunjangan dana riset senilai CAD 2.500 per semester",
+            "Subsidi biaya kuliah mahasiswa internasional"
+      ],
+      "en": [
+            "Research grant worth CAD 2,500 per semester",
+            "International student tuition fee subsidy"
+      ]
+},
+    requirements: {
+      "id": [
+            "Mahasiswa internasional yang memegang visa studi Kanada yang sah",
+            "Diterima penuh waktu di program Master berbasis riset di Waterloo",
+            "Menunjukkan prestasi akademis yang konsisten selama jenjang sarjana"
+      ],
+      "en": [
+            "International students holding a valid Canadian study permit",
+            "Admitted full-time to a research-based Master's program at Waterloo",
+            "Demonstrate consistent academic excellence in undergraduate studies"
+      ]
+},
+    status: 'open',
+    deadline: "2026-08-01",
+    applicationUrl: "https://uwaterloo.ca/graduate-studies-postdoctoral-affairs/",
+    description: {
+      "id": "Beasiswa bantuan dana riset pascasarjana dari Universitas Waterloo untuk mendukung mahasiswa internasional menempuh studi Master sains.",
+      "en": "Graduate research financial assistance scholarship by the University of Waterloo supporting top international Master's candidates."
+},
+    tags: {
+      "id": [
+            "Universitas",
+            "Luar Negeri",
+            "Kanada",
+            "Riset"
+      ],
+      "en": [
+            "University",
+            "Overseas",
+            "Canada",
+            "Research"
+      ]
+}
+  },
+  {
+    id: "bocconi-merit-italy",
+    studyLocation: ["overseas"],
+    name: {
+      "id": "Beasiswa Prestasi Universitas Bocconi (Merit Awards)",
+      "en": "Bocconi University Merit & International Awards"
+},
+    provider: {
+      "id": "Bocconi University, Italia",
+      "en": "Bocconi University, Italy"
+},
+    degreeLevels: ["bachelor", "master"],
+    fundingType: 'full',
+    coverage: {
+      "id": [
+            "Pembebasan biaya kuliah 100% senilai hingga EUR 14.000 per tahun",
+            "Akomodasi asrama bersubsidi gratis di kampus Milan"
+      ],
+      "en": [
+            "100% tuition fee waiver worth up to EUR 14,000 per year",
+            "Free or highly subsidized student housing at Milan campus"
+      ]
+},
+    requirements: {
+      "id": [
+            "Diterima di program Bachelor atau Master di Bocconi University",
+            "Kriteria seleksi murni berdasarkan prestasi akademik yang luar biasa di sekolah/kuliah asal",
+            "Mengisi formulir pengajuan beasiswa sebelum tenggat waktu gelombang masuk"
+      ],
+      "en": [
+            "Admitted to a Bachelor or Master program at Bocconi University",
+            "Selection criteria are strictly based on outstanding academic profile from previous studies",
+            "Submit the scholarship application form before the admission wave deadline"
+      ]
+},
+    status: 'soon',
+    deadline: "2026-05-30",
+    applicationUrl: "https://www.unibocconi.eu/",
+    description: {
+      "id": "Beasiswa elit dari Bocconi University di Milan untuk menyokong kuliah bisnis, manajemen, dan ekonomi bagi mahasiswa asing terbaik.",
+      "en": "An elite merit-based scholarship by Bocconi University in Milan, supporting top business, management, and economics international students."
+},
+    tags: {
+      "id": [
+            "Universitas",
+            "Luar Negeri",
+            "Italia",
+            "Bisnis",
+            "Ekonomi"
+      ],
+      "en": [
+            "University",
+            "Overseas",
+            "Italy",
+            "Business",
+            "Economics"
+      ]
+}
+  },
+  {
+    id: "monash-international-leadership-australia",
+    studyLocation: ["overseas"],
+    name: {
+      "id": "Beasiswa Kepemimpinan Internasional Universitas Monash",
+      "en": "Monash University International Leadership Scholarship"
+},
+    provider: {
+      "id": "Monash University, Australia",
+      "en": "Monash University, Australia"
+},
+    degreeLevels: ["bachelor", "master"],
+    fundingType: 'full',
+    coverage: {
+      "id": [
+            "Pembebasan biaya kuliah penuh 100% hingga masa studi selesai",
+            "Undangan eksklusif program pelatihan kepemimpinan dan jejaring alumni"
+      ],
+      "en": [
+            "100% tuition fees coverage until the completion of degree",
+            "Exclusive invitation to leadership training programs and alumni network"
+      ]
+},
+    requirements: {
+      "id": [
+            "Mahasiswa internasional yang berencana menempuh kuliah sarjana atau pascasarjana di Monash",
+            "Lolos seleksi masuk akademik program studi pilihan",
+            "Menulis esai kepemimpinan yang meyakinkan mengenai kontribusi masa depan"
+      ],
+      "en": [
+            "International students planning to study undergraduate or postgraduate degrees at Monash",
+            "Pass academic admission to the selected course",
+            "Write a compelling leadership essay outlining future contributions"
+      ]
+},
+    status: 'open',
+    deadline: "2026-10-15",
+    applicationUrl: "https://www.monash.edu/",
+    description: {
+      "id": "Beasiswa prestasi kepemimpinan tingkat sarjana dan pascasarjana dari Monash University untuk mencetak duta masa depan.",
+      "en": "Merit and leadership based full-tuition scholarship by Monash University designed to groom future global student ambassadors."
+},
+    tags: {
+      "id": [
+            "Universitas",
+            "Luar Negeri",
+            "Australia",
+            "Kepemimpinan"
+      ],
+      "en": [
+            "University",
+            "Overseas",
+            "Australia",
+            "Leadership"
+      ]
+}
+  },
+  {
+    id: "paris-saclay-master-france",
+    studyLocation: ["overseas"],
+    name: {
+      "id": "Beasiswa Master Internasional Universitas Paris-Saclay",
+      "en": "Paris-Saclay University International Master's Scholarship"
+},
+    provider: {
+      "id": "Université Paris-Saclay, Prancis",
+      "en": "Université Paris-Saclay, France"
+},
+    degreeLevels: ["master"],
+    fundingType: 'full',
+    coverage: {
+      "id": [
+            "Bantuan biaya hidup senilai EUR 10.000 per tahun",
+            "Bantuan biaya perjalanan dan visa senilai hingga EUR 1.000",
+            "Bebas biaya pendaftaran universitas"
+      ],
+      "en": [
+            "Living allowance stipend worth EUR 10,000 per year",
+            "Travel and visa expenses cover up to EUR 1,000",
+            "University enrollment fees waiver"
+      ]
+},
+    requirements: {
+      "id": [
+            "Mahasiswa internasional yang baru pertama kali mendaftar program Master di Paris-Saclay",
+            "Memiliki latar akademik yang sangat menonjol di jenjang sarjana",
+            "Lolos seleksi masuk di salah satu program studi Master mitra"
+      ],
+      "en": [
+            "First-time international applicants to a Master's program at Paris-Saclay",
+            "Possess outstanding academic records in undergraduate studies",
+            "Pass admission selection to a partner Master's program"
+      ]
+},
+    status: 'soon',
+    deadline: "2026-05-15",
+    applicationUrl: "https://www.universite-paris-saclay.fr/en/",
+    description: {
+      "id": "Beasiswa penuh dari pemerintah Perancis melalui Paris-Saclay untuk menarik ilmuwan asing terbaik kuliah di klaster riset sains terkemuka Perancis.",
+      "en": "Fully funded scholarship program by the French government via Paris-Saclay, designed to attract top international science candidates."
+},
+    tags: {
+      "id": [
+            "Universitas",
+            "Luar Negeri",
+            "Prancis",
+            "Sains",
+            "Riset"
+      ],
+      "en": [
+            "University",
+            "Overseas",
+            "France",
+            "Science",
+            "Research"
+      ]
+}
   }
 ];
