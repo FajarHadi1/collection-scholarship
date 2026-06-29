@@ -8360,14 +8360,16 @@ export const scholarships: Scholarship[] = [
         "Luar Negeri",
         "Riset",
         "Musim Panas",
-        "STEM"
+        "STEM",
+        "Internasional"
       ],
       en: [
         "Foundation",
         "Overseas",
         "Research",
         "Summer",
-        "STEM"
+        "STEM",
+        "International"
       ]
     }
   },
@@ -8484,13 +8486,15 @@ export const scholarships: Scholarship[] = [
         "Yayasan",
         "Luar Negeri",
         "Pascasarjana",
-        "Prestisius"
+        "Prestisius",
+        "Internasional"
       ],
       en: [
         "Foundation",
         "Overseas",
         "Postgraduate",
-        "Prestigious"
+        "Prestigious",
+        "International"
       ]
     }
   },

@@ -46,7 +46,11 @@ const COUNTRIES: MapCountry[] = [
   { id: "brunei", name: { id: "Brunei Darussalam", en: "Brunei" }, lat: 4.535277, lng: 114.727669, zoom: 6, tags: ["Brunei Darussalam", "Brunei"] },
   { id: "kuwait", name: { id: "Kuwait", en: "Kuwait" }, lat: 29.375859, lng: 47.977405, zoom: 6, tags: ["Kuwait"] },
   { id: "russia", name: { id: "Rusia", en: "Russia" }, lat: 61.52401, lng: 105.318756, zoom: 3, tags: ["Rusia", "Russia"] },
-  { id: "hong_kong", name: { id: "Hong Kong", en: "Hong Kong" }, lat: 22.319304, lng: 114.169361, zoom: 8, tags: ["Hong Kong", "Hongkong"] }
+  { id: "hong_kong", name: { id: "Hong Kong", en: "Hong Kong" }, lat: 22.319304, lng: 114.169361, zoom: 8, tags: ["Hong Kong", "Hongkong"] },
+  { id: "taiwan", name: { id: "Taiwan", en: "Taiwan" }, lat: 23.69781, lng: 120.960515, zoom: 7, tags: ["Taiwan"] },
+  { id: "hungary", name: { id: "Hongaria", en: "Hungary" }, lat: 47.162494, lng: 19.503304, zoom: 6, tags: ["Hongaria", "Hungary"] },
+  { id: "europe", name: { id: "Uni Eropa (Regional)", en: "Europe (Regional)" }, lat: 50.850346, lng: 4.351721, zoom: 4, tags: ["Eropa", "Europe", "Uni Eropa", "European Union"] },
+  { id: "global", name: { id: "Global / Internasional", en: "Global / International" }, lat: 15.0, lng: -40.0, zoom: 2, tags: ["Internasional", "International", "Global", "Multinasional", "Multinational"] }
 ];
 
 export default function WorldMap({

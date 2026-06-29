@@ -183,7 +183,11 @@ export default function Home() {
       brunei: ["brunei darussalam", "brunei"],
       kuwait: ["kuwait"],
       russia: ["rusia", "russia"],
-      hong_kong: ["hong kong", "hongkong"]
+      hong_kong: ["hong kong", "hongkong"],
+      taiwan: ["taiwan"],
+      hungary: ["hongaria", "hungary"],
+      europe: ["eropa", "europe", "uni eropa", "european union"],
+      global: ["internasional", "international", "global", "multinasional", "multinational"]
     };
     
     if (countryId === "indonesia" && sc.studyLocation.includes("domestic")) {
