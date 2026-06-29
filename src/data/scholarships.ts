@@ -12948,7 +12948,7 @@ export const scholarships: Scholarship[] = [
     },
     status: 'open',
     deadline: "2026-08-10",
-    applicationUrl: "https://admissions.hse.ru/en/graduate-scholarships",
+    applicationUrl: "https://admissions.hse.ru/en/",
     description: {
       id: "Beasiswa prestasi akademis penuh dari HSE University, salah satu universitas riset ekonomi dan sosial terbaik di Rusia.",
       en: "Full academic merit scholarship by HSE University, one of the top research universities in economics and social sciences in Russia."
@@ -12997,7 +12997,7 @@ export const scholarships: Scholarship[] = [
     },
     status: 'soon',
     deadline: "2026-07-15",
-    applicationUrl: "https://www.skoltech.ru/en/apply/",
+    applicationUrl: "https://www.skoltech.ru/en/education/",
     description: {
       id: "Beasiswa penuh riset STEM prestisius dari Skoltech di Moskow, didesain untuk mendidik peneliti dan inovator teknologi masa depan.",
       en: "A prestigious fully funded STEM research scholarship by Skoltech in Moscow, designed to nurture future world-class researchers and tech innovators."
@@ -13044,7 +13044,7 @@ export const scholarships: Scholarship[] = [
     },
     status: 'open',
     deadline: "2026-06-30",
-    applicationUrl: "https://eng.mephi.ru/admissions/scholarships",
+    applicationUrl: "https://eng.mephi.ru/",
     description: {
       id: "Beasiswa khusus rekayasa nuklir dan fisika energi tinggi dari MEPhI untuk mendidik ahli teknologi nuklir tingkat internasional.",
       en: "Specialized scholarship in nuclear engineering and high-energy physics by MEPhI to train international nuclear technology experts."
