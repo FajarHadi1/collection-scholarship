@@ -5624,7 +5624,7 @@ export const scholarships: Scholarship[] = [
         "Meet English language proficiency requirements (minimum IELTS 6.5 or TOEFL iBT 79)"
       ]
     },
-    status: 'open',
+    status: 'closed',
     deadline: "2026-06-30",
     applicationUrl: "https://www.adelaide.edu.au/graduate-research/scholarships",
     description: {
@@ -5690,7 +5690,7 @@ export const scholarships: Scholarship[] = [
         "Admitted to an undergraduate or postgraduate study program in Berlin/Potsdam"
       ]
     },
-    status: 'open',
+    status: 'closed',
     deadline: "2026-06-30",
     applicationUrl: "https://sbw.berlin/en/portfolio-item/sbw-berlin-scholarship/",
     description: {
@@ -8159,7 +8159,7 @@ export const scholarships: Scholarship[] = [
         "Pass document screening and panel interview selection by the Foundation"
       ]
     },
-    status: 'soon',
+    status: 'closed',
     deadline: "2026-06-30",
     applicationUrl: "http://tunasunggul.or.id/",
     description: {
@@ -13250,7 +13250,7 @@ export const scholarships: Scholarship[] = [
         "Willing to undergo Russian language preparatory course if choosing regular classes"
       ]
     },
-    status: 'open',
+    status: 'closed',
     deadline: "2026-06-30",
     applicationUrl: "https://eng.mephi.ru/",
     description: {
@@ -13957,6 +13957,1249 @@ export const scholarships: Scholarship[] = [
         "France",
         "Science",
         "Research"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkot-balikpapan",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkot Balikpapan (Balikpapan Tuntas)",
+      en: "Balikpapan City Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kota Balikpapan",
+      en: "City Government of Balikpapan"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan biaya kuliah stimulan per semester",
+        "Dukungan biaya hidup penunjang tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee stimulus support",
+        "Living cost assistance for final thesis"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Kota Balikpapan dibuktikan dengan KTP/KK Balikpapan",
+        "Mahasiswa aktif S1 di perguruan tinggi terakreditasi minimal B",
+        "IPK minimal 3.00 untuk prestasi akademik atau menyertakan piagam prestasi non-akademik"
+      ],
+      en: [
+        "Native resident of Balikpapan City (Balikpapan ID/Family Card)",
+        "Active S1 student at accredited universities (min. B)",
+        "Minimum GPA of 3.00 for academic track or provide non-academic certificates"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-30",
+    applicationUrl: "https://balikpapan.go.id/",
+    description: {
+      id: "Program beasiswa bantuan pendidikan tinggi dari Pemkot Balikpapan untuk mendorong peningkatan kualitas akademis putra-putri daerah.",
+      en: "Higher education financial assistance program by Balikpapan City Government to elevate the academic achievements of local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Balikpapan",
+        "Kalimantan"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Balikpapan",
+        "Kalimantan"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-jombang",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkab Jombang (Beasiswa Jombang Prestasi)",
+      en: "Jombang Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Jombang",
+      en: "Regency Government of Jombang"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana pendidikan UKT per semester",
+        "Pelatihan pengembangan karir dari Dinas Pendidikan"
+      ],
+      en: [
+        "Semester tuition fee grant support",
+        "Career development training by Education Office"
+      ]
+    },
+    requirements: {
+      id: [
+        "Memiliki KTP/KK asli Kabupaten Jombang",
+        "Mahasiswa aktif program sarjana (S1) di universitas terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi akademik/non-akademik unggul"
+      ],
+      en: [
+        "Possess native Jombang Regency ID/Family Card",
+        "Active S1 student at accredited universities",
+        "From low-income background or possesses outstanding academic/non-academic records"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-25",
+    applicationUrl: "https://jombangkab.go.id/",
+    description: {
+      id: "Program beasiswa stimulan dari Pemerintah Kabupaten Jombang untuk mendukung pemerataan akses pendidikan tinggi bagi pemuda berprestasi.",
+      en: "Stimulus scholarship program by Jombang Regency Government to support higher education accessibility for outstanding local youth."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Jombang",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Jombang",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-pacitan",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkab Pacitan (Beasiswa Prestasi Pacitan)",
+      en: "Pacitan Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Pacitan",
+      en: "Regency Government of Pacitan"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya penyusunan skripsi/tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy support",
+        "Thesis drafting financial assistance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kabupaten Pacitan dibuktikan dengan KTP/KK Pacitan",
+        "Mahasiswa aktif perguruan tinggi negeri/swasta di dalam maupun luar wilayah Pacitan",
+        "IPK minimal 3.00 untuk sains/teknologi atau 3.20 untuk rumpun sosial"
+      ],
+      en: [
+        "Native resident of Pacitan Regency (Pacitan ID/Family Card)",
+        "Active student at state or private universities inside/outside Pacitan",
+        "Minimum GPA of 3.00 for science or 3.20 for social studies"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-15",
+    applicationUrl: "https://pacitankab.go.id/",
+    description: {
+      id: "Program bantuan biaya pendidikan tinggi dari Pemkab Pacitan untuk meringankan beban pendidikan putra-putri daerah berprestasi.",
+      en: "Higher education financial assistance program by Pacitan Regency Government supporting outstanding local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Pacitan",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Pacitan",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-ponorogo",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkab Ponorogo (Ponorogo Cerdas)",
+      en: "Ponorogo Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Ponorogo",
+      en: "Regency Government of Ponorogo"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Dana stimulan biaya SPP kuliah per semester",
+        "Bantuan biaya hidup penunjang pendidikan"
+      ],
+      en: [
+        "Semester tuition fee stimulus grant",
+        "Living cost assistance for educational support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kabupaten Ponorogo dibuktikan dengan KK/KTP Ponorogo",
+        "Mahasiswa aktif program S1 di perguruan tinggi terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi tahfidz/akademik"
+      ],
+      en: [
+        "Native resident of Ponorogo Regency (Ponorogo ID/Family Card)",
+        "Active S1 student at accredited higher education institutions",
+        "From low-income family background or possesses tahfidz/academic records"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-20",
+    applicationUrl: "https://ponorogo.go.id/",
+    description: {
+      id: "Bantuan sosial pendidikan dari Pemerintah Kabupaten Ponorogo untuk meningkatkan indeks pembangunan manusia mahasiswa daerah.",
+      en: "Educational social assistance from Ponorogo Regency Government to elevate the human development index for local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Ponorogo",
+        "Reog"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Ponorogo",
+        "Reog"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-gresik",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemerintah Kabupaten Gresik (Gresik Cerdas)",
+      en: "Gresik Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Gresik",
+      en: "Regency Government of Gresik"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan UKT/SPP tahunan",
+        "Bantuan dana penunjang riset tugas akhir kuliah"
+      ],
+      en: [
+        "Annual tuition fee subsidy support",
+        "Thesis research financial assistance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Kabupaten Gresik (KTP/KK Gresik)",
+        "Mahasiswa aktif di universitas negeri/swasta terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of Gresik Regency (Gresik ID/Family Card)",
+        "Active student at accredited state or private universities",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-15",
+    applicationUrl: "https://gresikkab.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemkab Gresik untuk mendorong pemerataan pendidikan tinggi di wilayah Gresik.",
+      en: "Tuition fee financial assistance scholarship by Gresik Regency Government supporting higher education accessibility in Gresik."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Gresik",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Gresik",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "nus-graduate-singapore",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Pascasarjana NUS untuk Mahasiswa ASEAN",
+      en: "NUS Graduate Scholarship for ASEAN Students"
+    },
+    provider: {
+      id: "National University of Singapore (NUS)",
+      en: "National University of Singapore (NUS)"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh 100% program Master/PhD",
+        "Tunjangan biaya hidup bulanan senilai SGD 2.000",
+        "Bantuan tiket pesawat pulang-pergi dan asuransi kesehatan"
+      ],
+      en: [
+        "100% tuition fees coverage for Master/PhD programs",
+        "Monthly living stipend allowance worth SGD 2,000",
+        "Round-trip economy class airfare and medical insurance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara anggota ASEAN (kecuali Singapura)",
+        "Diterima penuh waktu di program riset pascasarjana di NUS",
+        "Memiliki latar akademik sarjana yang sangat menonjol"
+      ],
+      en: [
+        "Citizen of an ASEAN member country (except Singapore)",
+        "Admitted to a full-time graduate research program at NUS",
+        "Outstanding undergraduate academic record"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-11-15",
+    applicationUrl: "https://nus.edu.sg/",
+    description: {
+      id: "Beasiswa riset pascasarjana penuh dari NUS untuk mahasiswa berprestasi dari wilayah ASEAN agar menempuh pendidikan di Singapura.",
+      en: "Fully funded graduate research scholarship by NUS supporting outstanding ASEAN candidates to study in Singapore."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Singapura",
+        "Riset"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Singapore",
+        "Research"
+      ]
+    }
+  },
+  {
+    id: "melbourne-graduate-australia",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Riset Pascasarjana Universitas Melbourne",
+      en: "University of Melbourne Graduate Research Scholarship"
+    },
+    provider: {
+      id: "University of Melbourne, Australia",
+      en: "University of Melbourne, Australia"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bebas biaya kuliah penuh 100% program riset Magister/Doktoral",
+        "Tunjangan biaya hidup tahunan senilai AUD 37.000",
+        "Tunjangan relokasi tempat tinggal dan asuransi kesehatan OSHC"
+      ],
+      en: [
+        "100% tuition fee waiver for Master/PhD research programs",
+        "Annual living allowance worth AUD 37,000",
+        "Relocation allowance grant and OSHC health insurance coverage"
+      ]
+    },
+    requirements: {
+      id: [
+        "Telah mendaftar atau diterima program Master/PhD riset di Universitas Melbourne",
+        "Menunjukkan prestasi akademis sarjana/magister yang luar biasa",
+        "Lolos seleksi masuk riset akademis departemen terkait"
+      ],
+      en: [
+        "Applied for or admitted to a research Master/PhD at the University of Melbourne",
+        "Outstanding academic record in previous studies",
+        "Pass departmental academic research selection process"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-10-31",
+    applicationUrl: "https://www.unimelb.edu.au/",
+    description: {
+      id: "Beasiswa riset pascasarjana penuh dari Universitas Melbourne untuk menyokong peneliti muda internasional berprestasi.",
+      en: "Fully funded postgraduate research scholarship by the University of Melbourne supporting outstanding international researchers."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Australia",
+        "Riset"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Australia",
+        "Research"
+      ]
+    }
+  },
+  {
+    id: "heidelberg-amirana-germany",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Kedokteran Amirana Universitas Heidelberg",
+      en: "Heidelberg University Amirana Scholarship"
+    },
+    provider: {
+      id: "Heidelberg University, Jerman",
+      en: "Heidelberg University, Germany"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya kuliah mahasiswa internasional program kedokteran",
+        "Bantuan biaya hidup bulanan dasar selama masa studi"
+      ],
+      en: [
+        "International tuition fees subsidy for medical programs",
+        "Basic monthly living cost financial assistance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional dari negara berkembang yang mendaftar bidang Kedokteran/Gigi",
+        "Menunjukkan prestasi akademik luar biasa dan motivasi tinggi",
+        "Kemampuan bahasa Jerman yang baik sesuai syarat masuk fakultas"
+      ],
+      en: [
+        "International students from developing countries applying for Medicine/Dentistry",
+        "Exceptional academic performance and strong motivation records",
+        "Good German language proficiency based on faculty requirements"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-07-15",
+    applicationUrl: "https://www.uni-heidelberg.de/en",
+    description: {
+      id: "Beasiswa bantuan dana kedokteran dari Universitas Heidelberg untuk mendidik calon dokter profesional dari negara berkembang.",
+      en: "Medical education financial assistance scholarship by Heidelberg University supporting international medical candidates from developing countries."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Jerman",
+        "Kedokteran"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Germany",
+        "Medicine"
+      ]
+    }
+  },
+  {
+    id: "kaist-international-korea",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Prestasi Internasional KAIST (Korea Selatan)",
+      en: "KAIST International Student Scholarship"
+    },
+    provider: {
+      id: "Korea Advanced Institute of Science and Technology (KAIST)",
+      en: "Korea Advanced Institute of Science and Technology (KAIST)"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh 100% program Sarjana",
+        "Tunjangan biaya hidup bulanan senilai KRW 350.000",
+        "Asuransi kesehatan komprehensif nasional gratis"
+      ],
+      en: [
+        "100% tuition fees coverage for Bachelor's programs",
+        "Monthly living stipend allowance worth KRW 350,000",
+        "National health insurance coverage support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara non-Korea (mahasiswa internasional)",
+        "Lulusan SMA/sederajat dengan prestasi akademis di bidang sains/matematika",
+        "Kemampuan bahasa Inggris tinggi (TOEFL/IELTS atau sertifikat setara)"
+      ],
+      en: [
+        "Non-Korean citizens (international students)",
+        "High school graduates with outstanding records in science/math",
+        "High English proficiency certificate (TOEFL/IELTS or equivalent)"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-10-31",
+    applicationUrl: "https://www.kaist.ac.kr/en/",
+    description: {
+      id: "Beasiswa sarjana penuh dari KAIST untuk mendidik talenta sains dan teknologi masa depan tingkat internasional.",
+      en: "Fully funded undergraduate scholarship by KAIST to nurture future global science and tech innovators."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Korea Selatan",
+        "Teknologi",
+        "STEM"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "South Korea",
+        "Technology",
+        "STEM"
+      ]
+    }
+  },
+  {
+    id: "kyushu-friendship-japan",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Persahabatan Universitas Kyushu (Jepang)",
+      en: "Kyushu University Friendship Scholarship"
+    },
+    provider: {
+      id: "Kyushu University, Jepang",
+      en: "Kyushu University, Japan"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Tunjangan biaya hidup bulanan senilai hingga JPY 80.000",
+        "Dukungan biaya perjalanan kedatangan"
+      ],
+      en: [
+        "Monthly living stipend allowance worth up to JPY 80,000",
+        "Travel support for initial arrival expenses"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang mendaftar program pascasarjana Universitas Kyushu",
+        "Berasal dari universitas mitra kerjasama Kyushu University",
+        "Prestasi akademik luar biasa dengan proposal riset terperinci"
+      ],
+      en: [
+        "International students applying to Kyushu University graduate school",
+        "From partner universities of Kyushu University",
+        "Outstanding academic records with detailed research proposals"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-08-31",
+    applicationUrl: "https://www.kyushu-u.ac.jp/en/",
+    description: {
+      id: "Beasiswa persahabatan dari Universitas Kyushu untuk mempererat pertukaran riset mahasiswa pascasarjana internasional.",
+      en: "Kyushu University friendship scholarship designed to support international graduate research exchange students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Jepang",
+        "Riset"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Japan",
+        "Research"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-jambi",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemerintah Provinsi Jambi (Jambi Mantap)",
+      en: "Jambi Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Jambi",
+      en: "Provincial Government of Jambi"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan UKT/SPP tahunan",
+        "Bantuan dana penunjang tugas akhir kuliah"
+      ],
+      en: [
+        "Annual tuition fee subsidy support",
+        "Thesis drafting financial assistance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Provinsi Jambi (KTP/KK Jambi)",
+        "Mahasiswa aktif di universitas negeri/swasta terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of Jambi Province (Jambi ID/Family Card)",
+        "Active student at accredited state or private universities",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-15",
+    applicationUrl: "https://jambiprov.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemprov Jambi untuk mendorong pemerataan pendidikan tinggi putra-putri daerah.",
+      en: "Tuition fee financial assistance scholarship by Jambi Provincial Government supporting higher education accessibility in Jambi."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Jambi",
+        "Sumatera"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Jambi",
+        "Sumatra"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-sultra",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Sulawesi Tenggara (Sultra Cerdas)",
+      en: "Southeast Sulawesi Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Sulawesi Tenggara",
+      en: "Provincial Government of Southeast Sulawesi"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan biaya kuliah semesteran (SPP/UKT)",
+        "Uang saku penunjang riset tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee financial support",
+        "Stipend support for final thesis research"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Sulawesi Tenggara dibuktikan dengan KTP/KK Sultra",
+        "Mahasiswa aktif S1 di perguruan tinggi negeri maupun swasta",
+        "IPK minimal 3.00 untuk prestasi akademik atau memiliki prestasi non-akademik"
+      ],
+      en: [
+        "Native resident of Southeast Sulawesi Province (Sultra ID/Family Card)",
+        "Active S1 student at state or private universities",
+        "Minimum GPA of 3.00 for academic track or possess non-academic records"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-30",
+    applicationUrl: "https://sultraprov.go.id/",
+    description: {
+      id: "Bantuan stimulan biaya pendidikan tinggi dari Pemprov Sultra untuk memajukan kualitas akademis mahasiswa berprestasi daerah.",
+      en: "Higher education financial assistance stimulus from Southeast Sulawesi Government to elevate the academic achievements of local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Sultra",
+        "Sulawesi"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Sultra",
+        "Sulawesi"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-kaltara",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Kalimantan Utara (Kaltara Cerdas)",
+      en: "North Kalimantan Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Kalimantan Utara",
+      en: "Provincial Government of North Kalimantan"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya penyusunan skripsi/tesis"
+      ],
+      en: [
+        "Semester tuition fee subsidy assistance",
+        "Research writing grant for final thesis"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Provinsi Kalimantan Utara (KTP/KK Kaltara)",
+        "Mahasiswa aktif perguruan tinggi negeri/swasta terakreditasi",
+        "IPK minimal 3.00 untuk sains/teknologi atau 3.25 untuk rumpun sosial"
+      ],
+      en: [
+        "Native resident of North Kalimantan Province (Kaltara ID/Family Card)",
+        "Active student at accredited state or private universities",
+        "Minimum GPA of 3.00 for science or 3.25 for social studies"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-15",
+    applicationUrl: "https://kaltaraprov.go.id/",
+    description: {
+      id: "Program bantuan biaya pendidikan tinggi dari Pemprov Kaltara untuk meringankan beban pendidikan putra-putri daerah berprestasi.",
+      en: "Higher education financial assistance program by Kaltara Provincial Government supporting outstanding local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Kaltara",
+        "Borneo"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Kaltara",
+        "Borneo"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-papua",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Papua (Papua Bangkit)",
+      en: "Papua Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Papua",
+      en: "Provincial Government of Papua"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Dana stimulan biaya SPP kuliah per semester",
+        "Bantuan biaya hidup penunjang pendidikan"
+      ],
+      en: [
+        "Semester tuition fee stimulus grant",
+        "Living cost assistance for educational support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Orang Asli Papua (OAP) dibuktikan dengan surat keterangan adat",
+        "Mahasiswa aktif program S1/S2 di perguruan tinggi mitra",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi akademik"
+      ],
+      en: [
+        "Indigenous Papua (OAP) proven by traditional certificate",
+        "Active S1/S2 student at partner higher education institutions",
+        "From low-income family background or possesses academic records"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-20",
+    applicationUrl: "https://papua.go.id/",
+    description: {
+      id: "Bantuan sosial pendidikan dari Pemerintah Provinsi Papua untuk meningkatkan indeks pembangunan manusia bagi pemuda OAP.",
+      en: "Educational social assistance from Papua Provincial Government to elevate the human development index for indigenous OAP students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Papua",
+        "OAP"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Papua",
+        "OAP"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkot-pekanbaru",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemerintah Kota Pekanbaru (Pekanbaru Cerdas)",
+      en: "Pekanbaru City Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kota Pekanbaru",
+      en: "City Government of Pekanbaru"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana pendidikan UKT per semester",
+        "Pelatihan pengembangan karir dari Pemkot"
+      ],
+      en: [
+        "Semester tuition fee grant support",
+        "Career development training by City Government"
+      ]
+    },
+    requirements: {
+      id: [
+        "Memiliki KTP/KK asli Kota Pekanbaru",
+        "Mahasiswa aktif program sarjana (S1) di universitas terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi akademik/non-akademik unggul"
+      ],
+      en: [
+        "Possess native Pekanbaru City ID/Family Card",
+        "Active S1 student at accredited universities",
+        "From low-income background or possesses outstanding academic/non-academic records"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-25",
+    applicationUrl: "https://pekanbaru.go.id/",
+    description: {
+      id: "Program beasiswa stimulan dari Pemerintah Kota Pekanbaru untuk mendukung pemerataan akses pendidikan tinggi bagi pemuda daerah.",
+      en: "Stimulus scholarship program by Pekanbaru City Government to support higher education accessibility for local youth."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Pekanbaru",
+        "Riau"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Pekanbaru",
+        "Riau"
+      ]
+    }
+  },
+  {
+    id: "ntu-nanyang-singapore",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Nanyang NTU (Singapura)",
+      en: "NTU Nanyang Scholarship (Singapore)"
+    },
+    provider: {
+      id: "Nanyang Technological University (NTU)",
+      en: "Nanyang Technological University (NTU)"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh 100% program Sarjana",
+        "Tunjangan biaya hidup tahunan senilai SGD 6.000",
+        "Bantuan biaya akomodasi tempat tinggal tahunan senilai SGD 2.000"
+      ],
+      en: [
+        "100% tuition fees coverage for Bachelor's program",
+        "Annual living allowance worth SGD 6,000",
+        "Annual housing accommodation allowance worth SGD 2,000"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang berencana menempuh program sarjana di NTU",
+        "Prestasi akademik luar biasa dengan kualitas kepemimpinan kuat",
+        "Menyertakan hasil tes masuk akademik berstandar internasional"
+      ],
+      en: [
+        "International students planning to pursue an undergraduate degree at NTU",
+        "Outstanding academic records with strong leadership qualities",
+        "Submit standardized international academic test results"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-12-15",
+    applicationUrl: "https://www.ntu.edu.sg/",
+    description: {
+      id: "Beasiswa sarjana penuh paling kompetitif dari NTU Singapura untuk mencetak pemimpin masa depan di bidang teknologi dan sains.",
+      en: "NTU Singapore's highly competitive full undergraduate scholarship designed to groom future tech and science global leaders."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Singapura",
+        "Teknologi"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Singapore",
+        "Technology"
+      ]
+    }
+  },
+  {
+    id: "manchester-great-uk",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa GREAT Universitas Manchester (Inggris)",
+      en: "University of Manchester GREAT Scholarship"
+    },
+    provider: {
+      id: "University of Manchester & British Council",
+      en: "University of Manchester & British Council"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Tunjangan dana biaya kuliah senilai GBP 10.000",
+        "Akses jaringan eksklusif alumni GREAT dari British Council"
+      ],
+      en: [
+        "Tuition fee financial assistance worth GBP 10,000",
+        "Access to exclusive British Council GREAT alumni network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara Indonesia (pemegang paspor Indonesia)",
+        "Diterima penuh waktu di program Master pascasarjana di Manchester",
+        "Menunjukkan rekam kontribusi dan kemauan mempromosikan hubungan UK-Indonesia"
+      ],
+      en: [
+        "Citizen of Indonesia (holding an Indonesian passport)",
+        "Admitted to a full-time postgraduate Master's program at Manchester",
+        "Demonstrate records of contribution and willingness to promote UK-Indonesia ties"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-06-30",
+    applicationUrl: "https://www.manchester.ac.uk/",
+    description: {
+      id: "Beasiswa kemitraan dari British Council dan Manchester untuk mendukung mahasiswa Indonesia menempuh Magister di UK.",
+      en: "Partnership scholarship by British Council and Manchester supporting Indonesian candidates to pursue Master's studies in the UK."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Inggris",
+        "British Council"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "UK",
+        "British Council"
+      ]
+    }
+  },
+  {
+    id: "mcgill-mccall-macbain-canada",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Kepemimpinan McCall MacBain Universitas McGill",
+      en: "McGill University McCall MacBain Scholarships"
+    },
+    provider: {
+      id: "McCall MacBain Foundation & McGill University",
+      en: "McCall MacBain Foundation & McGill University"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh 100% program Magister",
+        "Tunjangan biaya hidup bulanan senilai CAD 2.000",
+        "Program bimbingan kepemimpinan eksklusif tingkat global"
+      ],
+      en: [
+        "100% tuition fees coverage for Master's program",
+        "Monthly living stipend allowance worth CAD 2,000",
+        "Exclusive global mentorship and leadership training programs"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional dengan rekam jejak kepemimpinan sosial yang luar biasa",
+        "Telah memiliki gelar Sarjana atau berada di tahun terakhir kuliah S1",
+        "Lolos seleksi masuk akademik program Master McGill yang dipilih"
+      ],
+      en: [
+        "International students demonstrating exceptional social leadership and community records",
+        "Hold a Bachelor's degree or be in the final year of S1",
+        "Pass the academic admission to the chosen McGill Master's program"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-08-25",
+    applicationUrl: "https://www.mcgill.ca/",
+    description: {
+      id: "Beasiswa kepemimpinan penuh dari McGill untuk mendidik calon pemimpin yang berdedikasi menciptakan dampak sosial bagi masyarakat.",
+      en: "Fully funded leadership-based scholarship by McGill University to support future change-makers committed to social impact."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Kanada",
+        "Kepemimpinan"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Canada",
+        "Leadership"
+      ]
+    }
+  },
+  {
+    id: "kth-india-indonesia-sweden",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Unggulan KTH untuk Mahasiswa Indonesia (Swedia)",
+      en: "KTH Royal Institute of Technology India/Indonesia Scholarship"
+    },
+    provider: {
+      id: "KTH Royal Institute of Technology, Swedia",
+      en: "KTH Royal Institute of Technology, Sweden"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh 100% program Master sains/teknologi",
+        "Dukungan relokasi tempat tinggal dan asuransi kesehatan komprehensif"
+      ],
+      en: [
+        "100% tuition fee waiver for STEM Master's programs",
+        "Relocation assistance support and comprehensive health insurance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara Indonesia yang mendaftar ke salah satu program MSc di KTH",
+        "Menunjukkan prestasi akademis luar biasa dengan IPK sarjana tinggi",
+        "Memiliki sertifikat kemampuan bahasa Inggris (TOEFL/IELTS) yang valid"
+      ],
+      en: [
+        "Citizen of Indonesia applying to one of the MSc programs at KTH",
+        "Outstanding academic records with high undergraduate GPA",
+        "Valid English proficiency certificate (TOEFL/IELTS)"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-15",
+    applicationUrl: "https://www.kth.se/en",
+    description: {
+      id: "Beasiswa prestasi penuh dari KTH Swedia khusus untuk mendanai studi pascasarjana mahasiswa berbakat dari Indonesia.",
+      en: "Full academic merit scholarship by KTH Sweden designed specifically to support talented Indonesian graduate candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Swedia",
+        "Teknologi",
+        "STEM"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Sweden",
+        "Technology",
+        "STEM"
+      ]
+    }
+  },
+  {
+    id: "anu-chancellors-australia",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Kanselir Internasional Universitas Nasional Australia",
+      en: "Australian National University Chancellor's International Scholarship"
+    },
+    provider: {
+      id: "Australian National University (ANU)",
+      en: "Australian National University (ANU)"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi pengurangan biaya kuliah mulai dari 25% hingga 50%",
+        "Akses ke jejaring akademis kanselir internasional ANU"
+      ],
+      en: [
+        "Tuition fee waiver reductions ranging from 25% to 50%",
+        "Access to ANU chancellor's international academic network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang berencana menempuh studi sarjana atau pascasarjana di ANU",
+        "Memiliki prestasi akademis yang luar biasa di sekolah/universitas sebelumnya",
+        "Memenuhi persyaratan masuk akademik program studi pilihan di ANU"
+      ],
+      en: [
+        "International students planning to study undergraduate or postgraduate courses at ANU",
+        "Outstanding academic records in previous school/university studies",
+        "Meet ANU academic admission requirements for the chosen course"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-10-15",
+    applicationUrl: "https://www.anu.edu.au/",
+    description: {
+      id: "Beasiswa prestasi kanselir ANU untuk membantu meringankan biaya pendidikan bagi mahasiswa internasional terbaik dunia.",
+      en: "ANU Chancellor's merit-based tuition fee reduction scholarship supporting outstanding international candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Australia",
+        "Kanselir"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Australia",
+        "Chancellor"
       ]
     }
   }
