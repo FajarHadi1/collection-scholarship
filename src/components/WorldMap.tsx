@@ -50,7 +50,10 @@ const COUNTRIES: MapCountry[] = [
   { id: "taiwan", name: { id: "Taiwan", en: "Taiwan" }, lat: 23.69781, lng: 120.960515, zoom: 7, tags: ["Taiwan"] },
   { id: "hungary", name: { id: "Hongaria", en: "Hungary" }, lat: 47.162494, lng: 19.503304, zoom: 6, tags: ["Hongaria", "Hungary"] },
   { id: "europe", name: { id: "Uni Eropa (Regional)", en: "Europe (Regional)" }, lat: 50.850346, lng: 4.351721, zoom: 4, tags: ["Eropa", "Europe", "Uni Eropa", "European Union"] },
-  { id: "global", name: { id: "Global / Internasional", en: "Global / International" }, lat: 15.0, lng: -40.0, zoom: 2, tags: ["Internasional", "International", "Global", "Multinasional", "Multinational"] }
+  { id: "global", name: { id: "Global / Internasional", en: "Global / International" }, lat: 15.0, lng: -40.0, zoom: 2, tags: ["Internasional", "International", "Global", "Multinasional", "Multinational"] },
+  { id: "norway", name: { id: "Norwegia", en: "Norway" }, lat: 60.472024, lng: 8.468946, zoom: 5, tags: ["Norwegia", "Norway"] },
+  { id: "finland", name: { id: "Finlandia", en: "Finland" }, lat: 61.92411, lng: 25.748151, zoom: 5, tags: ["Finlandia", "Finland"] },
+  { id: "denmark", name: { id: "Denmark", en: "Denmark" }, lat: 56.26392, lng: 9.501785, zoom: 6, tags: ["Denmark"] }
 ];
 
 export default function WorldMap({

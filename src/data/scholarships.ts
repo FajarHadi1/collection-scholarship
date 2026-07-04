@@ -15202,5 +15202,1861 @@ export const scholarships: Scholarship[] = [
         "Chancellor"
       ]
     }
+  },
+  {
+    id: "beasiswa-pemkab-mojokerto",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkab Mojokerto (Mojokerto Cerdas)",
+      en: "Mojokerto Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Mojokerto",
+      en: "Regency Government of Mojokerto"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana UKT semesteran stimulan",
+        "Bantuan dana penunjang skripsi akhir"
+      ],
+      en: [
+        "Semester tuition fee stimulus support",
+        "Final thesis writing financial support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kabupaten Mojokerto (KTP/KK Mojokerto)",
+        "Mahasiswa S1 aktif di perguruan tinggi mitra terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi akademik tinggi"
+      ],
+      en: [
+        "Native resident of Mojokerto Regency (Mojokerto ID/Family Card)",
+        "Active S1 student at accredited partner universities",
+        "From low-income background or possesses high academic records"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-30",
+    applicationUrl: "https://mojokertokab.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemkab Mojokerto untuk menyokong pendidikan tinggi mahasiswa daerah.",
+      en: "Tuition fee financial assistance program by Mojokerto Regency Government supporting local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Mojokerto",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Mojokerto",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-sidoarjo",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkab Sidoarjo (Sidoarjo Gemilang)",
+      en: "Sidoarjo Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Sidoarjo",
+      en: "Regency Government of Sidoarjo"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana UKT per semester",
+        "Pelatihan kewirausahaan dari dinas koperasi"
+      ],
+      en: [
+        "Tuition fee grant support per semester",
+        "Entrepreneurship training by cooperative office"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kabupaten Sidoarjo dibuktikan dengan KTP/KK Sidoarjo",
+        "Mahasiswa aktif program sarjana (S1) di universitas terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik atau menyertakan piagam non-akademik"
+      ],
+      en: [
+        "Native resident of Sidoarjo Regency (Sidoarjo ID/Family Card)",
+        "Active S1 student at accredited higher education institutions",
+        "Minimum GPA of 3.00 for academic track or provide non-academic awards"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-15",
+    applicationUrl: "https://sidoarjokab.go.id/",
+    description: {
+      id: "Bantuan sosial dana pendidikan tinggi dari Pemkab Sidoarjo untuk mendorong peningkatan SDM pemuda daerah.",
+      en: "Educational social financial support from Sidoarjo Regency Government to elevate the quality of local human resources."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Sidoarjo",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Sidoarjo",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-pasuruan",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkab Pasuruan (Pasuruan Cerdas)",
+      en: "Pasuruan Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Pasuruan",
+      en: "Regency Government of Pasuruan"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT tahunan",
+        "Bantuan biaya hidup bulanan stimulan"
+      ],
+      en: [
+        "Annual tuition fee subsidy support",
+        "Stimulus monthly living cost assistance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Kabupaten Pasuruan (KTP/KK Pasuruan)",
+        "Mahasiswa aktif di universitas negeri/swasta terakreditasi minimal B",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi tahfidz Quran"
+      ],
+      en: [
+        "Native resident of Pasuruan Regency (Pasuruan ID/Family Card)",
+        "Active student at accredited state or private universities (min. B)",
+        "From low-income background or possesses tahfidz Quran achievements"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-20",
+    applicationUrl: "https://pasuruankab.go.id/",
+    description: {
+      id: "Program beasiswa bantuan pendidikan tinggi dari Pemkab Pasuruan untuk mendukung pemerataan pendidikan bagi keluarga prasejahtera.",
+      en: "Higher education financial assistance program by Pasuruan Regency Government supporting underprivileged families."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Pasuruan",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Pasuruan",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-blitar",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkab Blitar (Blitar Cerdas)",
+      en: "Blitar Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Blitar",
+      en: "Regency Government of Blitar"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana UKT per semester stimulan",
+        "Bantuan biaya penyusunan skripsi/tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee stimulus grant support",
+        "Thesis writing financial assistance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kabupaten Blitar (KTP/KK Blitar)",
+        "Mahasiswa aktif S1 di universitas negeri atau swasta terakreditasi",
+        "IPK minimal 3.00 untuk sains/teknologi atau 3.20 untuk ilmu sosial"
+      ],
+      en: [
+        "Native resident of Blitar Regency (Blitar ID/Family Card)",
+        "Active S1 student at accredited state or private universities",
+        "Minimum GPA of 3.00 for science or 3.20 for social studies"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-30",
+    applicationUrl: "https://blitarkab.go.id/",
+    description: {
+      id: "Bantuan stimulan biaya kuliah dari Pemerintah Kabupaten Blitar untuk mendorong prestasi akademis putra-putri daerah.",
+      en: "Tuition fee stimulus financial assistance from Blitar Regency Government supporting outstanding local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Blitar",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Blitar",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-kediri",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkab Kediri (Kediri Cerdas)",
+      en: "Kediri Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Kediri",
+      en: "Regency Government of Kediri"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya kuliah SPP/UKT per semester",
+        "Bantuan dana penunjang buku dan tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy support",
+        "Book and thesis research financial support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Kabupaten Kediri (KTP/KK Kediri)",
+        "Mahasiswa aktif program sarjana di universitas terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi olahraga/seni"
+      ],
+      en: [
+        "Native resident of Kediri Regency (Kediri ID/Family Card)",
+        "Active undergraduate student at accredited universities",
+        "From low-income background or possesses athletic/artistic records"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-25",
+    applicationUrl: "https://kedirikab.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemkab Kediri untuk mendorong wajib belajar pendidikan tinggi.",
+      en: "Tuition fee financial assistance scholarship by Kediri Regency Government promoting higher education enrollments."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Kediri",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Kediri",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "ubc-leader-tomorrow-canada",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Kepemimpinan Karen McKellin UBC (Kanada)",
+      en: "UBC Karen McKellin International Leader of Tomorrow Award"
+    },
+    provider: {
+      id: "University of British Columbia (UBC)",
+      en: "University of British Columbia (UBC)"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh program sarjana (S1)",
+        "Tunjangan biaya hidup tahunan disesuaikan dengan kebutuhan keuangan",
+        "Asuransi kesehatan komprehensif mahasiswa asing"
+      ],
+      en: [
+        "Full tuition fees coverage for undergraduate program",
+        "Annual living allowance tailored to financial need requirements",
+        "Comprehensive international student health insurance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang berencana menempuh program sarjana (S1) pertama di UBC",
+        "Menunjukkan prestasi akademis luar biasa dengan kualitas kepemimpinan sosial",
+        "Direkomendasikan oleh sekolah menengah asal"
+      ],
+      en: [
+        "International student applying for their first undergraduate degree at UBC",
+        "Outstanding academic record with proven social leadership records",
+        "Official recommendation from previous high school"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-11-15",
+    applicationUrl: "https://www.ubc.ca/",
+    description: {
+      id: "Beasiswa prestasi berbasis kepemimpinan penuh dari UBC Kanada untuk mendidik agen perubahan sosial masa depan tingkat global.",
+      en: "Highly prestigious undergraduate leadership scholarship by UBC Canada supporting outstanding global students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Kanada",
+        "Kepemimpinan"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Canada",
+        "Leadership"
+      ]
+    }
+  },
+  {
+    id: "bristol-think-big-uk",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Think Big Universitas Bristol (Inggris)",
+      en: "University of Bristol Think Big Scholarships"
+    },
+    provider: {
+      id: "University of Bristol, Inggris",
+      en: "University of Bristol, UK"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan biaya kuliah mulai dari GBP 6.500 hingga GBP 26.000 per tahun",
+        "Akses ke program pendampingan pengembangan karir"
+      ],
+      en: [
+        "Tuition fee waiver reductions ranging from GBP 6,500 to GBP 26,000 annually",
+        "Access to career development and mentorship programs"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional (non-UK) yang mendaftar ke program sarjana atau pascasarjana penuh waktu di Bristol",
+        "Menunjukkan motivasi tinggi dan kontribusi positif bagi universitas setelah lulus",
+        "Memenuhi persyaratan masuk akademik program studi pilihan"
+      ],
+      en: [
+        "International (non-UK) student applying for full-time undergraduate or postgraduate study at Bristol",
+        "Demonstrate strong motivation and potential positive contributions upon graduation",
+        "Meet academic entry requirements for the chosen course"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-06-30",
+    applicationUrl: "https://www.bristol.ac.uk/",
+    description: {
+      id: "Beasiswa bantuan dana biaya pendidikan dari Universitas Bristol Inggris untuk mendanai studi calon ilmuwan internasional terbaik.",
+      en: "Tuition fee waiver scholarship by the University of Bristol supporting talented international candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Inggris",
+        "Think Big"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "UK",
+        "Think Big"
+      ]
+    }
+  },
+  {
+    id: "amsterdam-merit-netherlands",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Merit Universitas Amsterdam (Belanda)",
+      en: "University of Amsterdam Merit Scholarship (AMS)"
+    },
+    provider: {
+      id: "University of Amsterdam (UvA)",
+      en: "University of Amsterdam (UvA)"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh program Magister",
+        "Tunjangan biaya hidup tahunan disesuaikan",
+        "Asuransi kesehatan lengkap mahasiswa asing"
+      ],
+      en: [
+        "Full tuition fees coverage for Master's program",
+        "Tailored annual living allowance support",
+        "Comprehensive international student medical insurance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Berasal dari luar wilayah Uni Eropa (non-EU/EEA)",
+        "Diterima penuh waktu di salah satu program Master di UvA",
+        "IPK di atas 3.75 skala 4.00 atau setara dengan predikat magna cum laude"
+      ],
+      en: [
+        "Non-EU/EEA international student applicant",
+        "Admitted to a full-time Master's program at UvA",
+        "GPA above 3.75 on a 4.00 scale or equivalent magna cum laude record"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-01-15",
+    applicationUrl: "https://www.uva.nl/en",
+    description: {
+      id: "Beasiswa prestasi pascasarjana penuh dari Universitas Amsterdam untuk menarik calon ilmuwan terbaik dunia ke Belanda.",
+      en: "Highly prestigious graduate merit scholarship by the University of Amsterdam supporting top-tier international students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Belanda",
+        "Riset"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Netherlands",
+        "Research"
+      ]
+    }
+  },
+  {
+    id: "utrecht-excellence-netherlands",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Unggulan Universitas Utrecht (Belanda)",
+      en: "Utrecht University Excellence Scholarship"
+    },
+    provider: {
+      id: "Utrecht University, Belanda",
+      en: "Utrecht University, Netherlands"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh program Master",
+        "Tunjangan hidup tahunan hingga EUR 11.000 sebagai tambahan biaya hidup"
+      ],
+      en: [
+        "Full tuition fees coverage for Master's studies",
+        "Annual living stipend worth up to EUR 11,000 for supplementary support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara non-EU/EEA yang mendaftar ke program Master internasional di Utrecht",
+        "Menunjukkan prestasi akademis luar biasa (berada di 10% lulusan terbaik sekolah asal)",
+        "Kemampuan bahasa Inggris tinggi (IELTS/TOEFL)"
+      ],
+      en: [
+        "Non-EU/EEA citizens applying for international Master's programs at Utrecht",
+        "Exceptional academic performance records (within top 10% of previous graduating class)",
+        "High English language proficiency (IELTS/TOEFL)"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-02-01",
+    applicationUrl: "https://www.uu.nl/en",
+    description: {
+      id: "Beasiswa prestasi unggulan dari Universitas Utrecht untuk membantu mendanai studi pascasarjana mahasiswa asing berprestasi.",
+      en: "Utrecht University's highly selective postgraduate scholarship program for outstanding international students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Belanda",
+        "Unggulan"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Netherlands",
+        "Excellence"
+      ]
+    }
+  },
+  {
+    id: "radboud-scholarship-netherlands",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Pascasarjana Universitas Radboud (Belanda)",
+      en: "Radboud University Scholarship Programme"
+    },
+    provider: {
+      id: "Radboud University, Belanda",
+      en: "Radboud University, Netherlands"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan biaya kuliah yang signifikan (hanya membayar biaya kuliah EU)",
+        "Subsidi biaya visa, izin tinggal, dan asuransi kesehatan"
+      ],
+      en: [
+        "Significant tuition fee reduction (pay EU student rates only)",
+        "Visa cost, residence permit fee, and health insurance subsidies"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara non-EU/EEA yang mendaftar program Master diajarkan dalam bahasa Inggris di Radboud",
+        "Menunjukkan prestasi akademis sarjana yang luar biasa",
+        "Memenuhi persyaratan visa pelajar Belanda"
+      ],
+      en: [
+        "Non-EU/EEA student applying to English-taught Master's courses at Radboud",
+        "Outstanding academic records in previous undergraduate studies",
+        "Meet Dutch study visa eligibility requirements"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-03-01",
+    applicationUrl: "https://www.ru.nl/en",
+    description: {
+      id: "Beasiswa keringanan biaya kuliah dari Universitas Radboud untuk mempermudah akses mahasiswa internasional berprestasi.",
+      en: "Tuition fee reduction scholarship program by Radboud University supporting talented international graduate students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Belanda",
+        "Keringanan"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Netherlands",
+        "Waiver"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-kalteng",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Kalimantan Tengah (Kalteng Berkah)",
+      en: "Central Kalimantan Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Kalimantan Tengah",
+      en: "Provincial Government of Central Kalimantan"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi bantuan dana pendidikan SPP/UKT per semester",
+        "Bantuan biaya hidup stimulan bagi mahasiswa kurang mampu"
+      ],
+      en: [
+        "Semester tuition fee subsidy grant support",
+        "Stimulus living cost assistance for underprivileged students"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kalimantan Tengah dibuktikan dengan KTP/KK Kalteng",
+        "Mahasiswa aktif sarjana (S1) di universitas terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi akademik"
+      ],
+      en: [
+        "Native resident of Central Kalimantan (Kalteng ID/Family Card)",
+        "Active S1 student at accredited universities",
+        "From low-income background or possesses academic records"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-15",
+    applicationUrl: "https://kalteng.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemprov Kalteng untuk membantu meringankan beban pendidikan mahasiswa daerah.",
+      en: "Tuition fee financial assistance program by Central Kalimantan Provincial Government supporting local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Kalteng",
+        "Kalimantan"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Kalteng",
+        "Kalimantan"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-kalbar",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Kalimantan Barat (Kalbar Cerdas)",
+      en: "West Kalimantan Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Kalimantan Barat",
+      en: "Provincial Government of West Kalimantan"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya riset tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy assistance",
+        "Research drafting financial grant"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Provinsi Kalimantan Barat (KTP/KK Kalbar)",
+        "Mahasiswa aktif program sarjana (S1) di universitas terakreditasi",
+        "IPK minimal 3.00 untuk sains/teknologi atau 3.20 untuk rumpun sosial"
+      ],
+      en: [
+        "Native resident of West Kalimantan Province (Kalbar ID/Family Card)",
+        "Active S1 student at accredited higher education institutions",
+        "Minimum GPA of 3.00 for science or 3.20 for social studies"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-20",
+    applicationUrl: "https://kalbarprov.go.id/",
+    description: {
+      id: "Bantuan dana pendidikan tinggi dari Pemprov Kalbar untuk mencetak sumber daya manusia unggul daerah.",
+      en: "Higher education financial assistance from West Kalimantan Provincial Government to elevate local human resources."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Kalbar",
+        "Kalimantan"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Kalbar",
+        "Kalimantan"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-sulsel",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Sulawesi Selatan (Sulsel Cerdas)",
+      en: "South Sulawesi Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Sulawesi Selatan",
+      en: "Provincial Government of South Sulawesi"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan UKT/SPP semesteran",
+        "Bantuan dana penunjang buku/riset tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy support",
+        "Book and thesis research financial support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Sulawesi Selatan dibuktikan dengan KK/KTP Sulsel",
+        "Mahasiswa aktif S1/S2 di perguruan tinggi negeri maupun swasta",
+        "IPK minimal 3.00 untuk sains/teknologi atau 3.25 untuk rumpun sosial"
+      ],
+      en: [
+        "Native resident of South Sulawesi Province (Sulsel ID/Family Card)",
+        "Active S1/S2 student at state or private universities",
+        "Minimum GPA of 3.00 for science or 3.25 for social studies"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-30",
+    applicationUrl: "https://sulselprov.go.id/",
+    description: {
+      id: "Bantuan stimulan biaya pendidikan tinggi dari Pemprov Sulsel untuk memajukan kualitas akademis mahasiswa berprestasi daerah.",
+      en: "Higher education financial assistance stimulus from South Sulawesi Government to elevate the academic achievements of local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Sulsel",
+        "Sulawesi"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Sulsel",
+        "Sulawesi"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-sulut",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Sulawesi Utara (Sulut Cerdas)",
+      en: "North Sulawesi Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Sulawesi Utara",
+      en: "Provincial Government of North Sulawesi"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya penyusunan skripsi/tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy assistance",
+        "Research writing grant for final thesis"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Provinsi Sulawesi Utara (KTP/KK Sulut)",
+        "Mahasiswa aktif perguruan tinggi negeri/swasta terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of North Sulawesi Province (Sulut ID/Family Card)",
+        "Active student at accredited state or private universities",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-15",
+    applicationUrl: "https://sulutprov.go.id/",
+    description: {
+      id: "Program bantuan biaya pendidikan tinggi dari Pemprov Sulut untuk meringankan beban pendidikan putra-putri daerah berprestasi.",
+      en: "Higher education financial assistance program by Sulut Provincial Government supporting outstanding local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Sulut",
+        "Sulawesi"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Sulut",
+        "Sulawesi"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-bali",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemerintah Provinsi Bali (Bali Dwipa)",
+      en: "Bali Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Bali",
+      en: "Provincial Government of Bali"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya kuliah SPP/UKT tahunan",
+        "Uang saku penunjang riset kebudayaan daerah"
+      ],
+      en: [
+        "Annual tuition fee subsidy support",
+        "Stipend support for local cultural research"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Provinsi Bali dibuktikan dengan KTP/KK Bali",
+        "Mahasiswa aktif program sarjana di universitas mitra terakreditasi",
+        "IPK minimal 3.00 atau memiliki prestasi non-akademik di bidang seni/budaya Bali"
+      ],
+      en: [
+        "Native resident of Bali Province (Bali ID/Family Card)",
+        "Active undergraduate student at accredited partner universities",
+        "Minimum GPA of 3.00 or possess non-academic records in Balinese art/culture"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-20",
+    applicationUrl: "https://baliprov.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemprov Bali untuk mendukung mahasiswa berprestasi akademis dan pelestari budaya Bali.",
+      en: "Tuition fee financial assistance scholarship by Bali Provincial Government supporting outstanding students and cultural preservationists."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Bali",
+        "Dewata"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Bali",
+        "Dewata"
+      ]
+    }
+  },
+  {
+    id: "leiden-excellence-netherlands",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Unggulan LExS Universitas Leiden (Belanda)",
+      en: "Leiden University Excellence Scholarship (LExS)"
+    },
+    provider: {
+      id: "Leiden University, Belanda",
+      en: "Leiden University, Netherlands"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan biaya kuliah mulai dari EUR 10.000 hingga EUR 15.000 per tahun",
+        "Akses ke program bimbingan kepemimpinan LExS"
+      ],
+      en: [
+        "Tuition fee waiver reductions ranging from EUR 10,000 to EUR 15,000 annually",
+        "Access to exclusive LExS leadership and mentorship programs"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara non-EU/EEA yang mendaftar ke program Master internasional di Leiden",
+        "Menunjukkan prestasi akademis sarjana yang luar biasa (lulusan terbaik di kelasnya)",
+        "Memenuhi persyaratan masuk akademik program studi pilihan"
+      ],
+      en: [
+        "Non-EU/EEA citizens applying for international Master's programs at Leiden",
+        "Exceptional academic performance records in previous studies (top-tier in previous class)",
+        "Meet academic entry requirements for the chosen course"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-02-01",
+    applicationUrl: "https://www.universiteitleiden.nl/en",
+    description: {
+      id: "Beasiswa keringanan biaya kuliah pascasarjana dari Universitas Leiden untuk mendanai studi mahasiswa asing berprestasi tinggi.",
+      en: "Leiden University's highly selective postgraduate scholarship program supporting outstanding international students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Belanda",
+        "Unggulan"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Netherlands",
+        "Excellence"
+      ]
+    }
+  },
+  {
+    id: "ghent-master-mind-belgium",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Master Mind Universitas Ghent (Belgia)",
+      en: "Ghent University Master Mind Scholarships"
+    },
+    provider: {
+      id: "Ghent University & Pemerintah Flanders, Belgia",
+      en: "Ghent University & Government of Flanders, Belgium"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh program Master",
+        "Tunjangan biaya hidup tahunan senilai EUR 10.000",
+        "Asuransi kesehatan lengkap gratis selama masa studi"
+      ],
+      en: [
+        "Full tuition fees coverage for Master's program",
+        "Annual living stipend worth EUR 10,000",
+        "Free comprehensive health insurance support during study"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional berprestasi akademik luar biasa (IPK sarjana tinggi setara di atas 3.50 skala 4.00)",
+        "Diterima penuh waktu di program Master di Universitas Ghent",
+        "Kemampuan bahasa Inggris tinggi (IELTS minimal 7.0 atau TOEFL iBT minimal 94)"
+      ],
+      en: [
+        "International students demonstrating highest academic excellence (undergraduate GPA above 3.50 on a 4.00 scale)",
+        "Admitted to a full-time Master's program at Ghent University",
+        "High English language proficiency certificate (IELTS min. 7.0 or TOEFL iBT min. 94)"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-04-30",
+    applicationUrl: "https://www.ugent.be/en",
+    description: {
+      id: "Beasiswa pascasarjana penuh dari Pemerintah Flanders Belgia dan Universitas Ghent untuk mendanai studi peneliti internasional berbakat.",
+      en: "Highly prestigious Master Mind graduate scholarship by Ghent University and the Flemish Government supporting global candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Belgia",
+        "Master Mind"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Belgium",
+        "Master Mind"
+      ]
+    }
+  },
+  {
+    id: "kuleuven-science-belgium",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Pascasarjana Sains KU Leuven (Belgia)",
+      en: "KU Leuven Science Graduate Scholarships"
+    },
+    provider: {
+      id: "KU Leuven, Belgia",
+      en: "KU Leuven, Belgium"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana biaya kuliah tahunan hingga EUR 10.000",
+        "Akses jaringan laboratorium riset internasional sains"
+      ],
+      en: [
+        "Tuition fee waiver financial support worth up to EUR 10,000 annually",
+        "Access to international science research laboratories network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang mendaftar ke salah satu program MSc di Fakultas Sains KU Leuven",
+        "Menunjukkan prestasi akademis luar biasa dengan IPK sarjana tinggi",
+        "Memiliki sertifikat kemampuan bahasa Inggris (TOEFL/IELTS) yang valid"
+      ],
+      en: [
+        "International student applying for an MSc program at the Faculty of Science, KU Leuven",
+        "Outstanding academic records with high undergraduate GPA",
+        "Valid English proficiency certificate (TOEFL/IELTS)"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-15",
+    applicationUrl: "https://www.kuleuven.be/english",
+    description: {
+      id: "Beasiswa prestasi parsial dari KU Leuven Belgia khusus untuk mendanai studi pascasarjana mahasiswa berbakat di bidang sains.",
+      en: "Academic merit scholarship by KU Leuven Belgium designed specifically to support talented international science graduate candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Belgia",
+        "Sains",
+        "STEM"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Belgium",
+        "Science",
+        "STEM"
+      ]
+    }
+  },
+  {
+    id: "chalmers-ipoet-sweden",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa IPOET Universitas Teknologi Chalmers (Swedia)",
+      en: "Chalmers University of Technology IPOET Scholarships"
+    },
+    provider: {
+      id: "Chalmers University of Technology, Swedia",
+      en: "Chalmers University of Technology, Sweden"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan 75% biaya kuliah program Master sains/teknologi",
+        "Peningkatan pengurangan menjadi 85% untuk mahasiswa berprestasi tahun kedua"
+      ],
+      en: [
+        "75% tuition fee waiver reduction for STEM Master's programs",
+        "Increased reduction to 85% for high-performing students in the second year"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara non-EU/EEA yang mendaftar program Master penuh waktu di Chalmers",
+        "Menunjukkan prestasi akademis sarjana yang luar biasa",
+        "Kemampuan bahasa Inggris tinggi (IELTS/TOEFL)"
+      ],
+      en: [
+        "Non-EU/EEA citizens applying for a full-time Master's program at Chalmers",
+        "Exceptional academic performance records in previous undergraduate studies",
+        "High English language proficiency (IELTS/TOEFL)"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-01-15",
+    applicationUrl: "https://www.chalmers.se/en",
+    description: {
+      id: "Beasiswa keringanan biaya kuliah dari Chalmers Swedia untuk mendanai studi pascasarjana mahasiswa asing berprestasi di bidang STEM.",
+      en: "Chalmers University's highly selective tuition fee reduction scholarship program for outstanding international STEM students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Swedia",
+        "Teknologi",
+        "STEM"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Sweden",
+        "Technology",
+        "STEM"
+      ]
+    }
+  },
+  {
+    id: "linkoping-scholarship-sweden",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Prestasi Universitas Linköping (Swedia)",
+      en: "Linköping University Scholarship"
+    },
+    provider: {
+      id: "Linköping University, Swedia",
+      en: "Linköping University, Sweden"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan biaya kuliah mulai dari 50% hingga 75% program Master",
+        "Akses jaringan pendampingan akademik mahasiswa asing"
+      ],
+      en: [
+        "Tuition fee waiver reductions ranging from 50% to 75% for Master's studies",
+        "Access to international student academic support network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara non-EU/EEA yang mendaftar program Master internasional di Linköping",
+        "Menunjukkan prestasi akademis sarjana yang luar biasa",
+        "Memenuhi persyaratan visa pelajar Swedia"
+      ],
+      en: [
+        "Non-EU/EEA citizens applying for international Master's programs at Linköping",
+        "Exceptional academic performance records in previous undergraduate studies",
+        "Meet Swedish study visa eligibility requirements"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-02-01",
+    applicationUrl: "https://liu.se/en",
+    description: {
+      id: "Beasiswa keringanan biaya kuliah dari Universitas Linköping untuk mempermudah akses mahasiswa internasional berprestasi.",
+      en: "Tuition fee reduction scholarship program by Linköping University supporting talented international graduate students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Swedia",
+        "Keringanan"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Sweden",
+        "Waiver"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-ntb",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Nusa Tenggara Barat (NTB Gemilang)",
+      en: "West Nusa Tenggara Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Nusa Tenggara Barat",
+      en: "Provincial Government of West Nusa Tenggara"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya hidup stimulan bagi mahasiswa berprestasi daerah"
+      ],
+      en: [
+        "Semester tuition fee subsidy grant support",
+        "Stimulus living cost assistance for local students"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Nusa Tenggara Barat dibuktikan dengan KTP/KK NTB",
+        "Mahasiswa aktif sarjana (S1) di universitas terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi akademik/non-akademik"
+      ],
+      en: [
+        "Native resident of West Nusa Tenggara (NTB ID/Family Card)",
+        "Active S1 student at accredited universities",
+        "From low-income background or possesses academic/non-academic records"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-15",
+    applicationUrl: "https://ntbprov.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemprov NTB untuk mendukung pemerataan pendidikan tinggi putra-putri daerah.",
+      en: "Tuition fee financial assistance program by West Nusa Tenggara Provincial Government supporting local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "NTB",
+        "Lombok"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "NTB",
+        "Lombok"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-ntt",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Nusa Tenggara Timur (NTT Bangkit)",
+      en: "East Nusa Tenggara Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Nusa Tenggara Timur",
+      en: "Provincial Government of East Nusa Tenggara"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya riset tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy assistance",
+        "Research drafting financial grant"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Provinsi Nusa Tenggara Timur (KTP/KK NTT)",
+        "Mahasiswa aktif program sarjana (S1) di universitas terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of East Nusa Tenggara Province (NTT ID/Family Card)",
+        "Active S1 student at accredited higher education institutions",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-20",
+    applicationUrl: "https://nttprov.go.id/",
+    description: {
+      id: "Bantuan dana pendidikan tinggi dari Pemprov NTT untuk mencetak sumber daya manusia unggul daerah.",
+      en: "Higher education financial assistance from East Nusa Tenggara Provincial Government to elevate local human resources."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "NTT",
+        "Kupang"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "NTT",
+        "Kupang"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-maluku",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Maluku (Maluku Cerdas)",
+      en: "Maluku Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Maluku",
+      en: "Provincial Government of Maluku"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan UKT/SPP semesteran",
+        "Bantuan dana penunjang tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy support",
+        "Thesis research financial support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Maluku dibuktikan dengan KK/KTP Maluku",
+        "Mahasiswa aktif S1 di perguruan tinggi negeri maupun swasta",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of Maluku Province (Maluku ID/Family Card)",
+        "Active S1 student at state or private universities",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-30",
+    applicationUrl: "https://malukuprov.go.id/",
+    description: {
+      id: "Bantuan stimulan biaya pendidikan tinggi dari Pemprov Maluku untuk memajukan kualitas akademis mahasiswa berprestasi daerah.",
+      en: "Higher education financial assistance stimulus from Maluku Government to elevate the academic achievements of local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Maluku",
+        "Ambon"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Maluku",
+        "Ambon"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-malut",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Maluku Utara (Malut Pintar)",
+      en: "North Maluku Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Maluku Utara",
+      en: "Provincial Government of North Maluku"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya penyusunan skripsi/tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy assistance",
+        "Research writing grant for final thesis"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Provinsi Maluku Utara (KTP/KK Malut)",
+        "Mahasiswa aktif perguruan tinggi negeri/swasta terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of North Maluku Province (Malut ID/Family Card)",
+        "Active student at accredited state or private universities",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-15",
+    applicationUrl: "https://malutprov.go.id/",
+    description: {
+      id: "Program bantuan biaya pendidikan tinggi dari Pemprov Malut untuk meringankan beban pendidikan putra-putri daerah berprestasi.",
+      en: "Higher education financial assistance program by Malut Provincial Government supporting outstanding local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Malut",
+        "Halmahera"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Malut",
+        "Halmahera"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-papuabarat",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Papua Barat (Papua Barat Cerdas)",
+      en: "Papua Barat Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Papua Barat",
+      en: "Provincial Government of Papua Barat"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya kuliah SPP/UKT tahunan",
+        "Uang saku penunjang riset tugas akhir daerah"
+      ],
+      en: [
+        "Annual tuition fee subsidy support",
+        "Stipend support for final thesis research"
+      ]
+    },
+    requirements: {
+      id: [
+        "Orang Asli Papua (OAP) Papua Barat dibuktikan dengan surat adat",
+        "Mahasiswa aktif program sarjana/pascasarjana di universitas terakreditasi",
+        "IPK minimal 2.75 atau memiliki prestasi non-akademik di bidang olah raga/seni"
+      ],
+      en: [
+        "Indigenous Papua (OAP) of West Papua proven by custom certificate",
+        "Active S1/S2 student at accredited universities",
+        "Minimum GPA of 2.75 or possess non-academic records in sports/arts"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-20",
+    applicationUrl: "https://papuabaratprov.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemprov Papua Barat untuk menyokong pendidikan tinggi mahasiswa daerah.",
+      en: "Tuition fee financial assistance scholarship by Papua Barat Provincial Government supporting local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Papua Barat",
+        "OAP"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Papua Barat",
+        "OAP"
+      ]
+    }
+  },
+  {
+    id: "oslo-summer-school-norway",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Sekolah Musim Panas Universitas Oslo (Norwegia)",
+      en: "University of Oslo International Summer School Scholarship"
+    },
+    provider: {
+      id: "University of Oslo, Norwegia",
+      en: "University of Oslo, Norway"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bebas biaya pendaftaran dan biaya kuliah penuh sekolah musim panas",
+        "Tunjangan akomodasi tempat tinggal gratis dan makan gratis di kampus",
+        "Subsidi biaya perjalanan tiket pesawat internasional"
+      ],
+      en: [
+        "Free registration and full tuition fees for international summer school",
+        "Free room and board accommodation on campus",
+        "International airfare travel expense subsidy support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa aktif S1/S2 atau profesional muda dari negara berkembang",
+        "Menunjukkan prestasi akademis sarjana yang menonjol dan kontribusi sosial",
+        "Kemampuan bahasa Inggris tinggi (TOEFL/IELTS)"
+      ],
+      en: [
+        "Active S1/S2 student or young professional from developing countries",
+        "Exceptional academic record and proven records of community contribution",
+        "High English language proficiency (TOEFL/IELTS)"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-02-15",
+    applicationUrl: "https://www.uio.no/english/",
+    description: {
+      id: "Beasiswa sekolah musim panas penuh dari Universitas Oslo Norwegia untuk mempererat pertukaran budaya dan ilmu pengetahuan internasional.",
+      en: "Fully funded summer school scholarship by the University of Oslo supporting international candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Norwegia",
+        "Musim Panas"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Norway",
+        "Summer"
+      ]
+    }
+  },
+  {
+    id: "helsinki-international-finland",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Internasional Universitas Helsinki (Finlandia)",
+      en: "University of Helsinki International Student Scholarship"
+    },
+    provider: {
+      id: "University of Helsinki, Finlandia",
+      en: "University of Helsinki, Finland"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh 100% program Master",
+        "Tunjangan biaya hidup tahunan senilai EUR 10.000",
+        "Asuransi kesehatan lengkap gratis selama masa studi"
+      ],
+      en: [
+        "100% tuition fees coverage for Master's program",
+        "Annual living stipend worth EUR 10,000",
+        "Free comprehensive health insurance support during study"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara non-EU/EEA yang mendaftar ke program Master diajarkan dalam bahasa Inggris di Helsinki",
+        "Menunjukkan prestasi akademis luar biasa dengan IPK sarjana tinggi",
+        "Memenuhi persyaratan visa pelajar Finlandia"
+      ],
+      en: [
+        "Non-EU/EEA citizens applying for English-taught Master's programs at Helsinki",
+        "Exceptional academic performance records with high undergraduate GPA",
+        "Meet Finnish study visa eligibility requirements"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-01-15",
+    applicationUrl: "https://www.helsinki.fi/en",
+    description: {
+      id: "Beasiswa pascasarjana penuh dari Universitas Helsinki Finlandia untuk menarik mahasiswa asing berprestasi tinggi.",
+      en: "University of Helsinki's highly selective postgraduate scholarship program supporting outstanding international students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Finlandia",
+        "Unggulan"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Finland",
+        "Excellence"
+      ]
+    }
+  },
+  {
+    id: "aalto-scholarship-finland",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Prestasi Universitas Aalto (Finlandia)",
+      en: "Aalto University Scholarship"
+    },
+    provider: {
+      id: "Aalto University, Finlandia",
+      en: "Aalto University, Finland"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan biaya kuliah mulai dari 50% hingga 100% program Master",
+        "Akses ke program pendampingan pengembangan karir"
+      ],
+      en: [
+        "Tuition fee waiver reductions ranging from 50% to 100% for Master's studies",
+        "Access to career development and mentorship programs"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara non-EU/EEA yang mendaftar program Master diajarkan dalam bahasa Inggris di Aalto",
+        "Menunjukkan prestasi akademis sarjana yang luar biasa",
+        "Kemampuan bahasa Inggris tinggi (IELTS/TOEFL)"
+      ],
+      en: [
+        "Non-EU/EEA citizens applying for English-taught Master's programs at Aalto",
+        "Exceptional academic performance records in previous undergraduate studies",
+        "High English language proficiency (IELTS/TOEFL)"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-01-05",
+    applicationUrl: "https://www.aalto.fi/en",
+    description: {
+      id: "Beasiswa keringanan biaya kuliah dari Universitas Aalto Finlandia untuk mendanai studi pascasarjana mahasiswa asing berprestasi.",
+      en: "Aalto University's highly selective tuition fee reduction scholarship program for outstanding international students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Finlandia",
+        "Keringanan"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Finland",
+        "Waiver"
+      ]
+    }
+  },
+  {
+    id: "copenhagen-phd-denmark",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Doktoral (PhD) Universitas Kopenhagen (Denmark)",
+      en: "University of Copenhagen PhD Fellowships"
+    },
+    provider: {
+      id: "University of Copenhagen, Denmark",
+      en: "University of Copenhagen, Denmark"
+    },
+    degreeLevels: [
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Gaji bulanan kompetitif penuh sebagai peneliti universitas",
+        "Pembebasan biaya kuliah program PhD",
+        "Asuransi kesehatan nasional dan dana riset tugas akhir"
+      ],
+      en: [
+        "Full competitive monthly salary as a university researcher",
+        "Tuition fee waiver for PhD program",
+        "National health insurance and research project funding support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Telah menyelesaikan gelar Magister (S2) di bidang studi terkait",
+        "Proposal penelitian PhD yang berstandar internasional tinggi",
+        "Diterima oleh calon pembimbing akademik di Universitas Kopenhagen"
+      ],
+      en: [
+        "Hold a Master's degree in a relevant field of study",
+        "High international standard PhD research proposal",
+        "Accepted by a prospective academic supervisor at Copenhagen"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-31",
+    applicationUrl: "https://www.ku.dk/english/",
+    description: {
+      id: "Beasiswa doktoral penuh sebagai peneliti dari Universitas Kopenhagen untuk melahirkan kontribusi sains baru bagi dunia.",
+      en: "Fully funded doctoral research fellowship by the University of Copenhagen supporting outstanding international PhD candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Denmark",
+        "Riset",
+        "Doktoral"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Denmark",
+        "Research",
+        "Doctoral"
+      ]
+    }
+  },
+  {
+    id: "aarhus-phd-denmark",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Doktoral (PhD) Universitas Aarhus (Denmark)",
+      en: "Aarhus University PhD Fellowships"
+    },
+    provider: {
+      id: "Aarhus University, Denmark",
+      en: "Aarhus University, Denmark"
+    },
+    degreeLevels: [
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Gaji bulanan penuh peneliti doktoral",
+        "Pembebasan biaya kuliah program PhD",
+        "Tunjangan biaya perjalanan konferensi internasional"
+      ],
+      en: [
+        "Full monthly researcher salary support",
+        "Tuition fee waiver for PhD studies",
+        "International conference travel expense allowance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Telah menyelesaikan gelar Magister di bidang sains/sosial terkait",
+        "Proposal penelitian doktoral terperinci sesuai fokus riset universitas",
+        "Kemampuan bahasa Inggris tinggi dan kesiapan riset mandiri"
+      ],
+      en: [
+        "Hold a Master's degree in a relevant science or social field",
+        "Detailed doctoral research proposal matching university focus area",
+        "High English language proficiency and independent research readiness"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-15",
+    applicationUrl: "https://international.au.dk/",
+    description: {
+      id: "Beasiswa riset doktoral penuh sebagai peneliti dari Universitas Aarhus Denmark untuk mendorong inovasi keilmuan global.",
+      en: "Aarhus University's highly competitive fully funded PhD research fellowship supporting global doctoral candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Denmark",
+        "Riset",
+        "Doktoral"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Denmark",
+        "Research",
+        "Doctoral"
+      ]
+    }
   }
 ];

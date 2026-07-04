@@ -187,7 +187,10 @@ export default function Home() {
       taiwan: ["taiwan"],
       hungary: ["hongaria", "hungary"],
       europe: ["eropa", "europe", "uni eropa", "european union"],
-      global: ["internasional", "international", "global", "multinasional", "multinational"]
+      global: ["internasional", "international", "global", "multinasional", "multinational"],
+      norway: ["norwegia", "norway"],
+      finland: ["finlandia", "finland"],
+      denmark: ["denmark"]
     };
     
     if (countryId === "indonesia" && sc.studyLocation.includes("domestic")) {
