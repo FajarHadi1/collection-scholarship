@@ -2,8 +2,8 @@ name: Daily Scholarship Database Maintenance
 
 on:
   schedule:
-    # Run every day at 23:00 UTC (which is 06:00 AM Jakarta Time / WIB)
-    - cron: '0 23 * * *'
+    # Run every day at 02:00 UTC (which is 09:00 AM Jakarta Time / WIB)
+    - cron: '0 2 * * *'
   workflow_dispatch: # Allows manual triggers from the GitHub Actions tab
 
 jobs:
