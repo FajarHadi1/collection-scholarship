@@ -17058,5 +17058,1231 @@ export const scholarships: Scholarship[] = [
         "Doctoral"
       ]
     }
+  },
+  {
+    id: "beasiswa-pemkab-nganjuk",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkab Nganjuk (Nganjuk Cerdas)",
+      en: "Nganjuk Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Nganjuk",
+      en: "Regency Government of Nganjuk"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan stimulan UKT semesteran",
+        "Bantuan biaya hidup penunjang tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee stimulus support",
+        "Living cost assistance for final thesis support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Kabupaten Nganjuk (KTP/KK Nganjuk)",
+        "Mahasiswa aktif program sarjana (S1) di universitas terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi akademik/non-akademik"
+      ],
+      en: [
+        "Native resident of Nganjuk Regency (Nganjuk ID/Family Card)",
+        "Active S1 student at accredited higher education institutions",
+        "From low-income background or possesses academic/non-academic records"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-25",
+    applicationUrl: "https://nganjukkab.go.id/",
+    description: {
+      id: "Bantuan stimulan dana kuliah dari Pemerintah Kabupaten Nganjuk untuk memperluas akses pendidikan tinggi putra-putri daerah.",
+      en: "Tuition fee stimulus financial assistance from Nganjuk Regency Government supporting local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Nganjuk",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Nganjuk",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-madiun",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkab Madiun (Madiun Cerdas)",
+      en: "Madiun Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Madiun",
+      en: "Regency Government of Madiun"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana pendidikan UKT semesteran",
+        "Bantuan penunjang buku kuliah tahunan"
+      ],
+      en: [
+        "Semester tuition fee grant support",
+        "Annual textbook allowance support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kabupaten Madiun (KTP/KK Madiun)",
+        "Mahasiswa aktif program S1 di perguruan tinggi terakreditasi minimal B",
+        "IPK minimal 3.00 untuk prestasi akademik atau menyertakan sertifikat prestasi non-akademik"
+      ],
+      en: [
+        "Native resident of Madiun Regency (Madiun ID/Family Card)",
+        "Active S1 student at accredited higher education institutions (min. B)",
+        "Minimum GPA of 3.00 for academic track or provide non-academic certificates"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-15",
+    applicationUrl: "https://madiunkab.go.id/",
+    description: {
+      id: "Bantuan sosial dana pendidikan tinggi dari Pemkab Madiun untuk meningkatkan kualitas sumber daya manusia pemuda daerah.",
+      en: "Educational social financial support from Madiun Regency Government to elevate the quality of local human resources."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Madiun",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Madiun",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-probolinggo",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkab Probolinggo (Probolinggo Cerdas)",
+      en: "Probolinggo Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Probolinggo",
+      en: "Regency Government of Probolinggo"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya hidup stimulan bagi mahasiswa berprestasi"
+      ],
+      en: [
+        "Semester tuition fee subsidy support",
+        "Stimulus living cost assistance for outstanding students"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Kabupaten Probolinggo dibuktikan dengan KTP/KK Probolinggo",
+        "Mahasiswa aktif di universitas negeri/swasta terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi keagamaan/sains"
+      ],
+      en: [
+        "Native resident of Probolinggo Regency (Probolinggo ID/Family Card)",
+        "Active student at accredited state or private universities",
+        "From low-income background or possesses religious/science achievements"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-20",
+    applicationUrl: "https://probolinggokab.go.id/",
+    description: {
+      id: "Program beasiswa bantuan pendidikan tinggi dari Pemkab Probolinggo untuk mendukung pemerataan pendidikan bagi keluarga prasejahtera.",
+      en: "Higher education financial assistance program by Probolinggo Regency Government supporting underprivileged families."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Probolinggo",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Probolinggo",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-lumajang",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkab Lumajang (Lumajang Cerdas)",
+      en: "Lumajang Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Lumajang",
+      en: "Regency Government of Lumajang"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana UKT semesteran stimulan",
+        "Bantuan biaya penyusunan skripsi/tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee stimulus grant support",
+        "Thesis writing financial assistance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kabupaten Lumajang (KTP/KK Lumajang)",
+        "Mahasiswa aktif S1 di universitas negeri atau swasta terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik atau berprestasi non-akademik"
+      ],
+      en: [
+        "Native resident of Lumajang Regency (Lumajang ID/Family Card)",
+        "Active S1 student at accredited state or private universities",
+        "Minimum GPA of 3.00 for academic track or possesses non-academic records"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-30",
+    applicationUrl: "https://lumajangkab.go.id/",
+    description: {
+      id: "Bantuan stimulan biaya kuliah dari Pemerintah Kabupaten Lumajang untuk mendorong prestasi akademis putra-putri daerah.",
+      en: "Tuition fee stimulus financial assistance from Lumajang Regency Government supporting outstanding local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Lumajang",
+        "Semeru"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Lumajang",
+        "Semeru"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-ngawi",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkab Ngawi (Ngawi Cerdas)",
+      en: "Ngawi Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Ngawi",
+      en: "Regency Government of Ngawi"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya kuliah SPP/UKT per semester",
+        "Bantuan dana penunjang riset tugas akhir daerah"
+      ],
+      en: [
+        "Semester tuition fee subsidy support",
+        "Stipend support for final thesis research"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Kabupaten Ngawi (KTP/KK Ngawi)",
+        "Mahasiswa aktif program sarjana di universitas terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi akademik tinggi"
+      ],
+      en: [
+        "Native resident of Ngawi Regency (Ngawi ID/Family Card)",
+        "Active undergraduate student at accredited universities",
+        "From low-income background or possesses high academic records"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-25",
+    applicationUrl: "https://ngawikab.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemkab Ngawi untuk mendorong wajib belajar pendidikan tinggi putra-putri daerah.",
+      en: "Tuition fee financial assistance scholarship by Ngawi Regency Government promoting higher education enrollments."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Ngawi",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Ngawi",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "leeds-excellence-uk",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Unggulan Internasional Universitas Leeds (Inggris)",
+      en: "University of Leeds International Excellence Scholarships"
+    },
+    provider: {
+      id: "University of Leeds, Inggris",
+      en: "University of Leeds, UK"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan biaya kuliah hingga GBP 5.000 per tahun",
+        "Akses jaringan pendampingan karir eksklusif alumni Leeds"
+      ],
+      en: [
+        "Tuition fee waiver reductions up to GBP 5,000 annually",
+        "Access to exclusive Leeds career support and alumni networks"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang mendaftar ke program sarjana atau pascasarjana di Leeds",
+        "Menunjukkan prestasi akademis luar biasa di jenjang pendidikan sebelumnya",
+        "Memenuhi persyaratan masuk akademik program studi pilihan"
+      ],
+      en: [
+        "International student applying for undergraduate or postgraduate study at Leeds",
+        "Exceptional academic performance records in previous studies",
+        "Meet academic entry requirements for the chosen course"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-06-30",
+    applicationUrl: "https://www.leeds.ac.uk/",
+    description: {
+      id: "Beasiswa keringanan biaya kuliah dari Universitas Leeds Inggris untuk mendanai studi calon mahasiswa internasional berprestasi.",
+      en: "Tuition fee waiver scholarship by the University of Leeds supporting talented international candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Inggris",
+        "Leeds"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "UK",
+        "Leeds"
+      ]
+    }
+  },
+  {
+    id: "glasgow-leadership-uk",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Kepemimpinan Internasional Universitas Glasgow",
+      en: "University of Glasgow International Leadership Scholarships"
+    },
+    provider: {
+      id: "University of Glasgow, Inggris",
+      en: "University of Glasgow, UK"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan biaya kuliah program Master senilai GBP 10.000",
+        "Keanggotaan eksklusif jaringan pemimpin muda Glasgow"
+      ],
+      en: [
+        "Tuition fee waiver reductions worth GBP 10,000 for Master's program",
+        "Exclusive membership in Glasgow young leaders network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa asing (non-UK/EU) mendaftar program MSc di Glasgow",
+        "Menunjukkan prestasi akademik sarjana luar biasa setara dengan predikat cum laude",
+        "Memenuhi persyaratan visa pelajar UK"
+      ],
+      en: [
+        "Non-UK/EU international student applying for MSc programs at Glasgow",
+        "Exceptional academic performance records equivalent to cum laude predicate",
+        "Meet UK study visa eligibility requirements"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-06-30",
+    applicationUrl: "https://www.gla.ac.uk/",
+    description: {
+      id: "Beasiswa keringanan biaya kuliah berbasis kepemimpinan dari Universitas Glasgow untuk mendukung kandidat internasional unggul.",
+      en: "Leadership-based tuition fee reduction scholarship program by the University of Glasgow supporting global candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Inggris",
+        "Kepemimpinan"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "UK",
+        "Leadership"
+      ]
+    }
+  },
+  {
+    id: "sheffield-merit-uk",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Merit Internasional Universitas Sheffield (Inggris)",
+      en: "University of Sheffield International Undergraduate Merit Scholarship"
+    },
+    provider: {
+      id: "University of Sheffield, Inggris",
+      en: "University of Sheffield, UK"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan 50% biaya kuliah tahunan program sarjana",
+        "Akses jaringan pendampingan akademik mahasiswa asing"
+      ],
+      en: [
+        "50% tuition fee waiver reductions annually for Bachelor's studies",
+        "Access to international student academic support network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang mendaftar program sarjana penuh waktu di Sheffield",
+        "Menunjukkan prestasi akademis luar biasa dengan sertifikat kelayakan sekolah tinggi",
+        "Memenuhi syarat kemampuan bahasa Inggris"
+      ],
+      en: [
+        "International student applying for a full-time undergraduate program at Sheffield",
+        "Exceptional academic performance records in high school studies",
+        "Meet English language proficiency requirements"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-05-15",
+    applicationUrl: "https://www.sheffield.ac.uk/",
+    description: {
+      id: "Beasiswa keringanan biaya kuliah dari Universitas Sheffield untuk mempermudah akses mahasiswa internasional berprestasi.",
+      en: "Tuition fee reduction scholarship program by the University of Sheffield supporting talented international undergraduate students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Inggris",
+        "Merit"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "UK",
+        "Merit"
+      ]
+    }
+  },
+  {
+    id: "birmingham-global-uk",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Global Masters Universitas Birmingham (Inggris)",
+      en: "University of Birmingham Global Masters Scholarships"
+    },
+    provider: {
+      id: "University of Birmingham, Inggris",
+      en: "University of Birmingham, UK"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana biaya kuliah program Master senilai GBP 2.000",
+        "Akses ke program pendampingan pengembangan karir"
+      ],
+      en: [
+        "Tuition fee waiver financial support worth GBP 2,000 for Master's studies",
+        "Access to career development and mentorship programs"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional (non-UK) mendaftar program Master di Birmingham",
+        "IPK sarjana minimal 3.50 skala 4.00 atau setara",
+        "Memenuhi persyaratan akademik program studi pilihan"
+      ],
+      en: [
+        "International (non-UK) student applying for Master's study at Birmingham",
+        "Minimum undergraduate GPA of 3.50 on a 4.00 scale or equivalent",
+        "Meet academic entry requirements for the chosen course"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-05-30",
+    applicationUrl: "https://www.birmingham.ac.uk/",
+    description: {
+      id: "Beasiswa parsial keringanan biaya kuliah dari Universitas Birmingham untuk memotivasi kandidat internasional berprestasi.",
+      en: "Partial tuition fee reduction scholarship program by the University of Birmingham supporting global candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Inggris",
+        "Global"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "UK",
+        "Global"
+      ]
+    }
+  },
+  {
+    id: "nottingham-developing-uk",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Developing Solutions Universitas Nottingham",
+      en: "University of Nottingham Developing Solutions Scholarship"
+    },
+    provider: {
+      id: "University of Nottingham, Inggris",
+      en: "University of Nottingham, UK"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan biaya kuliah mulai dari 50% hingga 100% program Master",
+        "Akses jaringan ikatan alumni internasional Nottingham"
+      ],
+      en: [
+        "Tuition fee waiver reductions ranging from 50% to 100% for Master's studies",
+        "Access to Nottingham international alumni network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara berkembang (termasuk Indonesia) mendaftar program Master di Nottingham",
+        "Menunjukkan komitmen tinggi memajukan negara asal setelah lulus",
+        "Memenuhi persyaratan visa pelajar UK"
+      ],
+      en: [
+        "Citizen of developing countries (including Indonesia) applying for Master's study at Nottingham",
+        "Demonstrate strong commitment to contributing to home country upon graduation",
+        "Meet UK study visa eligibility requirements"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-05-20",
+    applicationUrl: "https://www.nottingham.ac.uk/",
+    description: {
+      id: "Beasiswa prestasi kemanusiaan dari Universitas Nottingham untuk mendidik agen pembangunan sosial negara berkembang.",
+      en: "Nottingham University's highly selective postgraduate scholarship program supporting developing countries' students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Inggris",
+        "Pembangunan"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "UK",
+        "Development"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-magetan",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkab Magetan (Magetan Cerdas)",
+      en: "Magetan Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Magetan",
+      en: "Regency Government of Magetan"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan dana penunjang buku/tugas akhir kuliah"
+      ],
+      en: [
+        "Semester tuition fee subsidy grant support",
+        "Book and thesis research financial support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kabupaten Magetan (KTP/KK Magetan)",
+        "Mahasiswa aktif program sarjana (S1) di universitas terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi akademik/non-akademik"
+      ],
+      en: [
+        "Native resident of Magetan Regency (Magetan ID/Family Card)",
+        "Active S1 student at accredited higher education institutions",
+        "From low-income background or possesses academic/non-academic records"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-15",
+    applicationUrl: "https://magetan.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemkab Magetan untuk mendukung pemerataan akses pendidikan tinggi bagi pemuda daerah.",
+      en: "Tuition fee financial assistance program by Magetan Regency Government supporting local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Magetan",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Magetan",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-tulungagung",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkab Tulungagung (Tulungagung Prestasi)",
+      en: "Tulungagung Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Tulungagung",
+      en: "Regency Government of Tulungagung"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana UKT per semester stimulan",
+        "Bantuan dana penunjang riset tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee stimulus grant support",
+        "Research drafting financial grant"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kabupaten Tulungagung (KTP/KK Tulungagung)",
+        "Mahasiswa aktif program sarjana (S1) di universitas terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of Tulungagung Regency (Tulungagung ID/Family Card)",
+        "Active S1 student at accredited higher education institutions",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-20",
+    applicationUrl: "https://tulungagung.go.id/",
+    description: {
+      id: "Bantuan dana pendidikan tinggi dari Pemkab Tulungagung untuk mencetak sumber daya manusia unggul daerah.",
+      en: "Higher education financial assistance from Tulungagung Regency Government to elevate local human resources."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Tulungagung",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Tulungagung",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-trenggalek",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkab Trenggalek (Trenggalek Cerdas)",
+      en: "Trenggalek Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Trenggalek",
+      en: "Regency Government of Trenggalek"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan UKT/SPP semesteran",
+        "Bantuan dana penunjang tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy support",
+        "Thesis research financial support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Trenggalek dibuktikan dengan KK/KTP Trenggalek",
+        "Mahasiswa aktif S1 di perguruan tinggi negeri maupun swasta",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of Trenggalek Regency (Trenggalek ID/Family Card)",
+        "Active S1 student at state or private universities",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-30",
+    applicationUrl: "https://trenggalekkab.go.id/",
+    description: {
+      id: "Bantuan stimulan biaya pendidikan tinggi dari Pemkab Trenggalek untuk memajukan kualitas akademis mahasiswa berprestasi daerah.",
+      en: "Higher education financial assistance stimulus from Trenggalek Government to elevate the academic achievements of local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Trenggalek",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Trenggalek",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-bangkalan",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkab Bangkalan (Bangkalan Cerdas)",
+      en: "Bangkalan Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Bangkalan",
+      en: "Regency Government of Bangkalan"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya penyusunan skripsi/tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy assistance",
+        "Research writing grant for final thesis"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kabupaten Bangkalan (KTP/KK Bangkalan)",
+        "Mahasiswa aktif perguruan tinggi negeri/swasta terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of Bangkalan Regency (Bangkalan ID/Family Card)",
+        "Active student at accredited state or private universities",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-15",
+    applicationUrl: "https://bangkalankab.go.id/",
+    description: {
+      id: "Program bantuan biaya pendidikan tinggi dari Pemkab Bangkalan untuk meringankan beban pendidikan putra-putri daerah berprestasi.",
+      en: "Higher education financial assistance program by Bangkalan Regency Government supporting outstanding local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Bangkalan",
+        "Madura"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Bangkalan",
+        "Madura"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-sampang",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkab Sampang (Sampang Cerdas)",
+      en: "Sampang Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Sampang",
+      en: "Regency Government of Sampang"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya kuliah SPP/UKT tahunan",
+        "Uang saku penunjang riset tugas akhir daerah"
+      ],
+      en: [
+        "Annual tuition fee subsidy support",
+        "Stipend support for final thesis research"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Kabupaten Sampang dibuktikan dengan KTP/KK Sampang",
+        "Mahasiswa aktif program sarjana di universitas terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of Sampang Regency (Sampang ID/Family Card)",
+        "Active undergraduate student at accredited universities",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-20",
+    applicationUrl: "https://sampangkab.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemkab Sampang untuk menyokong pendidikan tinggi mahasiswa daerah.",
+      en: "Tuition fee financial assistance scholarship by Sampang Regency Government supporting local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Sampang",
+        "Madura"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Sampang",
+        "Madura"
+      ]
+    }
+  },
+  {
+    id: "warwick-chancellors-uk",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Kanselir Internasional Universitas Warwick (Inggris)",
+      en: "University of Warwick Chancellor's International Scholarship"
+    },
+    provider: {
+      id: "University of Warwick, Inggris",
+      en: "University of Warwick, UK"
+    },
+    degreeLevels: [
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh program doktoral (PhD)",
+        "Tunjangan biaya hidup tahunan senilai GBP 18.600",
+        "Dana riset tugas akhir dan bantuan biaya visa"
+      ],
+      en: [
+        "Full tuition fees coverage for PhD studies",
+        "Annual living stipend worth GBP 18,600",
+        "Research project funding and visa assistance support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang berencana menempuh program PhD di Warwick",
+        "Menunjukkan prestasi akademis sarjana/master yang luar biasa",
+        "Memiliki proposal penelitian tingkat doktoral yang solid"
+      ],
+      en: [
+        "International students applying for a PhD program at Warwick",
+        "Outstanding academic records in previous studies",
+        "Submit a solid doctoral research proposal draft"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-12-15",
+    applicationUrl: "https://www.warwick.ac.uk/",
+    description: {
+      id: "Beasiswa doktoral penuh paling kompetitif dari Universitas Warwick Inggris untuk mencetak peneliti internasional berbakat.",
+      en: "Warwick's highly competitive fully funded PhD scholarship program designed to support outstanding global researchers."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Inggris",
+        "Riset",
+        "Doktoral"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "UK",
+        "Research",
+        "Doctoral"
+      ]
+    }
+  },
+  {
+    id: "standrews-excellence-uk",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Unggulan Universitas St Andrews (Skotlandia)",
+      en: "University of St Andrews International Excellence Scholarship"
+    },
+    provider: {
+      id: "University of St Andrews, Inggris",
+      en: "University of St Andrews, UK"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana biaya kuliah tahunan senilai GBP 25.000",
+        "Akses jaringan mentorship kanselir internasional St Andrews"
+      ],
+      en: [
+        "Tuition fee waiver financial support worth GBP 25,000 annually",
+        "Access to St Andrews international mentorship networks"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang mendaftar ke program sarjana di St Andrews",
+        "Menunjukkan prestasi akademis luar biasa dengan IPK tinggi",
+        "Memiliki sertifikat kemampuan bahasa Inggris (TOEFL/IELTS) yang valid"
+      ],
+      en: [
+        "International student applying for an undergraduate program at St Andrews",
+        "Outstanding academic records with high GPA",
+        "Valid English proficiency certificate (TOEFL/IELTS)"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-01-25",
+    applicationUrl: "https://www.st-andrews.ac.uk/",
+    description: {
+      id: "Beasiswa prestasi prestisius dari St Andrews untuk menyokong biaya pendidikan bagi mahasiswa internasional terbaik.",
+      en: "St Andrews' highly selective undergraduate scholarship program for outstanding international students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Inggris",
+        "Unggulan"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "UK",
+        "Excellence"
+      ]
+    }
+  },
+  {
+    id: "southampton-presidential-uk",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Kepresidenan Universitas Southampton (Inggris)",
+      en: "University of Southampton Presidential International Scholarship"
+    },
+    provider: {
+      id: "University of Southampton, Inggris",
+      en: "University of Southampton, UK"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan biaya kuliah mulai dari GBP 5.000 hingga 100% untuk tahun pertama",
+        "Akses ke program pendampingan akademik internasional"
+      ],
+      en: [
+        "Tuition fee reductions ranging from GBP 5,000 to 100% for the first year",
+        "Access to international academic support network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang mendaftar program sarjana atau pascasarjana di Southampton",
+        "Memiliki prestasi akademis yang luar biasa di sekolah/universitas sebelumnya",
+        "Memenuhi persyaratan akademik program studi pilihan"
+      ],
+      en: [
+        "International students planning to study undergraduate or postgraduate courses at Southampton",
+        "Outstanding academic records in previous school/university studies",
+        "Meet academic entry requirements for the chosen course"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-06-30",
+    applicationUrl: "https://www.southampton.ac.uk/",
+    description: {
+      id: "Beasiswa kepresidenan dari Universitas Southampton untuk membantu meringankan biaya pendidikan bagi mahasiswa internasional terbaik.",
+      en: "Southampton Presidential merit-based tuition fee reduction scholarship supporting outstanding international candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Inggris",
+        "Presidential"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "UK",
+        "Presidential"
+      ]
+    }
+  },
+  {
+    id: "bath-global-leaders-uk",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Pemimpin Global Universitas Bath (Inggris)",
+      en: "University of Bath Global Leaders Scholarship"
+    },
+    provider: {
+      id: "University of Bath, Inggris",
+      en: "University of Bath, UK"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana biaya kuliah program Master senilai GBP 5.000",
+        "Program bimbingan kepemimpinan eksklusif internasional"
+      ],
+      en: [
+        "Tuition fee waiver financial support worth GBP 5,000 for Master's studies",
+        "Exclusive international leadership training programs"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional dengan rekam jejak kepemimpinan sosial yang luar biasa",
+        "Telah memiliki gelar Sarjana atau berada di tahun terakhir kuliah S1",
+        "Lolos seleksi masuk akademik program Master Bath yang dipilih"
+      ],
+      en: [
+        "International students demonstrating exceptional leadership and community records",
+        "Hold a Bachelor's degree or be in the final year of S1",
+        "Pass the academic admission to the chosen Bath Master's program"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-05-15",
+    applicationUrl: "https://www.bath.ac.uk/",
+    description: {
+      id: "Beasiswa kepemimpinan dari Universitas Bath untuk mendidik calon pemimpin yang berdedikasi menciptakan dampak sosial bagi masyarakat.",
+      en: "Leadership-based scholarship by the University of Bath to support future change-makers committed to social impact."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Inggris",
+        "Kepemimpinan"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "UK",
+        "Leadership"
+      ]
+    }
+  },
+  {
+    id: "durham-excellence-uk",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Prestasi Internasional Universitas Durham (Inggris)",
+      en: "Durham University International Excellence Scholarship"
+    },
+    provider: {
+      id: "Durham University, Inggris",
+      en: "Durham University, UK"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan biaya kuliah tahunan program Master senilai GBP 5.000",
+        "Akses jaringan ikatan alumni internasional Durham"
+      ],
+      en: [
+        "Tuition fee waiver reductions worth GBP 5,000 for Master's studies",
+        "Access to Durham international alumni network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara non-UK/EU yang mendaftar program Master internasional di Durham",
+        "Menunjukkan prestasi akademis sarjana yang luar biasa",
+        "Memenuhi persyaratan visa pelajar UK"
+      ],
+      en: [
+        "Non-UK/EU citizens applying for international Master's programs at Durham",
+        "Exceptional academic performance records in previous studies",
+        "Meet UK study visa eligibility requirements"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-05-31",
+    applicationUrl: "https://www.durham.ac.uk/",
+    description: {
+      id: "Beasiswa keringanan biaya kuliah dari Universitas Durham untuk mempermudah akses mahasiswa internasional berprestasi.",
+      en: "Tuition fee reduction scholarship program by Durham University supporting talented international graduate students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Inggris",
+        "Unggulan"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "UK",
+        "Excellence"
+      ]
+    }
   }
 ];
