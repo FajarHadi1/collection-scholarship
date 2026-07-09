@@ -53,7 +53,8 @@ const COUNTRIES: MapCountry[] = [
   { id: "global", name: { id: "Global / Internasional", en: "Global / International" }, lat: 15.0, lng: -40.0, zoom: 2, tags: ["Internasional", "International", "Global", "Multinasional", "Multinational"] },
   { id: "norway", name: { id: "Norwegia", en: "Norway" }, lat: 60.472024, lng: 8.468946, zoom: 5, tags: ["Norwegia", "Norway"] },
   { id: "finland", name: { id: "Finlandia", en: "Finland" }, lat: 61.92411, lng: 25.748151, zoom: 5, tags: ["Finlandia", "Finland"] },
-  { id: "denmark", name: { id: "Denmark", en: "Denmark" }, lat: 56.26392, lng: 9.501785, zoom: 6, tags: ["Denmark"] }
+  { id: "denmark", name: { id: "Denmark", en: "Denmark" }, lat: 56.26392, lng: 9.501785, zoom: 6, tags: ["Denmark"] },
+  { id: "spain", name: { id: "Spanyol", en: "Spain" }, lat: 40.463667, lng: -3.74922, zoom: 6, tags: ["Spanyol", "Spain"] }
 ];
 
 export default function WorldMap({

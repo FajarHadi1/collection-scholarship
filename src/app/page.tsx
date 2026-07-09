@@ -190,7 +190,8 @@ export default function Home() {
       global: ["internasional", "international", "global", "multinasional", "multinational"],
       norway: ["norwegia", "norway"],
       finland: ["finlandia", "finland"],
-      denmark: ["denmark"]
+      denmark: ["denmark"],
+      spain: ["spanyol", "spain"]
     };
     
     if (countryId === "indonesia" && sc.studyLocation.includes("domestic")) {

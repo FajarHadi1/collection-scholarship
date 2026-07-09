@@ -10494,7 +10494,7 @@ export const scholarships: Scholarship[] = [
         "Pass administration screening and interview with the supervisor at the host university"
       ]
     },
-    status: 'open',
+    status: 'closed',
     deadline: "2026-07-06",
     applicationUrl: "https://pmdsu.kemdiktisaintek.go.id/v2",
     description: {
@@ -18282,6 +18282,1846 @@ export const scholarships: Scholarship[] = [
         "Overseas",
         "UK",
         "Excellence"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-pamekasan",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkab Pamekasan (Pamekasan Cerdas)",
+      en: "Pamekasan Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Pamekasan",
+      en: "Regency Government of Pamekasan"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan biaya pendidikan UKT per semester stimulan",
+        "Bantuan biaya hidup penunjang tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee stimulus grant support",
+        "Living cost assistance for final thesis support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kabupaten Pamekasan (KTP/KK Pamekasan)",
+        "Mahasiswa aktif program sarjana (S1) di universitas terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi akademik/non-akademik"
+      ],
+      en: [
+        "Native resident of Pamekasan Regency (Pamekasan ID/Family Card)",
+        "Active S1 student at accredited higher education institutions",
+        "From low-income background or possesses academic/non-academic records"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-25",
+    applicationUrl: "https://pamekasan.go.id/",
+    description: {
+      id: "Bantuan stimulan dana kuliah dari Pemerintah Kabupaten Pamekasan untuk memperluas akses pendidikan tinggi bagi pemuda berprestasi daerah.",
+      en: "Tuition fee stimulus financial assistance from Pamekasan Regency Government supporting local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Pamekasan",
+        "Madura"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Pamekasan",
+        "Madura"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-situbondo",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkab Situbondo (Situbondo Cerdas)",
+      en: "Situbondo Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Situbondo",
+      en: "Regency Government of Situbondo"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana pendidikan UKT semesteran stimulan",
+        "Bantuan penunjang buku kuliah tahunan"
+      ],
+      en: [
+        "Semester tuition fee stimulus support",
+        "Annual textbook allowance support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kabupaten Situbondo (KTP/KK Situbondo)",
+        "Mahasiswa aktif program sarjana (S1) di universitas terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik atau menyertakan sertifikat prestasi non-akademik"
+      ],
+      en: [
+        "Native resident of Situbondo Regency (Situbondo ID/Family Card)",
+        "Active S1 student at accredited higher education institutions",
+        "Minimum GPA of 3.00 for academic track or provide non-academic certificates"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-15",
+    applicationUrl: "https://situbondokab.go.id/",
+    description: {
+      id: "Bantuan stimulan dana kuliah dari Pemkab Situbondo untuk mendorong pemerataan pendidikan tinggi putra-putri daerah.",
+      en: "Educational financial assistance from Situbondo Regency Government to support higher education accessibility for local youth."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Situbondo",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Situbondo",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkab-bondowoso",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkab Bondowoso (Bondowoso Cerdas)",
+      en: "Bondowoso Regency Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kabupaten Bondowoso",
+      en: "Regency Government of Bondowoso"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya hidup stimulan bagi mahasiswa berprestasi"
+      ],
+      en: [
+        "Semester tuition fee subsidy support",
+        "Stimulus living cost assistance for outstanding students"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Kabupaten Bondowoso dibuktikan dengan KTP/KK Bondowoso",
+        "Mahasiswa aktif di universitas negeri/swasta terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi keagamaan/sains"
+      ],
+      en: [
+        "Native resident of Bondowoso Regency (Bondowoso ID/Family Card)",
+        "Active student at accredited state or private universities",
+        "From low-income background or possesses religious/science achievements"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-20",
+    applicationUrl: "https://bondowosokab.go.id/",
+    description: {
+      id: "Program beasiswa bantuan pendidikan tinggi dari Pemkab Bondowoso untuk mendukung pemerataan pendidikan bagi keluarga prasejahtera.",
+      en: "Higher education financial assistance program by Bondowoso Regency Government supporting underprivileged families."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Bondowoso",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Bondowoso",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkot-mojokerto",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkot Mojokerto (Mojokerto Cerdas)",
+      en: "Mojokerto City Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kota Mojokerto",
+      en: "City Government of Mojokerto"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana UKT semesteran stimulan",
+        "Bantuan biaya penyusunan skripsi/tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee stimulus grant support",
+        "Thesis writing financial assistance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kota Mojokerto (KTP/KK Mojokerto Kota)",
+        "Mahasiswa aktif S1 di universitas negeri atau swasta terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik atau berprestasi non-akademik"
+      ],
+      en: [
+        "Native resident of Mojokerto City (Mojokerto City ID/Family Card)",
+        "Active S1 student at accredited state or private universities",
+        "Minimum GPA of 3.00 for academic track or possesses non-academic records"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-30",
+    applicationUrl: "https://mojokertokota.go.id/",
+    description: {
+      id: "Bantuan stimulan biaya kuliah dari Pemerintah Kota Mojokerto untuk mendorong prestasi akademis putra-putri daerah.",
+      en: "Tuition fee stimulus financial assistance from Mojokerto City Government supporting outstanding local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Mojokerto",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Mojokerto",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkot-pasuruan",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkot Pasuruan (Pasuruan Cerdas)",
+      en: "Pasuruan City Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kota Pasuruan",
+      en: "City Government of Pasuruan"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya kuliah SPP/UKT per semester",
+        "Bantuan dana penunjang riset tugas akhir daerah"
+      ],
+      en: [
+        "Semester tuition fee subsidy support",
+        "Stipend support for final thesis research"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Kota Pasuruan (KTP/KK Pasuruan Kota)",
+        "Mahasiswa aktif program sarjana di universitas terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi akademik tinggi"
+      ],
+      en: [
+        "Native resident of Pasuruan City (Pasuruan City ID/Family Card)",
+        "Active undergraduate student at accredited universities",
+        "From low-income background or possesses high academic records"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-25",
+    applicationUrl: "https://pasuruankota.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemkot Pasuruan untuk mendorong wajib belajar pendidikan tinggi putra-putri daerah.",
+      en: "Tuition fee financial assistance scholarship by Pasuruan City Government promoting higher education enrollments."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Pasuruan",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Pasuruan",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "epfl-excellence-switzerland",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Pascasarjana Unggulan EPFL (Swiss)",
+      en: "EPFL Excellence Fellowships"
+    },
+    provider: {
+      id: "École Polytechnique Fédérale de Lausanne (EPFL)",
+      en: "École Polytechnique Fédérale de Lausanne (EPFL)"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bantuan dana tahunan senilai CHF 10.000 per semester",
+        "Pembebasan biaya kuliah program Master EPFL",
+        "Akomodasi perumahan mahasiswa asing terjamin"
+      ],
+      en: [
+        "Annual financial assistance worth CHF 10,000 per semester",
+        "Tuition fee waiver for EPFL Master's program",
+        "Guaranteed international student housing accommodation"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang mendaftar ke salah satu program Master EPFL",
+        "Menunjukkan prestasi akademis sarjana yang luar biasa di bidang sains/STEM",
+        "Kemampuan bahasa Inggris tinggi (TOEFL/IELTS)"
+      ],
+      en: [
+        "International student applying for a Master's program at EPFL",
+        "Exceptional academic performance records in science/STEM undergraduate studies",
+        "High English language proficiency (TOEFL/IELTS)"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-12-15",
+    applicationUrl: "https://www.epfl.ch/en",
+    description: {
+      id: "Beasiswa pascasarjana penuh paling kompetitif dari EPFL Swiss untuk mendukung calon ilmuwan dan inovator teknologi terbaik dunia.",
+      en: "Highly prestigious graduate excellence fellowship by EPFL Switzerland supporting top-tier global science and tech students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Swiss",
+        "STEM",
+        "Teknologi"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Swiss",
+        "STEM",
+        "Technology"
+      ]
+    }
+  },
+  {
+    id: "unil-masters-switzerland",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Magister Universitas Lausanne (Swiss)",
+      en: "University of Lausanne (UNIL) Master's Grants"
+    },
+    provider: {
+      id: "University of Lausanne (UNIL)",
+      en: "University of Lausanne (UNIL)"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan biaya hidup bulanan senilai CHF 1.600 selama masa studi",
+        "Pembebasan sebagian biaya administrasi kuliah"
+      ],
+      en: [
+        "Monthly living stipend worth CHF 1,600 during study duration",
+        "Partial tuition fee administrative waiver support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa asing lulusan sarjana universitas luar negeri",
+        "Diterima di salah satu program Master UNIL (kecuali Kedokteran/Pendidikan)",
+        "Menunjukkan prestasi akademis luar biasa di jenjang sarjana sebelumnya"
+      ],
+      en: [
+        "Foreign student who graduated from a foreign university with a bachelor's degree",
+        "Admitted to a master's program at UNIL (except Medicine/Education)",
+        "Outstanding undergraduate academic record in previous studies"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-11-01",
+    applicationUrl: "https://www.unil.ch/",
+    description: {
+      id: "Beasiswa prestasi parsial dari Universitas Lausanne Swiss untuk menarik mahasiswa asing berbakat untuk kuliah S2 di Swiss.",
+      en: "University of Lausanne's graduate grant program designed to attract outstanding international students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Swiss",
+        "Lausanne"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Swiss",
+        "Lausanne"
+      ]
+    }
+  },
+  {
+    id: "iheid-scholarship-switzerland",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Pascasarjana Graduate Institute Geneva (Swiss)",
+      en: "Graduate Institute Geneva (IHEID) Scholarships"
+    },
+    provider: {
+      id: "Graduate Institute of International and Development Studies (IHEID)",
+      en: "Graduate Institute of International and Development Studies (IHEID)"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan sebagian atau penuh biaya kuliah program pascasarjana",
+        "Bantuan biaya hidup tahunan disesuaikan dengan kebutuhan keuangan"
+      ],
+      en: [
+        "Partial or full tuition fee waiver reductions for graduate programs",
+        "Tailored annual living cost financial assistance based on financial need"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang mendaftar program Master/PhD di IHEID",
+        "Menunjukkan minat riset mendalam bidang hubungan internasional/pembangunan",
+        "IPK sarjana tinggi setara di atas 3.50 skala 4.00"
+      ],
+      en: [
+        "International students applying for Master/PhD programs at IHEID",
+        "Proven research interest in international relations or development studies",
+        "High undergraduate GPA equivalent above 3.50 on a 4.00 scale"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-01-15",
+    applicationUrl: "https://www.graduateinstitute.ch/",
+    description: {
+      id: "Beasiswa bantuan dana pascasarjana dari IHEID Geneva Swiss untuk mendanai studi pemimpin internasional bidang pembangunan.",
+      en: "Graduate scholarship program by IHEID Geneva supporting international candidates in development studies."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Swiss",
+        "Pembangunan"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Swiss",
+        "Development"
+      ]
+    }
+  },
+  {
+    id: "uzh-masters-switzerland",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Prestasi Master Universitas Zurich (Swiss)",
+      en: "University of Zurich (UZH) Master Scholarships"
+    },
+    provider: {
+      id: "University of Zurich (UZH)",
+      en: "University of Zurich (UZH)"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana biaya kuliah program Master tahunan",
+        "Akses jaringan pendampingan akademik mahasiswa asing UZH"
+      ],
+      en: [
+        "Tuition fee waiver financial support for Master's studies",
+        "Access to UZH international student academic support network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional mendaftar program Master internasional di UZH",
+        "Menunjukkan prestasi akademis sarjana yang luar biasa",
+        "Memenuhi persyaratan visa pelajar Swiss"
+      ],
+      en: [
+        "International citizens applying for international Master's programs at UZH",
+        "Exceptional academic performance records in previous undergraduate studies",
+        "Meet Swiss study visa eligibility requirements"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-02-01",
+    applicationUrl: "https://www.uzh.ch/en.html",
+    description: {
+      id: "Beasiswa keringanan biaya kuliah dari Universitas Zurich untuk mempermudah akses mahasiswa internasional berprestasi.",
+      en: "Tuition fee reduction scholarship program by the University of Zurich supporting talented international graduate students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Swiss",
+        "Zurich"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Swiss",
+        "Zurich"
+      ]
+    }
+  },
+  {
+    id: "unige-excellence-switzerland",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Unggulan Master Universitas Jenewa (Swiss)",
+      en: "University of Geneva Excellence Master Fellowships"
+    },
+    provider: {
+      id: "University of Geneva, Swiss",
+      en: "University of Geneva, Switzerland"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Tunjangan dana hibah riset tahunan senilai CHF 10.000 hingga CHF 15.000",
+        "Bantuan biaya hidup penunjang riset tugas akhir"
+      ],
+      en: [
+        "Annual research grant support worth CHF 10,000 to CHF 15,000",
+        "Living cost assistance for final thesis research support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional dengan prestasi akademik luar biasa (berada di 10% lulusan sarjana terbaik)",
+        "Mendaftar di program Master Fakultas Sains Universitas Jenewa",
+        "Proposal proyek riset tesis awal yang solid"
+      ],
+      en: [
+        "International students demonstrating highest academic excellence (within top 10% of previous graduating class)",
+        "Applying for a Master's program at the Faculty of Science, UNIGE",
+        "Submit a solid preliminary thesis research project proposal draft"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-03-15",
+    applicationUrl: "https://www.unige.ch/",
+    description: {
+      id: "Beasiswa riset unggulan Fakultas Sains Universitas Jenewa Swiss untuk menarik peneliti muda internasional berbakat.",
+      en: "Excellence research fellowship by the Faculty of Science, University of Geneva supporting global graduate candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Swiss",
+        "Sains"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Swiss",
+        "Science"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkot-kediri",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkot Kediri (Kediri Cerdas)",
+      en: "Kediri City Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kota Kediri",
+      en: "City Government of Kediri"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya penyusunan skripsi/tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy assistance",
+        "Research writing grant for final thesis"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kota Kediri (KTP/KK Kediri Kota)",
+        "Mahasiswa aktif program sarjana (S1) di universitas terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of Kediri City (Kediri City ID/Family Card)",
+        "Active S1 student at accredited higher education institutions",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-15",
+    applicationUrl: "https://kedirikota.go.id/",
+    description: {
+      id: "Program bantuan biaya pendidikan tinggi dari Pemkot Kediri untuk meringankan beban pendidikan putra-putri daerah berprestasi.",
+      en: "Higher education financial assistance program by Kediri City Government supporting outstanding local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Kediri",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Kediri",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkot-blitar",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkot Blitar (Blitar Cerdas)",
+      en: "Blitar City Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kota Blitar",
+      en: "City Government of Blitar"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana UKT per semester stimulan",
+        "Bantuan dana penunjang riset tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee stimulus grant support",
+        "Research drafting financial grant"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kota Blitar (KTP/KK Blitar Kota)",
+        "Mahasiswa aktif program sarjana (S1) di universitas terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of Blitar City (Blitar City ID/Family Card)",
+        "Active S1 student at accredited higher education institutions",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-20",
+    applicationUrl: "https://blitarkota.go.id/",
+    description: {
+      id: "Bantuan dana pendidikan tinggi dari Pemkot Blitar untuk mencetak sumber daya manusia unggul daerah.",
+      en: "Higher education financial assistance from Blitar City Government to elevate local human resources."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Blitar",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Blitar",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkot-probolinggo",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkot Probolinggo (Probolinggo Cerdas)",
+      en: "Probolinggo City Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kota Probolinggo",
+      en: "City Government of Probolinggo"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan UKT/SPP semesteran",
+        "Bantuan dana penunjang tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy support",
+        "Thesis research financial support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Probolinggo dibuktikan dengan KK/KTP Probolinggo Kota",
+        "Mahasiswa aktif S1 di perguruan tinggi negeri maupun swasta",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of Probolinggo City (Probolinggo City ID/Family Card)",
+        "Active S1 student at state or private universities",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-30",
+    applicationUrl: "https://probolinggokota.go.id/",
+    description: {
+      id: "Bantuan stimulan biaya pendidikan tinggi dari Pemkot Probolinggo untuk memajukan kualitas akademis mahasiswa berprestasi daerah.",
+      en: "Higher education financial assistance stimulus from Probolinggo City Government to elevate the academic achievements of local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Probolinggo",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Probolinggo",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkot-madiun",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkot Madiun (Madiun Cerdas)",
+      en: "Madiun City Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kota Madiun",
+      en: "City Government of Madiun"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya penyusunan skripsi/tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy assistance",
+        "Research writing grant for final thesis"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kota Madiun (KTP/KK Madiun Kota)",
+        "Mahasiswa aktif perguruan tinggi negeri/swasta terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of Madiun City (Madiun City ID/Family Card)",
+        "Active student at accredited state or private universities",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-15",
+    applicationUrl: "https://madiunkota.go.id/",
+    description: {
+      id: "Program bantuan biaya pendidikan tinggi dari Pemkot Madiun untuk meringankan beban pendidikan putra-putri daerah berprestasi.",
+      en: "Higher education financial assistance program by Madiun City Government supporting outstanding local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Madiun",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Madiun",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkot-malang",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkot Malang (Malang Cerdas)",
+      en: "Malang City Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kota Malang",
+      en: "City Government of Malang"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya kuliah SPP/UKT tahunan",
+        "Uang saku penunjang riset tugas akhir daerah"
+      ],
+      en: [
+        "Annual tuition fee subsidy support",
+        "Stipend support for final thesis research"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Kota Malang dibuktikan dengan KTP/KK Malang Kota",
+        "Mahasiswa aktif program sarjana di universitas terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of Malang City (Malang City ID/Family Card)",
+        "Active undergraduate student at accredited universities",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-20",
+    applicationUrl: "https://malangkota.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemkot Malang untuk menyokong pendidikan tinggi mahasiswa daerah.",
+      en: "Tuition fee financial assistance scholarship by Malang City Government supporting local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Malang",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Malang",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "ens-lyon-ampere-france",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Ampere Excellence ENS de Lyon (Prancis)",
+      en: "ENS de Lyon Ampere Excellence Scholarships"
+    },
+    provider: {
+      id: "École Normale Supérieure de Lyon (ENS de Lyon)",
+      en: "École Normale Supérieure de Lyon (ENS de Lyon)"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bantuan biaya hidup bulanan senilai EUR 1.000 selama masa studi Magister",
+        "Bebas biaya pendaftaran dan biaya kuliah penuh di ENS de Lyon"
+      ],
+      en: [
+        "Monthly living stipend worth EUR 1,000 during Master's study",
+        "Free registration and full tuition fees waiver at ENS de Lyon"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional non-Prancis mendaftar program Master di ENS de Lyon",
+        "Prestasi akademik sarjana yang luar biasa (IPK tinggi)",
+        "Kemampuan bahasa Prancis atau Inggris sesuai syarat masuk program"
+      ],
+      en: [
+        "Non-French international student applying for a Master's program at ENS de Lyon",
+        "Exceptional undergraduate academic record (high GPA)",
+        "French or English language proficiency based on program requirements"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-01-10",
+    applicationUrl: "https://www.ens-lyon.fr/en/",
+    description: {
+      id: "Beasiswa prestasi pascasarjana penuh dari ENS de Lyon Prancis untuk melatih peneliti muda internasional unggulan dunia.",
+      en: "Highly prestigious master's scholarship program by ENS de Lyon France supporting top-tier international students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Prancis",
+        "Ampere"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "France",
+        "Ampere"
+      ]
+    }
+  },
+  {
+    id: "sciencespo-boutmy-france",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Emile Boutmy Sciences Po (Prancis)",
+      en: "Sciences Po Emile Boutmy Scholarship"
+    },
+    provider: {
+      id: "Sciences Po, Prancis",
+      en: "Sciences Po, France"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan biaya kuliah mulai dari EUR 3.900 hingga EUR 14.210 per tahun",
+        "Akses jaringan pendampingan kepemimpinan eksklusif Sciences Po"
+      ],
+      en: [
+        "Tuition fee waiver reductions ranging from EUR 3,900 to EUR 14,210 annually",
+        "Access to exclusive Sciences Po leadership mentorship programs"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara non-Uni Eropa yang mendaftar ke program sarjana atau master di Sciences Po",
+        "Menunjukkan prestasi akademis sarjana/sekolah menengah yang luar biasa",
+        "Lolos seleksi masuk akademik program studi pilihan"
+      ],
+      en: [
+        "Non-EU/EEA citizens applying for undergraduate or master's programs at Sciences Po",
+        "Exceptional academic performance records in previous studies",
+        "Pass academic entry requirements for the chosen course"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-02-15",
+    applicationUrl: "https://www.sciencespo.fr/en",
+    description: {
+      id: "Beasiswa keringanan biaya kuliah pascasarjana dan sarjana dari Sciences Po Prancis untuk mahasiswa asing berprestasi tinggi di luar EU.",
+      en: "Sciences Po's highly selective scholarship program supporting outstanding international students outside the EU."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Prancis",
+        "Emile Boutmy"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "France",
+        "Emile Boutmy"
+      ]
+    }
+  },
+  {
+    id: "paris-excellence-france",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Pascasarjana MIEM Universitas Paris (Prancis)",
+      en: "Université de Paris Excellence Scholarships (MIEM)"
+    },
+    provider: {
+      id: "Université de Paris, Prancis",
+      en: "Université de Paris, France"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana biaya kuliah tahunan program Master hingga EUR 10.000",
+        "Akses jaringan laboratorium riset internasional sains"
+      ],
+      en: [
+        "Tuition fee waiver financial support worth up to EUR 10,000 annually",
+        "Access to international research laboratories network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang mendaftar ke program Master di Université de Paris",
+        "Menunjukkan prestasi akademis luar biasa dengan IPK sarjana tinggi",
+        "Memiliki sertifikat kemampuan bahasa Prancis/Inggris yang valid"
+      ],
+      en: [
+        "International student applying for a Master's program at Université de Paris",
+        "Outstanding academic records with high undergraduate GPA",
+        "Valid French or English proficiency certificate"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-06-30",
+    applicationUrl: "https://u-paris.fr/en/",
+    description: {
+      id: "Beasiswa prestasi MIEM dari Université de Paris Prancis khusus untuk mendanai studi pascasarjana mahasiswa asing berbakat.",
+      en: "Academic merit scholarship by Université de Paris France designed specifically to support talented international graduate candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Prancis",
+        "MIEM"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "France",
+        "MIEM"
+      ]
+    }
+  },
+  {
+    id: "grenoble-inp-france",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Yayasan Grenoble INP (Prancis)",
+      en: "Grenoble INP Foundation Scholarships"
+    },
+    provider: {
+      id: "Grenoble Institute of Technology (Grenoble INP)",
+      en: "Grenoble Institute of Technology (Grenoble INP)"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Tunjangan hibah biaya kuliah tahunan senilai EUR 5.000 per tahun",
+        "Akses jaringan industri sains/teknologi teknik Grenoble"
+      ],
+      en: [
+        "Annual tuition fee grant support worth EUR 5,000",
+        "Access to Grenoble engineering and tech industries network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional mendaftar program Master teknik/sains di Grenoble INP",
+        "Menunjukkan prestasi akademik sarjana yang luar biasa",
+        "Proposal riset dan motivasi yang solid"
+      ],
+      en: [
+        "International students applying to engineering or science Master's courses at Grenoble INP",
+        "Outstanding academic records in previous studies",
+        "Solid research proposal and motivation records"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-02-28",
+    applicationUrl: "https://www.grenoble-inp.fr/en",
+    description: {
+      id: "Beasiswa keringanan biaya kuliah dari Yayasan Grenoble INP untuk mendukung studi mahasiswa asing berprestasi di bidang teknik.",
+      en: "Grenoble INP Foundation's highly selective tuition fee reduction scholarship program for outstanding international engineering students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Prancis",
+        "Grenoble"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "France",
+        "Grenoble"
+      ]
+    }
+  },
+  {
+    id: "imt-atlantique-france",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Unggulan IMT Atlantique (Prancis)",
+      en: "IMT Atlantique Excellence Scholarships"
+    },
+    provider: {
+      id: "IMT Atlantique, Prancis",
+      en: "IMT Atlantique, France"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan biaya kuliah mulai dari 25% hingga 50% program Master",
+        "Akses jaringan pendampingan akademik mahasiswa asing IMT"
+      ],
+      en: [
+        "Tuition fee waiver reductions ranging from 25% to 50% for Master's studies",
+        "Access to international student academic support network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara non-Prancis mendaftar program Master internasional di IMT Atlantique",
+        "Menunjukkan prestasi akademis sarjana yang luar biasa",
+        "Memenuhi persyaratan visa pelajar Prancis"
+      ],
+      en: [
+        "Non-French citizens applying for international Master's programs at IMT Atlantique",
+        "Exceptional academic performance records in previous undergraduate studies",
+        "Meet French study visa eligibility requirements"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-03-31",
+    applicationUrl: "https://www.imt-atlantique.fr/en",
+    description: {
+      id: "Beasiswa keringanan biaya kuliah dari IMT Atlantique untuk mempermudah akses mahasiswa internasional berprestasi bidang teknik.",
+      en: "Tuition fee reduction scholarship program by IMT Atlantique supporting talented international graduate engineering students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Prancis",
+        "Atlantique"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "France",
+        "Atlantique"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkot-batu",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkot Batu (Batu Cerdas)",
+      en: "Batu City Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kota Batu",
+      en: "City Government of Batu"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya hidup stimulan bagi mahasiswa daerah"
+      ],
+      en: [
+        "Semester tuition fee subsidy grant support",
+        "Stimulus living cost assistance for local students"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kota Batu dibuktikan dengan KTP/KK Batu Kota",
+        "Mahasiswa aktif sarjana (S1) di universitas terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi akademik/non-akademik"
+      ],
+      en: [
+        "Native resident of Batu City (Batu City ID/Family Card)",
+        "Active S1 student at accredited universities",
+        "From low-income background or possesses academic/non-academic records"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-15",
+    applicationUrl: "https://batukota.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemkot Batu untuk mendukung pemerataan pendidikan tinggi putra-putri daerah.",
+      en: "Tuition fee financial assistance program by Batu City Government supporting local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Batu",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Batu",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkot-surakarta",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkot Surakarta (Surakarta Cerdas)",
+      en: "Surakarta City Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kota Surakarta",
+      en: "City Government of Surakarta"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya riset tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy assistance",
+        "Research drafting financial grant"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kota Surakarta (KTP/KK Surakarta Kota)",
+        "Mahasiswa aktif program sarjana (S1) di universitas terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of Surakarta City (Surakarta ID/Family Card)",
+        "Active S1 student at accredited higher education institutions",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-20",
+    applicationUrl: "https://surakarta.go.id/",
+    description: {
+      id: "Bantuan dana pendidikan tinggi dari Pemkot Surakarta untuk mencetak sumber daya manusia unggul daerah.",
+      en: "Higher education financial assistance from Surakarta City Government to elevate local human resources."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Surakarta",
+        "Solo"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Surakarta",
+        "Solo"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkot-semarang",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkot Semarang (Semarang Cerdas)",
+      en: "Semarang City Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kota Semarang",
+      en: "City Government of Semarang"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan UKT/SPP semesteran",
+        "Bantuan dana penunjang tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy support",
+        "Thesis research financial support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Semarang dibuktikan dengan KK/KTP Semarang Kota",
+        "Mahasiswa aktif S1 di perguruan tinggi negeri maupun swasta",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of Semarang City (Semarang City ID/Family Card)",
+        "Active S1 student at state or private universities",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-30",
+    applicationUrl: "https://semarangkota.go.id/",
+    description: {
+      id: "Bantuan stimulan biaya pendidikan tinggi dari Pemkot Semarang untuk memajukan kualitas akademis mahasiswa berprestasi daerah.",
+      en: "Higher education financial assistance stimulus from Semarang City Government to elevate the academic achievements of local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Semarang",
+        "Jawa Tengah"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Semarang",
+        "Central Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkot-yogyakarta",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkot Yogyakarta (Yogyakarta Cerdas)",
+      en: "Yogyakarta City Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kota Yogyakarta",
+      en: "City Government of Yogyakarta"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya penyusunan skripsi/tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy assistance",
+        "Research writing grant for final thesis"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kota Yogyakarta (KTP/KK Yogyakarta Kota)",
+        "Mahasiswa aktif perguruan tinggi negeri/swasta terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of Yogyakarta City (Yogyakarta City ID/Family Card)",
+        "Active student at accredited state or private universities",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-15",
+    applicationUrl: "https://yogyakarta.go.id/",
+    description: {
+      id: "Program bantuan biaya pendidikan tinggi dari Pemkot Yogyakarta untuk meringankan beban pendidikan putra-putri daerah berprestasi.",
+      en: "Higher education financial assistance program by Yogyakarta City Government supporting outstanding local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Yogyakarta",
+        "Jogja"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Yogyakarta",
+        "Jogja"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkot-magelang",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkot Magelang (Magelang Cerdas)",
+      en: "Magelang City Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kota Magelang",
+      en: "City Government of Magelang"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya kuliah SPP/UKT tahunan",
+        "Uang saku penunjang riset tugas akhir daerah"
+      ],
+      en: [
+        "Annual tuition fee subsidy support",
+        "Stipend support for final thesis research"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Kota Magelang dibuktikan dengan KTP/KK Magelang Kota",
+        "Mahasiswa aktif program sarjana di universitas terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of Magelang City (Magelang City ID/Family Card)",
+        "Active undergraduate student at accredited universities",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-20",
+    applicationUrl: "https://magelangkota.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemkot Magelang untuk menyokong pendidikan tinggi mahasiswa daerah.",
+      en: "Tuition fee financial assistance scholarship by Magelang City Government supporting local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Magelang",
+        "Jawa Tengah"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Magelang",
+        "Central Java"
+      ]
+    }
+  },
+  {
+    id: "barcelona-gse-spain",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Barcelona School of Economics (Spanyol)",
+      en: "Barcelona Graduate School of Economics Scholarships"
+    },
+    provider: {
+      id: "Barcelona School of Economics (BSE)",
+      en: "Barcelona School of Economics (BSE)"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan biaya kuliah mulai dari 25% hingga 100% program Master",
+        "Dukungan biaya hidup disesuaikan dengan prestasi"
+      ],
+      en: [
+        "Tuition fee waiver reductions ranging from 25% to 100% for Master's studies",
+        "Merit-based living cost financial assistance support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang mendaftar ke salah satu program Master BSE",
+        "Menunjukkan prestasi akademik sarjana luar biasa bidang ekonomi/kuantitatif",
+        "Memenuhi persyaratan visa pelajar Spanyol"
+      ],
+      en: [
+        "International students applying for Master's programs at BSE",
+        "Exceptional academic performance records in economics or quantitative studies",
+        "Meet Spanish study visa eligibility requirements"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-01-15",
+    applicationUrl: "https://bse.eu/",
+    description: {
+      id: "Beasiswa pascasarjana penuh dan parsial dari BSE Spanyol untuk mendidik calon ekonom top dunia.",
+      en: "Barcelona School of Economics graduate scholarship program supporting outstanding international economics students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Spanyol",
+        "Ekonomi"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Spain",
+        "Economics"
+      ]
+    }
+  },
+  {
+    id: "uc3m-international-spain",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Magister Universitas Carlos III de Madrid (Spanyol)",
+      en: "Universidad Carlos III de Madrid (UC3M) Master's Scholarships"
+    },
+    provider: {
+      id: "Universidad Carlos III de Madrid (UC3M)",
+      en: "Universidad Carlos III de Madrid (UC3M)"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana biaya kuliah tahunan program Master hingga EUR 5.000",
+        "Akses jaringan pendampingan akademik mahasiswa asing UC3M"
+      ],
+      en: [
+        "Tuition fee waiver financial support worth up to EUR 5,000 annually",
+        "Access to UC3M international student academic support network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang mendaftar ke program Master di UC3M",
+        "Menunjukkan prestasi akademis luar biasa dengan IPK sarjana tinggi",
+        "Memiliki sertifikat kemampuan bahasa Spanyol/Inggris yang valid"
+      ],
+      en: [
+        "International student applying for a Master's program at UC3M",
+        "Outstanding academic records with high undergraduate GPA",
+        "Valid Spanish or English proficiency certificate"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-05-31",
+    applicationUrl: "https://www.uc3m.es/home",
+    description: {
+      id: "Beasiswa prestasi parsial dari UC3M Spanyol khusus untuk mendanai studi pascasarjana mahasiswa asing berbakat.",
+      en: "Academic merit scholarship by UC3M Spain designed specifically to support talented international graduate candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Spanyol",
+        "Madrid"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Spain",
+        "Madrid"
+      ]
+    }
+  },
+  {
+    id: "bologna-uni-italy",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Universitas Bologna (Italia)",
+      en: "University of Bologna Study Grants (Unibo Action 1 & 2)"
+    },
+    provider: {
+      id: "University of Bologna, Italia",
+      en: "University of Bologna, Italy"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Tunjangan biaya hidup tahunan senilai EUR 11.000",
+        "Pembebasan biaya kuliah penuh 100% program studi"
+      ],
+      en: [
+        "Annual living stipend allowance worth EUR 11,000",
+        "100% tuition fees waiver coverage for chosen program"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang mendaftar program sarjana/pascasarjana di Bologna",
+        "Memiliki skor tes masuk akademik internasional yang tinggi (SAT untuk S1, GRE untuk S2)",
+        "Berusia di bawah 30 tahun saat mendaftar"
+      ],
+      en: [
+        "International students applying for undergraduate or graduate courses at Bologna",
+        "High international entry test scores (SAT for bachelor, GRE for master)",
+        "Under 30 years old by the application deadline"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-04-30",
+    applicationUrl: "https://www.unibo.it/en",
+    description: {
+      id: "Beasiswa prestasi bergengsi dari Universitas Bologna Italia untuk menarik mahasiswa internasional unggul.",
+      en: "Highly selective merit-based study grants and tuition waivers by the University of Bologna supporting global students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Italia",
+        "Bologna"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Italy",
+        "Bologna"
+      ]
+    }
+  },
+  {
+    id: "padua-international-italy",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Unggulan Universitas Padua (Italia)",
+      en: "University of Padua International Excellence Scholarship"
+    },
+    provider: {
+      id: "University of Padua, Italia",
+      en: "University of Padua, Italy"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Tunjangan biaya hidup tahunan senilai EUR 8.000",
+        "Pembebasan biaya kuliah penuh program studi",
+        "Akomodasi tempat tinggal bersubsidi khusus mahasiswa asing"
+      ],
+      en: [
+        "Annual living stipend allowance worth EUR 8,000",
+        "Full tuition fees waiver coverage for undergraduate/graduate studies",
+        "Subsidized housing accommodation support for international students"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang mendaftar program diajarkan dalam bahasa Inggris di Padua",
+        "Menunjukkan prestasi akademik sarjana/sekolah tinggi yang luar biasa",
+        "Kemampuan bahasa Inggris tinggi"
+      ],
+      en: [
+        "International students applying for English-taught courses at Padua",
+        "Exceptional academic performance records in previous studies",
+        "High English language proficiency"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-03-07",
+    applicationUrl: "https://www.unipd.it/en/",
+    description: {
+      id: "Beasiswa prestasi kanselir Universitas Padua Italia untuk membantu mendanai studi mahasiswa internasional terbaik dunia.",
+      en: "Padua University's highly selective tuition waiver and living stipend scholarship program supporting outstanding international candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Italia",
+        "Padua"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Italy",
+        "Padua"
+      ]
+    }
+  },
+  {
+    id: "pavia-international-italy",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Prestasi Universitas Pavia (Italia)",
+      en: "University of Pavia International Master's Scholarships"
+    },
+    provider: {
+      id: "University of Pavia, Italia",
+      en: "University of Pavia, Italy"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana biaya kuliah tahunan program Master senilai EUR 8.000",
+        "Akses jaringan pendampingan akademik mahasiswa asing Pavia"
+      ],
+      en: [
+        "Tuition fee waiver financial support worth EUR 8,000 for Master's studies",
+        "Access to Pavia international student academic support network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara non-Italia mendaftar program Master internasional di Pavia",
+        "Menunjukkan prestasi akademis sarjana yang luar biasa",
+        "Memenuhi persyaratan visa pelajar Italia"
+      ],
+      en: [
+        "Non-Italian citizens applying for international Master's programs at Pavia",
+        "Exceptional academic performance records in previous undergraduate studies",
+        "Meet Italian study visa eligibility requirements"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-05-31",
+    applicationUrl: "https://web.unipv.it/",
+    description: {
+      id: "Beasiswa keringanan biaya kuliah dari Universitas Pavia untuk mempermudah akses mahasiswa internasional berprestasi.",
+      en: "Tuition fee reduction scholarship program by the University of Pavia supporting talented international graduate students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Italia",
+        "Pavia"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Italy",
+        "Pavia"
       ]
     }
   }
