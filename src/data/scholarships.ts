@@ -337,7 +337,7 @@ export const scholarships: Scholarship[] = [
         "Strong commitment to moderate Islamic values and contribution to nation-building"
       ]
     },
-    status: 'open',
+    status: 'closed',
     deadline: "2026-07-10",
     applicationUrl: "https://beasiswa.kemenag.go.id/",
     description: {
@@ -20122,6 +20122,2488 @@ export const scholarships: Scholarship[] = [
         "Overseas",
         "Italy",
         "Pavia"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-banten",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Banten (Banten Cerdas)",
+      en: "Banten Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Banten",
+      en: "Provincial Government of Banten"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana UKT semesteran stimulan",
+        "Bantuan dana penunjang tugas akhir kuliah"
+      ],
+      en: [
+        "Semester tuition fee stimulus support",
+        "Final thesis research financial support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Provinsi Banten dibuktikan dengan KTP/KK Banten",
+        "Mahasiswa aktif program sarjana (S1) di universitas terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi akademik"
+      ],
+      en: [
+        "Native resident of Banten Province (Banten ID/Family Card)",
+        "Active S1 student at accredited higher education institutions",
+        "From low-income background or possesses academic excellence records"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-30",
+    applicationUrl: "https://bantenprov.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemprov Banten untuk menyokong pendidikan tinggi mahasiswa daerah.",
+      en: "Tuition fee financial assistance program by Banten Provincial Government supporting local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Banten",
+        "Jawa Barat"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Banten",
+        "West Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-jateng",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Jawa Tengah (Jateng Pintar)",
+      en: "Central Java Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Jawa Tengah",
+      en: "Provincial Government of Central Java"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan stimulan UKT per semester",
+        "Pelatihan pengembangan diri mahasiswa"
+      ],
+      en: [
+        "Semester tuition fee stimulus support",
+        "Student personal development training support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Jawa Tengah dibuktikan dengan KTP/KK Jateng",
+        "Mahasiswa aktif program S1 di universitas terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi akademik/non-akademik"
+      ],
+      en: [
+        "Native resident of Central Java (Central Java ID/Family Card)",
+        "Active S1 student at accredited higher education institutions",
+        "From low-income family background or possesses academic/non-academic records"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-15",
+    applicationUrl: "https://jatengprov.go.id/",
+    description: {
+      id: "Bantuan sosial dana pendidikan tinggi dari Pemprov Jateng untuk mendorong pemerataan akses pendidikan tinggi daerah.",
+      en: "Educational social financial support from Central Java Government to elevate regional higher education accessibility."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Jateng",
+        "Jawa Tengah"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Jateng",
+        "Central Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-jatim",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Jawa Timur (Jatim Cerdas)",
+      en: "East Java Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Jawa Timur",
+      en: "Provincial Government of East Java"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT semesteran",
+        "Bantuan biaya hidup penunjang riset tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy support",
+        "Living cost assistance for final thesis research support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Jawa Timur dibuktikan dengan KTP/KK Jatim",
+        "Mahasiswa aktif S1 di perguruan tinggi negeri maupun swasta",
+        "IPK minimal 3.00 untuk prestasi akademik atau berprestasi non-akademik"
+      ],
+      en: [
+        "Native resident of East Java Province (East Java ID/Family Card)",
+        "Active S1 student at state or private universities",
+        "Minimum GPA of 3.00 for academic track or possesses non-academic records"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-20",
+    applicationUrl: "https://jatimprov.go.id/",
+    description: {
+      id: "Program beasiswa bantuan pendidikan tinggi dari Pemprov Jatim untuk meringankan beban pendidikan mahasiswa daerah berprestasi.",
+      en: "Higher education financial assistance program by East Java Provincial Government supporting outstanding local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Jatim",
+        "Jawa Timur"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Jatim",
+        "East Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-lampung",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Lampung (Lampung Cerdas)",
+      en: "Lampung Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Lampung",
+      en: "Provincial Government of Lampung"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana UKT per semester stimulan",
+        "Bantuan biaya penyusunan skripsi/tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee stimulus grant support",
+        "Thesis writing financial assistance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Provinsi Lampung (KTP/KK Lampung)",
+        "Mahasiswa aktif S1 di universitas negeri atau swasta terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik atau berprestasi non-akademik"
+      ],
+      en: [
+        "Native resident of Lampung Province (Lampung ID/Family Card)",
+        "Active S1 student at accredited state or private universities",
+        "Minimum GPA of 3.00 for academic track or possesses non-academic records"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-30",
+    applicationUrl: "https://lampungprov.go.id/",
+    description: {
+      id: "Bantuan stimulan biaya kuliah dari Pemerintah Provinsi Lampung untuk mendorong prestasi akademis putra-putri daerah.",
+      en: "Tuition fee stimulus financial assistance from Lampung Provincial Government supporting outstanding local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Lampung",
+        "Sumatera"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Lampung",
+        "Sumatra"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-sumsel",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Sumatera Selatan (Sumsel Cerdas)",
+      en: "South Sumatra Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Sumatera Selatan",
+      en: "Provincial Government of South Sumatra"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya kuliah SPP/UKT per semester",
+        "Bantuan dana penunjang buku kuliah tahunan"
+      ],
+      en: [
+        "Semester tuition fee subsidy support",
+        "Book allowance support for educational assistance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Provinsi Sumatera Selatan (KTP/KK Sumsel)",
+        "Mahasiswa aktif program sarjana di universitas terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi keagamaan/sains"
+      ],
+      en: [
+        "Native resident of South Sumatra Province (South Sumatra ID/Family Card)",
+        "Active undergraduate student at accredited universities",
+        "From low-income background or possesses religious/science achievements"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-25",
+    applicationUrl: "https://sumselprov.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemprov Sumsel untuk mendorong wajib belajar pendidikan tinggi.",
+      en: "Tuition fee financial assistance scholarship by South Sumatra Government promoting higher education enrollments."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Sumsel",
+        "Sumatera"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Sumsel",
+        "Sumatra"
+      ]
+    }
+  },
+  {
+    id: "fudan-shanghai-government",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Pemerintah Shanghai Universitas Fudan (Tiongkok)",
+      en: "Fudan University Shanghai Government Scholarship"
+    },
+    provider: {
+      id: "Fudan University & Pemerintah Kota Shanghai",
+      en: "Fudan University & Shanghai Municipal Government"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh program studi",
+        "Tunjangan biaya hidup bulanan senilai hingga RMB 3.500",
+        "Akomodasi tempat tinggal gratis di kampus dan asuransi kesehatan"
+      ],
+      en: [
+        "Full tuition fees waiver for chosen studies",
+        "Monthly living stipend worth up to RMB 3,500",
+        "Free campus housing accommodation and health insurance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional non-Tiongkok yang mendaftar ke Universitas Fudan",
+        "Menunjukkan prestasi akademis luar biasa dengan proposal riset terperinci",
+        "Memenuhi syarat kemampuan bahasa HSK (Mandarin) atau bahasa Inggris"
+      ],
+      en: [
+        "Non-Chinese international student applying to Fudan University",
+        "Exceptional academic record with detailed research proposals",
+        "Meet HSK (Mandarin) or English language proficiency requirements"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-03-31",
+    applicationUrl: "https://fudan.edu.cn/en/",
+    description: {
+      id: "Beasiswa prestasi pascasarjana dan sarjana penuh dari Pemerintah Shanghai untuk mendanai studi ilmuwan internasional terbaik di Fudan.",
+      en: "Highly prestigious Shanghai government scholarship by Fudan University supporting global candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Tiongkok",
+        "Shanghai"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "China",
+        "Shanghai"
+      ]
+    }
+  },
+  {
+    id: "zhejiang-university-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Unggulan Universitas Zhejiang (Tiongkok)",
+      en: "Zhejiang University Scholarship"
+    },
+    provider: {
+      id: "Zhejiang University, Tiongkok",
+      en: "Zhejiang University, China"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bebas biaya kuliah penuh 100% program riset Magister/Doktoral",
+        "Tunjangan biaya hidup bulanan senilai hingga RMB 3.500",
+        "Asuransi kesehatan lengkap gratis selama masa studi"
+      ],
+      en: [
+        "100% tuition fee waiver for Master/PhD research programs",
+        "Monthly living stipend allowance worth up to RMB 3,500",
+        "Free comprehensive health insurance support during study"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang mendaftar program pascasarjana di Universitas Zhejiang",
+        "Menunjukkan prestasi akademis luar biasa di jenjang pendidikan sebelumnya",
+        "Memenuhi persyaratan masuk akademik program studi pilihan"
+      ],
+      en: [
+        "International student applying for graduate study at Zhejiang University",
+        "Exceptional academic performance records in previous studies",
+        "Meet academic entry requirements for the chosen course"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-03-15",
+    applicationUrl: "https://www.zju.edu.cn/english/",
+    description: {
+      id: "Beasiswa riset pascasarjana penuh dari Universitas Zhejiang untuk menyokong peneliti muda internasional berprestasi.",
+      en: "Zhejiang University's highly selective postgraduate scholarship program supporting outstanding international students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Tiongkok",
+        "Riset"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "China",
+        "Research"
+      ]
+    }
+  },
+  {
+    id: "ntu-diamond-taiwan",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Diamond Universitas Nasional Taiwan",
+      en: "National Taiwan University (NTU) Diamond Scholarship"
+    },
+    provider: {
+      id: "National Taiwan University (NTU)",
+      en: "National Taiwan University (NTU)"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh program pascasarjana",
+        "Tunjangan biaya hidup bulanan senilai hingga NTD 20.000",
+        "Bantuan biaya hidup penunjang riset tugas akhir"
+      ],
+      en: [
+        "Full tuition fees coverage for graduate studies",
+        "Monthly living stipend worth up to NTD 20,000",
+        "Living cost assistance for final thesis research support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional dengan prestasi akademik luar biasa",
+        "Mendaftar di program pascasarjana di Universitas Nasional Taiwan (NTU)",
+        "Memiliki proposal proyek riset tesis awal yang solid"
+      ],
+      en: [
+        "International students demonstrating highest academic excellence",
+        "Applying for a graduate program at National Taiwan University (NTU)",
+        "Submit a solid preliminary thesis research project proposal draft"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-03-15",
+    applicationUrl: "https://www.ntu.edu.tw/english/",
+    description: {
+      id: "Beasiswa riset unggulan dari Universitas Nasional Taiwan (NTU) untuk menarik peneliti muda internasional berbakat.",
+      en: "Excellence research fellowship by National Taiwan University (NTU) supporting global graduate candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Taiwan",
+        "Riset"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Taiwan",
+        "Research"
+      ]
+    }
+  },
+  {
+    id: "nthu-international-taiwan",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Internasional Universitas Nasional Tsing Hua (Taiwan)",
+      en: "National Tsing Hua University (NTHU) International Student Scholarship"
+    },
+    provider: {
+      id: "National Tsing Hua University (NTHU)",
+      en: "National Tsing Hua University (NTHU)"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana biaya kuliah tahunan program Master hingga NTD 80.000",
+        "Akses jaringan pendampingan akademik mahasiswa asing NTHU"
+      ],
+      en: [
+        "Tuition fee waiver financial support worth up to NTD 80,000 annually",
+        "Access to NTHU international student academic support network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang mendaftar ke program studi di NTHU",
+        "Menunjukkan prestasi akademis luar biasa dengan IPK sarjana tinggi",
+        "Memiliki sertifikat kemampuan bahasa Mandarin/Inggris yang valid"
+      ],
+      en: [
+        "International student applying for a degree program at NTHU",
+        "Outstanding academic records with high undergraduate GPA",
+        "Valid Mandarin or English proficiency certificate"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-05-31",
+    applicationUrl: "https://www.nthu.edu.tw/english",
+    description: {
+      id: "Beasiswa prestasi parsial dari NTHU Taiwan khusus untuk mendanai studi pascasarjana mahasiswa asing berbakat.",
+      en: "Academic merit scholarship by NTHU Taiwan designed specifically to support talented international graduate candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Taiwan",
+        "NTHU"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Taiwan",
+        "NTHU"
+      ]
+    }
+  },
+  {
+    id: "hkust-postgraduate-hongkong",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Riset Pascasarjana HKUST (Hong Kong)",
+      en: "Hong Kong University of Science and Technology (HKUST) Research Postgraduate Scholarship"
+    },
+    provider: {
+      id: "Hong Kong University of Science and Technology (HKUST)",
+      en: "Hong Kong University of Science and Technology (HKUST)"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Tunjangan biaya hidup tahunan senilai HKD 216.000",
+        "Pembebasan biaya kuliah penuh program studi",
+        "Akomodasi tempat tinggal bersubsidi khusus mahasiswa asing"
+      ],
+      en: [
+        "Annual living stipend allowance worth HKD 216,000",
+        "Full tuition fees waiver coverage for undergraduate/graduate studies",
+        "Subsidized housing accommodation support for international students"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang mendaftar program riset di HKUST",
+        "Menunjukkan prestasi akademik sarjana/sekolah tinggi yang luar biasa",
+        "Kemampuan bahasa Inggris tinggi"
+      ],
+      en: [
+        "International students applying for research courses at HKUST",
+        "Exceptional academic performance records in previous studies",
+        "High English language proficiency"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-03-07",
+    applicationUrl: "https://hkust.edu.hk/",
+    description: {
+      id: "Beasiswa prestasi HKUST Hong Kong untuk membantu mendanai studi mahasiswa internasional terbaik dunia.",
+      en: "HKUST's highly selective tuition waiver and living stipend scholarship program supporting outstanding international candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Hong Kong",
+        "Riset"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Hong Kong",
+        "Research"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-aceh",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Aceh (Aceh Carong)",
+      en: "Aceh Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Aceh",
+      en: "Provincial Government of Aceh"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana UKT per semester stimulan",
+        "Bantuan biaya hidup penunjang tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee stimulus grant support",
+        "Living cost assistance for final thesis support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Provinsi Aceh dibuktikan dengan KTP/KK Aceh",
+        "Mahasiswa aktif program sarjana (S1) di universitas terakreditasi",
+        "Berasal dari keluarga kurang mampu atau yatim piatu"
+      ],
+      en: [
+        "Native resident of Aceh Province (Aceh ID/Family Card)",
+        "Active S1 student at accredited higher education institutions",
+        "From low-income background or orphan status"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-25",
+    applicationUrl: "https://acehprov.go.id/",
+    description: {
+      id: "Bantuan stimulan dana kuliah dari Pemerintah Provinsi Aceh untuk memperluas akses pendidikan tinggi bagi pemuda daerah.",
+      en: "Tuition fee stimulus financial assistance from Aceh Provincial Government supporting local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Aceh",
+        "Sumatera"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Aceh",
+        "Sumatra"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-sumut",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Sumatera Utara (Sumut Cerdas)",
+      en: "North Sumatra Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Sumatera Utara",
+      en: "Provincial Government of North Sumatra"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana pendidikan UKT semesteran",
+        "Bantuan penunjang buku kuliah tahunan"
+      ],
+      en: [
+        "Semester tuition fee grant support",
+        "Annual textbook allowance support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Provinsi Sumatera Utara (KTP/KK Sumut)",
+        "Mahasiswa aktif program S1 di perguruan tinggi terakreditasi minimal B",
+        "IPK minimal 3.00 untuk prestasi akademik atau menyertakan sertifikat prestasi non-akademik"
+      ],
+      en: [
+        "Native resident of North Sumatra Province (Sumut ID/Family Card)",
+        "Active S1 student at accredited higher education institutions (min. B)",
+        "Minimum GPA of 3.00 for academic track or provide non-academic certificates"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-15",
+    applicationUrl: "https://sumutprov.go.id/",
+    description: {
+      id: "Bantuan sosial dana pendidikan tinggi dari Pemprov Sumut untuk meningkatkan kualitas sumber daya manusia pemuda daerah.",
+      en: "Educational social financial support from North Sumatra Government to elevate the quality of local human resources."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Sumut",
+        "Sumatera"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Sumut",
+        "Sumatra"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-sumbar",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Sumatera Barat (Sumbar Cerdas)",
+      en: "West Sumatra Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Sumatera Barat",
+      en: "Provincial Government of West Sumatra"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya hidup stimulan bagi mahasiswa berprestasi"
+      ],
+      en: [
+        "Semester tuition fee subsidy support",
+        "Stimulus living cost assistance for outstanding students"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Provinsi Sumatera Barat dibuktikan dengan KTP/KK Sumbar",
+        "Mahasiswa aktif di universitas negeri/swasta terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi keagamaan/sains"
+      ],
+      en: [
+        "Native resident of West Sumatra Province (Sumbar ID/Family Card)",
+        "Active student at accredited state or private universities",
+        "From low-income background or possesses religious/science achievements"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-20",
+    applicationUrl: "https://sumbarprov.go.id/",
+    description: {
+      id: "Program beasiswa bantuan pendidikan tinggi dari Pemprov Sumbar untuk mendukung pemerataan pendidikan bagi keluarga prasejahtera.",
+      en: "Higher education financial assistance program by West Sumatra Provincial Government supporting underprivileged families."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Sumbar",
+        "Sumatera"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Sumbar",
+        "Sumatra"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-babel",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Bangka Belitung (Babel Cerdas)",
+      en: "Bangka Belitung Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Kepulauan Bangka Belitung",
+      en: "Provincial Government of Bangka Belitung Islands"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana UKT semesteran stimulan",
+        "Bantuan biaya penyusunan skripsi/tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee stimulus grant support",
+        "Thesis writing financial assistance"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Provinsi Bangka Belitung (KTP/KK Babel)",
+        "Mahasiswa aktif S1 di universitas negeri atau swasta terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik atau berprestasi non-akademik"
+      ],
+      en: [
+        "Native resident of Bangka Belitung Province (Babel ID/Family Card)",
+        "Active S1 student at accredited state or private universities",
+        "Minimum GPA of 3.00 for academic track or possesses non-academic records"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-30",
+    applicationUrl: "https://babelprov.go.id/",
+    description: {
+      id: "Bantuan stimulan biaya kuliah dari Pemerintah Provinsi Bangka Belitung untuk mendorong prestasi akademis putra-putri daerah.",
+      en: "Tuition fee stimulus financial assistance from Bangka Belitung Government supporting outstanding local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Babel",
+        "Bangka"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Babel",
+        "Bangka"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-sulbar",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov West Sulawesi (Sulbar Cerdas)",
+      en: "West Sulawesi Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Sulawesi Barat",
+      en: "Provincial Government of West Sulawesi"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya kuliah SPP/UKT per semester",
+        "Bantuan dana penunjang riset tugas akhir daerah"
+      ],
+      en: [
+        "Semester tuition fee subsidy support",
+        "Stipend support for final thesis research"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Provinsi Sulawesi Barat (KTP/KK Sulbar)",
+        "Mahasiswa aktif program sarjana di universitas terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi akademik tinggi"
+      ],
+      en: [
+        "Native resident of West Sulawesi Province (Sulbar ID/Family Card)",
+        "Active undergraduate student at accredited universities",
+        "From low-income background or possesses high academic records"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-25",
+    applicationUrl: "https://sulbarprov.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemprov Sulbar untuk mendorong wajib belajar pendidikan tinggi putra-putri daerah.",
+      en: "Tuition fee financial assistance scholarship by West Sulawesi Government promoting higher education enrollments."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Sulbar",
+        "Sulawesi"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Sulbar",
+        "Sulawesi"
+      ]
+    }
+  },
+  {
+    id: "snu-president-fellowship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Kepresidenan Universitas Nasional Seoul",
+      en: "Seoul National University (SNU) President Fellowship"
+    },
+    provider: {
+      id: "Seoul National University (SNU)",
+      en: "Seoul National University (SNU)"
+    },
+    degreeLevels: [
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh program doktoral (PhD)",
+        "Tunjangan biaya hidup tahunan senilai KRW 18.000.000",
+        "Dana riset tugas akhir dan bantuan biaya visa"
+      ],
+      en: [
+        "Full tuition fees coverage for PhD studies",
+        "Annual living stipend worth KRW 18,000,000",
+        "Research project funding and visa assistance support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang berencana menempuh program PhD di SNU",
+        "Menunjukkan prestasi akademis sarjana/master yang luar biasa",
+        "Memiliki proposal penelitian tingkat doktoral yang solid"
+      ],
+      en: [
+        "International students applying for a PhD program at SNU",
+        "Outstanding academic records in previous studies",
+        "Submit a solid doctoral research proposal draft"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-12-15",
+    applicationUrl: "https://www.useoul.edu/",
+    description: {
+      id: "Beasiswa doktoral penuh paling kompetitif dari Universitas Nasional Seoul Korea Selatan untuk mencetak peneliti internasional berbakat.",
+      en: "SNU's highly competitive fully funded PhD scholarship program designed to support outstanding global researchers."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Korea Selatan",
+        "Riset",
+        "Doktoral"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "South Korea",
+        "Research",
+        "Doctoral"
+      ]
+    }
+  },
+  {
+    id: "yonsei-undergrad-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Unggulan Universitas Yonsei (Korea Selatan)",
+      en: "Yonsei University Undergrad Scholarship"
+    },
+    provider: {
+      id: "Yonsei University, Korea Selatan",
+      en: "Yonsei University, South Korea"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana biaya kuliah tahunan program Master hingga KRW 8.000.000",
+        "Akses jaringan mentorship kanselir internasional Yonsei"
+      ],
+      en: [
+        "Tuition fee waiver financial support worth up to KRW 8,000,000 annually",
+        "Access to Yonsei international mentorship networks"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang mendaftar ke program sarjana di Yonsei",
+        "Menunjukkan prestasi akademis luar biasa dengan IPK tinggi",
+        "Memiliki sertifikat kemampuan bahasa Korea/Inggris yang valid"
+      ],
+      en: [
+        "International student applying for an undergraduate program at Yonsei",
+        "Outstanding academic records with high GPA",
+        "Valid Korean or English proficiency certificate"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-01-25",
+    applicationUrl: "https://www.yonsei.ac.kr/en/",
+    description: {
+      id: "Beasiswa prestasi prestisius dari Yonsei untuk menyokong biaya pendidikan bagi mahasiswa internasional terbaik.",
+      en: "Yonsei's highly selective undergraduate scholarship program for outstanding international students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Korea Selatan",
+        "Unggulan"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "South Korea",
+        "Excellence"
+      ]
+    }
+  },
+  {
+    id: "korea-uni-global-leader",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Kepresidenan Universitas Korea (Korea Selatan)",
+      en: "Korea University Global Leader Scholarship"
+    },
+    provider: {
+      id: "Korea University, Korea Selatan",
+      en: "Korea University, South Korea"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan biaya kuliah mulai dari 50% hingga 100% untuk tahun pertama",
+        "Akses ke program pendampingan akademik internasional"
+      ],
+      en: [
+        "Tuition fee reductions ranging from 50% to 100% for the first year",
+        "Access to international academic support network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang mendaftar program sarjana atau pascasarjana di Korea University",
+        "Memiliki prestasi akademis yang luar biasa di sekolah/universitas sebelumnya",
+        "Memenuhi persyaratan akademik program studi pilihan"
+      ],
+      en: [
+        "International students planning to study undergraduate or postgraduate courses at Korea University",
+        "Outstanding academic records in previous school/university studies",
+        "Meet academic entry requirements for the chosen course"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-06-30",
+    applicationUrl: "https://www.korea.ac.kr/en/",
+    description: {
+      id: "Beasiswa kepresidenan dari Universitas Korea untuk membantu meringankan biaya pendidikan bagi mahasiswa internasional terbaik.",
+      en: "Korea University merit-based tuition fee reduction scholarship supporting outstanding international candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Korea Selatan",
+        "Presidential"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "South Korea",
+        "Presidential"
+      ]
+    }
+  },
+  {
+    id: "hanyang-international-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Pemimpin Global Universitas Hanyang (Korea Selatan)",
+      en: "Hanyang University International Scholarship"
+    },
+    provider: {
+      id: "Hanyang University, Korea Selatan",
+      en: "Hanyang University, South Korea"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana biaya kuliah program Master senilai KRW 5.000.000",
+        "Program bimbingan kepemimpinan eksklusif internasional"
+      ],
+      en: [
+        "Tuition fee waiver financial support worth KRW 5,000,000 for Master's studies",
+        "Exclusive international leadership training programs"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional dengan rekam jejak kepemimpinan sosial yang luar biasa",
+        "Telah memiliki gelar Sarjana atau berada di tahun terakhir kuliah S1",
+        "Lolos seleksi masuk akademik program Master Hanyang yang dipilih"
+      ],
+      en: [
+        "International students demonstrating exceptional leadership and community records",
+        "Hold a Bachelor's degree or be in the final year of S1",
+        "Pass the academic admission to the chosen Hanyang Master's program"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-05-15",
+    applicationUrl: "https://www.hanyang.ac.kr/web/eng",
+    description: {
+      id: "Beasiswa kepemimpinan dari Universitas Hanyang untuk mendidik calon pemimpin yang berdedikasi menciptakan dampak sosial bagi masyarakat.",
+      en: "Leadership-based scholarship by the University of Hanyang to support future change-makers committed to social impact."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Korea Selatan",
+        "Kepemimpinan"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "South Korea",
+        "Leadership"
+      ]
+    }
+  },
+  {
+    id: "sogang-global-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Prestasi Internasional Universitas Sogang (Korea Selatan)",
+      en: "Sogang University Global Scholarship"
+    },
+    provider: {
+      id: "Sogang University, Korea Selatan",
+      en: "Sogang University, South Korea"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan biaya kuliah tahunan program Master senilai KRW 4.000.000",
+        "Akses jaringan ikatan alumni internasional Sogang"
+      ],
+      en: [
+        "Tuition fee waiver reductions worth KRW 4,000,000 for Master's studies",
+        "Access to Sogang international alumni network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara non-Korea mendaftar program Master internasional di Sogang",
+        "Menunjukkan prestasi akademis sarjana yang luar biasa",
+        "Memenuhi persyaratan visa pelajar Korea"
+      ],
+      en: [
+        "Non-Korean citizens applying for international Master's programs at Sogang",
+        "Exceptional academic performance records in previous studies",
+        "Meet Korean study visa eligibility requirements"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-05-31",
+    applicationUrl: "https://wwwhome.sogang.ac.kr/wwwhome/main.do",
+    description: {
+      id: "Beasiswa keringanan biaya kuliah dari Universitas Sogang untuk mempermudah akses mahasiswa internasional berprestasi.",
+      en: "Tuition fee reduction scholarship program by Sogang University supporting talented international graduate students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Korea Selatan",
+        "Unggulan"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "South Korea",
+        "Excellence"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-gorontalo",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Gorontalo (Gorontalo Unggul)",
+      en: "Gorontalo Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Gorontalo",
+      en: "Provincial Government of Gorontalo"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya hidup stimulan bagi mahasiswa daerah"
+      ],
+      en: [
+        "Semester tuition fee subsidy grant support",
+        "Stimulus living cost assistance for local students"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Gorontalo dibuktikan dengan KTP/KK Gorontalo",
+        "Mahasiswa aktif sarjana (S1) di universitas terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi akademik/non-akademik"
+      ],
+      en: [
+        "Native resident of Gorontalo (Gorontalo ID/Family Card)",
+        "Active S1 student at accredited universities",
+        "From low-income background or possesses academic/non-academic records"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-15",
+    applicationUrl: "https://gorontaloprov.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemprov Gorontalo untuk mendukung pemerataan pendidikan tinggi putra-putri daerah.",
+      en: "Tuition fee financial assistance program by Gorontalo Provincial Government supporting local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Gorontalo",
+        "Sulawesi"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Gorontalo",
+        "Sulawesi"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-sulteng",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Central Sulawesi (Sulteng Cerdas)",
+      en: "Central Sulawesi Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Sulawesi Tengah",
+      en: "Provincial Government of Central Sulawesi"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya riset tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy assistance",
+        "Research drafting financial grant"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Provinsi Sulawesi Tengah (KTP/KK Sulteng)",
+        "Mahasiswa aktif program sarjana (S1) di universitas terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of Central Sulawesi Province (Sulteng ID/Family Card)",
+        "Active S1 student at accredited higher education institutions",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-20",
+    applicationUrl: "https://sultengprov.go.id/",
+    description: {
+      id: "Bantuan dana pendidikan tinggi dari Pemprov Sulteng untuk mencetak sumber daya manusia unggul daerah.",
+      en: "Higher education financial assistance from Central Sulawesi Provincial Government to elevate local human resources."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Sulteng",
+        "Sulawesi"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Sulteng",
+        "Sulawesi"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-swpapua",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Southwest Papua (Papua Barat Daya Cerdas)",
+      en: "Southwest Papua Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Papua Barat Daya",
+      en: "Provincial Government of Southwest Papua"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan UKT/SPP semesteran",
+        "Bantuan dana penunjang tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy support",
+        "Thesis research financial support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Orang Asli Papua (OAP) Papua Barat Daya dibuktikan dengan surat adat",
+        "Mahasiswa aktif S1 di perguruan tinggi negeri maupun swasta",
+        "IPK minimal 2.75 untuk prestasi akademik"
+      ],
+      en: [
+        "Indigenous Papua (OAP) of Southwest Papua proven by custom certificate",
+        "Active S1 student at state or private universities",
+        "Minimum GPA of 2.75 for academic excellence track"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-30",
+    applicationUrl: "https://papuabaratdayaprov.go.id/",
+    description: {
+      id: "Bantuan stimulan biaya pendidikan tinggi dari Pemprov Papua Barat Daya untuk memajukan kualitas akademis mahasiswa berprestasi daerah.",
+      en: "Higher education financial assistance stimulus from Southwest Papua Government to elevate the academic achievements of local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Papua Barat Daya",
+        "OAP"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Papua Barat Daya",
+        "OAP"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-spapua",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov South Papua (Papua Selatan Cerdas)",
+      en: "South Papua Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Papua Selatan",
+      en: "Provincial Government of South Papua"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya penyusunan skripsi/tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy assistance",
+        "Research writing grant for final thesis"
+      ]
+    },
+    requirements: {
+      id: [
+        "Orang Asli Papua (OAP) Papua Selatan dibuktikan dengan surat adat",
+        "Mahasiswa aktif perguruan tinggi negeri/swasta terakreditasi",
+        "IPK minimal 2.75 untuk prestasi akademik"
+      ],
+      en: [
+        "Indigenous Papua (OAP) of South Papua proven by custom certificate",
+        "Active student at accredited state or private universities",
+        "Minimum GPA of 2.75 for academic excellence track"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-15",
+    applicationUrl: "https://papuaselatan.go.id/",
+    description: {
+      id: "Program bantuan biaya pendidikan tinggi dari Pemprov Papua Selatan untuk meringankan beban pendidikan putra-putri daerah berprestasi.",
+      en: "Higher education financial assistance program by South Papua Provincial Government supporting outstanding local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Papua Selatan",
+        "OAP"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Papua Selatan",
+        "OAP"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-cpapua",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Central Papua (Papua Tengah Cerdas)",
+      en: "Central Papua Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Papua Tengah",
+      en: "Provincial Government of Central Papua"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya kuliah SPP/UKT tahunan",
+        "Uang saku penunjang riset tugas akhir daerah"
+      ],
+      en: [
+        "Annual tuition fee subsidy support",
+        "Stipend support for final thesis research"
+      ]
+    },
+    requirements: {
+      id: [
+        "Orang Asli Papua (OAP) Papua Tengah dibuktikan dengan KK/KTP",
+        "Mahasiswa aktif program sarjana/pascasarjana di universitas terakreditasi",
+        "IPK minimal 2.75 atau memiliki prestasi non-akademik di bidang olah raga/seni"
+      ],
+      en: [
+        "Indigenous Papua (OAP) of Central Papua proven by ID/Family Card",
+        "Active S1/S2 student at accredited universities",
+        "Minimum GPA of 2.75 or possess non-academic records in sports/arts"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-20",
+    applicationUrl: "https://papuatengah.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemprov Papua Tengah untuk menyokong pendidikan tinggi mahasiswa daerah.",
+      en: "Tuition fee financial assistance scholarship by Central Papua Provincial Government supporting local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Papua Tengah",
+        "OAP"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Papua Tengah",
+        "OAP"
+      ]
+    }
+  },
+  {
+    id: "tokyo-tech-mext",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa MEXT Universitas Teknologi Tokyo (Jepang)",
+      en: "Tokyo Institute of Technology (Tokyo Tech) MEXT Recommendation"
+    },
+    provider: {
+      id: "Tokyo Institute of Technology & MEXT, Jepang",
+      en: "Tokyo Institute of Technology & MEXT, Japan"
+    },
+    degreeLevels: [
+      'master',
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Bantuan biaya hidup bulanan senilai JPY 147.000 selama masa studi Magister",
+        "Bebas biaya pendaftaran dan biaya kuliah penuh di Tokyo Tech",
+        "Tiket pesawat ekonomi pulang-pergi Jakarta-Tokyo"
+      ],
+      en: [
+        "Monthly living stipend worth JPY 147,000 during Master's study",
+        "Free registration and full tuition fees waiver at Tokyo Tech",
+        "Round-trip economy airfare Jakarta-Tokyo"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional non-Jepang mendaftar program riset di Tokyo Tech",
+        "Prestasi akademik sarjana yang luar biasa (IPK tinggi)",
+        "Kemampuan bahasa Jepang atau Inggris sesuai syarat masuk program"
+      ],
+      en: [
+        "Non-Japanese international student applying for a research program at Tokyo Tech",
+        "Exceptional undergraduate academic record (high GPA)",
+        "French or English language proficiency based on program requirements"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-11-10",
+    applicationUrl: "https://www.titech.ac.jp/english",
+    description: {
+      id: "Beasiswa prestasi pascasarjana penuh dari Pemerintah Jepang MEXT untuk melatih peneliti muda internasional unggulan dunia.",
+      en: "Highly prestigious master's scholarship program by Tokyo Tech Japan supporting top-tier international students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Jepang",
+        "MEXT",
+        "STEM"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Japan",
+        "MEXT",
+        "STEM"
+      ]
+    }
+  },
+  {
+    id: "waseda-presidents-scholarship",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Kepresidenan Universitas Waseda (Jepang)",
+      en: "Waseda University President's Scholarship"
+    },
+    provider: {
+      id: "Waseda University, Jepang",
+      en: "Waseda University, Japan"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan biaya kuliah mulai dari JPY 400.000 hingga JPY 1.000.000 per tahun",
+        "Akses jaringan pendampingan kepemimpinan eksklusif Waseda"
+      ],
+      en: [
+        "Tuition fee waiver reductions ranging from JPY 400,000 to JPY 1,000,000 annually",
+        "Access to exclusive Waseda leadership mentorship programs"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara non-Jepang yang mendaftar ke program sarjana atau master di Waseda",
+        "Menunjukkan prestasi akademis sarjana/sekolah menengah yang luar biasa",
+        "Lolos seleksi masuk akademik program studi pilihan"
+      ],
+      en: [
+        "Non-Japanese citizens applying for undergraduate or master's programs at Waseda",
+        "Exceptional academic performance records in previous studies",
+        "Pass academic entry requirements for the chosen course"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-02-15",
+    applicationUrl: "https://www.waseda.jp/inst/cie/en",
+    description: {
+      id: "Beasiswa keringanan biaya kuliah pascasarjana dan sarjana dari Waseda Jepang untuk mahasiswa asing berprestasi tinggi.",
+      en: "Waseda's highly selective scholarship program supporting outstanding international students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Jepang",
+        "Presidential"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Japan",
+        "Presidential"
+      ]
+    }
+  },
+  {
+    id: "keio-design-future-japan",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Keio Design the Future Award (Jepang)",
+      en: "Keio University Design the Future Award"
+    },
+    provider: {
+      id: "Keio University, Jepang",
+      en: "Keio University, Japan"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Bantuan dana biaya kuliah tahunan program Master hingga JPY 800.000",
+        "Akses jaringan laboratorium riset internasional sains"
+      ],
+      en: [
+        "Tuition fee waiver financial support worth up to JPY 800,000 annually",
+        "Access to international research laboratories network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional yang mendaftar ke program Master di Keio University",
+        "Menunjukkan prestasi akademis luar biasa dengan IPK sarjana tinggi",
+        "Memiliki sertifikat kemampuan bahasa Jepang/Inggris yang valid"
+      ],
+      en: [
+        "International student applying for a Master's program at Keio University",
+        "Outstanding academic records with high undergraduate GPA",
+        "Valid Japanese or English proficiency certificate"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-06-30",
+    applicationUrl: "https://www.keio.ac.jp/en/",
+    description: {
+      id: "Beasiswa prestasi khusus untuk mendanai studi pascasarjana mahasiswa asing berbakat di Keio University.",
+      en: "Academic merit scholarship by Keio University Japan designed specifically to support talented international graduate candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Jepang",
+        "Excellence"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Japan",
+        "Excellence"
+      ]
+    }
+  },
+  {
+    id: "nagoya-global30-japan",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Global 30 Universitas Nagoya (Jepang)",
+      en: "Nagoya University Global 30 Scholarship"
+    },
+    provider: {
+      id: "Nagoya University, Jepang",
+      en: "Nagoya University, Japan"
+    },
+    degreeLevels: [
+      'bachelor',
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Tunjangan hibah biaya kuliah tahunan senilai JPY 500.000 per tahun",
+        "Akses jaringan industri sains/teknologi teknik Nagoya"
+      ],
+      en: [
+        "Annual tuition fee grant support worth JPY 500,000",
+        "Access to Nagoya engineering and tech industries network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional mendaftar program Global 30 di Nagoya",
+        "Menunjukkan prestasi akademik sarjana yang luar biasa",
+        "Proposal riset dan motivasi yang solid"
+      ],
+      en: [
+        "International students applying to Global 30 Master's courses at Nagoya",
+        "Outstanding academic records in previous studies",
+        "Solid research proposal and motivation records"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-02-28",
+    applicationUrl: "https://admissions.g30.nagoya-u.ac.jp/",
+    description: {
+      id: "Beasiswa keringanan biaya kuliah dari Universitas Nagoya untuk mendukung studi mahasiswa asing berprestasi di bidang teknik/sains.",
+      en: "Nagoya University's highly selective tuition fee reduction scholarship program for outstanding international engineering students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Jepang",
+        "Global 30"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Japan",
+        "Global 30"
+      ]
+    }
+  },
+  {
+    id: "hokkaido-presidents-japan",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Kepresidenan Universitas Hokkaido (Jepang)",
+      en: "Hokkaido University President's Fellowship"
+    },
+    provider: {
+      id: "Hokkaido University, Jepang",
+      en: "Hokkaido University, Japan"
+    },
+    degreeLevels: [
+      'master'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Pengurangan biaya kuliah mulai dari 25% hingga 50% program Master",
+        "Akses jaringan pendampingan akademik mahasiswa asing Hokkaido"
+      ],
+      en: [
+        "Tuition fee waiver reductions ranging from 25% to 50% for Master's studies",
+        "Access to international student academic support network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara non-Jepang mendaftar program Master internasional di Hokkaido",
+        "Menunjukkan prestasi akademis sarjana yang luar biasa",
+        "Memenuhi persyaratan visa pelajar Jepang"
+      ],
+      en: [
+        "Non-Japanese citizens applying for international Master's programs at Hokkaido",
+        "Exceptional academic performance records in previous undergraduate studies",
+        "Meet Japanese study visa eligibility requirements"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-03-31",
+    applicationUrl: "https://www.global.hokudai.ac.jp/",
+    description: {
+      id: "Beasiswa keringanan biaya kuliah dari Universitas Hokkaido untuk mempermudah akses mahasiswa internasional berprestasi.",
+      en: "Tuition fee reduction scholarship program by Hokkaido University supporting talented international graduate students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Jepang",
+        "Presidential"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Japan",
+        "Presidential"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemprov-h-papua",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemprov Highlands Papua (Papua Pegunungan Cerdas)",
+      en: "Highlands Papua Provincial Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Provinsi Papua Pegunungan",
+      en: "Provincial Government of Highlands Papua"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya hidup stimulan bagi mahasiswa daerah"
+      ],
+      en: [
+        "Semester tuition fee subsidy grant support",
+        "Stimulus living cost assistance for local students"
+      ]
+    },
+    requirements: {
+      id: [
+        "Orang Asli Papua (OAP) Papua Pegunungan dibuktikan dengan surat adat",
+        "Mahasiswa aktif sarjana (S1) di universitas terakreditasi",
+        "Berasal dari keluarga kurang mampu atau memiliki prestasi akademik/non-akademik"
+      ],
+      en: [
+        "Indigenous Papua (OAP) of Highlands Papua proven by custom certificate",
+        "Active S1 student at accredited universities",
+        "From low-income background or possesses academic/non-academic records"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-15",
+    applicationUrl: "https://papuapegununganprov.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemprov Papua Pegunungan untuk mendukung pemerataan pendidikan tinggi putra-putri daerah.",
+      en: "Tuition fee financial assistance program by Highlands Papua Provincial Government supporting local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Papua Pegunungan",
+        "OAP"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Papua Pegunungan",
+        "OAP"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkot-bandung",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkot Bandung (Bandung Cerdas)",
+      en: "Bandung City Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kota Bandung",
+      en: "City Government of Bandung"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya riset tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy assistance",
+        "Research drafting financial grant"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kota Bandung (KTP/KK Bandung Kota)",
+        "Mahasiswa aktif program sarjana (S1) di universitas terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of Bandung City (Bandung ID/Family Card)",
+        "Active S1 student at accredited higher education institutions",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-20",
+    applicationUrl: "https://bandung.go.id/",
+    description: {
+      id: "Bantuan dana pendidikan tinggi dari Pemkot Bandung untuk mencetak sumber daya manusia unggul daerah.",
+      en: "Higher education financial assistance from Bandung City Government to elevate local human resources."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Bandung",
+        "Jawa Barat"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Bandung",
+        "West Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkot-bogor",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkot Bogor (Bogor Cerdas)",
+      en: "Bogor City Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kota Bogor",
+      en: "City Government of Bogor"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan UKT/SPP semesteran",
+        "Bantuan dana penunjang tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy support",
+        "Thesis research financial support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Bogor dibuktikan dengan KK/KTP Bogor Kota",
+        "Mahasiswa aktif S1 di perguruan tinggi negeri maupun swasta",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of Bogor City (Bogor City ID/Family Card)",
+        "Active S1 student at state or private universities",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-07-30",
+    applicationUrl: "https://kotabogor.go.id/",
+    description: {
+      id: "Bantuan stimulan biaya pendidikan tinggi dari Pemkot Bogor untuk memajukan kualitas akademis mahasiswa berprestasi daerah.",
+      en: "Higher education financial assistance stimulus from Bogor City Government to elevate the academic achievements of local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Bogor",
+        "Jawa Barat"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Bogor",
+        "West Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkot-depok",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkot Depok (Depok Cerdas)",
+      en: "Depok City Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kota Depok",
+      en: "City Government of Depok"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya pendidikan SPP/UKT per semester",
+        "Bantuan biaya penyusunan skripsi/tugas akhir"
+      ],
+      en: [
+        "Semester tuition fee subsidy assistance",
+        "Research writing grant for final thesis"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga asli Kota Depok (KTP/KK Depok Kota)",
+        "Mahasiswa aktif perguruan tinggi negeri/swasta terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of Depok City (Depok City ID/Family Card)",
+        "Active student at accredited state or private universities",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'open',
+    deadline: "2026-08-15",
+    applicationUrl: "https://depok.go.id/",
+    description: {
+      id: "Program bantuan biaya pendidikan tinggi dari Pemkot Depok untuk meringankan beban pendidikan putra-putri daerah berprestasi.",
+      en: "Higher education financial assistance program by Depok City Government supporting outstanding local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Depok",
+        "Jawa Barat"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Depok",
+        "West Java"
+      ]
+    }
+  },
+  {
+    id: "beasiswa-pemkot-bekasi",
+    studyLocation: [
+      'domestic'
+    ],
+    name: {
+      id: "Beasiswa Pemkot Bekasi (Bekasi Cerdas)",
+      en: "Bekasi City Government Scholarship"
+    },
+    provider: {
+      id: "Pemerintah Kota Bekasi",
+      en: "City Government of Bekasi"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'partial',
+    coverage: {
+      id: [
+        "Subsidi biaya kuliah SPP/UKT tahunan",
+        "Uang saku penunjang riset tugas akhir daerah"
+      ],
+      en: [
+        "Annual tuition fee subsidy support",
+        "Stipend support for final thesis research"
+      ]
+    },
+    requirements: {
+      id: [
+        "Penduduk asli Kota Bekasi dibuktikan dengan KTP/KK Bekasi Kota",
+        "Mahasiswa aktif program sarjana di universitas terakreditasi",
+        "IPK minimal 3.00 untuk prestasi akademik"
+      ],
+      en: [
+        "Native resident of Bekasi City (Bekasi City ID/Family Card)",
+        "Active undergraduate student at accredited universities",
+        "Minimum GPA of 3.00 for academic excellence track"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-09-20",
+    applicationUrl: "https://bekasikota.go.id/",
+    description: {
+      id: "Program beasiswa bantuan biaya kuliah dari Pemkot Bekasi untuk menyokong pendidikan tinggi mahasiswa daerah.",
+      en: "Tuition fee financial assistance scholarship by Bekasi City Government supporting local students."
+    },
+    tags: {
+      id: [
+        "Pemerintah",
+        "Dalam Negeri",
+        "Bekasi",
+        "Jawa Barat"
+      ],
+      en: [
+        "Government",
+        "Domestic",
+        "Bekasi",
+        "West Java"
+      ]
+    }
+  },
+  {
+    id: "nus-science-singapore",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Sains & Teknologi NUS (Singapura)",
+      en: "National University of Singapore (NUS) Science & Technology Scholarship"
+    },
+    provider: {
+      id: "National University of Singapore (NUS)",
+      en: "National University of Singapore (NUS)"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh program sarjana (S1)",
+        "Tunjangan biaya hidup tahunan senilai SGD 6.000",
+        "Tunjangan relokasi tempat tinggal senilai SGD 200 dan bantuan akomodasi tahunan"
+      ],
+      en: [
+        "Full tuition fees coverage for undergraduate studies",
+        "Annual living allowance worth SGD 6,000",
+        "Settling-in allowance worth SGD 200 and housing accommodation grant"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional warga negara ASEAN yang mendaftar ke bidang sains/STEM di NUS",
+        "Menunjukkan prestasi akademik sarjana/sekolah tinggi yang luar biasa",
+        "Kemampuan bahasa Inggris tinggi"
+      ],
+      en: [
+        "International students of ASEAN citizenship applying for science/STEM fields at NUS",
+        "Exceptional academic performance records in previous studies",
+        "High English language proficiency"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-01-15",
+    applicationUrl: "https://nus.edu.sg/",
+    description: {
+      id: "Beasiswa prestasi dari NUS Singapura khusus untuk mendanai studi sarjana mahasiswa ASEAN berbakat di bidang STEM.",
+      en: "Highly selective undergraduate science and technology scholarship by NUS supporting outstanding ASEAN students."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Singapura",
+        "STEM"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Singapore",
+        "STEM"
+      ]
+    }
+  },
+  {
+    id: "ntu-asean-singapore",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa ASEAN Universitas Teknologi Nanyang",
+      en: "Nanyang Technological University (NTU) ASEAN Undergraduate Scholarship"
+    },
+    provider: {
+      id: "Nanyang Technological University (NTU)",
+      en: "Nanyang Technological University (NTU)"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh 100% program Sarjana",
+        "Tunjangan biaya hidup tahunan senilai SGD 5.800",
+        "Akses program bimbingan kepemimpinan eksklusif NTU"
+      ],
+      en: [
+        "100% tuition fees coverage for Bachelor's program",
+        "Annual living allowance worth SGD 5,800",
+        "Access to exclusive NTU leadership mentorship programs"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara anggota ASEAN (kecuali Singapura)",
+        "Diterima penuh waktu di program sarjana di NTU",
+        "Latar akademik sekolah menengah yang sangat menonjol"
+      ],
+      en: [
+        "Citizen of an ASEAN member country (except Singapore)",
+        "Admitted to a full-time undergraduate program at NTU",
+        "Outstanding secondary school academic record"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-01-15",
+    applicationUrl: "https://www.ntu.edu.sg/",
+    description: {
+      id: "Beasiswa sarjana penuh NTU Singapura untuk mendidik calon pemimpin masa depan dari wilayah ASEAN.",
+      en: "Fully funded undergraduate scholarship by NTU Singapore supporting outstanding ASEAN candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Singapura",
+        "ASEAN"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Singapore",
+        "ASEAN"
+      ]
+    }
+  },
+  {
+    id: "smu-asean-singapore",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa ASEAN Universitas Manajemen Singapura",
+      en: "Singapore Management University (SMU) ASEAN Scholarship"
+    },
+    provider: {
+      id: "Singapore Management University (SMU)",
+      en: "Singapore Management University (SMU)"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh 100% program Sarjana",
+        "Tunjangan biaya hidup tahunan senilai SGD 5.800",
+        "Akses jaringan pendampingan akademik mahasiswa asing SMU"
+      ],
+      en: [
+        "100% tuition fees coverage for Bachelor's studies",
+        "Annual living allowance worth SGD 5,800",
+        "Access to SMU international student academic support network"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara anggota ASEAN (kecuali Singapura)",
+        "Diterima penuh waktu di program sarjana di SMU",
+        "IPK sekolah tinggi luar biasa dengan kepemimpinan menonjol"
+      ],
+      en: [
+        "Citizen of an ASEAN member country (except Singapore)",
+        "Admitted to a full-time undergraduate program at SMU",
+        "Outstanding secondary school GPA with proven leadership records"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-03-15",
+    applicationUrl: "https://www.smu.edu.sg/",
+    description: {
+      id: "Beasiswa sarjana penuh SMU Singapura untuk mahasiswa berprestasi dari wilayah ASEAN agar menempuh pendidikan di Singapura.",
+      en: "Fully funded undergraduate scholarship by SMU Singapore supporting outstanding ASEAN candidates to study in Singapore."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Singapura",
+        "ASEAN"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Singapore",
+        "ASEAN"
+      ]
+    }
+  },
+  {
+    id: "sutd-asean-singapore",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa ASEAN Universitas Teknologi & Desain Singapura",
+      en: "Singapore University of Technology and Design (SUTD) ASEAN Scholarship"
+    },
+    provider: {
+      id: "Singapore University of Technology and Design (SUTD)",
+      en: "Singapore University of Technology and Design (SUTD)"
+    },
+    degreeLevels: [
+      'bachelor'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Pembebasan biaya kuliah penuh 100% program Sarjana",
+        "Tunjangan biaya hidup tahunan senilai SGD 5.800",
+        "Bantuan akomodasi tahunan senilai SGD 2.000"
+      ],
+      en: [
+        "100% tuition fees coverage for Bachelor's studies",
+        "Annual living allowance worth SGD 5,800",
+        "Annual housing accommodation allowance worth SGD 2,000"
+      ]
+    },
+    requirements: {
+      id: [
+        "Warga negara anggota ASEAN (kecuali Singapura)",
+        "Diterima penuh waktu di program sarjana di SUTD",
+        "IPK sekolah tinggi luar biasa dengan minat riset teknologi/desain"
+      ],
+      en: [
+        "Citizen of an ASEAN member country (except Singapore)",
+        "Admitted to a full-time undergraduate program at SUTD",
+        "Outstanding secondary school GPA with technology/design interest"
+      ]
+    },
+    status: 'closed',
+    deadline: "2026-03-15",
+    applicationUrl: "https://www.sutd.edu.sg/",
+    description: {
+      id: "Beasiswa sarjana penuh SUTD Singapura untuk mendanai studi teknologi dan desain mahasiswa ASEAN berbakat.",
+      en: "Fully funded undergraduate scholarship by SUTD Singapore designed specifically to support talented ASEAN candidates."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Singapura",
+        "ASEAN",
+        "STEM"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Singapore",
+        "ASEAN",
+        "STEM"
+      ]
+    }
+  },
+  {
+    id: "hku-presidential-hongkong",
+    studyLocation: [
+      'overseas'
+    ],
+    name: {
+      id: "Beasiswa Kepresidenan PhD Universitas Hong Kong",
+      en: "Hong Kong University (HKU) Presidential PhD Scholarship"
+    },
+    provider: {
+      id: "University of Hong Kong (HKU)",
+      en: "University of Hong Kong (HKU)"
+    },
+    degreeLevels: [
+      'doctoral'
+    ],
+    fundingType: 'full',
+    coverage: {
+      id: [
+        "Tunjangan biaya hidup tahunan senilai hingga HKD 420.900",
+        "Pembebasan biaya kuliah penuh program PhD",
+        "Akomodasi tempat tinggal terjamin dan dana perjalanan riset tahunan"
+      ],
+      en: [
+        "Annual living stipend allowance worth up to HKD 420,900",
+        "Full tuition fees waiver coverage for PhD studies",
+        "Guaranteed housing accommodation and annual research travel allowance support"
+      ]
+    },
+    requirements: {
+      id: [
+        "Mahasiswa internasional dengan prestasi akademik doktoral luar biasa",
+        "Mendaftar program PhD di Universitas Hong Kong (HKU)",
+        "Proposal riset dan motivasi tingkat dunia"
+      ],
+      en: [
+        "International students demonstrating highest academic excellence",
+        "Applying for a PhD program at the University of Hong Kong (HKU)",
+        "World-class research proposal and motivation records"
+      ]
+    },
+    status: 'soon',
+    deadline: "2026-12-01",
+    applicationUrl: "https://www.hku.hk/",
+    description: {
+      id: "Beasiswa doktoral penuh paling bergengsi dari Universitas Hong Kong untuk menyokong ilmuwan muda internasional berbakat dunia.",
+      en: "HKU's highly prestigious fully funded doctoral fellowship supporting top-tier international graduate researchers."
+    },
+    tags: {
+      id: [
+        "Universitas",
+        "Luar Negeri",
+        "Hong Kong",
+        "Presidential",
+        "Doktoral"
+      ],
+      en: [
+        "University",
+        "Overseas",
+        "Hong Kong",
+        "Presidential",
+        "Doctoral"
       ]
     }
   }
